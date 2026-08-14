@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>股票趋势筛选工作台</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="选股工作台">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+  <meta name="theme-color" content="#1a1a2e">
+  <style>
+    :root { --bg: #0f0f1a; --card: #1a1a2e; --accent: #4e8cff; --green: #00c853; --red: #ff5252; --yellow: #ffd740; --text: #e0e0e0; --text-secondary: #9e9e9e; }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); padding-bottom: 70px; -webkit-tap-highlight-color: transparent; }
+    .header { background: var(--card); padding: 16px; position: sticky; top: 0; z-index: 100; border-bottom: 1px solid #2a2a3e; display: flex; justify-content: space-between; align-items: center; }
+    .header h1 { font-size: 20px; font-weight: 700; }
+    .market-env-card { margin: 16px; padding: 16px; background: var(--card); border-radius: 16px; display: flex; justify-content: space-between; align-items: center; border-left: 4px solid var(--green); }
+    .market-env-card.weak { border-left-color: var(--red); }
+    .market-env-card.normal { border-left-color: var(--yellow); }
+    .env-label { font-size: 14px; color: var(--text-secondary); }
+    .env-value { font-size: 24px; font-weight: 700; }
+    .env-desc { font-size: 12px; color: var(--text-secondary); margin-top: 4px; }
+    .section-title { font-size: 16px; font-weight: 600; margin: 20px 16px 12px; }
+    .news-list { padding: 0 16px; display: flex; flex-direction: column; gap: 10px; }
+    .news-card { background: var(--card); border-radius: 14px; padding: 12px; border: 1px solid #2a2a3e; }
+    .news-title { font-size: 14px; font-weight: 500; line-height: 1.4; }
+    .news-meta { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; color: var(--text-secondary); }
+    .sentiment-tag { padding: 2px 8px; border-radius: 12px; font-size: 11px; }
+    .sentiment-positive { background: rgba(0,200,83,0.2); color: var(--green); }
+    .sentiment-negative { background: rgba(255,82,82,0.2); color: var(--red); }
+    .sentiment-neutral { background: rgba(158,158,158,0.2); color: #9e9e9e; }
+    .related-tags { margin-top: 6px; font-size: 11px; color: var(--accent); }
+    .sector-list { display: flex; gap: 12px; overflow-x: auto; padding: 0 16px 12px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
+    .sector-card { min-width: 160px; background: var(--card); border-radius: 14px; padding: 14px; scroll-snap-align: start; border: 1px solid #2a2a3e; }
+    .sector-name { font-weight: 600; font-size: 15px; }
+    .sector-score { color: var(--accent); font-size: 13px; margin-top: 4px; }
+    .sector-state { display: inline-block; margin-top: 8px; padding: 4px 10px; border-radius: 20px; font-size: 12px; background: rgba(0,200,83,0.2); color: var(--green); }
+    .sector-state.strengthening { background: rgba(255,215,64,0.2); color: var(--yellow); }
+    .stock-list { padding: 0 16px; display: flex; flex-direction: column; gap: 12px; }
+    .stock-card { background: var(--card); border-radius: 14px; padding: 16px; border: 1px solid #2a2a3e; }
+    .stock-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+    .stock-name { font-weight: 600; font-size: 16px; }
+    .stock-code { color: var(--text-secondary); font-size: 13px; }
+    .stock-decision { padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: 600; }
+    .decision-buy { background: rgba(0,200,83,0.2); color: var(--green); }
+    .decision-watch { background: rgba(255,215,64,0.2); color: var(--yellow); }
+    .decision-sell { background: rgba(255,82,82,0.2); color: var(--red); }
+    .stock-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 12px; }
+    .metric-item { background: #0f0f1a; padding: 8px; border-radius: 8px; font-size: 13px; }
+    .metric-label { color: var(--text-secondary); font-size: 11px; display: block; }
+    .metric-value { font-weight: 600; margin-top: 2px; }
+    .metric-value.positive { color: var(--green); }
+    .metric-value.negative { color: var(--red); }
+    .holding-period { margin-top: 10px; padding: 10px; background: rgba(78,140,255,0.1); border-radius: 8px; font-size: 13px; color: var(--accent); display: flex; align-items: center; gap: 6px; }
+    .prob-badge { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+    .prob-bar { flex: 1; height: 6px; background: #2a2a3e; border-radius: 3px; overflow: hidden; }
+    .prob-fill { height: 100%; background: var(--green); border-radius: 3px; }
+    .tab-bar { position: fixed; bottom: 0; left: 0; right: 0; background: var(--card); display: flex; border-top: 1px solid #2a2a3e; padding: 8px 0; z-index: 100; }
+    .tab-item { flex: 1; text-align: center; color: var(--text-secondary); font-size: 12px; padding: 4px 0; cursor: pointer; }
+    .tab-item.active { color: var(--accent); font-weight: 600; }
+    .tab-icon { font-size: 20px; display: block; margin-bottom: 2px; }
+    .refresh-btn { position: fixed; bottom: 80px; right: 20px; background: var(--accent); color: white; border: none; border-radius: 50%; width: 48px; height: 48px; font-size: 24px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(78,140,255,0.4); cursor: pointer; z-index: 90; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>📈 股票趋势筛选工作台</h1>
+    <span style="font-size:12px;color:#9e9e9e;">数据更新时间：<span id="updateTime">--:--</span></span>
+  </div>
+
+  <div class="market-env-card" id="marketEnvCard">
+    <div>
+      <div class="env-label">当前大盘环境</div>
+      <div class="env-value" id="envValue">强</div>
+      <div class="env-desc" id="envDesc">建议仓位 70%~100%</div>
+    </div>
+    <div style="font-size:36px;" id="envIcon">🟢</div>
+  </div>
+
+  <div class="section-title">📰 实时财经新闻（情感分析）</div>
+  <div class="news-list" id="newsList"></div>
+
+  <div class="section-title">🔥 强板块（持续强势 / 正在加强）</div>
+  <div class="sector-list" id="sectorList"></div>
+
+  <div class="section-title">📋 今日信号（漏斗筛选结果）</div>
+  <div class="stock-list" id="stockList"></div>
+
+  <div class="tab-bar">
+    <div class="tab-item active" onclick="switchTab(this)"><span class="tab-icon">🏠</span>首页</div>
+    <div class="tab-item" onclick="switchTab(this)"><span class="tab-icon">🔍</span>选股</div>
+    <div class="tab-item" onclick="switchTab(this)"><span class="tab-icon">⭐</span>自选</div>
+    <div class="tab-item" onclick="switchTab(this)"><span clas
