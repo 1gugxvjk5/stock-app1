@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#1a1a2e">
   <style>
     body { font-family: sans-serif; background: #0f0f1a; color: #eee; margin: 0; padding-bottom: 60px; }
-    .header { background: #1a1a2e; padding: 15px; position: sticky; top: 0; display:flex; justify-content:space-between; align-items:center; }
+    .header { background: #1a1a2e; padding: 15px; position: sticky; top: 0; display: flex; justify-content: space-between; align-items: center; z-index: 10; }
     .card { background: #1a1a2e; border-radius: 12px; padding: 14px; margin: 12px; }
     .badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 12px; }
     .green { background: #00c85322; color: #00c853; }
@@ -19,9 +19,14 @@
     .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 10px 0; }
     .item { background: #0f0f1a; padding: 8px; border-radius: 8px; font-size: 13px; }
     .muted { color: #9e9e9e; font-size: 12px; }
-    .tabbar { position: fixed; bottom: 0; left: 0; right: 0; background: #1a1a2e; display: flex; border-top: 1px solid #333; }
-    .tab { flex: 1; text-align: center; padding: 10px; color: #9e9e9e; font-size: 12px; }
-    .refresh-btn { position: fixed; bottom: 70px; right: 20px; background: #4e8cff; color: white; border: none; border-radius: 50%; width: 48px; height: 48px; font-size: 24px; cursor: pointer; }
+    .tabbar { position: fixed; bottom: 0; left: 0; right: 0; background: #1a1a2e; display: flex; border-top: 1px solid #333; z-index: 10; }
+    .tab { flex: 1; text-align: center; padding: 10px; color: #9e9e9e; font-size: 12px; cursor: pointer; }
+    .tab.active { color: #4e8cff; font-weight: bold; }
+    .refresh-btn { position: fixed; bottom: 70px; right: 20px; background: #4e8cff; color: white; border: none; border-radius: 50%; width: 48px; height: 48px; font-size: 24px; cursor: pointer; z-index: 10; }
+    .filter-btn { background: #333; color: #eee; border: none; padding: 8px 12px; border-radius: 6px; margin: 4px; cursor: pointer; }
+    .filter-btn.active { background: #4e8cff; }
+    .page { display: none; }
+    .page.active { display: block; }
   </style>
 </head>
 <body>
@@ -30,59 +35,108 @@
     <span class="muted" id="updateTime">加载中...</span>
   </div>
 
-  <div class="card">
-    <div class="row">
-      <div>
-        <div class="muted">大盘环境</div>
-        <div style="font-size:24px;font-weight:bold;" id="envValue">--</div>
-        <div class="muted" id="envDesc">--</div>
+  <!-- 首页 -->
+  <div id="page-home" class="page active">
+    <div class="card">
+      <div class="row">
+        <div>
+          <div class="muted">大盘环境</div>
+          <div style="font-size:24px;font-weight:bold;" id="envValue">--</div>
+          <div class="muted" id="envDesc">--</div>
+        </div>
+        <div style="font-size:40px;" id="envIcon">⚪</div>
       </div>
-      <div style="font-size:40px;" id="envIcon">⚪</div>
+    </div>
+
+    <div class="card">
+      <h4 style="margin:0 0 10px;">📰 实时财经新闻</h4>
+      <div id="newsList">加载中...</div>
+    </div>
+
+    <div class="card">
+      <h4 style="margin:0 0 10px;">🔥 强板块</h4>
+      <div id="sectorList" style="display:flex;gap:10px;overflow-x:auto;">加载中...</div>
+    </div>
+
+    <div class="card">
+      <h4 style="margin:0 0 10px;">📋 今日信号</h4>
+      <div id="stockList">加载中...</div>
     </div>
   </div>
 
-  <div class="card">
-    <h4 style="margin:0 0 10px;">📰 实时财经新闻</h4>
-    <div id="newsList">加载中...</div>
+  <!-- 选股页面 -->
+  <div id="page-select" class="page">
+    <div class="card">
+      <h4 style="margin:0 0 10px;">🔍 选股筛选</h4>
+      <div class="muted">按决策状态筛选股票：</div>
+      <div style="margin-top:8px;">
+        <button class="filter-btn" onclick="filterStocks('全部')">全部</button>
+        <button class="filter-btn" onclick="filterStocks('买')">买</button>
+        <button class="filter-btn" onclick="filterStocks('观察')">观察</button>
+        <button class="filter-btn" onclick="filterStocks('不买')">不买</button>
+      </div>
+      <div id="filteredStocks" style="margin-top:15px;">
+        <div class="muted">点击上方按钮筛选，数据加载后可用</div>
+      </div>
+    </div>
   </div>
 
-  <div class="card">
-    <h4 style="margin:0 0 10px;">🔥 强板块</h4>
-    <div id="sectorList" style="display:flex;gap:10px;overflow-x:auto;">加载中...</div>
+  <!-- 自选页面 -->
+  <div id="page-watch" class="page">
+    <div class="card">
+      <h4 style="margin:0 0 10px;">⭐ 自选股</h4>
+      <div class="muted">暂无自选股。后续可添加关注股票，这里会展示信号。</div>
+    </div>
   </div>
 
-  <div class="card">
-    <h4 style="margin:0 0 10px;">📋 今日信号</h4>
-    <div id="stockList">加载中...</div>
+  <!-- 我的页面 -->
+  <div id="page-mine" class="page">
+    <div class="card">
+      <h4 style="margin:0 0 10px;">👤 我的</h4>
+      <div class="muted">数据来源：GitHub Actions 定时生成</div>
+      <div class="muted">更新频率：每30分钟</div>
+      <div class="muted">当前版本：演示版 v1.0</div>
+      <div class="muted">⚠️ 本工具仅用于辅助决策，不构成投资建议</div>
+    </div>
   </div>
 
   <div class="tabbar">
-    <div class="tab">🏠 首页</div>
-    <div class="tab">🔍 选股</div>
-    <div class="tab">⭐ 自选</div>
-    <div class="tab">👤 我的</div>
+    <div class="tab active" onclick="switchTab('home')">🏠 首页</div>
+    <div class="tab" onclick="switchTab('select')">🔍 选股</div>
+    <div class="tab" onclick="switchTab('watch')">⭐ 自选</div>
+    <div class="tab" onclick="switchTab('mine')">👤 我的</div>
   </div>
 
   <button class="refresh-btn" onclick="loadData()">⟳</button>
 
   <script>
+    let appData = null;
+
+    // 页面切换
+    function switchTab(tabName) {
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      document.getElementById('page-' + tabName).classList.add('active');
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      event.currentTarget.classList.add('active');
+    }
+
+    // 加载数据
     async function loadData() {
       try {
         const response = await fetch('data.json?t=' + new Date().getTime());
         const data = await response.json();
-        render(data);
+        appData = data;
+        renderAll(data);
+        document.getElementById('updateTime').textContent = '更新于 ' + data.updateTime;
       } catch (e) {
-        document.getElementById('updateTime').textContent = '加载失败，请检查网络或文件';
+        document.getElementById('updateTime').textContent = '加载失败，请检查网络';
       }
     }
 
     function badge(c, s) { return `<span class="badge ${c}">${s}</span>`; }
     function sign(v) { return v.startsWith('+') ? 'green' : (v.startsWith('-') ? 'red' : 'gray'); }
 
-    function render(data) {
-      // 更新时间
-      document.getElementById('updateTime').textContent = '更新于 ' + data.updateTime;
-
+    function renderAll(data) {
       // 大盘环境
       const env = data.marketEnv;
       document.getElementById('envValue').textContent = env;
@@ -104,8 +158,16 @@
           <div>${badge(s.state === "持续强势" ? "green" : "yellow", s.state)}</div>
         </div>`).join('');
 
-      // 个股
-      document.getElementById('stockList').innerHTML = data.stocks.map(s =>
+      // 个股（首页列表）
+      document.getElementById('stockList').innerHTML = renderStockList(data.stocks);
+
+      // 选股页面默认显示全部
+      document.getElementById('filteredStocks').innerHTML = renderStockList(data.stocks);
+    }
+
+    function renderStockList(stocks) {
+      if (stocks.length === 0) return '<div class="muted">没有符合条件的股票</div>';
+      return stocks.map(s =>
         `<div style="border-bottom:1px solid #333;padding:10px 0;">
           <div class="row">
             <b>${s.name}</b> <span class="muted">${s.code}</span>
@@ -124,6 +186,24 @@
             <b>${s.probUp}%</b>
           </div>
         </div>`).join('');
+    }
+
+    // 选股筛选
+    function filterStocks(decision) {
+      if (!appData) {
+        document.getElementById('filteredStocks').innerHTML = '<div class="muted">数据加载中，请稍候...</div>';
+        return;
+      }
+      let filtered;
+      if (decision === '全部') {
+        filtered = appData.stocks;
+      } else {
+        filtered = appData.stocks.filter(s => s.decision === decision);
+      }
+      document.getElementById('filteredStocks').innerHTML = renderStockList(filtered);
+      // 高亮当前按钮
+      document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+      event.currentTarget.classList.add('active');
     }
 
     // 页面加载时获取数据
