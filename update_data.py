@@ -61,27 +61,36 @@ def get_news():
         return [{"title": f"新闻获取失败: {e}", "time": "00:00", "sentiment": "neutral", "sentimentLabel": "中性", "related": ["无"], "source": "无"}]
 
 def get_stock_pool(limit=150):
-    """获取股票池，优先实时活跃股，失败或非交易时间则使用沪深300成分股"""
-    # 尝试实时接口
+    """
+    获取股票池：优先使用沪深300成分股（数据稳定，历史充足），
+    如果获取失败则回退到实时全市场活跃股。
+    返回 [(代码, 名称), ...] 列表
+    """
+    # 方式1：沪深300成分股（推荐）
+    try:
+        cons_df = ak.index_stock_cons_csindex(symbol="000300")
+        if cons_df is not None and not cons_df.empty:
+            # 按代码排序，取前limit个，保证稳定
+            cons_df = cons_df.sort_values('成分券代码').head(limit)
+            codes = cons_df['成分券代码'].astype(str).tolist()
+            names = cons_df['成分券名称'].astype(str).tolist()
+            print(f"使用沪深300成分股，数量: {len(codes)}")
+            return list(zip(codes, names))
+    except Exception as e:
+        print(f"获取沪深300成分股失败，准备回退实时行情: {e}")
+
+    # 方式2：实时全市场活跃股（回退）
     try:
         df = ak.stock_zh_a_spot_em()
         if df is not None and not df.empty:
             df = df[~df['名称'].str.contains('ST|退', na=False)]
             df = df.sort_values('成交额', ascending=False).head(limit)
-            # 返回 (代码, 名称) 列表
-            return list(zip(df['代码'].astype(str), df['名称'].astype(str)))
+            codes = df['代码'].astype(str).tolist()
+            names = df['名称'].astype(str).tolist()
+            print(f"使用实时活跃股，数量: {len(codes)}")
+            return list(zip(codes, names))
     except Exception as e:
-        print(f"实时接口获取失败，准备使用成分股回退: {e}")
-
-    # 回退：沪深300成分股
-    try:
-        cons_df = ak.index_stock_cons_csindex(symbol="000300")
-        if cons_df is not None and not cons_df.empty:
-            # 按代码排序，取前limit个
-            cons_df = cons_df.sort_values('成分券代码').head(limit)
-            return list(zip(cons_df['成分券代码'].astype(str), cons_df['成分券名称'].astype(str)))
-    except Exception as e:
-        print(f"成分股获取失败: {e}")
+        print(f"获取实时行情失败: {e}")
 
     return []
 
