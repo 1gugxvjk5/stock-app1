@@ -1,0 +1,28 @@
+name: Update Data
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # 每30分钟运行一次
+  workflow_dispatch:          # 允许手动触发
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run update script
+        run: python update_data.py
+
+      - name: Commit and push data.json
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update data $(date -u +'%Y-%m-%d %H:%M:%S')" && git push)
