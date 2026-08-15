@@ -152,22 +152,30 @@
       switchTab('home');
     }
 
-    function openSectorDetail(index) {
-      if (!appData || !appData.sectors || !appData.sectors[index]) return;
-      const sector = appData.sectors[index];
-      document.getElementById('sectorDetailName').textContent = sector.name;
-      document.getElementById('sectorDetailInfo').innerHTML = `评分 ${sector.score}/5 | 状态：${sector.state}`;
-      const leaders = sector.leaders || [];
-      if (leaders.length > 0) {
-        document.getElementById('sectorDetailLeaders').innerHTML = '<b>龙头股票：</b>' + leaders.map(l => `${l.name} (${l.code})`).join('、');
-      } else {
-        document.getElementById('sectorDetailLeaders').innerHTML = '<span class="muted">暂无龙头数据</span>';
-      }
-      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-      document.getElementById('page-sector-detail').classList.add('active');
-      document.getElementById('backBtn').style.display = 'block';
-      currentPage = 'sector-detail';
-    }
+   function openSectorDetail(index) {
+  if (!appData || !appData.sectors || !appData.sectors[index]) return;
+  const sector = appData.sectors[index];
+  document.getElementById('sectorDetailName').textContent = sector.name;
+  document.getElementById('sectorDetailInfo').innerHTML = `评分 ${sector.score}/5 | 状态：${sector.state}`;
+
+  const leaders = sector.leaders || [];
+  if (leaders.length > 0) {
+    let html = '<b>人气股票（按成交额）：</b>';
+    leaders.forEach((l, i) => {
+      html += `<div style="padding:8px 0;border-bottom:1px solid #333;display:flex;justify-content:space-between;">
+        <span>${i + 1}. ${l.name} <span class="muted">${l.code}</span></span>
+      </div>`;
+    });
+    document.getElementById('sectorDetailLeaders').innerHTML = html;
+  } else {
+    document.getElementById('sectorDetailLeaders').innerHTML = '<span class="muted">暂无数据</span>';
+  }
+
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById('page-sector-detail').classList.add('active');
+  document.getElementById('backBtn').style.display = 'block';
+  currentPage = 'sector-detail';
+}
 
     async function loadData() {
       try {
@@ -198,20 +206,20 @@
           <div class="muted">${badge(n.sentiment, n.sentimentLabel)} 相关：${n.related.join('、')}</div>
         </div>`).join('');
 
-      // 板块（可点击）
-      document.getElementById('sectorList').innerHTML = data.sectors.map((s, i) => {
-        const leadersHtml = (s.leaders && s.leaders.length > 0)
-          ? `<div class="muted" style="margin-top:4px;">龙头：${s.leaders.map(l => `${l.name} (${l.code})`).join('、')}</div>`
-          : '';
-        return `
-          <div class="sector-card" onclick="openSectorDetail(${i})">
-            <div><b>${s.name}</b></div>
-            <div class="muted">评分 ${s.score}/5</div>
-            <div>${badge(s.state === "持续强势" ? "green" : "yellow", s.state)}</div>
-            ${leadersHtml}
-          </div>`;
-      }).join('');
-
+     // 板块（可点击，显示人气股票）
+document.getElementById('sectorList').innerHTML = data.sectors.map((s, i) => {
+  const leaders = s.leaders || [];
+  const leaderNames = leaders.slice(0, 2).map(l => l.name).join('、');
+  const leadersHtml = leaderNames ? `<div class="muted" style="margin-top:4px;">人气: ${leaderNames}</div>` : '';
+  return `
+    <div class="sector-card" onclick="openSectorDetail(${i})">
+      <div><b>${s.name}</b></div>
+      <div class="muted">评分 ${s.score}/5</div>
+      <div>${badge(s.state === "持续强势" ? "green" : "yellow", s.state)}</div>
+      ${leadersHtml}
+    </div>`;
+}).join('');
+      
       // 个股（首页列表）
       document.getElementById('stockList').innerHTML = renderStockList(data.stocks);
 
