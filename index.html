@@ -62,6 +62,17 @@
       <h4 style="margin:0 0 10px;">📋 今日信号</h4>
       <div id="stockList">加载中...</div>
     </div>
+
+    <!-- 新增：扫描股票列表卡片 -->
+    <div class="card">
+      <div class="row" onclick="toggleScanned()" style="cursor:pointer;">
+        <h4 style="margin:0;">📃 扫描股票列表（点击展开）</h4>
+        <span class="muted">共 <span id="scannedCount">0</span> 只</span>
+      </div>
+      <div id="scannedList" style="display:none; margin-top:10px;">
+        <!-- 动态渲染 -->
+      </div>
+    </div>
   </div>
 
   <!-- 选股页面 -->
@@ -163,6 +174,17 @@
 
       // 选股页面默认显示全部
       document.getElementById('filteredStocks').innerHTML = renderStockList(data.stocks);
+
+      // 扫描列表
+      const scanned = data.scannedStocks || [];
+      document.getElementById('scannedCount').textContent = scanned.length;
+      document.getElementById('scannedList').innerHTML = scanned.map(s => `
+        <div style="padding:6px 0;border-bottom:1px solid #333;display:flex;justify-content:space-between;align-items:center;">
+          <span>${s.name} <span class="muted">${s.code}</span></span>
+          ${badge(s.decision === "买" ? "green" : s.decision === "观察" ? "yellow" : s.decision === "不买" ? "red" : "gray", s.decision)}
+          <span class="muted">${s.stateClass}</span>
+        </div>
+      `).join('');
     }
 
     function renderStockList(stocks) {
@@ -201,9 +223,18 @@
         filtered = appData.stocks.filter(s => s.decision === decision);
       }
       document.getElementById('filteredStocks').innerHTML = renderStockList(filtered);
-      // 高亮当前按钮
       document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
       event.currentTarget.classList.add('active');
+    }
+
+    // 展开/收起扫描列表
+    function toggleScanned() {
+      const el = document.getElementById('scannedList');
+      if (el.style.display === 'none') {
+        el.style.display = 'block';
+      } else {
+        el.style.display = 'none';
+      }
     }
 
     // 页面加载时获取数据
