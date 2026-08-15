@@ -1,10 +1,10 @@
 {
-  "updateTime": "13:40",
+  "updateTime": "14:53",
   "marketEnv": "强",
   "news": [
     {
-      "title": "中国20家行业协会发布绿色低碳行动倡议",
-      "time": "13:39",
+      "title": "黎巴嫩谴责以色列袭击黎南违反框架协议",
+      "time": "14:52",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "印尼地震死亡人数上升至47人",
-      "time": "13:39",
+      "title": "利好！多家A股公司公告回购 最高10亿元",
+      "time": "14:52",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "石家庄市气象台8月15日21时44分发布雷电黄色预警信号",
+      "time": "14:52",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中国信贷结构持续调整 对实体经济支持力度不减",
-      "time": "13:39",
+      "title": "电影《牛来》预测总票房598万",
+      "time": "14:52",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,28 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "中消协提出50条行动建议 引导绿色消费行为",
-      "time": "13:39",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "国产算力迎扩张浪潮：大厂“超预期”加码投资 产业链多环节开启扩产",
+      "time": "14:52",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "伊朗称已与阿曼就霍尔木兹海峡通行方案达成协议",
-      "time": "13:39",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "华天科技：公司与智元进行业务项目合作",
-      "time": "13:39",
+      "title": "电影《欢迎来龙餐馆》观影人次破2000万",
+      "time": "14:52",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,7 +83,38 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "智飞生物",
+      "code": "300122",
+      "decision": "观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 50,
+      "r5": "-3.1%",
+      "r10": "+0.2%",
+      "r20": "+6.4%",
+      "d20": "+0.9%",
+      "atr": "3.1%",
+      "volRatio": "1.11",
+      "stateClass": "回调观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "阳光电源",
+      "code": "300274",
+      "decision": "买",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 70,
+      "r5": "+2.2%",
+      "r10": "+12.9%",
+      "r20": "+14.9%",
+      "d20": "+5.4%",
+      "atr": "5.2%",
+      "volRatio": "1.02",
+      "stateClass": "趋势观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -568,38 +599,38 @@
     {
       "name": "东方财富",
       "code": "300059",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "智飞生物",
       "code": "300122",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "回调观察"
     },
     {
       "name": "汇川技术",
       "code": "300124",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "光线传媒",
       "code": "300251",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "阳光电源",
       "code": "300274",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "趋势观察"
     },
     {
       "name": "中际旭创",
       "code": "300308",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "晶盛机电",
