@@ -11,7 +11,6 @@ def safe_float(x):
         return 0.0
 
 def clean_code(code):
-    """清洗股票代码：只保留6位数字，去掉交易所后缀"""
     code = str(code).strip()
     if '.' in code:
         code = code.split('.')[0]
@@ -71,12 +70,7 @@ def get_news():
         return [{"title": f"新闻获取失败: {e}", "time": "00:00", "sentiment": "neutral", "sentimentLabel": "中性", "related": ["无"], "source": "无"}]
 
 def get_stock_pool(limit=150):
-    """
-    获取股票池：优先使用沪深300成分股，失败则回退到实时全市场活跃股。
-    返回 [(代码, 名称), ...] 列表，代码已清洗为6位数字
-    """
     pool = []
-    # 方式1：沪深300成分股
     try:
         cons_df = ak.index_stock_cons_csindex(symbol="000300")
         if cons_df is not None and not cons_df.empty:
@@ -94,7 +88,6 @@ def get_stock_pool(limit=150):
     except Exception as e:
         print(f"获取沪深300成分股失败，准备回退实时行情: {e}")
 
-    # 方式2：实时全市场活跃股（回退）
     try:
         df = ak.stock_zh_a_spot_em()
         if df is not None and not df.empty:
@@ -125,7 +118,7 @@ def get_stock_indicators(code):
                                   end_date=end_date,
                                   adjust="qfq")
         if hist is None or len(hist) < 25:
-            print(f"股票 {code} 历史数据不足或获取失败，长度: {0 if hist is None else len(hist)}")
+            print(f"股票 {code} 历史数据不足或获取失败")
             return None
 
         close = hist['收盘'].astype(float)
@@ -149,11 +142,9 @@ def get_stock_indicators(code):
         atr = tr.rolling(14).mean().iloc[-1]
         atr_pct = (atr / close.iloc[-1]) * 100 if close.iloc[-1] > 0 else 0.0
 
-        # ATR过滤器
         if atr_pct > 6:
             return {"decision": "不买", "stateClass": "高波动", "metrics": None}
 
-        # 状态分类
         if d20 > 15 or r5 > 15:
             stateClass = "高位观察"
             decision = "不买"
@@ -173,7 +164,6 @@ def get_stock_indicators(code):
             stateClass = "排除"
             decision = "不买"
 
-        # ATR过滤：短期涨幅过大降级
         if abs(r5) > 2.5 * atr_pct:
             if decision == "买":
                 decision = "观察"
@@ -198,7 +188,6 @@ def get_stock_indicators(code):
         return None
 
 def get_stocks_from_pool(limit=150, output_max=10):
-    """从股票池中筛选符合条件的股票，返回 (信号股票列表, 全部扫描股票列表)"""
     stocks = []
     all_scanned = []
 
@@ -209,24 +198,14 @@ def get_stocks_from_pool(limit=150, output_max=10):
         result = get_stock_indicators(code)
 
         if result is None:
-            all_scanned.append({
-                "name": name,
-                "code": code,
-                "decision": "数据不足",
-                "stateClass": "数据不足"
-            })
+            all_scanned.append({"name": name, "code": code, "decision": "数据不足", "stateClass": "数据不足"})
             continue
 
         decision = result['decision']
         stateClass = result['stateClass']
         metrics = result['metrics']
 
-        all_scanned.append({
-            "name": name,
-            "code": code,
-            "decision": decision,
-            "stateClass": stateClass
-        })
+        all_scanned.append({"name": name, "code": code, "decision": decision, "stateClass": stateClass})
 
         if decision in ["买", "观察"] and metrics:
             if stateClass in ["趋势观察", "回调观察"]:
@@ -258,51 +237,42 @@ def get_stocks_from_pool(limit=150, output_max=10):
     print(f"扫描完成，共处理 {len(all_scanned)} 只股票，其中 {len(stocks)} 只进入信号列表")
     return stocks, all_scanned
 
-def get_strong_sectors_with_leaders(top_n=3):
-    """
-    获取涨幅靠前的行业板块，并获取每个板块的龙头股（按成交额最大）
-    返回 [{"name": 板块名, "score": 评分, "state": 状态, "leaders": [{"name": 龙头股名称, "code": 龙头股代码}]}, ...]
-    """
+def get_strong_sectors_with_leaders(top_n=3, popular_count=3):
     sectors = []
     try:
-        # 获取行业板块实时行情
         sector_df = ak.stock_board_industry_name_em()
         if sector_df is None or sector_df.empty:
             return sectors
 
-        # 按涨跌幅排序，取涨幅最大的 top_n 个板块
         sector_df = sector_df.sort_values('涨跌幅', ascending=False).head(top_n)
 
         for _, row in sector_df.iterrows():
             sector_name = str(row['板块名称'])
             pct = safe_float(row.get('涨跌幅', 0))
-            # 简单评分：涨幅越大评分越高
             score = 5 if pct > 2 else (4 if pct > 0 else (3 if pct > -1 else 2))
             state = "持续强势" if pct > 1 else ("正在加强" if pct > 0 else "观察")
 
-            # 获取该板块的成分股，按成交额降序取第一只作为龙头
-            leaders = []
+            popular = []
             try:
                 cons_df = ak.stock_board_industry_cons_em(symbol=sector_name)
                 if cons_df is not None and not cons_df.empty:
-                    # 按成交额排序
-                    cons_df = cons_df.sort_values('成交额', ascending=False).head(1)
-                    if not cons_df.empty:
-                        leader_code = clean_code(cons_df.iloc[0]['代码'])
-                        leader_name = str(cons_df.iloc[0]['名称'])
-                        if leader_code:
-                            leaders.append({"name": leader_name, "code": leader_code})
+                    cons_df = cons_df.sort_values('成交额', ascending=False).head(popular_count)
+                    for _, stock_row in cons_df.iterrows():
+                        code = clean_code(stock_row['代码'])
+                        name = str(stock_row['名称'])
+                        if code:
+                            popular.append({"name": name, "code": code})
             except Exception as e:
-                print(f"获取板块 {sector_name} 龙头股失败: {e}")
+                print(f"获取板块 {sector_name} 人气股票失败: {e}")
 
             sectors.append({
                 "name": sector_name,
                 "score": score,
                 "state": state,
-                "leaders": leaders
+                "leaders": popular
             })
 
-        print(f"获取到 {len(sectors)} 个强板块")
+        print(f"获取到 {len(sectors)} 个强板块，每个板块包含 {popular_count} 只人气股票")
     except Exception as e:
         print(f"获取强势板块失败: {e}")
 
@@ -321,10 +291,9 @@ def generate_data():
     stocks, scanned = get_stocks_from_pool(limit=150, output_max=10)
     print(f"最终信号股票数: {len(stocks)}，扫描总数: {len(scanned)}")
 
-    print("开始获取强势板块及龙头股...")
-    sectors = get_strong_sectors_with_leaders(top_n=3)
+    print("开始获取强势板块及人气股票...")
+    sectors = get_strong_sectors_with_leaders(top_n=3, popular_count=3)
     if not sectors:
-        # 回退到固定板块（不带龙头）
         sectors = [
             {"name": "半导体", "score": 4, "state": "持续强势", "leaders": []},
             {"name": "人工智能", "score": 4, "state": "持续强势", "leaders": []},
