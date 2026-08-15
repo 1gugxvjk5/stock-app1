@@ -15,7 +15,6 @@ def clean_code(code):
     code = str(code).strip()
     if '.' in code:
         code = code.split('.')[0]
-    # 确保是6位数字，若不是则返回空字符串
     if len(code) == 6 and code.isdigit():
         return code
     else:
@@ -73,22 +72,19 @@ def get_news():
 
 def get_stock_pool(limit=150):
     """
-    获取股票池：优先使用沪深300成分股（数据稳定，历史充足），
-    如果获取失败则回退到实时全市场活跃股。
+    获取股票池：优先使用沪深300成分股，失败则回退到实时全市场活跃股。
     返回 [(代码, 名称), ...] 列表，代码已清洗为6位数字
     """
     pool = []
-    # 方式1：沪深300成分股（推荐）
+    # 方式1：沪深300成分股
     try:
         cons_df = ak.index_stock_cons_csindex(symbol="000300")
         if cons_df is not None and not cons_df.empty:
-            # 检查列名，兼容不同版本
             code_col = '成分券代码' if '成分券代码' in cons_df.columns else '代码'
             name_col = '成分券名称' if '成分券名称' in cons_df.columns else '名称'
             cons_df = cons_df.sort_values(code_col).head(limit)
             for _, row in cons_df.iterrows():
-                raw_code = row[code_col]
-                code = clean_code(raw_code)
+                code = clean_code(row[code_col])
                 name = str(row[name_col])
                 if code:
                     pool.append((code, name))
@@ -262,6 +258,56 @@ def get_stocks_from_pool(limit=150, output_max=10):
     print(f"扫描完成，共处理 {len(all_scanned)} 只股票，其中 {len(stocks)} 只进入信号列表")
     return stocks, all_scanned
 
+def get_strong_sectors_with_leaders(top_n=3):
+    """
+    获取涨幅靠前的行业板块，并获取每个板块的龙头股（按成交额最大）
+    返回 [{"name": 板块名, "score": 评分, "state": 状态, "leaders": [{"name": 龙头股名称, "code": 龙头股代码}]}, ...]
+    """
+    sectors = []
+    try:
+        # 获取行业板块实时行情
+        sector_df = ak.stock_board_industry_name_em()
+        if sector_df is None or sector_df.empty:
+            return sectors
+
+        # 按涨跌幅排序，取涨幅最大的 top_n 个板块
+        sector_df = sector_df.sort_values('涨跌幅', ascending=False).head(top_n)
+
+        for _, row in sector_df.iterrows():
+            sector_name = str(row['板块名称'])
+            pct = safe_float(row.get('涨跌幅', 0))
+            # 简单评分：涨幅越大评分越高
+            score = 5 if pct > 2 else (4 if pct > 0 else (3 if pct > -1 else 2))
+            state = "持续强势" if pct > 1 else ("正在加强" if pct > 0 else "观察")
+
+            # 获取该板块的成分股，按成交额降序取第一只作为龙头
+            leaders = []
+            try:
+                cons_df = ak.stock_board_industry_cons_em(symbol=sector_name)
+                if cons_df is not None and not cons_df.empty:
+                    # 按成交额排序
+                    cons_df = cons_df.sort_values('成交额', ascending=False).head(1)
+                    if not cons_df.empty:
+                        leader_code = clean_code(cons_df.iloc[0]['代码'])
+                        leader_name = str(cons_df.iloc[0]['名称'])
+                        if leader_code:
+                            leaders.append({"name": leader_name, "code": leader_code})
+            except Exception as e:
+                print(f"获取板块 {sector_name} 龙头股失败: {e}")
+
+            sectors.append({
+                "name": sector_name,
+                "score": score,
+                "state": state,
+                "leaders": leaders
+            })
+
+        print(f"获取到 {len(sectors)} 个强板块")
+    except Exception as e:
+        print(f"获取强势板块失败: {e}")
+
+    return sectors
+
 def generate_data():
     print("开始获取大盘环境...")
     env = get_market_env()
@@ -275,13 +321,16 @@ def generate_data():
     stocks, scanned = get_stocks_from_pool(limit=150, output_max=10)
     print(f"最终信号股票数: {len(stocks)}，扫描总数: {len(scanned)}")
 
-    # 板块数据（固定）
-    sectors = [
-        {"name": "半导体", "score": 4, "state": "持续强势"},
-        {"name": "人工智能", "score": 4, "state": "持续强势"},
-        {"name": "新能源车", "score": 3, "state": "正在加强"},
-        {"name": "军工", "score": 3, "state": "正在加强"}
-    ]
+    print("开始获取强势板块及龙头股...")
+    sectors = get_strong_sectors_with_leaders(top_n=3)
+    if not sectors:
+        # 回退到固定板块（不带龙头）
+        sectors = [
+            {"name": "半导体", "score": 4, "state": "持续强势", "leaders": []},
+            {"name": "人工智能", "score": 4, "state": "持续强势", "leaders": []},
+            {"name": "新能源车", "score": 3, "state": "正在加强", "leaders": []}
+        ]
+        print("警告：未获取到实时板块，使用固定板块")
 
     data = {
         "updateTime": datetime.datetime.now().strftime("%H:%M"),
