@@ -1,10 +1,10 @@
 {
-  "updateTime": "16:57",
+  "updateTime": "19:03",
   "marketEnv": "强",
   "news": [
     {
-      "title": "印尼中苏拉威西省附近海域发生6.2级地震",
-      "time": "16:54",
+      "title": "货运eVTOL率先领跑低空产业化 配套锂电迎来成长空间",
+      "time": "19:01",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中欧北极快航正式常态化运营 畅通“冰上丝绸之路”",
-      "time": "16:54",
+      "title": "五部门发布交通标准化“十五五”规划 布局自动驾驶、轨道互通全链条标准",
+      "time": "19:01",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "津巴布韦船只倾覆已致68人死亡",
-      "time": "16:54",
+      "title": "产能局部过剩叠加国补退坡 伟明环保上半年净利下降逾三成 财务费用同比激增",
+      "time": "19:01",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "更名后首份半年报营收“腰斩” 冀衡医药上半年仍未扭亏 经营性现金流转负",
-      "time": "16:54",
+      "title": "印尼托米尼湾发生5.9级地震 震源深度80千米",
+      "time": "19:01",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "福元医药上半年增收不增利！净利跌去三成 集采续标产品降价叠加成本激增",
-      "time": "16:54",
+      "title": "英伟达首度披露",
+      "time": "19:01",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "“炸裂”！AI巨头 营收暴增14倍",
-      "time": "16:54",
+      "title": "邦迪枪击案后澳新州将启动枪支回购计划",
+      "time": "19:01",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,31 +83,77 @@
       "leaders": []
     }
   ],
-  "stocks": [],
-  "scannedStocks": [
-    {
-      "name": "平安银行",
-      "code": "000001",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
-    },
-    {
-      "name": "万科A",
-      "code": "000002",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
-    },
+  "stocks": [
     {
       "name": "中兴通讯",
       "code": "000063",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+1.0%",
+      "r10": "+3.7%",
+      "r20": "-1.5%",
+      "d20": "+1.4%",
+      "atr": "2.8%",
+      "volRatio": "0.84",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
     },
     {
       "name": "TCL科技",
       "code": "000100",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 70,
+      "r5": "+5.8%",
+      "r10": "+8.7%",
+      "r20": "+2.8%",
+      "d20": "+3.5%",
+      "atr": "3.3%",
+      "volRatio": "1.00",
+      "stateClass": "趋势观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "东方盛虹",
+      "code": "000301",
+      "decision": "观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 50,
+      "r5": "-3.7%",
+      "r10": "+7.1%",
+      "r20": "+10.6%",
+      "d20": "+2.7%",
+      "atr": "4.2%",
+      "volRatio": "0.95",
+      "stateClass": "回调观察",
+      "newsSentiment": "中性"
+    }
+  ],
+  "scannedStocks": [
+    {
+      "name": "平安银行",
+      "code": "000001",
+      "decision": "不买",
+      "stateClass": "排除"
+    },
+    {
+      "name": "万科A",
+      "code": "000002",
+      "decision": "不买",
+      "stateClass": "排除"
+    },
+    {
+      "name": "中兴通讯",
+      "code": "000063",
+      "decision": "观察",
+      "stateClass": "启动观察"
+    },
+    {
+      "name": "TCL科技",
+      "code": "000100",
+      "decision": "买",
+      "stateClass": "趋势观察"
     },
     {
       "name": "中联重科",
@@ -124,8 +170,8 @@
     {
       "name": "东方盛虹",
       "code": "000301",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "回调观察"
     },
     {
       "name": "美的集团",
@@ -178,8 +224,8 @@
     {
       "name": "长安汽车",
       "code": "000625",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "铜陵有色",
