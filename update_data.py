@@ -60,6 +60,31 @@ def get_news():
         print(f"获取新闻失败: {e}")
         return [{"title": f"新闻获取失败: {e}", "time": "00:00", "sentiment": "neutral", "sentimentLabel": "中性", "related": ["无"], "source": "无"}]
 
+def get_stock_pool(limit=150):
+    """获取股票池，优先实时活跃股，失败或非交易时间则使用沪深300成分股"""
+    # 尝试实时接口
+    try:
+        df = ak.stock_zh_a_spot_em()
+        if df is not None and not df.empty:
+            df = df[~df['名称'].str.contains('ST|退', na=False)]
+            df = df.sort_values('成交额', ascending=False).head(limit)
+            # 返回 (代码, 名称) 列表
+            return list(zip(df['代码'].astype(str), df['名称'].astype(str)))
+    except Exception as e:
+        print(f"实时接口获取失败，准备使用成分股回退: {e}")
+
+    # 回退：沪深300成分股
+    try:
+        cons_df = ak.index_stock_cons_csindex(symbol="000300")
+        if cons_df is not None and not cons_df.empty:
+            # 按代码排序，取前limit个
+            cons_df = cons_df.sort_values('成分券代码').head(limit)
+            return list(zip(cons_df['成分券代码'].astype(str), cons_df['成分券名称'].astype(str)))
+    except Exception as e:
+        print(f"成分股获取失败: {e}")
+
+    return []
+
 def get_stock_indicators(code):
     try:
         end_date = datetime.date.today().strftime("%Y%m%d")
@@ -140,79 +165,66 @@ def get_stock_indicators(code):
         print(f"获取股票 {code} 指标失败: {e}")
         return None
 
-def get_stocks_from_active_list(limit=150, output_max=10):
-    """扫描活跃股，返回 (信号股票列表, 全部扫描股票列表)"""
+def get_stocks_from_pool(limit=150, output_max=10):
+    """从股票池中筛选符合条件的股票，返回 (信号股票列表, 全部扫描股票列表)"""
     stocks = []
     all_scanned = []
 
-    try:
-        df = ak.stock_zh_a_spot_em()
-        if df is None or df.empty:
-            return stocks, all_scanned
+    pool = get_stock_pool(limit)
+    print(f"股票池数量: {len(pool)}")
 
-        df = df[~df['名称'].str.contains('ST|退', na=False)]
-        df = df.sort_values('成交额', ascending=False).head(limit)
+    for code, name in pool:
+        result = get_stock_indicators(code)
 
-        print(f"获取到 {len(df)} 只活跃股，开始计算指标...")
-
-        for _, row in df.iterrows():
-            code = str(row['代码'])
-            name = str(row['名称'])
-            result = get_stock_indicators(code)
-
-            if result is None:
-                all_scanned.append({
-                    "name": name,
-                    "code": code,
-                    "decision": "未知",
-                    "stateClass": "数据不足"
-                })
-                continue
-
-            decision = result['decision']
-            stateClass = result['stateClass']
-            metrics = result['metrics']
-
+        if result is None:
             all_scanned.append({
                 "name": name,
                 "code": code,
+                "decision": "未知",
+                "stateClass": "数据不足"
+            })
+            continue
+
+        decision = result['decision']
+        stateClass = result['stateClass']
+        metrics = result['metrics']
+
+        all_scanned.append({
+            "name": name,
+            "code": code,
+            "decision": decision,
+            "stateClass": stateClass
+        })
+
+        if decision in ["买", "观察"] and metrics:
+            if stateClass in ["趋势观察", "回调观察"]:
+                holding_period = "长期（1-3个月）"
+            elif stateClass == "启动观察":
+                holding_period = "短期（1-2周）"
+            else:
+                holding_period = "仅观察"
+
+            if decision == "买":
+                prob_up = 70 if stateClass == "趋势观察" else 60
+            else:
+                prob_up = 50
+
+            stocks.append({
+                "name": name,
+                "code": code,
                 "decision": decision,
-                "stateClass": stateClass
+                "holdingPeriod": holding_period,
+                "probUp": prob_up,
+                **metrics,
+                "stateClass": stateClass,
+                "newsSentiment": "中性"
             })
 
-            if decision in ["买", "观察"] and metrics:
-                if stateClass in ["趋势观察", "回调观察"]:
-                    holding_period = "长期（1-3个月）"
-                elif stateClass == "启动观察":
-                    holding_period = "短期（1-2周）"
-                else:
-                    holding_period = "仅观察"
+            if len(stocks) >= output_max:
+                break
 
-                if decision == "买":
-                    prob_up = 70 if stateClass == "趋势观察" else 60
-                else:
-                    prob_up = 50
-
-                stocks.append({
-                    "name": name,
-                    "code": code,
-                    "decision": decision,
-                    "holdingPeriod": holding_period,
-                    "probUp": prob_up,
-                    **metrics,
-                    "stateClass": stateClass,
-                    "newsSentiment": "中性"
-                })
-
-                if len(stocks) >= output_max:
-                    break
-
-        print(f"扫描完成，共处理 {len(all_scanned)} 只股票，其中 {len(stocks)} 只进入信号列表")
-        return stocks, all_scanned
-
-    except Exception as e:
-        print(f"获取活跃股列表失败: {e}")
-        return stocks, all_scanned
+    print(f"扫描完成，共处理 {len(all_scanned)} 只股票，其中 {len(stocks)} 只进入信号列表")
+    return stocks, all_scanned
 
 def generate_data():
     print("开始获取大盘环境...")
@@ -223,8 +235,8 @@ def generate_data():
     news = get_news()
     print(f"新闻条数: {len(news)}")
 
-    print("开始扫描全市场活跃股...")
-    stocks, scanned = get_stocks_from_active_list(limit=150, output_max=10)
+    print("开始扫描股票池...")
+    stocks, scanned = get_stocks_from_pool(limit=150, output_max=10)
     print(f"最终信号股票数: {len(stocks)}，扫描总数: {len(scanned)}")
 
     # 板块数据（固定）
