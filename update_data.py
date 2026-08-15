@@ -142,8 +142,8 @@ def get_stock_indicators(code):
 
 def get_stocks_from_active_list(limit=150, output_max=10):
     """扫描活跃股，返回 (信号股票列表, 全部扫描股票列表)"""
-    stocks = []          # 符合买/观察的股票（最终信号）
-    all_scanned = []     # 所有扫描过的股票（包括排除）
+    stocks = []
+    all_scanned = []
 
     try:
         df = ak.stock_zh_a_spot_em()
@@ -161,7 +161,6 @@ def get_stocks_from_active_list(limit=150, output_max=10):
             result = get_stock_indicators(code)
 
             if result is None:
-                # 数据获取失败或长度不足，跳过，但也可记录
                 all_scanned.append({
                     "name": name,
                     "code": code,
@@ -174,7 +173,6 @@ def get_stocks_from_active_list(limit=150, output_max=10):
             stateClass = result['stateClass']
             metrics = result['metrics']
 
-            # 记录到全部扫描列表
             all_scanned.append({
                 "name": name,
                 "code": code,
@@ -182,9 +180,7 @@ def get_stocks_from_active_list(limit=150, output_max=10):
                 "stateClass": stateClass
             })
 
-            # 如果决策为买或观察，且指标存在，则加入信号列表
             if decision in ["买", "观察"] and metrics:
-                # 计算持有周期和概率
                 if stateClass in ["趋势观察", "回调观察"]:
                     holding_period = "长期（1-3个月）"
                 elif stateClass == "启动观察":
@@ -230,6 +226,50 @@ def generate_data():
     print("开始扫描全市场活跃股...")
     stocks, scanned = get_stocks_from_active_list(limit=150, output_max=10)
     print(f"最终信号股票数: {len(stocks)}，扫描总数: {len(scanned)}")
+
+    # 临时测试：如果扫描结果为空，添加测试数据，保证前端有内容可显示
+    if len(stocks) == 0:
+        stocks = [
+            {
+                "name": "测试股票A",
+                "code": "000001",
+                "decision": "买",
+                "holdingPeriod": "长期（1-3个月）",
+                "probUp": 70,
+                "r5": "+5.0%",
+                "r10": "+10.0%",
+                "r20": "+15.0%",
+                "d20": "+5.0%",
+                "atr": "2.0%",
+                "volRatio": "1.5",
+                "stateClass": "趋势观察",
+                "newsSentiment": "正面"
+            },
+            {
+                "name": "测试股票B",
+                "code": "600000",
+                "decision": "观察",
+                "holdingPeriod": "短期（1-2周）",
+                "probUp": 50,
+                "r5": "+2.0%",
+                "r10": "+3.0%",
+                "r20": "+5.0%",
+                "d20": "+1.0%",
+                "atr": "1.5%",
+                "volRatio": "1.2",
+                "stateClass": "启动观察",
+                "newsSentiment": "中性"
+            }
+        ]
+        print("警告：未获取到真实信号，已使用测试数据填充 stocks")
+
+    if len(scanned) == 0:
+        scanned = [
+            {"name": "测试股票A", "code": "000001", "decision": "买", "stateClass": "趋势观察"},
+            {"name": "测试股票B", "code": "600000", "decision": "观察", "stateClass": "启动观察"},
+            {"name": "测试股票C", "code": "000002", "decision": "不买", "stateClass": "高位观察"}
+        ]
+        print("警告：未获取到扫描数据，已使用测试数据填充 scanned")
 
     # 板块数据（固定）
     sectors = [
