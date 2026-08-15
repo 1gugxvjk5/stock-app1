@@ -1,10 +1,40 @@
 {
-  "updateTime": "05:57",
+  "updateTime": "06:09",
   "marketEnv": "强",
   "news": [
     {
+      "title": "墨西哥总统：美撤销墨前总统之子美国签证的行为干涉内政",
+      "time": "06:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "受印尼地震影响 飞往东努沙登加拉省的多趟境内航班被取消",
+      "time": "06:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "伊朗外长：无意延长停火协议 未决定重启谈判",
+      "time": "06:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
       "title": "疑似受沙门氏菌污染 美国千万枚鸡蛋被召回",
-      "time": "05:56",
+      "time": "06:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -14,7 +44,7 @@
     },
     {
       "title": "突发！600248拿下11.56亿算力大单！",
-      "time": "05:56",
+      "time": "06:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -24,37 +54,7 @@
     },
     {
       "title": "伊拉克石油出口量达伊朗战事爆发以来峰值",
-      "time": "05:56",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "联想集团刘军：AI PC国内市场销量占比过半",
-      "time": "05:56",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "英伟达CPO交换机全面量产：能效提升5倍 供应商包括天孚通信",
-      "time": "05:56",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "韩国首席贸易谈判代表吕翰九被解职",
-      "time": "05:56",
+      "time": "06:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
