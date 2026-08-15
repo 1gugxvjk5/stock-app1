@@ -4,92 +4,128 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>股票趋势筛选工作台</title>
-  <link rel="manifest" href="manifest.json">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="选股工作台">
-  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
   <meta name="theme-color" content="#1a1a2e">
   <style>
-    :root { --bg: #0f0f1a; --card: #1a1a2e; --accent: #4e8cff; --green: #00c853; --red: #ff5252; --yellow: #ffd740; --text: #e0e0e0; --text-secondary: #9e9e9e; }
-    * { margin:0; padding:0; box-sizing:border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); padding-bottom: 70px; -webkit-tap-highlight-color: transparent; }
-    .header { background: var(--card); padding: 16px; position: sticky; top: 0; z-index: 100; border-bottom: 1px solid #2a2a3e; display: flex; justify-content: space-between; align-items: center; }
-    .header h1 { font-size: 20px; font-weight: 700; }
-    .market-env-card { margin: 16px; padding: 16px; background: var(--card); border-radius: 16px; display: flex; justify-content: space-between; align-items: center; border-left: 4px solid var(--green); }
-    .market-env-card.weak { border-left-color: var(--red); }
-    .market-env-card.normal { border-left-color: var(--yellow); }
-    .env-label { font-size: 14px; color: var(--text-secondary); }
-    .env-value { font-size: 24px; font-weight: 700; }
-    .env-desc { font-size: 12px; color: var(--text-secondary); margin-top: 4px; }
-    .section-title { font-size: 16px; font-weight: 600; margin: 20px 16px 12px; }
-    .news-list { padding: 0 16px; display: flex; flex-direction: column; gap: 10px; }
-    .news-card { background: var(--card); border-radius: 14px; padding: 12px; border: 1px solid #2a2a3e; }
-    .news-title { font-size: 14px; font-weight: 500; line-height: 1.4; }
-    .news-meta { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; color: var(--text-secondary); }
-    .sentiment-tag { padding: 2px 8px; border-radius: 12px; font-size: 11px; }
-    .sentiment-positive { background: rgba(0,200,83,0.2); color: var(--green); }
-    .sentiment-negative { background: rgba(255,82,82,0.2); color: var(--red); }
-    .sentiment-neutral { background: rgba(158,158,158,0.2); color: #9e9e9e; }
-    .related-tags { margin-top: 6px; font-size: 11px; color: var(--accent); }
-    .sector-list { display: flex; gap: 12px; overflow-x: auto; padding: 0 16px 12px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
-    .sector-card { min-width: 160px; background: var(--card); border-radius: 14px; padding: 14px; scroll-snap-align: start; border: 1px solid #2a2a3e; }
-    .sector-name { font-weight: 600; font-size: 15px; }
-    .sector-score { color: var(--accent); font-size: 13px; margin-top: 4px; }
-    .sector-state { display: inline-block; margin-top: 8px; padding: 4px 10px; border-radius: 20px; font-size: 12px; background: rgba(0,200,83,0.2); color: var(--green); }
-    .sector-state.strengthening { background: rgba(255,215,64,0.2); color: var(--yellow); }
-    .stock-list { padding: 0 16px; display: flex; flex-direction: column; gap: 12px; }
-    .stock-card { background: var(--card); border-radius: 14px; padding: 16px; border: 1px solid #2a2a3e; }
-    .stock-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
-    .stock-name { font-weight: 600; font-size: 16px; }
-    .stock-code { color: var(--text-secondary); font-size: 13px; }
-    .stock-decision { padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: 600; }
-    .decision-buy { background: rgba(0,200,83,0.2); color: var(--green); }
-    .decision-watch { background: rgba(255,215,64,0.2); color: var(--yellow); }
-    .decision-sell { background: rgba(255,82,82,0.2); color: var(--red); }
-    .stock-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 12px; }
-    .metric-item { background: #0f0f1a; padding: 8px; border-radius: 8px; font-size: 13px; }
-    .metric-label { color: var(--text-secondary); font-size: 11px; display: block; }
-    .metric-value { font-weight: 600; margin-top: 2px; }
-    .metric-value.positive { color: var(--green); }
-    .metric-value.negative { color: var(--red); }
-    .holding-period { margin-top: 10px; padding: 10px; background: rgba(78,140,255,0.1); border-radius: 8px; font-size: 13px; color: var(--accent); display: flex; align-items: center; gap: 6px; }
-    .prob-badge { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
-    .prob-bar { flex: 1; height: 6px; background: #2a2a3e; border-radius: 3px; overflow: hidden; }
-    .prob-fill { height: 100%; background: var(--green); border-radius: 3px; }
-    .tab-bar { position: fixed; bottom: 0; left: 0; right: 0; background: var(--card); display: flex; border-top: 1px solid #2a2a3e; padding: 8px 0; z-index: 100; }
-    .tab-item { flex: 1; text-align: center; color: var(--text-secondary); font-size: 12px; padding: 4px 0; cursor: pointer; }
-    .tab-item.active { color: var(--accent); font-weight: 600; }
-    .tab-icon { font-size: 20px; display: block; margin-bottom: 2px; }
-    .refresh-btn { position: fixed; bottom: 80px; right: 20px; background: var(--accent); color: white; border: none; border-radius: 50%; width: 48px; height: 48px; font-size: 24px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(78,140,255,0.4); cursor: pointer; z-index: 90; }
+    body { font-family: sans-serif; background: #0f0f1a; color: #eee; margin: 0; padding-bottom: 60px; }
+    .header { background: #1a1a2e; padding: 15px; position: sticky; top: 0; }
+    .card { background: #1a1a2e; border-radius: 12px; padding: 14px; margin: 12px; }
+    .badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 12px; }
+    .green { background: #00c85322; color: #00c853; }
+    .red { background: #ff525222; color: #ff5252; }
+    .yellow { background: #ffd74022; color: #ffd740; }
+    .gray { background: #9e9e9e22; color: #9e9e9e; }
+    .row { display: flex; justify-content: space-between; align-items: center; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 10px 0; }
+    .item { background: #0f0f1a; padding: 8px; border-radius: 8px; font-size: 13px; }
+    .muted { color: #9e9e9e; font-size: 12px; }
+    .tabbar { position: fixed; bottom: 0; left: 0; right: 0; background: #1a1a2e; display: flex; border-top: 1px solid #333; }
+    .tab { flex: 1; text-align: center; padding: 10px; color: #9e9e9e; font-size: 12px; }
   </style>
 </head>
 <body>
   <div class="header">
-    <h1>📈 股票趋势筛选工作台</h1>
-    <span style="font-size:12px;color:#9e9e9e;">数据更新时间：<span id="updateTime">--:--</span></span>
+    <h3 style="margin:0;">📈 股票趋势筛选工作台</h3>
+    <span class="muted" id="updateTime">--:--</span>
   </div>
 
-  <div class="market-env-card" id="marketEnvCard">
-    <div>
-      <div class="env-label">当前大盘环境</div>
-      <div class="env-value" id="envValue">强</div>
-      <div class="env-desc" id="envDesc">建议仓位 70%~100%</div>
+  <div class="card">
+    <div class="row">
+      <div>
+        <div class="muted">大盘环境</div>
+        <div style="font-size:24px;font-weight:bold;" id="envValue">强</div>
+        <div class="muted" id="envDesc">建议仓位 70%~100%</div>
+      </div>
+      <div style="font-size:40px;" id="envIcon">🟢</div>
     </div>
-    <div style="font-size:36px;" id="envIcon">🟢</div>
   </div>
 
-  <div class="section-title">📰 实时财经新闻（情感分析）</div>
-  <div class="news-list" id="newsList"></div>
+  <div class="card">
+    <h4 style="margin:0 0 10px;">📰 实时财经新闻</h4>
+    <div id="newsList"></div>
+  </div>
 
-  <div class="section-title">🔥 强板块（持续强势 / 正在加强）</div>
-  <div class="sector-list" id="sectorList"></div>
+  <div class="card">
+    <h4 style="margin:0 0 10px;">🔥 强板块</h4>
+    <div id="sectorList" style="display:flex;gap:10px;overflow-x:auto;"></div>
+  </div>
 
-  <div class="section-title">📋 今日信号（漏斗筛选结果）</div>
-  <div class="stock-list" id="stockList"></div>
+  <div class="card">
+    <h4 style="margin:0 0 10px;">📋 今日信号</h4>
+    <div id="stockList"></div>
+  </div>
 
-  <div class="tab-bar">
-    <div class="tab-item active" onclick="switchTab(this)"><span class="tab-icon">🏠</span>首页</div>
-    <div class="tab-item" onclick="switchTab(this)"><span class="tab-icon">🔍</span>选股</div>
-    <div class="tab-item" onclick="switchTab(this)"><span class="tab-icon">⭐</span>自选</div>
-    <div class="tab-item" onclick="switchTab(this)"><span clas
+  <div class="tabbar">
+    <div class="tab">🏠 首页</div>
+    <div class="tab">🔍 选股</div>
+    <div class="tab">⭐ 自选</div>
+    <div class="tab">👤 我的</div>
+  </div>
+
+  <script>
+    const data = {
+      marketEnv: "强",
+      news: [
+        {t:"央行开展2000亿元MLF操作，利率持平", s:"利好", c:"positive", r:"大盘"},
+        {t:"某半导体公司获大额订单，股价拉升", s:"利好", c:"positive", r:"半导体"},
+        {t:"监管层对某高位股发出问询函", s:"利空", c:"negative", r:"监管"},
+        {t:"新能源汽车销量超预期，产业链受益", s:"利好", c:"positive", r:"新能源车"}
+      ],
+      sectors: [
+        {n:"半导体", score:5, state:"持续强势"},
+        {n:"人工智能", score:4, state:"持续强势"},
+        {n:"新能源车", score:4, state:"正在加强"},
+        {n:"军工", score:3, state:"正在加强"}
+      ],
+      stocks: [
+        {n:"某半导体设备股", c:"688xxx", d:"买", h:"长期（1-3个月）", p:68, r5:"+6.2%", r10:"+11.5%", r20:"+18.3%", d20:"+8.1%", atr:"2.4%", vr:"1.35", st:"趋势观察", ns:"正面"},
+        {n:"某AI算力股", c:"300xxx", d:"观察", h:"短期（1-2周）", p:55, r5:"+4.8%", r10:"+9.2%", r20:"+15.6%", d20:"+5.2%", atr:"3.1%", vr:"1.22", st:"启动观察", ns:"中性"},
+        {n:"某新能源车零部件", c:"002xxx", d:"观察", h:"仅观察", p:42, r5:"-1.2%", r10:"+6.8%", r20:"+12.4%", d20:"+2.8%", atr:"4.5%", vr:"0.85", st:"回调观察", ns:"正面"},
+        {n:"某高位股", c:"600xxx", d:"不买", h:"高位风险", p:30, r5:"+18.5%", r10:"+28.2%", r20:"+35.7%", d20:"+17.3%", atr:"5.2%", vr:"2.10", st:"高位观察", ns:"负面"}
+      ]
+    };
+
+    function badge(c,s){return `<span class="badge ${c}">${s}</span>`;}
+    function sign(v){return v.startsWith('+')?'green':(v.startsWith('-')?'red':'gray');}
+
+    document.getElementById('envValue').textContent = data.marketEnv;
+    document.getElementById('envDesc').textContent = data.marketEnv === "强" ? "建议仓位 70%~100%" : "建议仓位 30%~60%";
+    document.getElementById('envIcon').textContent = data.marketEnv === "强" ? "🟢" : "🟡";
+
+    document.getElementById('newsList').innerHTML = data.news.map(n=>
+      `<div style="padding:6px 0;border-bottom:1px solid #333;">
+        <div>${n.t}</div>
+        <div class="muted">${badge(n.c,n.s)} 相关：${n.r}</div>
+      </div>`).join('');
+
+    document.getElementById('sectorList').innerHTML = data.sectors.map(s=>
+      `<div style="min-width:120px;background:#0f0f1a;padding:10px;border-radius:8px;">
+        <div><b>${s.n}</b></div>
+        <div class="muted">评分 ${s.score}/5</div>
+        <div>${badge(s.state==="持续强势"?"green":"yellow",s.state)}</div>
+      </div>`).join('');
+
+    document.getElementById('stockList').innerHTML = data.stocks.map(s=>
+      `<div style="border-bottom:1px solid #333;padding:10px 0;">
+        <div class="row">
+          <b>${s.n}</b> <span class="muted">${s.c}</span>
+          ${badge(s.d==="买"?"green":s.d==="观察"?"yellow":"red",s.d)}
+        </div>
+        <div class="grid2">
+          <div class="item">5日<span class="${sign(s.r5)}">${s.r5}</span></div>
+          <div class="item">10日<span class="${sign(s.r10)}">${s.r10}</span></div>
+          <div class="item">20日<span class="${sign(s.r20)}">${s.r20}</span></div>
+          <div class="item">距MA20<span class="${sign(s.d20)}">${s.d20}</span></div>
+        </div>
+        <div class="muted">⏱ ${s.h} | 状态：${s.st} | 新闻：${s.ns}</div>
+        <div class="row" style="margin-top:5px;">
+          <span class="muted">10日上涨概率</span>
+          <div style="flex:1;height:4px;background:#333;margin:0 8px;border-radius:2px;"><div style="width:${s.p}%;height:4px;background:#00c853;border-radius:2px;"></div></div>
+          <b>${s.p}%</b>
+        </div>
+      </div>`).join('');
+
+    document.getElementById('updateTime').textContent = new Date().toLocaleTimeString('zh-CN',{hour:'2-digit',minute:'2-digit'});
+  </script>
+</body>
+</html>
