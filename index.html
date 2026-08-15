@@ -9,6 +9,7 @@
   <style>
     body { font-family: sans-serif; background: #0f0f1a; color: #eee; margin: 0; padding-bottom: 60px; }
     .header { background: #1a1a2e; padding: 15px; position: sticky; top: 0; display: flex; justify-content: space-between; align-items: center; z-index: 10; }
+    .header .back-btn { font-size: 20px; cursor: pointer; margin-right: 10px; }
     .card { background: #1a1a2e; border-radius: 12px; padding: 14px; margin: 12px; }
     .badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 12px; }
     .green { background: #00c85322; color: #00c853; }
@@ -19,6 +20,7 @@
     .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 10px 0; }
     .item { background: #0f0f1a; padding: 8px; border-radius: 8px; font-size: 13px; }
     .muted { color: #9e9e9e; font-size: 12px; }
+    .sector-card { cursor: pointer; min-width: 160px; background: #0f0f1a; padding: 10px; border-radius: 8px; }
     .tabbar { position: fixed; bottom: 0; left: 0; right: 0; background: #1a1a2e; display: flex; border-top: 1px solid #333; z-index: 10; }
     .tab { flex: 1; text-align: center; padding: 10px; color: #9e9e9e; font-size: 12px; cursor: pointer; }
     .tab.active { color: #4e8cff; font-weight: bold; }
@@ -31,7 +33,10 @@
 </head>
 <body>
   <div class="header">
-    <h3 style="margin:0;">📈 股票趋势筛选工作台</h3>
+    <div style="display:flex; align-items:center;">
+      <span id="backBtn" class="back-btn" style="display:none;" onclick="goBack()">←</span>
+      <h3 style="margin:0;">📈 股票趋势筛选工作台</h3>
+    </div>
     <span class="muted" id="updateTime">加载中...</span>
   </div>
 
@@ -69,9 +74,16 @@
         <h4 style="margin:0;">📃 扫描股票列表（点击展开）</h4>
         <span class="muted">共 <span id="scannedCount">0</span> 只</span>
       </div>
-      <div id="scannedList" style="display:none; margin-top:10px;">
-        <!-- 动态渲染 -->
-      </div>
+      <div id="scannedList" style="display:none; margin-top:10px;"></div>
+    </div>
+  </div>
+
+  <!-- 板块详情页 -->
+  <div id="page-sector-detail" class="page">
+    <div class="card">
+      <h4 id="sectorDetailName" style="margin:0 0 10px;">板块名称</h4>
+      <div id="sectorDetailInfo" class="muted"></div>
+      <div id="sectorDetailLeaders" style="margin-top:10px;"></div>
     </div>
   </div>
 
@@ -122,16 +134,41 @@
 
   <script>
     let appData = null;
+    let currentPage = 'home';
 
-    // 页面切换
     function switchTab(tabName) {
       document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
       document.getElementById('page-' + tabName).classList.add('active');
       document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-      event.currentTarget.classList.add('active');
+      // 底部 tab 高亮需要找到对应的 tab
+      const tabIndex = {home:0, select:1, watch:2, mine:3};
+      const tabs = document.querySelectorAll('.tab');
+      tabs[tabIndex[tabName]].classList.add('active');
+      currentPage = tabName;
+      document.getElementById('backBtn').style.display = 'none';
     }
 
-    // 加载数据
+    function goBack() {
+      switchTab('home');
+    }
+
+    function openSectorDetail(index) {
+      if (!appData || !appData.sectors || !appData.sectors[index]) return;
+      const sector = appData.sectors[index];
+      document.getElementById('sectorDetailName').textContent = sector.name;
+      document.getElementById('sectorDetailInfo').innerHTML = `评分 ${sector.score}/5 | 状态：${sector.state}`;
+      const leaders = sector.leaders || [];
+      if (leaders.length > 0) {
+        document.getElementById('sectorDetailLeaders').innerHTML = '<b>龙头股票：</b>' + leaders.map(l => `${l.name} (${l.code})`).join('、');
+      } else {
+        document.getElementById('sectorDetailLeaders').innerHTML = '<span class="muted">暂无龙头数据</span>';
+      }
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      document.getElementById('page-sector-detail').classList.add('active');
+      document.getElementById('backBtn').style.display = 'block';
+      currentPage = 'sector-detail';
+    }
+
     async function loadData() {
       try {
         const response = await fetch('data.json?t=' + new Date().getTime());
@@ -161,13 +198,13 @@
           <div class="muted">${badge(n.sentiment, n.sentimentLabel)} 相关：${n.related.join('、')}</div>
         </div>`).join('');
 
-      // 板块（修改：显示龙头股票）
-      document.getElementById('sectorList').innerHTML = data.sectors.map(s => {
+      // 板块（可点击）
+      document.getElementById('sectorList').innerHTML = data.sectors.map((s, i) => {
         const leadersHtml = (s.leaders && s.leaders.length > 0)
           ? `<div class="muted" style="margin-top:4px;">龙头：${s.leaders.map(l => `${l.name} (${l.code})`).join('、')}</div>`
           : '';
         return `
-          <div style="min-width:160px;background:#0f0f1a;padding:10px;border-radius:8px;">
+          <div class="sector-card" onclick="openSectorDetail(${i})">
             <div><b>${s.name}</b></div>
             <div class="muted">评分 ${s.score}/5</div>
             <div>${badge(s.state === "持续强势" ? "green" : "yellow", s.state)}</div>
@@ -181,7 +218,7 @@
       // 选股页面默认显示全部
       document.getElementById('filteredStocks').innerHTML = renderStockList(data.stocks);
 
-      // 扫描列表：优先使用 scannedStocks，如果为空则回退到 stocks
+      // 扫描列表
       const scanned = data.scannedStocks || data.stocks || [];
       document.getElementById('scannedCount').textContent = scanned.length;
       document.getElementById('scannedList').innerHTML = scanned.map(s => `
@@ -216,7 +253,6 @@
         </div>`).join('');
     }
 
-    // 选股筛选
     function filterStocks(decision) {
       if (!appData) {
         document.getElementById('filteredStocks').innerHTML = '<div class="muted">数据加载中，请稍候...</div>';
@@ -233,7 +269,6 @@
       event.currentTarget.classList.add('active');
     }
 
-    // 展开/收起扫描列表
     function toggleScanned() {
       const el = document.getElementById('scannedList');
       if (el.style.display === 'none') {
@@ -243,9 +278,7 @@
       }
     }
 
-    // 页面加载时获取数据
     loadData();
-    // 每5分钟自动刷新
     setInterval(loadData, 300000);
   </script>
 </body>
