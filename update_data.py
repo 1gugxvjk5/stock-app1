@@ -95,6 +95,10 @@ def get_stock_indicators(code):
         atr = tr.rolling(14).mean().iloc[-1]
         atr_pct = (atr / close.iloc[-1]) * 100 if close.iloc[-1] > 0 else 0.0
 
+        # ATR过滤器：波动过大，不推荐
+        if atr_pct > 6:
+            return None
+
         # 状态分类
         if d20 > 15 or r5 > 15:
             stateClass = "高位观察"
@@ -102,23 +106,39 @@ def get_stock_indicators(code):
         elif r5 < 0 and r10 > 0 and r20 > 0:
             stateClass = "回调观察"
             decision = "观察"
-        elif 0 < r5 <= 8 and r10 <= 5 and r20 <= 10:
+        elif 0 < r5 <= 8 and r10 <= 8 and r20 <= 10:
             stateClass = "启动观察"
-            decision = "买" if r5 > 3 else "观察"
+            decision = "买" if r5 > 2 else "观察"
         elif 0 < r5 < 15 and r10 > 0 and r20 > 0:
             stateClass = "趋势观察"
             decision = "买"
+        elif r5 > 0 and (r10 <= 0 or r20 <= 0) and -5 <= d20 <= 5 and vol_ratio > 1.2:
+            # 新增：反弹观察
+            stateClass = "反弹观察"
+            decision = "观察" if r5 < 5 else "买"
         else:
             stateClass = "排除"
             decision = "不买"
 
-        # 只返回非排除的股票
         if stateClass == "排除":
             return None
 
+        # ATR过滤：短期涨幅过大，降级
+        if abs(r5) > 2.5 * atr_pct:
+            if decision == "买":
+                decision = "观察"
+                stateClass = stateClass + "（涨幅过大）"
+
         holding_period = "长期（1-3个月）" if stateClass in ["趋势观察", "回调观察"] else (
             "短期（1-2周）" if stateClass == "启动观察" else "仅观察")
-        prob_up = 65 if decision == "买" else (45 if decision == "观察" else 25)
+
+        # 概率赋值
+        if decision == "买":
+            prob_up = 70 if stateClass == "趋势观察" else 60
+        elif decision == "观察":
+            prob_up = 50
+        else:
+            prob_up = 30
 
         return {
             "code": code,
@@ -138,18 +158,15 @@ def get_stock_indicators(code):
         print(f"获取股票 {code} 指标失败: {e}")
         return None
 
-def get_stocks_from_active_list(limit=100, output_max=10):
+def get_stocks_from_active_list(limit=150, output_max=10):
     """从全市场活跃股中筛选符合条件的股票"""
     stocks = []
     try:
-        # 获取全A实时行情，按成交额降序取前 limit 只
         df = ak.stock_zh_a_spot_em()
         if df is None or df.empty:
             return stocks
 
-        # 过滤掉ST、退市等
         df = df[~df['名称'].str.contains('ST|退', na=False)]
-        # 按成交额排序，取前 limit 只活跃股
         df = df.sort_values('成交额', ascending=False).head(limit)
 
         print(f"获取到 {len(df)} 只活跃股，开始计算指标...")
@@ -181,10 +198,10 @@ def generate_data():
     print(f"新闻条数: {len(news)}")
 
     print("开始扫描全市场活跃股...")
-    stocks = get_stocks_from_active_list(limit=100, output_max=10)
+    stocks = get_stocks_from_active_list(limit=150, output_max=10)
     print(f"最终信号股票数: {len(stocks)}")
 
-    # 板块数据暂时使用固定数据
+    # 板块数据（固定）
     sectors = [
         {"name": "半导体", "score": 4, "state": "持续强势"},
         {"name": "人工智能", "score": 4, "state": "持续强势"},
