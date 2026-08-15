@@ -1,0 +1,120 @@
+{
+  "updateTime": "04:17",
+  "marketEnv": "强",
+  "news": [
+    {
+      "title": "2026 E-Town机器人消费节在京启动 推出工业科技研学线路",
+      "time": "04:17",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "北京飞曼彻斯特航班发生机械故障备降俄罗斯 海南航空致歉",
+      "time": "04:17",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "但斌高呼“小荷刚露尖尖角”！闪迪一夜狂飙13％！重仓基金“赚翻了” 存储行情还能火多久？",
+      "time": "04:17",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "“近一月年化收益率-100%” 银行理财不香了？",
+      "time": "04:17",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "印度总理莫迪：计划在一年内对1000万青年进行人工智能（AI）技能培训",
+      "time": "04:17",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "伊朗回应特朗普：只要美国不接受现实、不停止幻想 伊朗就会继续封锁海峡",
+      "time": "04:17",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "半导体",
+      "score": 4,
+      "state": "持续强势"
+    },
+    {
+      "name": "人工智能",
+      "score": 4,
+      "state": "持续强势"
+    },
+    {
+      "name": "新能源车",
+      "score": 3,
+      "state": "正在加强"
+    },
+    {
+      "name": "军工",
+      "score": 3,
+      "state": "正在加强"
+    }
+  ],
+  "stocks": [
+    {
+      "name": "示例股票1",
+      "code": "600000",
+      "decision": "买",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 68,
+      "r5": "+6.2%",
+      "r10": "+11.5%",
+      "r20": "+18.3%",
+      "d20": "+8.1%",
+      "atr": "2.4%",
+      "volRatio": "1.35",
+      "stateClass": "趋势观察",
+      "newsSentiment": "正面"
+    },
+    {
+      "name": "示例股票2",
+      "code": "000001",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 55,
+      "r5": "+4.8%",
+      "r10": "+9.2%",
+      "r20": "+15.6%",
+      "d20": "+5.2%",
+      "atr": "3.1%",
+      "volRatio": "1.22",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    }
+  ]
+}
