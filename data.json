@@ -1,10 +1,50 @@
 {
-  "updateTime": "19:03",
+  "updateTime": "20:52",
   "marketEnv": "强",
   "news": [
     {
+      "title": "京铭资本投资星环聚能 助力可控核聚变技术工程化落地",
+      "time": "20:50",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "首艘国产大邮轮开启大湾区首航 近4600名游客激活文旅消费动能",
+      "time": "20:50",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "全球二手书订单激增 供应商猜测“神秘扫货买家”为AI公司",
+      "time": "20:50",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "设施补短板、联运提效能 内河航运构筑物流降本大动脉",
+      "time": "20:50",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
       "title": "货运eVTOL率先领跑低空产业化 配套锂电迎来成长空间",
-      "time": "19:01",
+      "time": "20:50",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -14,47 +54,7 @@
     },
     {
       "title": "五部门发布交通标准化“十五五”规划 布局自动驾驶、轨道互通全链条标准",
-      "time": "19:01",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "产能局部过剩叠加国补退坡 伟明环保上半年净利下降逾三成 财务费用同比激增",
-      "time": "19:01",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "印尼托米尼湾发生5.9级地震 震源深度80千米",
-      "time": "19:01",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "英伟达首度披露",
-      "time": "19:01",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "邦迪枪击案后澳新州将启动枪支回购计划",
-      "time": "19:01",
+      "time": "20:50",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,77 +83,31 @@
       "leaders": []
     }
   ],
-  "stocks": [
-    {
-      "name": "中兴通讯",
-      "code": "000063",
-      "decision": "观察",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 50,
-      "r5": "+1.0%",
-      "r10": "+3.7%",
-      "r20": "-1.5%",
-      "d20": "+1.4%",
-      "atr": "2.8%",
-      "volRatio": "0.84",
-      "stateClass": "启动观察",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "TCL科技",
-      "code": "000100",
-      "decision": "买",
-      "holdingPeriod": "长期（1-3个月）",
-      "probUp": 70,
-      "r5": "+5.8%",
-      "r10": "+8.7%",
-      "r20": "+2.8%",
-      "d20": "+3.5%",
-      "atr": "3.3%",
-      "volRatio": "1.00",
-      "stateClass": "趋势观察",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "东方盛虹",
-      "code": "000301",
-      "decision": "观察",
-      "holdingPeriod": "长期（1-3个月）",
-      "probUp": 50,
-      "r5": "-3.7%",
-      "r10": "+7.1%",
-      "r20": "+10.6%",
-      "d20": "+2.7%",
-      "atr": "4.2%",
-      "volRatio": "0.95",
-      "stateClass": "回调观察",
-      "newsSentiment": "中性"
-    }
-  ],
+  "stocks": [],
   "scannedStocks": [
     {
       "name": "平安银行",
       "code": "000001",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "万科A",
       "code": "000002",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "中兴通讯",
       "code": "000063",
-      "decision": "观察",
-      "stateClass": "启动观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "TCL科技",
       "code": "000100",
-      "decision": "买",
-      "stateClass": "趋势观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "中联重科",
@@ -170,8 +124,8 @@
     {
       "name": "东方盛虹",
       "code": "000301",
-      "decision": "观察",
-      "stateClass": "回调观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "美的集团",
@@ -224,8 +178,8 @@
     {
       "name": "长安汽车",
       "code": "000625",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "铜陵有色",
