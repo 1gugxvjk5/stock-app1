@@ -2,8 +2,11 @@ name: Update Data
 
 on:
   schedule:
-    - cron: "0 */2 * * *"   # 每2小时运行一次，避免频繁请求
+    - cron: "0 */2 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-data:
