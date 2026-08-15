@@ -63,7 +63,7 @@
       <div id="stockList">加载中...</div>
     </div>
 
-    <!-- 新增：扫描股票列表卡片 -->
+    <!-- 扫描股票列表卡片 -->
     <div class="card">
       <div class="row" onclick="toggleScanned()" style="cursor:pointer;">
         <h4 style="margin:0;">📃 扫描股票列表（点击展开）</h4>
@@ -161,13 +161,19 @@
           <div class="muted">${badge(n.sentiment, n.sentimentLabel)} 相关：${n.related.join('、')}</div>
         </div>`).join('');
 
-      // 板块
-      document.getElementById('sectorList').innerHTML = data.sectors.map(s =>
-        `<div style="min-width:120px;background:#0f0f1a;padding:10px;border-radius:8px;">
-          <div><b>${s.name}</b></div>
-          <div class="muted">评分 ${s.score}/5</div>
-          <div>${badge(s.state === "持续强势" ? "green" : "yellow", s.state)}</div>
-        </div>`).join('');
+      // 板块（修改：显示龙头股票）
+      document.getElementById('sectorList').innerHTML = data.sectors.map(s => {
+        const leadersHtml = (s.leaders && s.leaders.length > 0)
+          ? `<div class="muted" style="margin-top:4px;">龙头：${s.leaders.map(l => `${l.name} (${l.code})`).join('、')}</div>`
+          : '';
+        return `
+          <div style="min-width:160px;background:#0f0f1a;padding:10px;border-radius:8px;">
+            <div><b>${s.name}</b></div>
+            <div class="muted">评分 ${s.score}/5</div>
+            <div>${badge(s.state === "持续强势" ? "green" : "yellow", s.state)}</div>
+            ${leadersHtml}
+          </div>`;
+      }).join('');
 
       // 个股（首页列表）
       document.getElementById('stockList').innerHTML = renderStockList(data.stocks);
@@ -175,8 +181,8 @@
       // 选股页面默认显示全部
       document.getElementById('filteredStocks').innerHTML = renderStockList(data.stocks);
 
-      // 扫描列表
-      const scanned = data.scannedStocks || [];
+      // 扫描列表：优先使用 scannedStocks，如果为空则回退到 stocks
+      const scanned = data.scannedStocks || data.stocks || [];
       document.getElementById('scannedCount').textContent = scanned.length;
       document.getElementById('scannedList').innerHTML = scanned.map(s => `
         <div style="padding:6px 0;border-bottom:1px solid #333;display:flex;justify-content:space-between;align-items:center;">
