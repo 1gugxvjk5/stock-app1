@@ -10,6 +10,17 @@ def safe_float(x):
     except:
         return 0.0
 
+def clean_code(code):
+    """清洗股票代码：只保留6位数字，去掉交易所后缀"""
+    code = str(code).strip()
+    if '.' in code:
+        code = code.split('.')[0]
+    # 确保是6位数字，若不是则返回空字符串
+    if len(code) == 6 and code.isdigit():
+        return code
+    else:
+        return None
+
 def get_market_env():
     try:
         df = ak.stock_zh_index_daily(symbol="sh000001")
@@ -64,18 +75,26 @@ def get_stock_pool(limit=150):
     """
     获取股票池：优先使用沪深300成分股（数据稳定，历史充足），
     如果获取失败则回退到实时全市场活跃股。
-    返回 [(代码, 名称), ...] 列表
+    返回 [(代码, 名称), ...] 列表，代码已清洗为6位数字
     """
+    pool = []
     # 方式1：沪深300成分股（推荐）
     try:
         cons_df = ak.index_stock_cons_csindex(symbol="000300")
         if cons_df is not None and not cons_df.empty:
-            # 按代码排序，取前limit个，保证稳定
-            cons_df = cons_df.sort_values('成分券代码').head(limit)
-            codes = cons_df['成分券代码'].astype(str).tolist()
-            names = cons_df['成分券名称'].astype(str).tolist()
-            print(f"使用沪深300成分股，数量: {len(codes)}")
-            return list(zip(codes, names))
+            # 检查列名，兼容不同版本
+            code_col = '成分券代码' if '成分券代码' in cons_df.columns else '代码'
+            name_col = '成分券名称' if '成分券名称' in cons_df.columns else '名称'
+            cons_df = cons_df.sort_values(code_col).head(limit)
+            for _, row in cons_df.iterrows():
+                raw_code = row[code_col]
+                code = clean_code(raw_code)
+                name = str(row[name_col])
+                if code:
+                    pool.append((code, name))
+            print(f"使用沪深300成分股，有效数量: {len(pool)}")
+            if pool:
+                return pool
     except Exception as e:
         print(f"获取沪深300成分股失败，准备回退实时行情: {e}")
 
@@ -85,17 +104,24 @@ def get_stock_pool(limit=150):
         if df is not None and not df.empty:
             df = df[~df['名称'].str.contains('ST|退', na=False)]
             df = df.sort_values('成交额', ascending=False).head(limit)
-            codes = df['代码'].astype(str).tolist()
-            names = df['名称'].astype(str).tolist()
-            print(f"使用实时活跃股，数量: {len(codes)}")
-            return list(zip(codes, names))
+            for _, row in df.iterrows():
+                code = clean_code(row['代码'])
+                name = str(row['名称'])
+                if code:
+                    pool.append((code, name))
+            print(f"使用实时活跃股，有效数量: {len(pool)}")
+            return pool
     except Exception as e:
         print(f"获取实时行情失败: {e}")
 
-    return []
+    return pool
 
 def get_stock_indicators(code):
     try:
+        code = clean_code(code)
+        if not code:
+            return None
+
         end_date = datetime.date.today().strftime("%Y%m%d")
         start_date = (datetime.date.today() - datetime.timedelta(days=60)).strftime("%Y%m%d")
         hist = ak.stock_zh_a_hist(symbol=code, period="daily",
@@ -103,6 +129,7 @@ def get_stock_indicators(code):
                                   end_date=end_date,
                                   adjust="qfq")
         if hist is None or len(hist) < 25:
+            print(f"股票 {code} 历史数据不足或获取失败，长度: {0 if hist is None else len(hist)}")
             return None
 
         close = hist['收盘'].astype(float)
@@ -189,7 +216,7 @@ def get_stocks_from_pool(limit=150, output_max=10):
             all_scanned.append({
                 "name": name,
                 "code": code,
-                "decision": "未知",
+                "decision": "数据不足",
                 "stateClass": "数据不足"
             })
             continue
