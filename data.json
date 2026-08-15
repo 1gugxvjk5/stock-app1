@@ -1,10 +1,30 @@
 {
-  "updateTime": "04:24",
+  "updateTime": "04:31",
   "marketEnv": "强",
   "news": [
     {
+      "title": "电影《欢迎来龙餐馆》票房破6亿",
+      "time": "04:30",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "美团：已有20多个城市正评估“红灯停表”相关试点条件",
+      "time": "04:30",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
       "title": "报告称美国汽车行业必须跟上中国速度",
-      "time": "04:24",
+      "time": "04:30",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -14,7 +34,7 @@
     },
     {
       "title": "2026 E-Town机器人消费节在京启动 推出工业科技研学线路",
-      "time": "04:24",
+      "time": "04:30",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -24,7 +44,7 @@
     },
     {
       "title": "北京飞曼彻斯特航班发生机械故障备降俄罗斯 海南航空致歉",
-      "time": "04:24",
+      "time": "04:30",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -34,27 +54,7 @@
     },
     {
       "title": "但斌高呼“小荷刚露尖尖角”！闪迪一夜狂飙13％！重仓基金“赚翻了” 存储行情还能火多久？",
-      "time": "04:24",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "“近一月年化收益率-100%” 银行理财不香了？",
-      "time": "04:24",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "印度总理莫迪：计划在一年内对1000万青年进行人工智能（AI）技能培训",
-      "time": "04:24",
+      "time": "04:30",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -76,6 +76,11 @@
     },
     {
       "name": "新能源车",
+      "score": 3,
+      "state": "正在加强"
+    },
+    {
+      "name": "军工",
       "score": 3,
       "state": "正在加强"
     }
