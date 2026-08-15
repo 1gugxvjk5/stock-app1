@@ -1,10 +1,30 @@
 {
-  "updateTime": "04:45",
+  "updateTime": "04:58",
   "marketEnv": "强",
   "news": [
     {
+      "title": "印尼7.7级地震已造成至少20人死亡",
+      "time": "04:58",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "重磅！宁德时代41亿入主中恒科技 三大领域协同合作",
+      "time": "04:58",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
       "title": "德国汽车行业就业人数创20年来新低 行业转型持续承压",
-      "time": "04:44",
+      "time": "04:58",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -14,7 +34,7 @@
     },
     {
       "title": "电影《欢迎来龙餐馆》票房破6亿",
-      "time": "04:44",
+      "time": "04:58",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -24,7 +44,7 @@
     },
     {
       "title": "美团：已有20多个城市正评估“红灯停表”相关试点条件",
-      "time": "04:44",
+      "time": "04:58",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -34,27 +54,7 @@
     },
     {
       "title": "报告称美国汽车行业必须跟上中国速度",
-      "time": "04:44",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "2026 E-Town机器人消费节在京启动 推出工业科技研学线路",
-      "time": "04:44",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "北京飞曼彻斯特航班发生机械故障备降俄罗斯 海南航空致歉",
-      "time": "04:44",
+      "time": "04:58",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -85,6 +85,56 @@
       "state": "正在加强"
     }
   ],
-  "stocks": [],
-  "scannedStocks": []
+  "stocks": [
+    {
+      "name": "测试股票A",
+      "code": "000001",
+      "decision": "买",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 70,
+      "r5": "+5.0%",
+      "r10": "+10.0%",
+      "r20": "+15.0%",
+      "d20": "+5.0%",
+      "atr": "2.0%",
+      "volRatio": "1.5",
+      "stateClass": "趋势观察",
+      "newsSentiment": "正面"
+    },
+    {
+      "name": "测试股票B",
+      "code": "600000",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+2.0%",
+      "r10": "+3.0%",
+      "r20": "+5.0%",
+      "d20": "+1.0%",
+      "atr": "1.5%",
+      "volRatio": "1.2",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    }
+  ],
+  "scannedStocks": [
+    {
+      "name": "测试股票A",
+      "code": "000001",
+      "decision": "买",
+      "stateClass": "趋势观察"
+    },
+    {
+      "name": "测试股票B",
+      "code": "600000",
+      "decision": "观察",
+      "stateClass": "启动观察"
+    },
+    {
+      "name": "测试股票C",
+      "code": "000002",
+      "decision": "不买",
+      "stateClass": "高位观察"
+    }
+  ]
 }
