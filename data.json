@@ -1,10 +1,20 @@
 {
-  "updateTime": "05:09",
+  "updateTime": "05:14",
   "marketEnv": "强",
   "news": [
     {
+      "title": "爆买拼多多 加仓伯克希尔！喜马拉雅资本二季度持仓曝光",
+      "time": "05:13",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
       "title": "中广核医疗与四川大学华西医院签署质子治疗创新技术合作协议",
-      "time": "05:07",
+      "time": "05:13",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -14,7 +24,7 @@
     },
     {
       "title": "辽宁沿海船舶定线制今起正式实施",
-      "time": "05:07",
+      "time": "05:13",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -24,7 +34,7 @@
     },
     {
       "title": "印尼7.7级地震已造成至少20人死亡",
-      "time": "05:07",
+      "time": "05:13",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -34,7 +44,7 @@
     },
     {
       "title": "重磅！宁德时代41亿入主中恒科技 三大领域协同合作",
-      "time": "05:07",
+      "time": "05:13",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -44,17 +54,7 @@
     },
     {
       "title": "德国汽车行业就业人数创20年来新低 行业转型持续承压",
-      "time": "05:07",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "电影《欢迎来龙餐馆》票房破6亿",
-      "time": "05:07",
+      "time": "05:13",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
