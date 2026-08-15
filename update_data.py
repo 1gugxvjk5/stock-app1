@@ -62,19 +62,6 @@ def get_news():
         print(f"获取新闻失败: {e}")
         return [{"title": f"新闻获取失败: {e}", "time": "00:00", "sentiment": "neutral", "sentimentLabel": "中性", "related": ["无"], "source": "无"}]
 
-def get_strong_sectors(top_n=3):
-    """获取涨幅靠前的行业板块，返回板块名称列表"""
-    try:
-        df = ak.stock_board_industry_name_em()
-        if df is None or df.empty:
-            return []
-        # 按涨跌幅排序，取涨幅最大的 top_n 个板块
-        df = df.sort_values('涨跌幅', ascending=False).head(top_n)
-        return df['板块名称'].tolist()
-    except Exception as e:
-        print(f"获取强势板块失败: {e}")
-        return []
-
 def get_stock_indicators(code):
     """获取单只股票的指标，返回字典，若失败返回None"""
     try:
@@ -125,6 +112,7 @@ def get_stock_indicators(code):
             stateClass = "排除"
             decision = "不买"
 
+        # 只返回非排除的股票
         if stateClass == "排除":
             return None
 
@@ -150,27 +138,38 @@ def get_stock_indicators(code):
         print(f"获取股票 {code} 指标失败: {e}")
         return None
 
-def get_sector_leader(sector_name):
-    """获取某个板块的龙头股（按成交额最大）并计算指标"""
+def get_stocks_from_active_list(limit=100, output_max=10):
+    """从全市场活跃股中筛选符合条件的股票"""
+    stocks = []
     try:
-        # 获取板块成分股
-        df = ak.stock_board_industry_cons_em(symbol=sector_name)
+        # 获取全A实时行情，按成交额降序取前 limit 只
+        df = ak.stock_zh_a_spot_em()
         if df is None or df.empty:
-            return None
-        # 按成交额排序，取第一只作为龙头
-        df = df.sort_values('成交额', ascending=False).head(1)
-        if df.empty:
-            return None
-        code = str(df.iloc[0]['代码'])
-        name = str(df.iloc[0]['名称'])
-        indicators = get_stock_indicators(code)
-        if indicators is None:
-            return None
-        indicators['name'] = name
-        return indicators
+            return stocks
+
+        # 过滤掉ST、退市等
+        df = df[~df['名称'].str.contains('ST|退', na=False)]
+        # 按成交额排序，取前 limit 只活跃股
+        df = df.sort_values('成交额', ascending=False).head(limit)
+
+        print(f"获取到 {len(df)} 只活跃股，开始计算指标...")
+
+        for _, row in df.iterrows():
+            code = str(row['代码'])
+            name = str(row['名称'])
+            indicators = get_stock_indicators(code)
+            if indicators:
+                indicators['name'] = name
+                stocks.append(indicators)
+                print(f"  加入信号: {name}({code}) 状态={indicators['stateClass']} 决策={indicators['decision']}")
+                if len(stocks) >= output_max:
+                    break
+
+        print(f"筛选完成，共得到 {len(stocks)} 只股票")
+        return stocks
     except Exception as e:
-        print(f"获取板块 {sector_name} 龙头失败: {e}")
-        return None
+        print(f"获取活跃股列表失败: {e}")
+        return stocks
 
 def generate_data():
     print("开始获取大盘环境...")
@@ -181,64 +180,29 @@ def generate_data():
     news = get_news()
     print(f"新闻条数: {len(news)}")
 
-    print("开始获取强势板块...")
-    sectors = get_strong_sectors(3)
-    print(f"强势板块: {sectors}")
+    print("开始扫描全市场活跃股...")
+    stocks = get_stocks_from_active_list(limit=100, output_max=10)
+    print(f"最终信号股票数: {len(stocks)}")
 
-    stocks = []
-    sectors_data = []
-    for sector in sectors:
-        print(f"处理板块: {sector}")
-        leader = get_sector_leader(sector)
-        if leader:
-            stocks.append(leader)
-            # 板块信息
-            sectors_data.append({
-                "name": sector,
-                "score": 4,
-                "state": "持续强势" if leader['decision'] == "买" else "正在加强"
-            })
-
-    # 如果股票数量不足，补充一些活跃股（可选）
-    if len(stocks) < 3:
-        print("股票数量不足，尝试补充活跃股...")
-        try:
-            df = ak.stock_zh_a_spot_em()
-            if df is not None and not df.empty:
-                df = df[~df['名称'].str.contains('ST|退', na=False)]
-                df = df.sort_values('成交额', ascending=False).head(5)
-                for _, row in df.iterrows():
-                    code = str(row['代码'])
-                    name = str(row['名称'])
-                    indicators = get_stock_indicators(code)
-                    if indicators:
-                        indicators['name'] = name
-                        if indicators not in stocks:
-                            stocks.append(indicators)
-                        if len(stocks) >= 5:
-                            break
-        except Exception as e:
-            print(f"补充股票失败: {e}")
-
-    # 板块数据若为空，使用默认
-    if not sectors_data:
-        sectors_data = [
-            {"name": "半导体", "score": 4, "state": "持续强势"},
-            {"name": "人工智能", "score": 4, "state": "持续强势"},
-            {"name": "新能源车", "score": 3, "state": "正在加强"}
-        ]
+    # 板块数据暂时使用固定数据
+    sectors = [
+        {"name": "半导体", "score": 4, "state": "持续强势"},
+        {"name": "人工智能", "score": 4, "state": "持续强势"},
+        {"name": "新能源车", "score": 3, "state": "正在加强"},
+        {"name": "军工", "score": 3, "state": "正在加强"}
+    ]
 
     data = {
         "updateTime": datetime.datetime.now().strftime("%H:%M"),
         "marketEnv": env,
         "news": news,
-        "sectors": sectors_data,
+        "sectors": sectors,
         "stocks": stocks
     }
 
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"data.json 已生成，股票数量: {len(stocks)}")
+    print("data.json 已生成")
 
 if __name__ == "__main__":
     generate_data()
