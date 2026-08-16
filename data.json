@@ -1,10 +1,10 @@
 {
-  "updateTime": "07:46",
+  "updateTime": "09:03",
   "marketEnv": "强",
   "news": [
     {
-      "title": "俄罗斯国防部表示 俄军投掷FAB-500航空炸弹 击中位于多布罗皮利亚的乌克兰国民警卫队特种旅无人机控制点",
-      "time": "07:44",
+      "title": "普京登俄日争议岛屿明确宣示主权",
+      "time": "09:01",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "杭萧钢构：上半年归母净利润同比下降36.01%",
-      "time": "07:44",
+      "title": "电影《牛来》实时票房破500万",
+      "time": "09:01",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "千里科技：回购26.06万股 使用资金总额211.99万元",
-      "time": "07:44",
+      "title": "丰林集团：收到税务事项通知书 需缴回约2700万元退税款",
+      "time": "09:01",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "盛科通信：签订超1亿元以太网交换芯片销售合同",
-      "time": "07:44",
+      "title": "高争民爆：控股股东拟变更为地矿集团",
+      "time": "09:01",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,20 +43,20 @@
       "source": "东财快讯"
     },
     {
-      "title": "中微半导：2026年半年度净利润同比增长98.48%",
-      "time": "07:44",
+      "title": "盛科通信：签订以太网交换芯片重大合同 金额超过去年营收50%以上",
+      "time": "09:01",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "中微半导：上半年净利润同比增长98.48%",
+      "time": "09:01",
       "sentiment": "positive",
       "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "频准激光：将于8月18日科创板上市",
-      "time": "07:44",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
