@@ -1,10 +1,50 @@
 {
-  "updateTime": "05:08",
+  "updateTime": "07:46",
   "marketEnv": "强",
   "news": [
     {
-      "title": "7月湖南轨道交通装备出口创历史新高 单月首次突破2亿元",
-      "time": "05:06",
+      "title": "俄罗斯国防部表示 俄军投掷FAB-500航空炸弹 击中位于多布罗皮利亚的乌克兰国民警卫队特种旅无人机控制点",
+      "time": "07:44",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "杭萧钢构：上半年归母净利润同比下降36.01%",
+      "time": "07:44",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "千里科技：回购26.06万股 使用资金总额211.99万元",
+      "time": "07:44",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "盛科通信：签订超1亿元以太网交换芯片销售合同",
+      "time": "07:44",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "中微半导：2026年半年度净利润同比增长98.48%",
+      "time": "07:44",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -13,48 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗称3名飞行员遭卡塔尔扣押 卡塔尔否认",
-      "time": "05:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "哈电集团与鞍钢集团举行会谈",
-      "time": "05:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "印尼7.7级地震致5000余人疏散避难 多县应急响应",
-      "time": "05:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "高毅资产二季度调仓：美光、闪迪获大幅增持 英伟达等科技股遭减持",
-      "time": "05:06",
-      "sentiment": "negative",
-      "sentimentLabel": "利空",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "“千问办公”首发上线GLM-5.3、DeepSeek V4 Pro两款模型",
-      "time": "05:06",
+      "title": "频准激光：将于8月18日科创板上市",
+      "time": "07:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
