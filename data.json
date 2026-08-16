@@ -1,10 +1,10 @@
 {
-  "updateTime": "10:53",
+  "updateTime": "13:46",
   "marketEnv": "强",
   "news": [
     {
-      "title": "紫金黄金国际发布中期业绩：归母溢利14.51亿美元 同比增加179%",
-      "time": "10:51",
+      "title": "印度一乘客欲携枪登机 枪支走火击伤安检员",
+      "time": "13:43",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中信证券：恒生科技指数的调整具有显著事件效应",
-      "time": "10:51",
+      "title": "津巴布韦船只倾覆已致80人死亡 搜救工作仍在持续",
+      "time": "13:43",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "印尼东努沙登加拉省北部海域发生5.6级地震",
-      "time": "10:51",
+      "title": "招商证券：市场将更加聚焦于业绩主线的结构性机会",
+      "time": "13:43",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中石化炼化工程发布中期业绩：股东应占利润11.37亿元 同比减少18%",
-      "time": "10:51",
+      "title": "乌称已使俄电商巨头“野莓”多个物流中心停运",
+      "time": "13:43",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "兆威机电：2026年上半年净利润7464.57万元 同比减少34.10%",
-      "time": "10:51",
+      "title": "伊朗议会通过反渗透法案",
+      "time": "13:43",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,10 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "影片《八仙！》票房突破16亿元",
-      "time": "10:51",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "微信下架多部违规微短剧并处置违规小程序",
+      "time": "13:43",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
       "related": [
         "大盘"
       ],
