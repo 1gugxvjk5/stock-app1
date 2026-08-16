@@ -1,10 +1,10 @@
 {
-  "updateTime": "19:02",
+  "updateTime": "20:51",
   "marketEnv": "强",
   "news": [
     {
-      "title": "多米尼克·勒布朗将于美国东部时间周日下午4:30与美国贸易代表格里尔举行视频会议",
-      "time": "19:00",
+      "title": "摩根大通CEO戴蒙警告英国财政大臣切勿提高银行业税收",
+      "time": "20:49",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "AI语料短缺瓶颈凸显 数据基建新机遇有望释放",
-      "time": "19:00",
+      "title": "2500亿→1200亿 英伟达突然大幅下调！AI叙事要变？",
+      "time": "20:49",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "多家银行助力落地全市场首单非金融企业自贸离岸债",
-      "time": "19:00",
+      "title": "十大券商策略：看好“金秋行情”！科技修复尚未结束，及时部署核心资产",
+      "time": "20:49",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "AI助盲眼镜产业化提速 政策加持企业布局",
-      "time": "19:00",
+      "title": "美国证券交易委员会据悉也在调查马克·沃尔特的交易行为",
+      "time": "20:49",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "理性看待明星科技股IPO的弃购现象",
-      "time": "19:00",
+      "title": "近500家公司公布半年报 AI硬件化工能源景气度高",
+      "time": "20:49",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国据悉已就针对巴西法官德莫赖斯的新制裁措施展开讨论",
-      "time": "19:00",
+      "title": "埃及总统会见库什纳 呼吁各方落实加沙停火",
+      "time": "20:49",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,38 +83,7 @@
       "leaders": []
     }
   ],
-  "stocks": [
-    {
-      "name": "宁波银行",
-      "code": "002142",
-      "decision": "买",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 60,
-      "r5": "+2.3%",
-      "r10": "+1.0%",
-      "r20": "+1.8%",
-      "d20": "+0.8%",
-      "atr": "2.3%",
-      "volRatio": "0.67",
-      "stateClass": "启动观察",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "中航光电",
-      "code": "002179",
-      "decision": "买",
-      "holdingPeriod": "长期（1-3个月）",
-      "probUp": 70,
-      "r5": "+1.7%",
-      "r10": "+6.0%",
-      "r20": "+10.3%",
-      "d20": "+5.0%",
-      "atr": "2.8%",
-      "volRatio": "0.80",
-      "stateClass": "趋势观察",
-      "newsSentiment": "中性"
-    }
-  ],
+  "stocks": [],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -377,14 +346,14 @@
     {
       "name": "宁波银行",
       "code": "002142",
-      "decision": "买",
-      "stateClass": "启动观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "中航光电",
       "code": "002179",
-      "decision": "买",
-      "stateClass": "趋势观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "金风科技",
