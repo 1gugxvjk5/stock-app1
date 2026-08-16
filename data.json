@@ -1,20 +1,10 @@
 {
-  "updateTime": "03:18",
+  "updateTime": "05:08",
   "marketEnv": "强",
   "news": [
     {
-      "title": "超强厄尔尼诺即将来袭 小摩警告：明年或爆发全球粮食危机",
-      "time": "03:16",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "中科金财中标兰州银行“飞天”工程OCR识别系统项目",
-      "time": "03:16",
+      "title": "7月湖南轨道交通装备出口创历史新高 单月首次突破2亿元",
+      "time": "05:06",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -23,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "研究显示新型微生物光合系统有望高效生产化学品",
-      "time": "03:16",
+      "title": "伊朗称3名飞行员遭卡塔尔扣押 卡塔尔否认",
+      "time": "05:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "水利部：全国52条河流仍维持超警",
-      "time": "03:16",
+      "title": "哈电集团与鞍钢集团举行会谈",
+      "time": "05:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "民盟河南省委会：收到的一些社情民意信息存在明显AI生成痕迹",
-      "time": "03:16",
+      "title": "印尼7.7级地震致5000余人疏散避难 多县应急响应",
+      "time": "05:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国肯塔基州发生枪击事件致1死4伤",
-      "time": "03:16",
+      "title": "高毅资产二季度调仓：美光、闪迪获大幅增持 英伟达等科技股遭减持",
+      "time": "05:06",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "“千问办公”首发上线GLM-5.3、DeepSeek V4 Pro两款模型",
+      "time": "05:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
