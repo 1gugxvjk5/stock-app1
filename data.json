@@ -1,40 +1,10 @@
 {
-  "updateTime": "11:03",
+  "updateTime": "13:58",
   "marketEnv": "强",
   "news": [
     {
-      "title": "Snap盘前跌幅扩大至15%",
-      "time": "11:01",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "国药一致：上半年净利润6.06亿元 同比下降8.97%",
-      "time": "11:01",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "日本第22轮核污染水排海总量近8000吨",
-      "time": "11:01",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "复旦微电：2026年半年度净利润同比增长338.58%",
-      "time": "11:01",
+      "title": "SpaceX股价上涨5%",
+      "time": "13:56",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -43,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "巴克莱银行下调埃克森美孚目标价",
-      "time": "11:01",
+      "title": "费城半导体指数涨2%",
+      "time": "13:56",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +23,38 @@
       "source": "东财快讯"
     },
     {
-      "title": "开创电气：签署机器人产业基金与项目落地合作框架协议",
-      "time": "11:01",
+      "title": "美股光通信板块盘初走高",
+      "time": "13:56",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "瑞银下调迈威尔科技目标价",
+      "time": "13:56",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "富国银行下调黄金2026、2027年底目标区间",
+      "time": "13:56",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "费城半导体指数涨1.5%",
+      "time": "13:56",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
