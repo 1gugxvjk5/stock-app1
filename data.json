@@ -1,10 +1,10 @@
 {
-  "updateTime": "17:02",
+  "updateTime": "19:19",
   "marketEnv": "强",
   "news": [
     {
-      "title": "LME三个月期锡收盘下跌424美元",
-      "time": "17:00",
+      "title": "恒生指数主连夜盘收跌0.27% 报25355点",
+      "time": "19:18",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗官员称已为美设定最后期限",
-      "time": "17:00",
+      "title": "美国企业蓝筹债8月发行规模创历史新高",
+      "time": "19:18",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国战略石油储备的原油库存上周下降约530万桶",
-      "time": "17:00",
+      "title": "上期所原油期货2609合约夜盘收涨4.91% 报596.50元人民币/桶",
+      "time": "19:18",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "马克·沃尔特（Mark Walter）和托德·伯利（Todd Boehly）据悉正就出售切尔西股份进行谈判",
-      "time": "17:00",
+      "title": "一艘阿联酋油轮在霍尔木兹海峡被拦截",
+      "time": "19:18",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "安哥拉初步计划在10月份出口93.2万桶/日的原油",
-      "time": "17:00",
+      "title": "伊朗表示 没有情报表明针对伊拉克库尔德斯坦的袭击是从伊朗境内发动的",
+      "time": "19:18",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,10 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "网络平台数据显示 影片《欢迎来龙餐馆》票房突破10亿",
-      "time": "17:00",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "特朗普称不寻求延长与伊朗的谅解备忘录",
+      "time": "19:18",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
