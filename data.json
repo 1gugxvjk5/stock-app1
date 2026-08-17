@@ -1,10 +1,40 @@
 {
-  "updateTime": "13:58",
+  "updateTime": "14:59",
   "marketEnv": "强",
   "news": [
     {
-      "title": "SpaceX股价上涨5%",
-      "time": "13:56",
+      "title": "伊朗官员：已为美国履行谅解备忘录设定最后期限",
+      "time": "14:57",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "法国30年期国债收益率升至4.86% 重返近二十年最高水平",
+      "time": "14:57",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "耐克股价下跌3.2%",
+      "time": "14:57",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "吉和昌：上半年核心产品SPS等锂电铜箔添加剂收入同比增长75%",
+      "time": "14:57",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -13,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "费城半导体指数涨2%",
-      "time": "13:56",
+      "title": "雷特科技：获欧洲发明专利证书",
+      "time": "14:57",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,40 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "美股光通信板块盘初走高",
-      "time": "13:56",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "瑞银下调迈威尔科技目标价",
-      "time": "13:56",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "富国银行下调黄金2026、2027年底目标区间",
-      "time": "13:56",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "费城半导体指数涨1.5%",
-      "time": "13:56",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "精创电气：上半年净利润同比增长12.58%",
+      "time": "14:57",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
