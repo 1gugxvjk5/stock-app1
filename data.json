@@ -1,10 +1,50 @@
 {
-  "updateTime": "09:21",
+  "updateTime": "11:01",
   "marketEnv": "强",
   "news": [
     {
-      "title": "松发股份旗下恒力重工集团增资至130亿",
-      "time": "09:18",
+      "title": "昊华能源：上半年归母净利润7.45亿元 同比增长66.14%",
+      "time": "11:00",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "中信建投：上半年归母净利润76.39亿元 同比增长69.44%",
+      "time": "11:00",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "华友钴业：2026年半年度净利润同比增长29.38%",
+      "time": "11:00",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "国泰海通：上半年归母净利润202.6亿元 同比增长28.74%",
+      "time": "11:00",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "佳讯飞鸿：全资子公司道岔缺口监测系统设备获CRCC铁路产品认证证书",
+      "time": "11:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,50 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "BNP PARIBAS SA在药明康德H股的持股比例于8月13日从4.86%升至5.37%",
-      "time": "09:18",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "金田股份：拟筹划控股子公司科田磁业分拆上市",
-      "time": "09:18",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "协创数据：与冀银金租签订4.98亿元高性能服务器等融资租赁合同",
-      "time": "09:18",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "94%北美基金对冲外汇风险创四年新高",
-      "time": "09:18",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "澳门博彩收入GDP占比将持续下降",
-      "time": "09:18",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "16天11板一鸣食品：如股价进一步异常上涨 可能申请停牌核查",
+      "time": "11:00",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
