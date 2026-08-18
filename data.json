@@ -1,10 +1,10 @@
 {
-  "updateTime": "08:00",
+  "updateTime": "09:21",
   "marketEnv": "强",
   "news": [
     {
-      "title": "8月18日涨停复盘：80只股涨停 爱丽家居13天12板",
-      "time": "07:58",
+      "title": "松发股份旗下恒力重工集团增资至130亿",
+      "time": "09:18",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "特斯拉上海超级工厂第600万个电池包下线",
-      "time": "07:58",
+      "title": "BNP PARIBAS SA在药明康德H股的持股比例于8月13日从4.86%升至5.37%",
+      "time": "09:18",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "东方天算与国检集团共建太空光伏联合实验室",
-      "time": "07:58",
+      "title": "金田股份：拟筹划控股子公司科田磁业分拆上市",
+      "time": "09:18",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "国家铁路局：2026年1—7月份全国铁路客货运量总体平稳",
-      "time": "07:58",
+      "title": "协创数据：与冀银金租签订4.98亿元高性能服务器等融资租赁合同",
+      "time": "09:18",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "欧洲央行首席经济学家连恩：预计今年剩余时间通胀率将徘徊在3%左右",
-      "time": "07:58",
+      "title": "94%北美基金对冲外汇风险创四年新高",
+      "time": "09:18",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "日本大使被召见至俄外交部",
-      "time": "07:58",
+      "title": "澳门博彩收入GDP占比将持续下降",
+      "time": "09:18",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,23 +83,7 @@
       "leaders": []
     }
   ],
-  "stocks": [
-    {
-      "name": "晶盛机电",
-      "code": "300316",
-      "decision": "买",
-      "holdingPeriod": "长期（1-3个月）",
-      "probUp": 70,
-      "r5": "+8.7%",
-      "r10": "+15.4%",
-      "r20": "+19.8%",
-      "d20": "+12.7%",
-      "atr": "3.5%",
-      "volRatio": "0.78",
-      "stateClass": "趋势观察",
-      "newsSentiment": "中性"
-    }
-  ],
+  "stocks": [],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -614,20 +598,20 @@
     {
       "name": "中际旭创",
       "code": "300308",
-      "decision": "不买",
-      "stateClass": "高波动"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "晶盛机电",
       "code": "300316",
-      "decision": "买",
-      "stateClass": "趋势观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "天孚通信",
       "code": "300394",
-      "decision": "不买",
-      "stateClass": "高波动"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "三环集团",
