@@ -1,10 +1,10 @@
 {
-  "updateTime": "19:20",
+  "updateTime": "20:56",
   "marketEnv": "强",
   "news": [
     {
-      "title": "特朗普据悉考虑向加拿大提供关税豁免",
-      "time": "19:18",
+      "title": "美国上周API原油库存减少32.8万桶 前值增加907.2万桶",
+      "time": "20:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "特朗普本周将对FDA最高职位的候选人进行面试",
-      "time": "19:18",
+      "title": "伊朗宣布两名法国外交人员为“不受欢迎的人”",
+      "time": "20:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "世卫组织总干事谭德塞表示 刚果（金）的埃博拉疫情仍然是国际关注的公共卫生紧急事件",
-      "time": "19:18",
+      "title": "伊朗外交部发言人驳斥阿联酋关于伊朗向阿联酋发射导弹的声明",
+      "time": "20:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美加关税谈判进入最后关头 特朗普政府淡化达成协议预期",
-      "time": "19:18",
+      "title": "乌拉圭央行将利率设定为5.75% 此前为5.75%",
+      "time": "20:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "恒生指数主连夜盘收跌0.30%",
-      "time": "19:18",
+      "title": "Anthropic据悉正在筹备授予首席执行官达里奥·阿莫迪（Dario Amodei）及其他联合创始人一批拥有额外投票权的股票",
+      "time": "20:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "加元兑美元下跌0.3%",
-      "time": "19:18",
+      "title": "Keysight盘后扭转跌势 现涨超4%",
+      "time": "20:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
