@@ -1,10 +1,10 @@
 {
-  "updateTime": "14:08",
+  "updateTime": "17:02",
   "marketEnv": "强",
   "news": [
     {
-      "title": "以军被曝逮捕巴方耶路撒冷事务部长等31人",
-      "time": "14:06",
+      "title": "美国商品期货交易委员会就算力衍生品合约上市征求意见",
+      "time": "17:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "礼来涨5.3% 成全球首个市值达1.2万亿美元的医药公司",
-      "time": "14:06",
+      "title": "实探亚宠展“黑科技” 多家A股公司亮相",
+      "time": "17:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美股商业航天股走低 SpaceX跌超3%",
-      "time": "14:06",
+      "title": "印尼东努沙登加拉省区域发生5.7级地震",
+      "time": "17:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,18 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "纳斯达克生物科技指数上涨5%",
-      "time": "14:06",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "知情人士：若美升级战事 伊朗考虑打击驻欧美军设施",
-      "time": "14:06",
+      "title": "墨西哥主要股指涨幅扩大至1%",
+      "time": "17:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "Moderna涨幅扩大至120%",
-      "time": "14:06",
+      "title": "加拿大总理卡尼表示 加拿大正朝着与美国达成贸易协议迈进 谈判已取得显著进展",
+      "time": "17:00",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "特朗普提名海蒂·奥弗顿博士担任下一任美国食品药品监督管理局（FDA）局长",
+      "time": "17:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
