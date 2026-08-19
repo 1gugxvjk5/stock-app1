@@ -1,20 +1,10 @@
 {
-  "updateTime": "11:01",
+  "updateTime": "14:08",
   "marketEnv": "强",
   "news": [
     {
-      "title": "Moderna盘前上涨30%",
-      "time": "10:59",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "Benchmark下调百度目标价",
-      "time": "10:59",
+      "title": "以军被曝逮捕巴方耶路撒冷事务部长等31人",
+      "time": "14:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,28 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "华康洁净：中标6139.69万元医疗专项建设项目",
-      "time": "10:59",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "华电能源：2026年半年度净利润同比增长29.16%",
-      "time": "10:59",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "权威专家回应网传“固态电池车可实现10分钟快充续航1500公里”",
-      "time": "10:59",
+      "title": "礼来涨5.3% 成全球首个市值达1.2万亿美元的医药公司",
+      "time": "14:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,10 +23,40 @@
       "source": "东财快讯"
     },
     {
-      "title": "《空枪》票房突破4000万",
-      "time": "10:59",
+      "title": "美股商业航天股走低 SpaceX跌超3%",
+      "time": "14:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "纳斯达克生物科技指数上涨5%",
+      "time": "14:06",
       "sentiment": "positive",
       "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "知情人士：若美升级战事 伊朗考虑打击驻欧美军设施",
+      "time": "14:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "Moderna涨幅扩大至120%",
+      "time": "14:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
