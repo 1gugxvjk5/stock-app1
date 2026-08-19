@@ -1,10 +1,10 @@
 {
-  "updateTime": "08:01",
+  "updateTime": "09:25",
   "marketEnv": "强",
   "news": [
     {
-      "title": "中交发展：上半年归母净利润1832.19万元 同比扭亏为盈",
-      "time": "07:58",
+      "title": "联影医疗：上半年归母净利润同比下降10.12%",
+      "time": "09:23",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "巴西外长：巴西与东盟贸易规模未来或超过对美欧贸易",
-      "time": "07:58",
+      "title": "顶点软件：上半年归母净利润同比增长36.30%",
+      "time": "09:23",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "8月19日涨停复盘：37只股涨停 红四方3连板",
+      "time": "09:23",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "新华百货：已关注到活跃县域消费相关政策 公司持续对县域存量门店升级调改",
-      "time": "07:58",
+      "title": "神州细胞：SCTB10注射液获临床试验批准",
+      "time": "09:23",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,30 +43,20 @@
       "source": "东财快讯"
     },
     {
-      "title": "南向资金净卖出额达100亿港元",
-      "time": "07:58",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "江苏银行：上半年归母净利润同比增长8.09%",
+      "time": "09:23",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "拓荆科技旗下沈阳半导体设备公司增资至33.6亿 增幅约572%",
-      "time": "07:58",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "四川美丰：子公司生产装置检修完成并恢复生产",
-      "time": "07:58",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "可灵AI二季度收入超8.5亿元 同比增长超200%",
+      "time": "09:23",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
@@ -83,23 +83,7 @@
       "leaders": []
     }
   ],
-  "stocks": [
-    {
-      "name": "阳光电源",
-      "code": "300274",
-      "decision": "观察",
-      "holdingPeriod": "长期（1-3个月）",
-      "probUp": 50,
-      "r5": "-5.1%",
-      "r10": "+3.0%",
-      "r20": "+1.4%",
-      "d20": "-0.8%",
-      "atr": "5.1%",
-      "volRatio": "0.86",
-      "stateClass": "回调观察",
-      "newsSentiment": "中性"
-    }
-  ],
+  "stocks": [],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -608,14 +592,14 @@
     {
       "name": "阳光电源",
       "code": "300274",
-      "decision": "观察",
-      "stateClass": "回调观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "中际旭创",
       "code": "300308",
-      "decision": "不买",
-      "stateClass": "高波动"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "晶盛机电",
