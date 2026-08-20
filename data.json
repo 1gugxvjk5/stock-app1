@@ -1,10 +1,10 @@
 {
-  "updateTime": "14:11",
+  "updateTime": "17:16",
   "marketEnv": "强",
   "news": [
     {
-      "title": "Moderna跌超20%",
-      "time": "14:09",
+      "title": "美国财政部拍卖80亿美元30年期通胀保值国债（TIPS） 得标利率2.973% 投标倍数2.82",
+      "time": "17:14",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "谷歌旗下Waymo为其无人出租车自研定制芯片",
-      "time": "14:09",
+      "title": "LME期铜收跌13美元",
+      "time": "17:14",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,18 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国7月谘商会领先指标环比增长0.2%",
-      "time": "14:09",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "首创环保：拟2.54亿元投建延津县垃圾焚烧供热供汽项目",
-      "time": "14:09",
+      "title": "美国圣路易斯联储行长谈及债市动荡 称市场并未质疑美联储信誉",
+      "time": "17:14",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美股存储板块盘初逆势上扬 SK海力士涨超6%",
-      "time": "14:09",
+      "title": "尼日利亚发生沉船事故 造成至少40人死亡",
+      "time": "17:14",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "Moderna下跌18%",
-      "time": "14:09",
+      "title": "波兰政府希望在2027年将大型公用事业公司和燃料公司的企业所得税提高至30%",
+      "time": "17:14",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "乌基辅一商务中心因无人机残骸坠落起火 致1死2伤",
+      "time": "17:14",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
