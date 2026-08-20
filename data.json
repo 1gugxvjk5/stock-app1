@@ -1,10 +1,10 @@
 {
-  "updateTime": "05:21",
+  "updateTime": "08:05",
   "marketEnv": "强",
   "news": [
     {
-      "title": "SK海力士与工会就薪酬和奖金达成初步协议",
-      "time": "05:18",
+      "title": "国家卫健委：基本药物优先配备使用",
+      "time": "08:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "产业政策共振催化医药行情，科创医药ETF鹏华超6%",
-      "time": "05:18",
+      "title": "通化金马：上半年归母净利润同比下降57.72%",
+      "time": "08:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "投行杰富瑞将莫德纳目标价从60美元上调至150美元",
-      "time": "05:18",
+      "title": "工信部批复浙江时空道宇科技有限公司开展卫星物联网业务商用试验",
+      "time": "08:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,30 +33,30 @@
       "source": "东财快讯"
     },
     {
-      "title": "罕见一幕！同一板块21个“20cm”涨停",
-      "time": "05:18",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "伊朗大使：欢迎俄罗斯帮助伊朗与海湾国家改善关系",
-      "time": "05:18",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "海外mRNA疫苗取得重大突破，恒生生物科技ETF鹏华上涨超6%",
-      "time": "05:18",
+      "title": "日科化学：上半年归母净利润同比增长2518.58%",
+      "time": "08:03",
       "sentiment": "positive",
       "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "杭齿前进：上半年归母净利润1.59亿元 同比增长24.60%",
+      "time": "08:03",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "英媒：俄乌黑海粮食出口近乎停滞",
+      "time": "08:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
@@ -83,53 +83,7 @@
       "leaders": []
     }
   ],
-  "stocks": [
-    {
-      "name": "宁波银行",
-      "code": "002142",
-      "decision": "观察",
-      "holdingPeriod": "仅观察",
-      "probUp": 50,
-      "r5": "+5.1%",
-      "r10": "+7.0%",
-      "r20": "+6.6%",
-      "d20": "+5.5%",
-      "atr": "2.0%",
-      "volRatio": "0.91",
-      "stateClass": "启动观察（涨幅过大）",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "金龙鱼",
-      "code": "300999",
-      "decision": "观察",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 50,
-      "r5": "+0.1%",
-      "r10": "-3.0%",
-      "r20": "-2.9%",
-      "d20": "-2.5%",
-      "atr": "2.3%",
-      "volRatio": "1.29",
-      "stateClass": "启动观察",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "华大九天",
-      "code": "301269",
-      "decision": "观察",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 50,
-      "r5": "+0.1%",
-      "r10": "+1.5%",
-      "r20": "+3.0%",
-      "d20": "+2.5%",
-      "atr": "4.2%",
-      "volRatio": "0.93",
-      "stateClass": "启动观察",
-      "newsSentiment": "中性"
-    }
-  ],
+  "stocks": [],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -302,8 +256,8 @@
     {
       "name": "华东医药",
       "code": "000963",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "山金国际",
@@ -374,8 +328,8 @@
     {
       "name": "紫光国微",
       "code": "002049",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "三花智控",
@@ -392,32 +346,32 @@
     {
       "name": "宁波银行",
       "code": "002142",
-      "decision": "观察",
-      "stateClass": "启动观察（涨幅过大）"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "中航光电",
       "code": "002179",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "金风科技",
       "code": "002202",
-      "decision": "不买",
-      "stateClass": "高波动"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "科大讯飞",
       "code": "002230",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "大华股份",
       "code": "002236",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "歌尔股份",
@@ -764,44 +718,44 @@
     {
       "name": "金龙鱼",
       "code": "300999",
-      "decision": "观察",
-      "stateClass": "启动观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "锐捷网络",
       "code": "301165",
-      "decision": "不买",
-      "stateClass": "高波动"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "软通动力",
       "code": "301236",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "华大九天",
       "code": "301269",
-      "decision": "观察",
-      "stateClass": "启动观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "江波龙",
       "code": "301308",
-      "decision": "不买",
-      "stateClass": "高波动"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "中航成飞",
       "code": "302132",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "浦发银行",
       "code": "600000",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "上海机场",
