@@ -1,10 +1,10 @@
 {
-  "updateTime": "08:05",
+  "updateTime": "11:04",
   "marketEnv": "强",
   "news": [
     {
-      "title": "国家卫健委：基本药物优先配备使用",
-      "time": "08:03",
+      "title": "武汉天源：控股孙公司拟投资4.04亿元建设储能项目",
+      "time": "11:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,28 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "通化金马：上半年归母净利润同比下降57.72%",
-      "time": "08:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "工信部批复浙江时空道宇科技有限公司开展卫星物联网业务商用试验",
-      "time": "08:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "日科化学：上半年归母净利润同比增长2518.58%",
-      "time": "08:03",
+      "title": "大族数控：2026年半年度净利润同比增长263.45%",
+      "time": "11:02",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -43,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "杭齿前进：上半年归母净利润1.59亿元 同比增长24.60%",
-      "time": "08:03",
+      "title": "金杨精密：上半年归母净利润5349.42万元 同比增长177.70%",
+      "time": "11:02",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -53,10 +33,30 @@
       "source": "东财快讯"
     },
     {
-      "title": "英媒：俄乌黑海粮食出口近乎停滞",
-      "time": "08:03",
+      "title": "原子矩阵完成数亿元A+轮融资",
+      "time": "11:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "微分航宇完成数千万元A轮融资",
+      "time": "11:02",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "迪安诊断：上半年归母净利润2.32亿元 同比增长2160.87%",
+      "time": "11:02",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
