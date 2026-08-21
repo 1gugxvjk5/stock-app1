@@ -1,10 +1,10 @@
 {
-  "updateTime": "05:22",
+  "updateTime": "08:06",
   "marketEnv": "强",
   "news": [
     {
-      "title": "晋控电力在大同成立发电新公司",
-      "time": "05:20",
+      "title": "神开股份：上半年归母净利润同比下降60.27%",
+      "time": "08:04",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "平安管理层：目前平安的股价远没有反映价值",
-      "time": "05:20",
+      "title": "山河药辅：上半年归母净利润9618.92万元 同比增长3.39%",
+      "time": "08:04",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "瑞银预计铜市场缺口将从2026年的21.9万吨扩大至2027年的37.9万吨",
+      "time": "08:04",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "豆包：上线技能·连接器·工作伙伴",
-      "time": "05:20",
+      "title": "凯格精机：上半年归母净利润1.37亿元 同比增长104.69%",
+      "time": "08:04",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "沙钢股份：上半年归母净利润1.37亿元 同比下降11.89%",
+      "time": "08:04",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,30 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "机器人概念震荡反弹 拓斯达涨超10%",
-      "time": "05:20",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "加拿大皇家银行：通胀数据支持日本央行9月会议加息",
-      "time": "05:20",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "联科科技在海南成立国际控股公司",
-      "time": "05:20",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "华天科技：上半年净利润同比增长259% 存储器封装等业务规模扩大",
+      "time": "08:04",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
@@ -83,23 +83,7 @@
       "leaders": []
     }
   ],
-  "stocks": [
-    {
-      "name": "荣盛石化",
-      "code": "002493",
-      "decision": "买",
-      "holdingPeriod": "长期（1-3个月）",
-      "probUp": 70,
-      "r5": "+8.6%",
-      "r10": "+3.3%",
-      "r20": "+17.9%",
-      "d20": "+7.3%",
-      "atr": "4.1%",
-      "volRatio": "1.09",
-      "stateClass": "趋势观察",
-      "newsSentiment": "中性"
-    }
-  ],
+  "stocks": [],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -380,8 +364,8 @@
     {
       "name": "科大讯飞",
       "code": "002230",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "大华股份",
@@ -434,14 +418,14 @@
     {
       "name": "海康威视",
       "code": "002415",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "科伦药业",
       "code": "002422",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "赣锋锂业",
@@ -452,38 +436,38 @@
     {
       "name": "沪电股份",
       "code": "002463",
-      "decision": "不买",
-      "stateClass": "高波动"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "天齐锂业",
       "code": "002466",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "立讯精密",
       "code": "002475",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "荣盛石化",
       "code": "002493",
-      "decision": "买",
-      "stateClass": "趋势观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "天山铝业",
       "code": "002532",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "巨人网络",
       "code": "002558",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "比亚迪",
