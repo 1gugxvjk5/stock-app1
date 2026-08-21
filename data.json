@@ -1,10 +1,10 @@
 {
-  "updateTime": "08:06",
+  "updateTime": "11:04",
   "marketEnv": "强",
   "news": [
     {
-      "title": "神开股份：上半年归母净利润同比下降60.27%",
-      "time": "08:04",
+      "title": "超算互联网：已汇聚智能体500余个",
+      "time": "11:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,18 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "山河药辅：上半年归母净利润9618.92万元 同比增长3.39%",
-      "time": "08:04",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "瑞银预计铜市场缺口将从2026年的21.9万吨扩大至2027年的37.9万吨",
-      "time": "08:04",
+      "title": "火炬电子：上半年归母净利润2.43亿元 同比下降7.18%",
+      "time": "11:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,18 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "凯格精机：上半年归母净利润1.37亿元 同比增长104.69%",
-      "time": "08:04",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "沙钢股份：上半年归母净利润1.37亿元 同比下降11.89%",
-      "time": "08:04",
+      "title": "景旺电子：上半年归母净利润6.02亿元 同比下降7.38%",
+      "time": "11:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,10 +33,30 @@
       "source": "东财快讯"
     },
     {
-      "title": "华天科技：上半年净利润同比增长259% 存储器封装等业务规模扩大",
-      "time": "08:04",
+      "title": "东方财富：2026年半年度净利润同比增长44.85%",
+      "time": "11:02",
       "sentiment": "positive",
       "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "优刻得：上半年归母净利润807.72万元 扭亏为盈",
+      "time": "11:02",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "景旺电子：拟43.88亿元投建超高多层PCB智能制造项目",
+      "time": "11:02",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
@@ -364,8 +364,8 @@
     {
       "name": "科大讯飞",
       "code": "002230",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "大华股份",
