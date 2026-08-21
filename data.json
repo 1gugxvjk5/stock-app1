@@ -1,10 +1,10 @@
 {
-  "updateTime": "23:01",
+  "updateTime": "03:33",
   "marketEnv": "强",
   "news": [
     {
-      "title": "据报道：三星将于周五召开董事会 公布回报股东计划",
-      "time": "23:00",
+      "title": "一架载有8人的飞机在美国阿拉斯加州坠毁",
+      "time": "03:31",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "险资7月以来“摸底”上市公司超千家次 硬科技是关注重点",
-      "time": "23:00",
+      "title": "荣耀机器人新外观设计专利获授权",
+      "time": "03:31",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "周五你需要知道的隔夜全球要闻",
-      "time": "23:00",
+      "title": "宏观利好催化贵金属行情，有色ETF鹏华涨超2%",
+      "time": "03:31",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "财政部：截至7月底已发行新增专项债2.4万亿元 支持建设项目1.8万个",
+      "time": "03:31",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "港股“同股不同权”制度升级 科创企业赴港上市门槛大幅降低",
-      "time": "23:00",
+      "title": "8月锂电排产环比增7%-9%，稀有金属ETF鹏华涨超2%",
+      "time": "03:31",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美联储9月维持利率不变的概率为63.8%",
-      "time": "23:00",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "周五亚太早盘：道琼斯指数期货涨0.05%",
-      "time": "23:00",
+      "title": "财政部：将扎实推进存量税收优化政策的清理规范",
+      "time": "03:31",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,7 +83,143 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "中联重科",
+      "code": "000157",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.3%",
+      "r10": "-3.7%",
+      "r20": "-6.0%",
+      "d20": "-3.9%",
+      "atr": "1.8%",
+      "volRatio": "0.72",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "东方盛虹",
+      "code": "000301",
+      "decision": "买",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 70,
+      "r5": "+8.6%",
+      "r10": "+4.5%",
+      "r20": "+18.0%",
+      "d20": "+8.4%",
+      "atr": "3.7%",
+      "volRatio": "1.00",
+      "stateClass": "趋势观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "藏格矿业",
+      "code": "000408",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.7%",
+      "r10": "-13.1%",
+      "r20": "+1.2%",
+      "d20": "-3.5%",
+      "atr": "4.5%",
+      "volRatio": "0.90",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "徐工机械",
+      "code": "000425",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.5%",
+      "r10": "-3.3%",
+      "r20": "-9.7%",
+      "d20": "-4.4%",
+      "atr": "2.5%",
+      "volRatio": "0.78",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "卫星化学",
+      "code": "002648",
+      "decision": "买",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 70,
+      "r5": "+6.6%",
+      "r10": "+4.5%",
+      "r20": "+11.7%",
+      "d20": "+4.6%",
+      "atr": "3.1%",
+      "volRatio": "1.17",
+      "stateClass": "趋势观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "温氏股份",
+      "code": "300498",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.7%",
+      "r10": "+0.1%",
+      "r20": "-1.2%",
+      "d20": "-1.5%",
+      "atr": "2.8%",
+      "volRatio": "0.89",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "宁德时代",
+      "code": "300750",
+      "decision": "观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 50,
+      "r5": "-0.0%",
+      "r10": "+1.8%",
+      "r20": "+3.2%",
+      "d20": "+0.0%",
+      "atr": "2.5%",
+      "volRatio": "0.67",
+      "stateClass": "回调观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "迈瑞医疗",
+      "code": "300760",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+3.1%",
+      "r10": "+2.5%",
+      "r20": "+6.0%",
+      "d20": "+1.0%",
+      "atr": "2.5%",
+      "volRatio": "0.85",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "新产业",
+      "code": "300832",
+      "decision": "买",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 70,
+      "r5": "+1.8%",
+      "r10": "+8.0%",
+      "r20": "+7.9%",
+      "d20": "+5.7%",
+      "atr": "4.4%",
+      "volRatio": "1.23",
+      "stateClass": "趋势观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -112,20 +248,20 @@
     {
       "name": "中联重科",
       "code": "000157",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "申万宏源",
       "code": "000166",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "东方盛虹",
       "code": "000301",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "趋势观察"
     },
     {
       "name": "美的集团",
@@ -136,32 +272,32 @@
     {
       "name": "潍柴动力",
       "code": "000338",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "藏格矿业",
       "code": "000408",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "徐工机械",
       "code": "000425",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "云南白药",
       "code": "000538",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "泸州老窖",
       "code": "000568",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "古井贡酒",
@@ -484,26 +620,26 @@
     {
       "name": "世纪华通",
       "code": "002602",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "光启技术",
       "code": "002625",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "卫星化学",
       "code": "002648",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "趋势观察"
     },
     {
       "name": "天赐材料",
       "code": "002709",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "牧原股份",
@@ -628,8 +764,8 @@
     {
       "name": "昆仑万维",
       "code": "300418",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "蓝思科技",
@@ -646,26 +782,26 @@
     {
       "name": "先导智能",
       "code": "300450",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "胜宏科技",
       "code": "300476",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "温氏股份",
       "code": "300498",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "新易盛",
       "code": "300502",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "亿联网络",
@@ -682,26 +818,26 @@
     {
       "name": "宁德时代",
       "code": "300750",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "回调观察"
     },
     {
       "name": "迈瑞医疗",
       "code": "300760",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "指南针",
       "code": "300803",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "新产业",
       "code": "300832",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "趋势观察"
     },
     {
       "name": "安克创新",
