@@ -1,10 +1,10 @@
 {
-  "updateTime": "17:08",
+  "updateTime": "19:18",
   "marketEnv": "强",
   "news": [
     {
-      "title": "沪锌夜盘收涨1.37%",
-      "time": "17:06",
+      "title": "苹果在Siri、Vision Pro 3D视频和游戏团队进行裁员 受影响的职位超过200个",
+      "time": "19:16",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国本周石油钻井数452",
-      "time": "17:06",
+      "title": "Allspring股票投资主管：杰克逊霍尔会议比英伟达业绩风险更大",
+      "time": "19:16",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗官员称美国已证明其“不懂外交语言”",
-      "time": "17:06",
+      "title": "道指涨幅扩大至1%",
+      "time": "19:16",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,18 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伦敦金属交易所主要品种多数上涨",
-      "time": "17:06",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "AI云公司Nscale据悉寻求在美国IPO中募资30亿美元",
-      "time": "17:06",
+      "title": "上期所原油期货2610合约夜盘收涨1.69% 报602.40元人民币/桶",
+      "time": "19:16",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "高盛：黄金看涨期权需求激增 或放大金价波动",
-      "time": "17:06",
+      "title": "高盛警告：美联储沟通转向“模糊化” 市场波动或进一步加剧",
+      "time": "19:16",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "达利欧建议抛债买黄金和比特币",
+      "time": "19:16",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
