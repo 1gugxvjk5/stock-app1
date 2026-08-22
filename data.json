@@ -1,62 +1,62 @@
 {
-  "updateTime": "16:57",
+  "updateTime": "19:04",
   "marketEnv": "强",
   "news": [
     {
-      "title": "大庆华科上半年净利润同比“腰斩” 扣非净利为负 流动负债大幅增长",
-      "time": "16:54",
+      "title": "广西水文中心发布洪水红色预警 预计明江水位将全线超警",
+      "time": "19:02",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "英国一起交通事故造成7人死亡 包括2名执勤警员",
+      "time": "19:02",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "建筑业步入存量调整期 杭萧钢构订单降幅收窄 上半年业绩依旧承压",
+      "time": "19:02",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "日本茨城县南部发生5.9级地震 东京震感明显",
+      "time": "19:02",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "以色列称无意与土耳其升级冲突 绝不接受土在叙驻军",
+      "time": "19:02",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "周末大利好！1361亿项目 集中签约！万亿算力赛道 迎来重磅驱动",
+      "time": "19:02",
       "sentiment": "positive",
       "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "叙利亚谴责以色列袭击“严重侵犯叙主权”",
-      "time": "16:54",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "普京称俄军加大对乌企业打击",
-      "time": "16:54",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "投资浮亏近亿！“板材第一股”兔宝宝增收不增利 核心业务双双走弱",
-      "time": "16:54",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "泽连斯基称法国同意向乌克兰提供导弹生产许可",
-      "time": "16:54",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "印度南部一制药厂爆炸 致2死9伤",
-      "time": "16:54",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
