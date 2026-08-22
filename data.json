@@ -1,66 +1,16 @@
 {
-  "updateTime": "09:05",
+  "updateTime": "10:55",
   "marketEnv": "强",
   "news": [
     {
-      "title": "事涉儿童在线隐私保护 TikTok支付4亿美元和解",
-      "time": "09:02",
+      "title": "新闻获取失败: Response ended prematurely",
+      "time": "00:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
-        "大盘"
+        "无"
       ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "南极洲斯科舍海发生6.0级地震 震源深度20千米",
-      "time": "09:02",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "东方雨虹：受益于前期沥青冬储及产品调价逐步落地 工程渠道上半年毛利率同比提升2.81%",
-      "time": "09:02",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "全国已有约1000家“兰州拉面”门店完成门头更换",
-      "time": "09:02",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "美联储加息大消息！高盛最新警告",
-      "time": "09:02",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "网传河北一地“白菜装车前蘸甲醛” 当地通报：属实 紧急追溯流向",
-      "time": "09:02",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
+      "source": "无"
     }
   ],
   "sectors": [
