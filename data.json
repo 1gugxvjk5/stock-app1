@@ -1,10 +1,10 @@
 {
-  "updateTime": "03:10",
+  "updateTime": "05:06",
   "marketEnv": "强",
   "news": [
     {
-      "title": "社保基金“长情”消费化工：“压舱”华鲁恒升近14年 持仓超2年的消费股达6只",
-      "time": "03:08",
+      "title": "中建环能与群核科技举行技术座谈交流会",
+      "time": "05:04",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "国民信托获批增加注册资本30亿元",
-      "time": "03:08",
+      "title": "阿曼与伊朗外长讨论恢复霍尔木兹海峡自由航行",
+      "time": "05:04",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "复宏汉霖上半年营收35.9亿元 获纳入恒生综合指数 有望纳入港股通",
-      "time": "03:08",
+      "title": "美加贸易谈判破裂 加拿大称美谈判最后关头要求改条款",
+      "time": "05:04",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "八国联合声明谴责以色列",
-      "time": "03:08",
+      "title": "钱大妈更新港股招股书 门店突破3000家",
+      "time": "05:04",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "国际人工智能联合会议闭幕 与会专家积极评价中国人工智能发展",
+      "time": "05:04",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "科大讯飞与中国药科大学签署战略合作协议",
-      "time": "03:08",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "18.9万人爆仓！比特币狂飙 本周累涨超24% 创2023年3月以来最大单周涨幅",
-      "time": "03:08",
+      "title": "刚果（金）收到首批埃博拉疫苗 将评估保护效果",
+      "time": "05:04",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
