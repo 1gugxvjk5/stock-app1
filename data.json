@@ -1,16 +1,66 @@
 {
-  "updateTime": "10:55",
+  "updateTime": "13:47",
   "marketEnv": "强",
   "news": [
     {
-      "title": "新闻获取失败: Response ended prematurely",
-      "time": "00:00",
+      "title": "航行警告 南海海域实弹射击",
+      "time": "13:43",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
-        "无"
+        "大盘"
       ],
-      "source": "无"
+      "source": "东财快讯"
+    },
+    {
+      "title": "突尼斯附近海域移民船倾覆 致4人死亡10余人失踪",
+      "time": "13:43",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "DeepSeek API计费调整 周末统一按低谷时段价格计费",
+      "time": "13:43",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "美国“债务心脏病”何时发作？达利欧：风险窗口或在“三年左右”",
+      "time": "13:43",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "伊拉克希望伊朗向其油轮发放特别通行许可",
+      "time": "13:43",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "上海电气与中国航发黎明共商高端动力装备协同发展",
+      "time": "13:43",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
     }
   ],
   "sectors": [
