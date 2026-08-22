@@ -1,10 +1,20 @@
 {
-  "updateTime": "14:52",
+  "updateTime": "16:57",
   "marketEnv": "强",
   "news": [
     {
-      "title": "以防长称土耳其意图在叙基地开展危及以国家安全的活动",
-      "time": "14:51",
+      "title": "大庆华科上半年净利润同比“腰斩” 扣非净利为负 流动负债大幅增长",
+      "time": "16:54",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "叙利亚谴责以色列袭击“严重侵犯叙主权”",
+      "time": "16:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美官员：约40艘油轮21日晚通过霍尔木兹海峡",
-      "time": "14:51",
+      "title": "普京称俄军加大对乌企业打击",
+      "time": "16:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "法国与乌克兰两国总统通电话 讨论军事援助等议题",
-      "time": "14:51",
+      "title": "投资浮亏近亿！“板材第一股”兔宝宝增收不增利 核心业务双双走弱",
+      "time": "16:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "瑞典研究人员开发出能估算细胞生物学年龄的新工具",
-      "time": "14:51",
+      "title": "泽连斯基称法国同意向乌克兰提供导弹生产许可",
+      "time": "16:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "湖北省委书记关志鸥会见光谷“梧桐树计划”企业家",
-      "time": "14:51",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "航行警告 南海海域实弹射击",
-      "time": "14:51",
+      "title": "印度南部一制药厂爆炸 致2死9伤",
+      "time": "16:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
