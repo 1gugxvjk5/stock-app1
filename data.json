@@ -1,10 +1,10 @@
 {
-  "updateTime": "05:18",
+  "updateTime": "07:50",
   "marketEnv": "强",
   "news": [
     {
-      "title": "多预警齐发！北京启动防汛四级应急响应 注意防范",
-      "time": "05:16",
+      "title": "巴基斯坦陆军参谋长将访问伊朗",
+      "time": "07:48",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "8月以来碳酸锂期货涨了10余天 后市怎么走",
-      "time": "05:16",
+      "title": "中钨高新：子公司拟投1.9亿元实施AI高速高频PCB用高精密微型刀具技改扩能项目",
+      "time": "07:48",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,28 @@
       "source": "东财快讯"
     },
     {
-      "title": "北京启动防汛四级应急响应",
-      "time": "05:16",
+      "title": "中钨高新：2026年半年度净利润同比增长280.53%",
+      "time": "07:48",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "中国石化：上半年净利润256亿元 同比增长19.3% 连续五年实施境内外股份回购",
+      "time": "07:48",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "阿里800亿港元新股配售已获超额认购",
+      "time": "07:48",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,28 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "联影、天津大学联合发布全球首个磁共振脑机接口全栈式解决方案uMR神观",
-      "time": "05:16",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "上纬新材“启元机器人”正式开启预订 预计首发发货最早9月",
-      "time": "05:16",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "阿里巴巴宣布拟在香港配售新股 配售总额为800亿港元",
-      "time": "05:16",
+      "title": "澳大利亚大陆首次发现哺乳动物感染H5型禽流感",
+      "time": "07:48",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -532,8 +532,8 @@
     {
       "name": "德赛西威",
       "code": "002920",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "鹏鼎控股",
