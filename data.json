@@ -1,10 +1,10 @@
 {
-  "updateTime": "22:53",
+  "updateTime": "03:33",
   "marketEnv": "强",
   "news": [
     {
-      "title": "俄称对基辅等地实施打击 乌称打击俄炼油厂",
-      "time": "22:51",
+      "title": "日本茨城县地震致37人受伤",
+      "time": "03:30",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗称过去一年国防装备产量整体翻番",
-      "time": "22:51",
+      "title": "美债收益率走高 欧洲债市承压加剧",
+      "time": "03:30",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "日本本州岛5.8级地震已致多人受伤",
-      "time": "22:51",
+      "title": "《欢迎来龙餐馆》票房破15亿",
+      "time": "03:30",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,18 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "上海写字楼市场结构性分化加剧 超甲级办公楼未来五年复合增长率看涨6％",
-      "time": "22:51",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "122轮 溢价48.9％！湖北民企爆冷摘得武汉光谷宅地 专家：长江存储等提供产业动能",
-      "time": "22:51",
+      "title": "蓝色预警！广西福建等地部分地区有大暴雨",
+      "time": "03:30",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗官员：任何参与对伊经济限制的国家都被视为敌人",
-      "time": "22:51",
+      "title": "魔法原子WRC 2026首发轻工业四足机器人 物理AI驱动三大场景实景落地",
+      "time": "03:30",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "北京市发布暴雨蓝色预警",
+      "time": "03:30",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
