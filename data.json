@@ -1,10 +1,10 @@
 {
-  "updateTime": "16:58",
+  "updateTime": "19:03",
   "marketEnv": "强",
   "news": [
     {
-      "title": "阿里巴巴计划以每股112.70港元的价格发售7.1亿股股份 股权配售预计于8月26日完成",
-      "time": "16:56",
+      "title": "法国电力公司（EDF）表示 圣阿尔班2号机组输出功率从1335兆瓦降至150兆瓦",
+      "time": "19:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "土耳其央行表示：决定恢复一周期回购拍卖",
-      "time": "16:56",
+      "title": "日本据悉拟以1.25亿美元公私合作基金支持核聚变与回收初创企业",
+      "time": "19:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "财务造假！301117将被ST 24日停牌",
-      "time": "16:56",
+      "title": "美内华达州山火迅速蔓延 近1.4万户居民被要求撤离",
+      "time": "19:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "几内亚首都一垃圾填埋场坍塌造成多人死亡",
-      "time": "16:56",
+      "title": "新一代通信网建设提速 空天地海全域发力",
+      "time": "19:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "中际旭创：2027年1.6T和800G的订单需求相较2026年仍保持快速增长",
-      "time": "16:56",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "伊朗总统称应摆脱非战非和状态",
+      "time": "19:02",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "中际旭创：公司的产品价格降幅相对理性",
-      "time": "16:56",
+      "title": "全球市场波动中 谁在买入中国资产",
+      "time": "19:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
