@@ -1,10 +1,10 @@
 {
-  "updateTime": "09:03",
+  "updateTime": "10:55",
   "marketEnv": "强",
   "news": [
     {
-      "title": "印度古吉拉特邦假酒事件死亡人数升至13人",
-      "time": "09:02",
+      "title": "超20家A股上市公司本周披露并购重组最新公告 中南文化拟收购江阴热电及苏龙热电股权并复牌",
+      "time": "10:53",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "五洲医疗：上半年净利润1536.34万元 同比增长46.11%",
-      "time": "09:02",
+      "title": "上峰材料：2026年半年度净利润同比增长452.54%",
+      "time": "10:53",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -23,28 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中信证券：科技股近期的调整不能简单归因于美国长债利率高企",
-      "time": "09:02",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "智光电气：终止发行股份及支付现金购买资产并募集配套资金事项",
-      "time": "09:02",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "惠通科技：中标新纶化纤3.66亿元项目",
-      "time": "09:02",
+      "title": "万凯新材：2026年半年度净利润5.62亿元 同比增长910.09%",
+      "time": "10:53",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -53,8 +33,28 @@
       "source": "东财快讯"
     },
     {
-      "title": "中南文化：拟收购江阴热电及苏龙热电股权并复牌",
-      "time": "09:02",
+      "title": "刚果（金）政府与反政府武装就谈判路线图达成一致",
+      "time": "10:53",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "乾照光电：2026年半年度净利润同比增长30.64%",
+      "time": "10:53",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "天赐材料：目前百吨级硫化锂及固态电解质中试产线已建成 于三季度进入试生产阶段",
+      "time": "10:53",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,38 +83,7 @@
       "leaders": []
     }
   ],
-  "stocks": [
-    {
-      "name": "比亚迪",
-      "code": "002594",
-      "decision": "观察",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 50,
-      "r5": "+1.8%",
-      "r10": "+0.5%",
-      "r20": "-1.2%",
-      "d20": "-0.9%",
-      "atr": "2.0%",
-      "volRatio": "0.71",
-      "stateClass": "启动观察",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "世纪华通",
-      "code": "002602",
-      "decision": "观察",
-      "holdingPeriod": "长期（1-3个月）",
-      "probUp": 50,
-      "r5": "-5.3%",
-      "r10": "+0.4%",
-      "r20": "+11.6%",
-      "d20": "+0.1%",
-      "atr": "3.9%",
-      "volRatio": "0.77",
-      "stateClass": "回调观察",
-      "newsSentiment": "中性"
-    }
-  ],
+  "stocks": [],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -503,20 +472,20 @@
     {
       "name": "比亚迪",
       "code": "002594",
-      "decision": "观察",
-      "stateClass": "启动观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "领益智造",
       "code": "002600",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "世纪华通",
       "code": "002602",
-      "decision": "观察",
-      "stateClass": "回调观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "光启技术",
