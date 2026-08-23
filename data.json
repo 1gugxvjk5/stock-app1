@@ -1,10 +1,10 @@
 {
-  "updateTime": "07:50",
+  "updateTime": "09:03",
   "marketEnv": "强",
   "news": [
     {
-      "title": "巴基斯坦陆军参谋长将访问伊朗",
-      "time": "07:48",
+      "title": "印度古吉拉特邦假酒事件死亡人数升至13人",
+      "time": "09:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,18 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中钨高新：子公司拟投1.9亿元实施AI高速高频PCB用高精密微型刀具技改扩能项目",
-      "time": "07:48",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "中钨高新：2026年半年度净利润同比增长280.53%",
-      "time": "07:48",
+      "title": "五洲医疗：上半年净利润1536.34万元 同比增长46.11%",
+      "time": "09:02",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -33,18 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中国石化：上半年净利润256亿元 同比增长19.3% 连续五年实施境内外股份回购",
-      "time": "07:48",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "阿里800亿港元新股配售已获超额认购",
-      "time": "07:48",
+      "title": "中信证券：科技股近期的调整不能简单归因于美国长债利率高企",
+      "time": "09:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +33,28 @@
       "source": "东财快讯"
     },
     {
-      "title": "澳大利亚大陆首次发现哺乳动物感染H5型禽流感",
-      "time": "07:48",
+      "title": "智光电气：终止发行股份及支付现金购买资产并募集配套资金事项",
+      "time": "09:02",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "惠通科技：中标新纶化纤3.66亿元项目",
+      "time": "09:02",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "中南文化：拟收购江阴热电及苏龙热电股权并复牌",
+      "time": "09:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,7 +83,38 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "比亚迪",
+      "code": "002594",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+1.8%",
+      "r10": "+0.5%",
+      "r20": "-1.2%",
+      "d20": "-0.9%",
+      "atr": "2.0%",
+      "volRatio": "0.71",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "世纪华通",
+      "code": "002602",
+      "decision": "观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 50,
+      "r5": "-5.3%",
+      "r10": "+0.4%",
+      "r20": "+11.6%",
+      "d20": "+0.1%",
+      "atr": "3.9%",
+      "volRatio": "0.77",
+      "stateClass": "回调观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -472,20 +503,20 @@
     {
       "name": "比亚迪",
       "code": "002594",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "领益智造",
       "code": "002600",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "世纪华通",
       "code": "002602",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "回调观察"
     },
     {
       "name": "光启技术",
