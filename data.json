@@ -1,10 +1,10 @@
 {
-  "updateTime": "03:33",
+  "updateTime": "05:18",
   "marketEnv": "强",
   "news": [
     {
-      "title": "日本茨城县地震致37人受伤",
-      "time": "03:30",
+      "title": "多预警齐发！北京启动防汛四级应急响应 注意防范",
+      "time": "05:16",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美债收益率走高 欧洲债市承压加剧",
-      "time": "03:30",
+      "title": "8月以来碳酸锂期货涨了10余天 后市怎么走",
+      "time": "05:16",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "《欢迎来龙餐馆》票房破15亿",
-      "time": "03:30",
+      "title": "北京启动防汛四级应急响应",
+      "time": "05:16",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "蓝色预警！广西福建等地部分地区有大暴雨",
-      "time": "03:30",
+      "title": "联影、天津大学联合发布全球首个磁共振脑机接口全栈式解决方案uMR神观",
+      "time": "05:16",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "魔法原子WRC 2026首发轻工业四足机器人 物理AI驱动三大场景实景落地",
-      "time": "03:30",
+      "title": "上纬新材“启元机器人”正式开启预订 预计首发发货最早9月",
+      "time": "05:16",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "北京市发布暴雨蓝色预警",
-      "time": "03:30",
+      "title": "阿里巴巴宣布拟在香港配售新股 配售总额为800亿港元",
+      "time": "05:16",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -532,8 +532,8 @@
     {
       "name": "德赛西威",
       "code": "002920",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "鹏鼎控股",
