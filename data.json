@@ -1,66 +1,16 @@
 {
-  "updateTime": "13:47",
+  "updateTime": "14:56",
   "marketEnv": "强",
   "news": [
     {
-      "title": "泽连斯基：乌克兰尚不具备战时选举条件",
-      "time": "13:45",
+      "title": "新闻获取失败: Response ended prematurely",
+      "time": "00:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
-        "大盘"
+        "无"
       ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "广西启动自然灾害救助四级应急响应",
-      "time": "13:45",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "泽连斯基：乌克兰不会寻求加入北约之外的替代方案",
-      "time": "13:45",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "1500米跑出2分30秒22！“闪电”机器人再打破人类世界纪录",
-      "time": "13:45",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "百度：没有增发配售计划",
-      "time": "13:45",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "印度进口俄罗斯原油创新高",
-      "time": "13:45",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
+      "source": "无"
     }
   ],
   "sectors": [
