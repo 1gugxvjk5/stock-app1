@@ -1,10 +1,20 @@
 {
-  "updateTime": "17:21",
+  "updateTime": "19:21",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "以军袭击加沙地带多地 造成至少7人死亡",
-      "time": "17:19",
+      "title": "AI算力需求驱动业绩增长 光通信“易中天”扩产保交付",
+      "time": "19:19",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "伊朗经济部长Madanizadeh表示 已“充分做好准备”应对美国新一轮经济攻势",
+      "time": "19:19",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "加拿大总理卡尼表示：特朗普想摧毁加拿大汽车、钢铁和铝产业",
-      "time": "17:19",
+      "title": "贝森特未释放更多美债措施信号 此前报道称财政部或动用现金回购债券",
+      "time": "19:19",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国财政部：对近60个与伊朗有关联的实体、个人及船舶实施制裁",
-      "time": "17:19",
+      "title": "美军称在东太平洋打击“贩毒船”致两人死亡",
+      "time": "19:19",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国财长贝森特表示：美国将切断伊朗伊斯兰革命卫队的一切潜在收入来源",
-      "time": "17:19",
+      "title": "上期所原油期货2610合约夜盘收跌0.98%",
+      "time": "19:19",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国财政部：对近60个与伊朗有关联的实体、个人及船舶实施制裁",
-      "time": "17:19",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "加拿大总理卡尼表示：加方将在与美国的贸易战期间掌控自己的命运",
-      "time": "17:19",
+      "title": "积存金价格集体站上千元关口 黄金投资热度升温",
+      "time": "19:19",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
