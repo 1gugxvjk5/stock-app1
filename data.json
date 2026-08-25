@@ -1,10 +1,10 @@
 {
-  "updateTime": "17:22",
+  "updateTime": "19:47",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "美联储隔夜逆回购协议（RRP）周二使用规模为4.05亿美元（交易对手6家）",
-      "time": "17:20",
+      "title": "古巴谴责美国延长对古实施经济封锁",
+      "time": "19:45",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国财政部拍卖690亿美元两年期国债 得标利率4.204%",
-      "time": "17:20",
+      "title": "美元指数25日下跌",
+      "time": "19:45",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "沪铜夜盘收涨0.50%",
-      "time": "17:20",
+      "title": "OpenAI数据中心负责人Chris Malone据悉已离职",
+      "time": "19:45",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美军AI系统被指致伊朗小学遭袭 日本仍计划引入引争议",
-      "time": "17:20",
+      "title": "“叙利亚民主力量”宣布解散 全面整合进国家机构",
+      "time": "19:45",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "LME三个月期铜期货收盘上涨76美元",
-      "time": "17:20",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "恒生指数主连夜盘收涨0.38%",
+      "time": "19:45",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "日本推动AI军事应用 美相关企业加速进入日防务市场",
-      "time": "17:20",
+      "title": "富兰克林邓普顿：英伟达股东不只看漂亮业绩 资本部署细节更受关注",
+      "time": "19:45",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
