@@ -1,10 +1,10 @@
 {
-  "updateTime": "11:06",
+  "updateTime": "14:31",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "美畅股份：钨丝母线扩产项目建成投产",
-      "time": "11:04",
+      "title": "俄方：在乌克兰部署北约军队不可接受",
+      "time": "14:28",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "农业农村部：扩大农产品检验认证互认范围 鼓励国内优势农产品参与国际竞争",
-      "time": "11:04",
+      "title": "英飞特：上半年净利润2154.5万元 同比扭亏",
+      "time": "14:28",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,28 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "苏州固锝：上半年净利润7729.42万元 同比增长76.87%",
-      "time": "11:04",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "中微公司：先进薄膜设备累计出货突破500个反应台",
-      "time": "11:04",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "国际海事组织：近半年来中东海域发生68起袭击",
-      "time": "11:04",
+      "title": "港股IPO：卓创资讯再次递表港交所",
+      "time": "14:28",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +33,28 @@
       "source": "东财快讯"
     },
     {
-      "title": "《全国农产品产地市场体系发展“十五五”规划》印发",
-      "time": "11:04",
+      "title": "美联储柯林斯：通胀仍然过高",
+      "time": "14:28",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "OpenAI称其与博通共同开发的Jalapeno芯片在速度和功耗方面都超越了英伟达的Gb300",
+      "time": "14:28",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "美国8月谘商会消费者信心指数89.4",
+      "time": "14:28",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
