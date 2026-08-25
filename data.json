@@ -1,10 +1,10 @@
 {
-  "updateTime": "14:31",
+  "updateTime": "17:22",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "俄方：在乌克兰部署北约军队不可接受",
-      "time": "14:28",
+      "title": "美联储隔夜逆回购协议（RRP）周二使用规模为4.05亿美元（交易对手6家）",
+      "time": "17:20",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "英飞特：上半年净利润2154.5万元 同比扭亏",
-      "time": "14:28",
+      "title": "美国财政部拍卖690亿美元两年期国债 得标利率4.204%",
+      "time": "17:20",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "港股IPO：卓创资讯再次递表港交所",
-      "time": "14:28",
+      "title": "沪铜夜盘收涨0.50%",
+      "time": "17:20",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美联储柯林斯：通胀仍然过高",
-      "time": "14:28",
+      "title": "美军AI系统被指致伊朗小学遭袭 日本仍计划引入引争议",
+      "time": "17:20",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "OpenAI称其与博通共同开发的Jalapeno芯片在速度和功耗方面都超越了英伟达的Gb300",
-      "time": "14:28",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "LME三个月期铜期货收盘上涨76美元",
+      "time": "17:20",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "美国8月谘商会消费者信心指数89.4",
-      "time": "14:28",
+      "title": "日本推动AI军事应用 美相关企业加速进入日防务市场",
+      "time": "17:20",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
