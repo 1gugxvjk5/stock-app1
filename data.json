@@ -1,10 +1,40 @@
 {
-  "updateTime": "21:56",
+  "updateTime": "22:05",
   "marketEnv": "强",
   "news": [
     {
+      "title": "沃尔玛支付5000万美元 以和解美国司法部（DOJ）及缉毒局（DEA）对其阿片类药物处方违规行为的指控",
+      "time": "22:03",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "美国国防部长赫格塞斯据悉正在考虑参加美国2028年总统竞选",
+      "time": "22:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "拉美四国签署联合声明推动关键矿产合作",
+      "time": "22:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
       "title": "黎巴嫩真主党领导人呼吁取消黎以美三方框架协议",
-      "time": "21:54",
+      "time": "22:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -14,7 +44,7 @@
     },
     {
       "title": "富时中国A50指数期货夜盘收跌0.31%",
-      "time": "21:54",
+      "time": "22:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -24,37 +54,7 @@
     },
     {
       "title": "惠誉确认法国评级为A+ 展望稳定",
-      "time": "21:54",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "伊朗：持续控制霍尔木兹海峡 船只未经协调不得通过",
-      "time": "21:54",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "雪佛龙据悉即将完成谈判 将其在委内瑞拉的合资企业迁移至该国新的石油框架下",
-      "time": "21:54",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "美政府就邮寄投票新规被叫停正式提起上诉",
-      "time": "21:54",
+      "time": "22:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
