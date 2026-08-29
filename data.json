@@ -1,10 +1,30 @@
 {
-  "updateTime": "22:05",
+  "updateTime": "00:05",
   "marketEnv": "强",
   "news": [
     {
-      "title": "沃尔玛支付5000万美元 以和解美国司法部（DOJ）及缉毒局（DEA）对其阿片类药物处方违规行为的指控",
-      "time": "22:03",
+      "title": "创业板首家晶圆制造企业 取得IPO注册批文！",
+      "time": "00:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "人形机器人开始“量利齐升”？优必选上半年全尺寸产品销量921台 营收翻倍",
+      "time": "00:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "IBM：高级副总裁Thomas Robert David减持2.5万股 套现约575.8万美元",
+      "time": "00:03",
       "sentiment": "negative",
       "sentimentLabel": "利空",
       "related": [
@@ -13,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国国防部长赫格塞斯据悉正在考虑参加美国2028年总统竞选",
-      "time": "22:03",
+      "title": "康宁：Lewis Steverson拟出售13100股 市值约198.19万美元",
+      "time": "00:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "拉美四国签署联合声明推动关键矿产合作",
-      "time": "22:03",
+      "title": "牛散也会“踩雷” 不要盲目跟风抄作业",
+      "time": "00:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,28 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "黎巴嫩真主党领导人呼吁取消黎以美三方框架协议",
-      "time": "22:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "富时中国A50指数期货夜盘收跌0.31%",
-      "time": "22:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "惠誉确认法国评级为A+ 展望稳定",
-      "time": "22:03",
+      "title": "长鑫科技上市后首份半年报亮眼 外资看好国产存储资产",
+      "time": "00:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
