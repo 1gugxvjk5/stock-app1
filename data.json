@@ -1,10 +1,10 @@
 {
-  "updateTime": "02:06",
+  "updateTime": "04:05",
   "marketEnv": "强",
   "news": [
     {
-      "title": "晶澳科技：今年公司出货目标有所下修 计划到全年出货在50GW左右",
-      "time": "02:03",
+      "title": "广西13条河流18个站出现超警洪水",
+      "time": "04:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美团二季度环比扭亏 预计三季度外卖UE同比改善 王兴称“不会成为Token工厂”",
-      "time": "02:03",
+      "title": "国家数据局副局长夏冰：全国已建成高质量数据集超过12.6万个",
+      "time": "04:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "OpenAI：因Cursor被SpaceX收购 将终止与Cursor的合作关系",
-      "time": "02:03",
+      "title": "贵州省副省长罗强：贵州总算力规模突破176EFLOPS 智算占比超98%",
+      "time": "04:03",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "“仲恺智算云平台”正式上线 投建方粤港湾智算同日披露中期营收增逾10倍",
+      "time": "04:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "目前约5万美军部署在中东",
-      "time": "02:03",
+      "title": "金禄电子：应用于人形机器人一体化关节模组的PCB营收占比较低",
+      "time": "04:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,20 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "康方生物董事长夏瑜回应“双抗塌房了”争议：不能因单一项目失利 直接否定整个赛道",
-      "time": "02:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "国内金饰克价一夜大跌近40元",
-      "time": "02:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "从“芯”到“存” 从单点技术突破到产业链协同发力",
+      "time": "04:03",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
