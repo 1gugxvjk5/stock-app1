@@ -1,66 +1,16 @@
 {
-  "updateTime": "04:05",
+  "updateTime": "06:06",
   "marketEnv": "强",
   "news": [
     {
-      "title": "广西13条河流18个站出现超警洪水",
-      "time": "04:03",
+      "title": "新闻获取失败: Response ended prematurely",
+      "time": "00:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
-        "大盘"
+        "无"
       ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "国家数据局副局长夏冰：全国已建成高质量数据集超过12.6万个",
-      "time": "04:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "贵州省副省长罗强：贵州总算力规模突破176EFLOPS 智算占比超98%",
-      "time": "04:03",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "“仲恺智算云平台”正式上线 投建方粤港湾智算同日披露中期营收增逾10倍",
-      "time": "04:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "金禄电子：应用于人形机器人一体化关节模组的PCB营收占比较低",
-      "time": "04:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "从“芯”到“存” 从单点技术突破到产业链协同发力",
-      "time": "04:03",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
+      "source": "无"
     }
   ],
   "sectors": [
