@@ -1,16 +1,66 @@
 {
-  "updateTime": "06:06",
+  "updateTime": "08:05",
   "marketEnv": "强",
   "news": [
     {
-      "title": "新闻获取失败: Response ended prematurely",
-      "time": "00:00",
+      "title": "国际金价大幅回落 国内金饰价格同步走低",
+      "time": "08:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
-        "无"
+        "大盘"
       ],
-      "source": "无"
+      "source": "东财快讯"
+    },
+    {
+      "title": "Lambda完成9.26亿美元贷款融资 用于部署GPU基础设施",
+      "time": "08:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "惠誉确认法国“A+”主权评级 展望稳定",
+      "time": "08:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "美国司法部：沃尔玛支付5000万美元和解非法开具阿片类药物处方案",
+      "time": "08:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "企业人士共话中国和巴西经贸合作未来",
+      "time": "08:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "涉张家口康保县“甲醛保鲜”事件 3名嫌疑人被刑事拘留",
+      "time": "08:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
     }
   ],
   "sectors": [
