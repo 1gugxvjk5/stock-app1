@@ -1,10 +1,10 @@
 {
-  "updateTime": "14:06",
+  "updateTime": "16:05",
   "marketEnv": "强",
   "news": [
     {
-      "title": "追觅起诉小红书",
-      "time": "14:03",
+      "title": "怡安集团（AON）接近达成交易 拟以约170亿美元收购KKR旗下的美国保险经纪公司（USI）",
+      "time": "16:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "谷歌地图调整安大略湖显示名称 对美境内用户显示“美国湖”",
-      "time": "14:03",
+      "title": "多家锂电池产业链上市公司披露半年报 天齐锂业上半年净利同比增长4925%",
+      "time": "16:03",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "润泽科技：高品质液冷机柜价格已回升至行业高峰时期的单价水平",
+      "time": "16:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "高盛押中大牛股 本周豪取五连板！超3000亿外资A股持仓曝光",
-      "time": "14:03",
+      "title": "经营持续改善！沪市公司半年报“交卷” 扣非净利创4年来新高",
+      "time": "16:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,30 +43,20 @@
       "source": "东财快讯"
     },
     {
-      "title": "土媒：塞浦路斯附近海域客轮倾覆事故已致6死",
-      "time": "14:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "“三桶油”中报出齐：净利润均现两位数增长 齐推中期分红“大礼包”",
+      "time": "16:03",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "塞浦路斯渡轮倾覆事故已有159人获救",
-      "time": "14:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "NASA罗曼太空望远镜发射升空后开始独立飞行 预计明年初发布首批图像",
-      "time": "14:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "科创板公司上半年实现净利润1448.87亿元 同比增长437.6%",
+      "time": "16:03",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
