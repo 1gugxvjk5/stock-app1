@@ -1,10 +1,10 @@
 {
-  "updateTime": "10:05",
+  "updateTime": "12:05",
   "marketEnv": "强",
   "news": [
     {
-      "title": "十大机构论市：二次探底兑现后 市场反弹可能持续到9月下旬",
-      "time": "10:03",
+      "title": "2026数博会闭幕 共发布87项创新成果",
+      "time": "12:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "多地新能源二手车市场持续升温",
-      "time": "10:03",
+      "title": "塞浦路斯一艘载有约270名乘客的渡轮倾覆",
+      "time": "12:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国联合航空将于2027年3月27日恢复特拉维夫与旧金山之间的航班 每周三班",
-      "time": "10:03",
+      "title": "自然资源部：全面启动吉隆泥石流灾害区域风险隐患排查",
+      "time": "12:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "辽宁成大：2026年半年度净利润16.2亿元 同比增长125.77%",
-      "time": "10:03",
+      "title": "凌霄泵业：财务总监陆凤娟拟减持不超过0.07%股份",
+      "time": "12:03",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "广钢气体：2026年半年度净利润同比增长117.73%",
+      "time": "12:03",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "博瑞医药：2026年半年度净利润同比增长243%",
-      "time": "10:03",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "沐曦股份：上半年净利润6.12亿元同比扭亏 GPU产品出货量显著提升",
-      "time": "10:03",
+      "title": "衢州发展：2026年半年度净利润1.69亿元 同比下降34.9%",
+      "time": "12:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
