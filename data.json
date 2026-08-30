@@ -1,10 +1,20 @@
 {
-  "updateTime": "04:05",
+  "updateTime": "06:05",
   "marketEnv": "强",
   "news": [
     {
-      "title": "周末要闻汇总：多箭齐发！房地产迎来政策“组合拳”",
-      "time": "04:03",
+      "title": "安徽：前7月规模以上工业企业营业收入同比增长17.6%",
+      "time": "06:03",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "美国又拿马岛施压英国",
+      "time": "06:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "谷歌、OpenAI、Meta与日本官方机构和本土企业联手 打击激增的网络诈骗案件",
-      "time": "04:03",
+      "title": "银行创新“算力贷” 破解科创企业预付费难题",
+      "time": "06:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美军或将处分林肯号跳海水兵",
-      "time": "04:03",
+      "title": "瑞士发生枪击事件致多人伤亡",
+      "time": "06:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "交通运输部维持强降雨三级防御响应、台风四级防御响应",
-      "time": "04:03",
+      "title": "陈茂波：片区开发模式对北都发展有里程碑意义",
+      "time": "06:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中国海警位中国黄岩岛领海及周边区域执法巡查",
-      "time": "04:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "下周外盘看点丨美国非农登场 如何影响9月美联储决议",
-      "time": "04:03",
+      "title": "李国庆回应60岁时卖掉当当股份 拿5000万做公益：计划腾出1/3时间做公益",
+      "time": "06:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
