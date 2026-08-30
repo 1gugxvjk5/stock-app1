@@ -1,10 +1,10 @@
 {
-  "updateTime": "16:05",
+  "updateTime": "18:05",
   "marketEnv": "强",
   "news": [
     {
-      "title": "怡安集团（AON）接近达成交易 拟以约170亿美元收购KKR旗下的美国保险经纪公司（USI）",
-      "time": "16:03",
+      "title": "851家A股公司拟中期分红超6600亿元 国有企业贡献近半",
+      "time": "18:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,18 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "多家锂电池产业链上市公司披露半年报 天齐锂业上半年净利同比增长4925%",
-      "time": "16:03",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "润泽科技：高品质液冷机柜价格已回升至行业高峰时期的单价水平",
-      "time": "16:03",
+      "title": "以军空袭加沙地带中部 造成两人死亡",
+      "time": "18:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "经营持续改善！沪市公司半年报“交卷” 扣非净利创4年来新高",
-      "time": "16:03",
+      "title": "冰岛总理：本届政府任期内不再推进入盟谈判",
+      "time": "18:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,20 +33,30 @@
       "source": "东财快讯"
     },
     {
-      "title": "“三桶油”中报出齐：净利润均现两位数增长 齐推中期分红“大礼包”",
-      "time": "16:03",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "受理再融资项目68单 沪市再融资改革成效显著",
+      "time": "18:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "科创板公司上半年实现净利润1448.87亿元 同比增长437.6%",
-      "time": "16:03",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "利比亚对立派系就总统和议会选举框架达成共识",
+      "time": "18:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "房地产基础性制度全面重塑！最新解读来了",
+      "time": "18:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
