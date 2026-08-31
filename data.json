@@ -1,10 +1,20 @@
 {
-  "updateTime": "10:05",
+  "updateTime": "12:06",
   "marketEnv": "强",
   "news": [
     {
-      "title": "事件预测平台Polymarket：美国民主党有50%的概率赢得国会两院的控制权",
-      "time": "10:03",
+      "title": "德国8月欧盟调和CPI初值同比增长2.9% 预估为3.1%",
+      "time": "12:03",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "国务院国资委举办中央企业“AI for Science”人才特训班",
+      "time": "12:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "威腾电气：两名股东拟合计减持不超2%股份",
-      "time": "10:03",
+      "title": "中坚科技：收到中国证券监督管理委员会浙江监管局行政处罚决定书",
+      "time": "12:03",
       "sentiment": "negative",
       "sentimentLabel": "利空",
       "related": [
@@ -23,18 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中能电气：中标中国能建3.84亿元中低压开关柜集采项目",
-      "time": "10:03",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "ST凯利：股东拟增持286.81万股—573.61万股股份",
-      "time": "10:03",
+      "title": "报道：美国最快或于周一批准扩大生物燃料豁免",
+      "time": "12:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "重庆建工：收到两份项目中标通知书 中标价为约5.11亿元和约2.24亿元",
-      "time": "10:03",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "俄罗斯批准新版汽车工业发展战略",
+      "time": "12:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "河北：5年后将实现北斗实时正常高发布服务",
-      "time": "10:03",
+      "title": "印度8月季风降雨量较正常水平偏低16.3%",
+      "time": "12:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -586,20 +586,20 @@
     {
       "name": "光线传媒",
       "code": "300251",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "阳光电源",
       "code": "300274",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "中际旭创",
       "code": "300308",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "晶盛机电",
