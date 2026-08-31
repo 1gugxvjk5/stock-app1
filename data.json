@@ -1,10 +1,10 @@
 {
-  "updateTime": "08:05",
+  "updateTime": "10:05",
   "marketEnv": "强",
   "news": [
     {
-      "title": "东方证券：AIDC供电终局路线 SST产业化从0到1加速落地",
-      "time": "08:03",
+      "title": "事件预测平台Polymarket：美国民主党有50%的概率赢得国会两院的控制权",
+      "time": "10:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,50 +13,50 @@
       "source": "东财快讯"
     },
     {
-      "title": "东土科技：公司全国产化机器人电子架构处于小批量交付阶段",
-      "time": "08:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "威腾电气：两名股东拟合计减持不超2%股份",
+      "time": "10:03",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "OpenClaw 2.0正式发布",
-      "time": "08:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "百亿账面浮盈“撑起”科技巨头财报 AI热潮下的“盈利质量”引机构质疑",
-      "time": "08:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "智界RX已开展L3级自动驾驶准入测试",
-      "time": "08:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "江河集团：中标沙特幕墙工程 金额约2.23亿元",
-      "time": "08:03",
+      "title": "中能电气：中标中国能建3.84亿元中低压开关柜集采项目",
+      "time": "10:03",
       "sentiment": "positive",
       "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "ST凯利：股东拟增持286.81万股—573.61万股股份",
+      "time": "10:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "重庆建工：收到两份项目中标通知书 中标价为约5.11亿元和约2.24亿元",
+      "time": "10:03",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "河北：5年后将实现北斗实时正常高发布服务",
+      "time": "10:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
