@@ -1,10 +1,10 @@
 {
-  "updateTime": "16:06",
+  "updateTime": "18:05",
   "marketEnv": "强",
   "news": [
     {
-      "title": "特斯拉涨幅扩大至5% 创逾一个月以来新高",
-      "time": "16:03",
+      "title": "Nscale为得克萨斯州沃德县和北卡罗来纳州麦迪逊县的人工智能部署项目完成了近30亿美元融资",
+      "time": "18:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "君正股份：三季度DRAM持续涨价且需求坚挺供应紧张 预估四季度涨价将持续",
-      "time": "16:03",
+      "title": "美联储在固定利率逆回购操作中总计接纳了4个对手方的67.26亿美元",
+      "time": "18:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国财政部拍卖三个月期国债",
-      "time": "16:03",
+      "title": "瑞士议会委员会：提议瑞银海外子公司的资本要求中50%由普通股一级资本覆盖",
+      "time": "18:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,18 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国副总统万斯在谈到与委内瑞拉石油交易时表示 我们将看到产量显著增长",
-      "time": "16:03",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "日外务省新财年概预算超万亿日元",
-      "time": "16:03",
+      "title": "亚马逊将于2026年10月1日起在华盛顿州裁员121人",
+      "time": "18:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国副总统万斯在谈到伊朗时表示 特朗普正在发出警告",
-      "time": "16:03",
+      "title": "埃克森美孚公司宣布将向圭亚那投资1亿美元用于STEM领域的发展",
+      "time": "18:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "微软与Humain扩大战略合作",
+      "time": "18:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
