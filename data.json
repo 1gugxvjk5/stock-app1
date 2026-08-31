@@ -1,10 +1,10 @@
 {
-  "updateTime": "14:05",
+  "updateTime": "16:06",
   "marketEnv": "强",
   "news": [
     {
-      "title": "贝森特表示美国将继续对伊朗施压",
-      "time": "14:03",
+      "title": "特斯拉涨幅扩大至5% 创逾一个月以来新高",
+      "time": "16:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "高盛：人形机器人整机均价将降至2035年的2.13万美元",
-      "time": "14:03",
+      "title": "君正股份：三季度DRAM持续涨价且需求坚挺供应紧张 预估四季度涨价将持续",
+      "time": "16:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "特朗普称未全拦伊朗袭约旦美军导弹",
-      "time": "14:03",
+      "title": "美国财政部拍卖三个月期国债",
+      "time": "16:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "希音公布最终发售价及配发结果",
-      "time": "14:03",
+      "title": "美国副总统万斯在谈到与委内瑞拉石油交易时表示 我们将看到产量显著增长",
+      "time": "16:03",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "日外务省新财年概预算超万亿日元",
+      "time": "16:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国5年期国债收益率升至4.5%",
-      "time": "14:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "刚果（金）埃博拉确诊病例超6000例",
-      "time": "14:03",
+      "title": "美国副总统万斯在谈到伊朗时表示 特朗普正在发出警告",
+      "time": "16:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
