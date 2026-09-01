@@ -1,10 +1,10 @@
 {
-  "updateTime": "12:10",
+  "updateTime": "14:08",
   "marketEnv": "强",
   "news": [
     {
-      "title": "纳斯达克100指数期货跌幅扩大至1.2%",
-      "time": "12:07",
+      "title": "美国8月份ISM制造业指数降至54.6",
+      "time": "14:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,18 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "芯原股份：第三大股东大基金8月31日减持49.47万股公司股份 不再是持股5%以上股东",
-      "time": "12:07",
-      "sentiment": "negative",
-      "sentimentLabel": "利空",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "诺基亚在沙特阿拉伯开设新的研发中心",
-      "time": "12:07",
+      "title": "蔚来李斌回应公司“智驾一号位”创业：支持任少卿在物理AI领域创业",
+      "time": "14:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,18 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "巴西第二季度GDP环比增长0.5%",
-      "time": "12:07",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "罗森布拉特证券上调苹果目标价",
-      "time": "12:07",
+      "title": "天孚通信：瓶颈物料供应紧张状况已有所缓解",
+      "time": "14:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +33,28 @@
       "source": "东财快讯"
     },
     {
-      "title": "联诚精密：拟出售不超297.94万股已回购股份",
-      "time": "12:07",
+      "title": "纳斯达克综合指数跌幅收窄至1%",
+      "time": "14:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "裕太微：拟调整2026年度定增方案 募资金额下调至不超过6.89亿元",
+      "time": "14:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "创业板芯片指数即将发布",
+      "time": "14:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
