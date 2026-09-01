@@ -1,10 +1,10 @@
 {
-  "updateTime": "10:08",
+  "updateTime": "12:10",
   "marketEnv": "强",
   "news": [
     {
-      "title": "加拿大对华卡客车轮胎发起反倾销反补贴调查",
-      "time": "10:06",
+      "title": "纳斯达克100指数期货跌幅扩大至1.2%",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "云南铜业：孔德颂辞任董事长",
-      "time": "10:06",
+      "title": "芯原股份：第三大股东大基金8月31日减持49.47万股公司股份 不再是持股5%以上股东",
+      "time": "12:07",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "诺基亚在沙特阿拉伯开设新的研发中心",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "11天8板万向德农：股价严重偏离基本面 存在非理性炒作风险",
-      "time": "10:06",
+      "title": "巴西第二季度GDP环比增长0.5%",
+      "time": "12:07",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "罗森布拉特证券上调苹果目标价",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,28 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "东升宇航正在研制10kW级大型算力卫星",
-      "time": "10:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "习近平出席“上海合作组织+”会议并发表重要讲话",
-      "time": "10:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "胖东来1-8月销售额超195亿",
-      "time": "10:06",
+      "title": "联诚精密：拟出售不超297.94万股已回购股份",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
