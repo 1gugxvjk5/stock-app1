@@ -1,10 +1,10 @@
 {
-  "updateTime": "16:37",
+  "updateTime": "18:09",
   "marketEnv": "强",
   "news": [
     {
-      "title": "上海原油连续主力合约日内涨6%",
-      "time": "16:35",
+      "title": "美国众议院已获得足够票数",
+      "time": "18:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国官员称美军空军袭击了霍尔木兹海峡附近的伊朗目标",
-      "time": "16:35",
+      "title": "216国道抢通作业推进至吉隆口岸泥石流灾害核心区",
+      "time": "18:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "WTI原油期货涨幅扩大至4%，现报89.19美元/桶，据报道，伊朗南部多地传出爆炸消息",
-      "time": "16:35",
+      "title": "伊朗武装部队将让美国付出沉重代价",
+      "time": "18:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗称绝不会放过美国任何侵略行为",
-      "time": "16:35",
+      "title": "意大利8月预算赤字达123亿欧元",
+      "time": "18:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "谷歌表示 面向AI Pro、Ultra订阅用户以及大多数Workspace商业客户推出GooglePics",
-      "time": "16:35",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "WTI原油突破90美元/桶",
+      "time": "18:07",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "习近平抵达埃及开罗",
-      "time": "16:35",
+      "title": "标普全球考虑将数据平台CapitalIQ以数十亿美元估值进行分拆",
+      "time": "18:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
