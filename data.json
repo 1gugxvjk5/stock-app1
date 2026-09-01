@@ -1,10 +1,10 @@
 {
-  "updateTime": "22:05",
+  "updateTime": "00:11",
   "marketEnv": "强",
   "news": [
     {
-      "title": "据报道 美国财政部长与日本央行行长举行会谈",
-      "time": "22:03",
+      "title": "美国宏观经济治理陷入合成谬误",
+      "time": "00:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "周二（9月1日）重点关注财经事件和经济数据",
-      "time": "22:03",
+      "title": "百度宣布于香港联交所主板双重主要上市",
+      "time": "00:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "法国前总理巴拉迪尔去世",
-      "time": "22:03",
+      "title": "日本重振半导体产业困难重重",
+      "time": "00:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "报道：沙特油轮在霍尔木兹海峡南部航道遭拦截",
-      "time": "22:03",
+      "title": "中信建投：IGV创年内新高 AI商业化推动海外软件重估",
+      "time": "00:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,20 +43,20 @@
       "source": "东财快讯"
     },
     {
-      "title": "北京首个外卖包装新规今日起正式实施",
-      "time": "22:03",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "半导体 增长动能强劲 业绩与技术进步齐飞",
-      "time": "22:03",
+      "title": "韩国8月出口同比增长68.7% 预期62.6%",
+      "time": "00:09",
       "sentiment": "positive",
       "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "日韩股市集体低开",
+      "time": "00:09",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
@@ -83,7 +83,38 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "中航成飞",
+      "code": "302132",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+5.3%",
+      "r10": "+0.5%",
+      "r20": "+3.1%",
+      "d20": "+2.7%",
+      "atr": "3.3%",
+      "volRatio": "1.03",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "上海机场",
+      "code": "600009",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.7%",
+      "r10": "+1.1%",
+      "r20": "-5.0%",
+      "d20": "-0.6%",
+      "atr": "1.5%",
+      "volRatio": "0.88",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -748,20 +779,20 @@
     {
       "name": "中航成飞",
       "code": "302132",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "浦发银行",
       "code": "600000",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "上海机场",
       "code": "600009",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "包钢股份",
