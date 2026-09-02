@@ -1,10 +1,10 @@
 {
-  "updateTime": "12:09",
+  "updateTime": "14:08",
   "marketEnv": "强",
   "news": [
     {
-      "title": "波罗的海干散货指数上涨5.51%",
-      "time": "12:07",
+      "title": "美国7月份工厂订单增长0.9%",
+      "time": "14:06",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -13,50 +13,50 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国2-30年期国债收益率均大幅走低",
-      "time": "12:07",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "标普500指数期货抹去跌幅",
-      "time": "12:07",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "中埃联合声明：巩固加沙停火 巴勒斯坦民族权力机构尽快重返加沙",
-      "time": "12:07",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "中埃联合声明：进一步加强执法安全领域合作 加紧商签引渡条约",
-      "time": "12:07",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "传输效率高达98%！我国团队在自主超导量子计算机上实现新突破",
-      "time": "12:07",
+      "title": "美国7月耐用品订单终值环比增长1.1%",
+      "time": "14:06",
       "sentiment": "positive",
       "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "外交部副部长马朝旭会见美中贸易全国委员会董事会代表团",
+      "time": "14:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "公司产品间接进入海外头部AI算力硬件厂商供应链？宏达电子回应",
+      "time": "14:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "涉嫌欺诈发行！这家A股公司及相关高管被刑事追责",
+      "time": "14:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "美国8月私营部门就业人数增幅创年初以来新低",
+      "time": "14:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
@@ -83,7 +83,38 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "昆仑万维",
+      "code": "300418",
+      "decision": "买",
+      "holdingPeriod": "仅观察",
+      "probUp": 60,
+      "r5": "+11.8%",
+      "r10": "+4.4%",
+      "r20": "-0.1%",
+      "d20": "+3.0%",
+      "atr": "5.6%",
+      "volRatio": "1.26",
+      "stateClass": "反弹观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "蓝思科技",
+      "code": "300433",
+      "decision": "观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 50,
+      "r5": "-5.4%",
+      "r10": "+2.1%",
+      "r20": "+5.2%",
+      "d20": "-0.1%",
+      "atr": "5.2%",
+      "volRatio": "0.85",
+      "stateClass": "回调观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -622,20 +653,20 @@
     {
       "name": "芒果超媒",
       "code": "300413",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高位观察"
     },
     {
       "name": "昆仑万维",
       "code": "300418",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "反弹观察"
     },
     {
       "name": "蓝思科技",
       "code": "300433",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "回调观察"
     },
     {
       "name": "润泽科技",
