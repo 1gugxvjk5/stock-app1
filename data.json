@@ -1,10 +1,20 @@
 {
-  "updateTime": "10:08",
+  "updateTime": "12:09",
   "marketEnv": "强",
   "news": [
     {
-      "title": "美的集团：截至8月31日累计回购A股股份金额达80.2亿元",
-      "time": "10:06",
+      "title": "波罗的海干散货指数上涨5.51%",
+      "time": "12:07",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "美国2-30年期国债收益率均大幅走低",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "农业农村部召开全国粮油作物大面积单产提升现场会 强调更高水平推进大面积单产提升",
-      "time": "10:06",
+      "title": "标普500指数期货抹去跌幅",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "自变量发布灵巧操作手TwinDEX 行业首次实现“零真机数据驱动灵巧操作”",
-      "time": "10:06",
+      "title": "中埃联合声明：巩固加沙停火 巴勒斯坦民族权力机构尽快重返加沙",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "电影《功夫女足》延长上映至10月10日",
-      "time": "10:06",
+      "title": "中埃联合声明：进一步加强执法安全领域合作 加紧商签引渡条约",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,20 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "普京说希望结束战争而非临时冻结",
-      "time": "10:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "众生药业：昂拉地韦片新增适应症临床试验申请获受理",
-      "time": "10:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "传输效率高达98%！我国团队在自主超导量子计算机上实现新突破",
+      "time": "12:07",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
