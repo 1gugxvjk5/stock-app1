@@ -1,10 +1,10 @@
 {
-  "updateTime": "04:08",
+  "updateTime": "06:10",
   "marketEnv": "强",
   "news": [
     {
-      "title": "大普微：SCM SSD产品具备批量供应能力",
-      "time": "04:06",
+      "title": "日本养老基金青睐国内债券的程度达到2008年以来最高",
+      "time": "06:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗官员称美军袭击胡齐斯坦省已致7人死亡",
-      "time": "04:06",
+      "title": "中信证券等入股长江存储旗下宏茂微电子",
+      "time": "06:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "Melius Research将戴尔科技目标价格从650美元上调至735美元",
-      "time": "04:06",
+      "title": "惠誉：印尼金融企业需做好应对2027年融资成本上升冲击的准备",
+      "time": "06:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "国家医保局：特例单议保障医疗机构收治疑难重症的积极性与合理性",
-      "time": "04:06",
+      "title": "马斯克：将会在10天后发布Grok 4.7 模型",
+      "time": "06:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "订单爆单后戴尔回应：缺的就是DRAM、DRAM、DRAM",
-      "time": "04:06",
+      "title": "碧澄能源完成数亿元C1轮融资",
+      "time": "06:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "半日主力资金丨加仓国防军工板块 抛售有色金属股",
-      "time": "04:06",
+      "title": "OPPO联合OpenKG推出首个端侧AI记忆评测基准MobileMem",
+      "time": "06:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,7 +83,128 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "迈瑞医疗",
+      "code": "300760",
+      "decision": "买",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 70,
+      "r5": "+4.5%",
+      "r10": "+11.7%",
+      "r20": "+9.0%",
+      "d20": "+7.1%",
+      "atr": "2.7%",
+      "volRatio": "1.07",
+      "stateClass": "趋势观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "软通动力",
+      "code": "301236",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+1.9%",
+      "r10": "+0.9%",
+      "r20": "-12.1%",
+      "d20": "-2.7%",
+      "atr": "3.5%",
+      "volRatio": "0.74",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "江波龙",
+      "code": "301308",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.1%",
+      "r10": "-3.8%",
+      "r20": "-0.1%",
+      "d20": "-5.9%",
+      "atr": "4.6%",
+      "volRatio": "0.61",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "浦发银行",
+      "code": "600000",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.8%",
+      "r10": "+2.2%",
+      "r20": "+0.2%",
+      "d20": "+1.4%",
+      "atr": "1.8%",
+      "volRatio": "1.20",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "华能国际",
+      "code": "600011",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.6%",
+      "r10": "+1.3%",
+      "r20": "-4.9%",
+      "d20": "-0.6%",
+      "atr": "1.5%",
+      "volRatio": "0.74",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "民生银行",
+      "code": "600016",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+2.8%",
+      "r10": "+5.5%",
+      "r20": "+2.8%",
+      "d20": "+3.7%",
+      "atr": "1.8%",
+      "volRatio": "1.31",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "上港集团",
+      "code": "600018",
+      "decision": "观察",
+      "holdingPeriod": "仅观察",
+      "probUp": 50,
+      "r5": "+5.1%",
+      "r10": "+7.2%",
+      "r20": "+7.2%",
+      "d20": "+6.3%",
+      "atr": "1.8%",
+      "volRatio": "1.59",
+      "stateClass": "启动观察（涨幅过大）",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "华能水电",
+      "code": "600025",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+1.6%",
+      "r10": "+1.6%",
+      "r20": "+1.7%",
+      "d20": "+2.4%",
+      "atr": "1.7%",
+      "volRatio": "1.16",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -244,8 +365,8 @@
     {
       "name": "双汇发展",
       "code": "000895",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "紫光股份",
@@ -256,26 +377,26 @@
     {
       "name": "华东医药",
       "code": "000963",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "山金国际",
       "code": "000975",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "浪潮信息",
       "code": "000977",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高位观察"
     },
     {
       "name": "华工科技",
       "code": "000988",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "华润三九",
@@ -682,14 +803,14 @@
     {
       "name": "宁德时代",
       "code": "300750",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "迈瑞医疗",
       "code": "300760",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "趋势观察"
     },
     {
       "name": "指南针",
@@ -700,8 +821,8 @@
     {
       "name": "新产业",
       "code": "300832",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "安克创新",
@@ -730,8 +851,8 @@
     {
       "name": "软通动力",
       "code": "301236",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "华大九天",
@@ -742,8 +863,8 @@
     {
       "name": "江波龙",
       "code": "301308",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "中航成飞",
@@ -754,14 +875,14 @@
     {
       "name": "浦发银行",
       "code": "600000",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "上海机场",
       "code": "600009",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "包钢股份",
@@ -772,44 +893,44 @@
     {
       "name": "华能国际",
       "code": "600011",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "华夏银行",
       "code": "600015",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "民生银行",
       "code": "600016",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "上港集团",
       "code": "600018",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察（涨幅过大）"
     },
     {
       "name": "宝钢股份",
       "code": "600019",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "浙能电力",
       "code": "600023",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "华能水电",
       "code": "600025",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "中远海能",
