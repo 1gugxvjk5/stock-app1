@@ -1,10 +1,10 @@
 {
-  "updateTime": "18:08",
+  "updateTime": "20:07",
   "marketEnv": "强",
   "news": [
     {
-      "title": "美联储褐皮书显示：未来几个月的总体展望是积极的 但各行业的情绪却不一",
-      "time": "18:07",
+      "title": "美股三大指数集体收涨 AI应用软件股下挫",
+      "time": "20:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国和委内瑞拉签署石油项目协议",
-      "time": "18:07",
+      "title": "美军称对伊海上封锁已使86艘商船改变航向",
+      "time": "20:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "黄河农商银行增资12.95亿 19家县域农商行解散并入 统一法人改革正式落地",
-      "time": "18:07",
+      "title": "伊朗更新霍尔木兹海峡“违规船只”名单",
+      "time": "20:06",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "花旗服务业务率先在SWIFT分类账上实现实时交易",
+      "time": "20:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国财政部长贝森特：回购国债的目标是消除“不良结果”",
-      "time": "18:07",
+      "title": "Meta在Muse Code和Meta模型API中推出Muse Spark 1.3",
+      "time": "20:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗军方称美方近期多场交战“均告失败”",
-      "time": "18:07",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "阿根廷外长：必须掌握一切可用手段以实现对马岛主权",
-      "time": "18:07",
+      "title": "美国能源信息署报告预计，上周美国天然气库存增加310亿立方英尺",
+      "time": "20:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
