@@ -1,10 +1,10 @@
 {
-  "updateTime": "10:11",
+  "updateTime": "12:13",
   "marketEnv": "强",
   "news": [
     {
-      "title": "康弘药业：子公司收到药品注册证书",
-      "time": "10:06",
+      "title": "英伟达将以129亿美元收购开源AI平台Hugging Face",
+      "time": "12:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "4天3板金帝股份：子公司两个液冷项目尚未形成批量生产能力 暂未形成正式订单或协议",
-      "time": "10:06",
+      "title": "美国电力衍生品交易所Nodal Exchange计划推出AI算力期货",
+      "time": "12:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "亚康股份：下属公司签订9.22亿元算力租赁协议",
-      "time": "10:06",
+      "title": "普华永道与Palantir扩大战略联盟",
+      "time": "12:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "腾讯于9月3日回购22.9万股",
-      "time": "10:06",
+      "title": "小米汽车将于2027年进军欧洲",
+      "time": "12:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美元兑日元日内跌超1.50%至156.28",
-      "time": "10:06",
+      "title": "浙江启动海上防台风应急响应",
+      "time": "12:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "科源制药：全资子公司收到药品注册证书",
-      "time": "10:06",
+      "title": "九鼎新材：目前未涉及电子布业务 涉及航空航天领域的产品份额较小",
+      "time": "12:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
