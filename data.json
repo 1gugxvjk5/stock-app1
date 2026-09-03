@@ -1,10 +1,10 @@
 {
-  "updateTime": "14:08",
+  "updateTime": "16:09",
   "marketEnv": "强",
   "news": [
     {
-      "title": "光通信板块股票Ciena跌幅扩大至10%",
-      "time": "14:06",
+      "title": "美国抵押贷款利率攀升至6.71% 为2025年7月以来最高水平",
+      "time": "16:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国供应管理学会8月份非制造业指数升至55.4",
-      "time": "14:06",
+      "title": "惠同新材：目前金属纤维的产能利用率已经满负荷运行",
+      "time": "16:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "江波龙在香港上市的定价据悉为每股236港元",
-      "time": "14:06",
+      "title": "族兴新材：海外市场是公司重要的增长引擎和战略方向",
+      "time": "16:06",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "辰光医疗：射频探测器保持稳定发展",
+      "time": "16:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "博通股价下跌6.3% 创4月8日以来新低",
-      "time": "14:06",
+      "title": "五新智能：目前公司产品已远销南美洲、非洲、东南亚、中东等20多个国家和地区",
+      "time": "16:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,20 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "以防长：若遭伊朗袭击 以将打击伊所有基础设施",
-      "time": "14:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "微软美股盘初涨超3%",
-      "time": "14:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "海能技术：实控人王志刚拟减持不超1.95%股份",
+      "time": "16:06",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
       "related": [
         "大盘"
       ],
