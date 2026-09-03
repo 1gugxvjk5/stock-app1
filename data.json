@@ -1,10 +1,10 @@
 {
-  "updateTime": "20:07",
+  "updateTime": "22:07",
   "marketEnv": "强",
   "news": [
     {
-      "title": "美股三大指数集体收涨超1%",
-      "time": "20:05",
+      "title": "据报道：日本金融厅将加强对银行海外分支机构的检查",
+      "time": "22:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "OpenAI首席执行官奥特曼表示：Astra模型的发布比预期耗时更长",
-      "time": "20:05",
+      "title": "翻倍半导体牛股 拿下逾15亿元大单",
+      "time": "22:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国平均柴油价格创下新纪录 达到每加仑5.820美元",
-      "time": "20:05",
+      "title": "阿根廷8月汽车产量39381辆 8月汽车销量为39,068辆",
+      "time": "22:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美元指数3日下跌",
-      "time": "20:05",
+      "title": "算力大单来了！五倍“大牛股”签订超9亿元算力租赁协议",
+      "time": "22:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "Coinbase首席政策官表示：Coinbase已向美国证券交易委员会（SEC）提交备案注册文件 拟在美国发售股票永久权证",
-      "time": "20:05",
+      "title": "千亿封测龙头长电科技拟定增募资不超65亿元 加码先进封装和存储封测等",
+      "time": "22:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "惠誉评级显示：美国产权保险公司资本实力依旧强劲",
-      "time": "20:05",
+      "title": "俄乌双方均对和平前景作出乐观表态 芝加哥小麦期货大跌逾4%",
+      "time": "22:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,7 +83,23 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "晶盛机电",
+      "code": "300316",
+      "decision": "观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 50,
+      "r5": "-5.6%",
+      "r10": "+1.3%",
+      "r20": "+4.7%",
+      "d20": "-1.5%",
+      "atr": "4.2%",
+      "volRatio": "0.76",
+      "stateClass": "回调观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -598,26 +614,26 @@
     {
       "name": "中际旭创",
       "code": "300308",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "晶盛机电",
       "code": "300316",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "回调观察"
     },
     {
       "name": "天孚通信",
       "code": "300394",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "三环集团",
       "code": "300408",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "芒果超媒",
