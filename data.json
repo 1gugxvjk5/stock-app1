@@ -1,10 +1,20 @@
 {
-  "updateTime": "06:11",
+  "updateTime": "08:08",
   "marketEnv": "强",
   "news": [
     {
-      "title": "专家提醒：零收入绝非零申报 企业须警惕“不报税”的信用风险",
-      "time": "06:09",
+      "title": "央行：2季度末我国金融业机构总资产为562.2万亿元 同比增长7.7%",
+      "time": "08:06",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "AI服务器制造商慧与科技盘前跌近6%",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "广东：加快推进低效用地再开发 拟鼓励农村集体经济组织自行改造",
-      "time": "06:09",
+      "title": "Snowflake美股盘前大涨超25%",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "广东：鼓励探索“先征收、再置换”等方式 实施国有建设用地与集体建设用地置换",
-      "time": "06:09",
+      "title": "欧元区8月服务业PMI为51.6 预期51.7",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,28 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "三大指数再度翻红",
-      "time": "06:09",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "德国八月新车注册量增长2.6%",
+      "time": "08:06",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "三星将在越南芯片工厂新增1612台设备",
-      "time": "06:09",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "世界气象组织警告：厄尔尼诺将发展为超强级别",
-      "time": "06:09",
+      "title": "德国8月服务业PMI为49.7 预期48.5",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,128 +83,7 @@
       "leaders": []
     }
   ],
-  "stocks": [
-    {
-      "name": "立讯精密",
-      "code": "002475",
-      "decision": "观察",
-      "holdingPeriod": "长期（1-3个月）",
-      "probUp": 50,
-      "r5": "-1.3%",
-      "r10": "+5.8%",
-      "r20": "+0.9%",
-      "d20": "+0.4%",
-      "atr": "4.4%",
-      "volRatio": "0.82",
-      "stateClass": "回调观察",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "卫星化学",
-      "code": "002648",
-      "decision": "观察",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 50,
-      "r5": "+1.3%",
-      "r10": "+2.4%",
-      "r20": "+9.4%",
-      "d20": "+3.5%",
-      "atr": "3.7%",
-      "volRatio": "1.02",
-      "stateClass": "启动观察",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "牧原股份",
-      "code": "002714",
-      "decision": "买",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 60,
-      "r5": "+3.1%",
-      "r10": "+5.7%",
-      "r20": "+9.6%",
-      "d20": "+4.5%",
-      "atr": "2.4%",
-      "volRatio": "0.91",
-      "stateClass": "启动观察",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "国信证券",
-      "code": "002736",
-      "decision": "观察",
-      "holdingPeriod": "长期（1-3个月）",
-      "probUp": 50,
-      "r5": "-0.1%",
-      "r10": "+3.8%",
-      "r20": "+0.9%",
-      "d20": "+1.5%",
-      "atr": "1.4%",
-      "volRatio": "1.10",
-      "stateClass": "回调观察",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "德赛西威",
-      "code": "002920",
-      "decision": "买",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 60,
-      "r5": "+5.2%",
-      "r10": "+7.1%",
-      "r20": "-2.8%",
-      "d20": "+1.2%",
-      "atr": "3.3%",
-      "volRatio": "1.02",
-      "stateClass": "启动观察",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "中国广核",
-      "code": "003816",
-      "decision": "观察",
-      "holdingPeriod": "仅观察",
-      "probUp": 50,
-      "r5": "+5.3%",
-      "r10": "+13.7%",
-      "r20": "+11.1%",
-      "d20": "+9.2%",
-      "atr": "2.0%",
-      "volRatio": "1.18",
-      "stateClass": "趋势观察（涨幅过大）",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "光线传媒",
-      "code": "300251",
-      "decision": "买",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 60,
-      "r5": "+4.3%",
-      "r10": "+4.2%",
-      "r20": "-4.2%",
-      "d20": "+0.6%",
-      "atr": "2.9%",
-      "volRatio": "1.44",
-      "stateClass": "启动观察",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "上汽集团",
-      "code": "600104",
-      "decision": "观察",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 50,
-      "r5": "+1.1%",
-      "r10": "+1.7%",
-      "r20": "-1.5%",
-      "d20": "+0.8%",
-      "atr": "1.5%",
-      "volRatio": "0.95",
-      "stateClass": "启动观察",
-      "newsSentiment": "中性"
-    }
-  ],
+  "stocks": [],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -569,8 +448,8 @@
     {
       "name": "立讯精密",
       "code": "002475",
-      "decision": "观察",
-      "stateClass": "回调观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "荣盛石化",
@@ -611,14 +490,14 @@
     {
       "name": "光启技术",
       "code": "002625",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "卫星化学",
       "code": "002648",
-      "decision": "观察",
-      "stateClass": "启动观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "天赐材料",
@@ -629,92 +508,92 @@
     {
       "name": "牧原股份",
       "code": "002714",
-      "decision": "买",
-      "stateClass": "启动观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "国信证券",
       "code": "002736",
-      "decision": "观察",
-      "stateClass": "回调观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "英维克",
       "code": "002837",
-      "decision": "不买",
-      "stateClass": "高位观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "深南电路",
       "code": "002916",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "德赛西威",
       "code": "002920",
-      "decision": "买",
-      "stateClass": "启动观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "鹏鼎控股",
       "code": "002938",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "中国广核",
       "code": "003816",
-      "decision": "观察",
-      "stateClass": "趋势观察（涨幅过大）"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "亿纬锂能",
       "code": "300014",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "爱尔眼科",
       "code": "300015",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "同花顺",
       "code": "300033",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "东方财富",
       "code": "300059",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "智飞生物",
       "code": "300122",
-      "decision": "不买",
-      "stateClass": "高波动"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "汇川技术",
       "code": "300124",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "光线传媒",
       "code": "300251",
-      "decision": "买",
-      "stateClass": "启动观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "阳光电源",
       "code": "300274",
-      "decision": "不买",
-      "stateClass": "高波动"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "中际旭创",
@@ -959,8 +838,8 @@
     {
       "name": "中信证券",
       "code": "600030",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "三一重工",
@@ -989,8 +868,8 @@
     {
       "name": "中国联通",
       "code": "600050",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "国投资本",
@@ -1013,14 +892,14 @@
     {
       "name": "特变电工",
       "code": "600089",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "上汽集团",
       "code": "600104",
-      "decision": "观察",
-      "stateClass": "启动观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "北方稀土",
@@ -1031,38 +910,38 @@
     {
       "name": "中国东航",
       "code": "600115",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "中国卫星",
       "code": "600118",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "中国船舶",
       "code": "600150",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "巨化股份",
       "code": "600160",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "中国巨石",
       "code": "600176",
-      "decision": "不买",
-      "stateClass": "高波动"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "生益科技",
       "code": "600183",
-      "decision": "不买",
-      "stateClass": "高波动"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "兖矿能源",
