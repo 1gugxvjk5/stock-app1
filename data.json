@@ -1,10 +1,10 @@
 {
-  "updateTime": "14:08",
+  "updateTime": "16:08",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "白宫经济顾问哈塞特：正在追踪通过海峡的石油",
-      "time": "14:05",
+      "title": "美国联邦法院驳回了马斯克旗下xAI公司提出的临时禁令申请 明尼苏达州针对AI“脱衣”应用的新限制措施得以维持",
+      "time": "16:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "白宫经济顾问哈塞特：加息是大家认为应该提上日程的 尊重美联储的独立性",
-      "time": "14:05",
+      "title": "乌称“俄领空不再安全” 俄外交部：歪曲事实",
+      "time": "16:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "白宫经济顾问哈塞特：高油价只是短期现象 通货膨胀已得到控制",
-      "time": "14:05",
+      "title": "乌国家安全局遭袭 美总统特使访问计划“可能有变”",
+      "time": "16:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "费城半导体指数涨幅扩大至3% 存储、光模块涨幅居前",
-      "time": "14:05",
+      "title": "欧洲主要股指多数收涨",
+      "time": "16:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "特朗普再次呼吁美联储降低利率",
-      "time": "14:05",
+      "title": "丹格特炼油厂计划通过首次公开募股筹集高达16亿美元资金",
+      "time": "16:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "特朗普：美联储理事会在新任主席的带领下 必须变得“聪明”起来",
-      "time": "14:05",
+      "title": "Anthropic据悉正在探索构建更多内部支付和计费基础设施",
+      "time": "16:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
