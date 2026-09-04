@@ -1,10 +1,10 @@
 {
-  "updateTime": "16:08",
+  "updateTime": "18:08",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "美国联邦法院驳回了马斯克旗下xAI公司提出的临时禁令申请 明尼苏达州针对AI“脱衣”应用的新限制措施得以维持",
-      "time": "16:06",
+      "title": "特朗普政府正在起草战后中东计划",
+      "time": "18:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "乌称“俄领空不再安全” 俄外交部：歪曲事实",
-      "time": "16:06",
+      "title": "洲际交易所显示：截至9月1日当周 布伦特原油投机者净多头头寸增加37,837份合约 至261,435份合约",
+      "time": "18:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "乌国家安全局遭袭 美总统特使访问计划“可能有变”",
-      "time": "16:06",
+      "title": "AI云服务公司Nscale寻求35亿美元IPO前融资",
+      "time": "18:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "欧洲主要股指多数收涨",
-      "time": "16:06",
+      "title": "花旗调查显示：预计2026年末墨西哥比索兑美元汇率为17.50",
+      "time": "18:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "丹格特炼油厂计划通过首次公开募股筹集高达16亿美元资金",
-      "time": "16:06",
+      "title": "2026世界动力电池大会｜“现在是硬推着往前走”：全固态电池量产 先要过固固界面和连续制造两道关",
+      "time": "18:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "Anthropic据悉正在探索构建更多内部支付和计费基础设施",
-      "time": "16:06",
+      "title": "美联储隔夜逆回购协议（RRP）周五使用规模为6.75亿美元（交易对手2家） 上个交易日报7.02亿美元",
+      "time": "18:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
