@@ -1,10 +1,10 @@
 {
-  "updateTime": "10:08",
+  "updateTime": "14:08",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "七部门联合印发《促进数字化绿色化协同转型发展实施方案》",
-      "time": "10:06",
+      "title": "白宫经济顾问哈塞特：正在追踪通过海峡的石油",
+      "time": "14:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "上交所：本周对爱丽家居等波动幅度较大的股票重点监控",
-      "time": "10:06",
+      "title": "白宫经济顾问哈塞特：加息是大家认为应该提上日程的 尊重美联储的独立性",
+      "time": "14:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "盛和资源：坦桑尼亚尼亚提重砂矿项目2028年扩产至50万吨/年重矿物精矿产能",
-      "time": "10:06",
+      "title": "白宫经济顾问哈塞特：高油价只是短期现象 通货膨胀已得到控制",
+      "time": "14:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "消息称三星电子联合Arm研发下一代端侧AI芯片",
-      "time": "10:06",
+      "title": "费城半导体指数涨幅扩大至3% 存储、光模块涨幅居前",
+      "time": "14:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "俄罗斯天然气工业股份公司首席执行官：对中亚天然气供应量增长70%",
-      "time": "10:06",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "特朗普再次呼吁美联储降低利率",
+      "time": "14:05",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "错过AI 基金经理公开承认“失职” 半年报中一波集中道歉",
-      "time": "10:06",
+      "title": "特朗普：美联储理事会在新任主席的带领下 必须变得“聪明”起来",
+      "time": "14:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
