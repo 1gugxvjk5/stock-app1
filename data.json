@@ -1,10 +1,10 @@
 {
-  "updateTime": "22:07",
+  "updateTime": "00:10",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "周六你需要知道的隔夜全球要闻：交易员加大对美联储9月加息的押注；美股集体收跌 国际贵金属下挫；特朗普称利率应该在1%或0.5%",
-      "time": "22:05",
+      "title": "8只基金持有人0盈利！定开基金为何基民“全军覆没”？",
+      "time": "00:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国法官颁布禁令 延长对特朗普政府实施邮政局邮寄投票限制新规的禁令效力",
-      "time": "22:05",
+      "title": "牛股兴业科技因信披问题遭证监会立案 此前宣布跨界“追光”",
+      "time": "00:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "标普道琼斯指数公司将Nike、ColgatePalmolive剔出标普100指数",
-      "time": "22:05",
+      "title": "固态电池加速备战 “上车时间表”越拉越长？",
+      "time": "00:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "标普道琼斯指数公司将HubSpot、AGNC、Corcept、Brinker纳入标普中盘股400指数",
-      "time": "22:05",
+      "title": "大模型双雄营收高增继续亏损 专家称考验在于修复毛利率",
+      "time": "00:09",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "非农爆了！9月加息预期升温 特朗普喊话：降息！降息！美联储必须“聪明”起来",
+      "time": "00:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美总统称可能很快会打击伊朗“镐山”核设施",
-      "time": "22:05",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "惠誉确认卡塔尔评级为 “AA” 展望负面",
-      "time": "22:05",
+      "title": "Anthropic预计将于9月下旬公开招股书",
+      "time": "00:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
