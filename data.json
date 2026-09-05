@@ -1,10 +1,10 @@
 {
-  "updateTime": "16:07",
+  "updateTime": "18:07",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "641名救援人员抵达江西遂川泥石流灾害现场开展搜救工作",
-      "time": "16:05",
+      "title": "以媒：以军拟从黎南地区部分撤军",
+      "time": "18:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,28 @@
       "source": "东财快讯"
     },
     {
-      "title": "哈马斯称“和平委员会”报告“与事实不符”",
-      "time": "16:05",
+      "title": "广东省人工智能核心产业规模突破3000亿元",
+      "time": "18:06",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "百亿建筑巨头闯入“芯片局”？陕建股份探路第二增长极",
+      "time": "18:06",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "全球首个“机器人友好家”实景落地 消费级具身智能迈入家庭场景新纪元",
+      "time": "18:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "菲律宾副总统莎拉缴纳保释金后获释",
-      "time": "16:05",
+      "title": "普京开始与美国总统特使会谈",
+      "time": "18:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,28 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "外贸服务搬进宠博会 “浙里出海”助绍兴企业掘金新蓝海",
-      "time": "16:05",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "亚太中小企业数智技术供需对接活动在穗举行",
-      "time": "16:05",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "中外嘉宾深圳探讨共建人形机器人产业链",
-      "time": "16:05",
+      "title": "研究：受高温影响 德国水资源量减少",
+      "time": "18:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
