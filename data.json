@@ -1,10 +1,10 @@
 {
-  "updateTime": "00:10",
+  "updateTime": "02:08",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "8只基金持有人0盈利！定开基金为何基民“全军覆没”？",
-      "time": "00:09",
+      "title": "中信证券：二季度家电行业需求偏弱 重点关注内需企稳、海外业务改善企业",
+      "time": "02:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "牛股兴业科技因信披问题遭证监会立案 此前宣布跨界“追光”",
-      "time": "00:09",
+      "title": "中国建筑集团有限公司党组成员、副总经理陈勇被查",
+      "time": "02:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "固态电池加速备战 “上车时间表”越拉越长？",
-      "time": "00:09",
+      "title": "俄抗议乌所谓俄领空不安全说",
+      "time": "02:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,18 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "大模型双雄营收高增继续亏损 专家称考验在于修复毛利率",
-      "time": "00:09",
-      "sentiment": "negative",
-      "sentimentLabel": "利空",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "非农爆了！9月加息预期升温 特朗普喊话：降息！降息！美联储必须“聪明”起来",
-      "time": "00:09",
+      "title": "福建终止防汛应急响应 维持防台风四级应急响应",
+      "time": "02:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "Anthropic预计将于9月下旬公开招股书",
-      "time": "00:09",
+      "title": "中东欧四国呼吁欧盟统一行动应对严重旱情",
+      "time": "02:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "“机器鸭”掀起“手搓热潮”：瑞芯微主控板一板难求 开发者复刻花费超万元",
+      "time": "02:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
