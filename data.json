@@ -1,20 +1,10 @@
 {
-  "updateTime": "14:08",
+  "updateTime": "16:07",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "徐工机械：预计2026年及后续较长时间毛利率将保持逐年增长态势",
-      "time": "14:05",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "美国称摧毁了3艘伊朗伊斯兰革命卫队的油轮",
-      "time": "14:05",
+      "title": "641名救援人员抵达江西遂川泥石流灾害现场开展搜救工作",
+      "time": "16:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "初春遭遇罕见“热浪” 悉尼发布全面禁火令",
-      "time": "14:05",
+      "title": "哈马斯称“和平委员会”报告“与事实不符”",
+      "time": "16:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "长安自研智驾方案落地 朱华荣称核心技术必须掌握在自己手中",
-      "time": "14:05",
+      "title": "菲律宾副总统莎拉缴纳保释金后获释",
+      "time": "16:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中国自然科学博物馆学会编制指南 建议一级保护动物标本禁裸展",
-      "time": "14:05",
+      "title": "外贸服务搬进宠博会 “浙里出海”助绍兴企业掘金新蓝海",
+      "time": "16:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "希腊雅典一架F-4E战机坠毁",
-      "time": "14:05",
+      "title": "亚太中小企业数智技术供需对接活动在穗举行",
+      "time": "16:05",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "中外嘉宾深圳探讨共建人形机器人产业链",
+      "time": "16:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
