@@ -1,10 +1,10 @@
 {
-  "updateTime": "16:07",
+  "updateTime": "18:08",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "泛欧交易所8月股票衍生品成交量环比减少13.7%",
-      "time": "16:06",
+      "title": "英首相与美总统通电话 讨论俄乌冲突等议题",
+      "time": "18:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "德国政府据悉正与该国两家国有能源公司就天然气储存援助事宜进行磋商",
-      "time": "16:06",
+      "title": "中国地震台网正式测定：09月08日01时31分在云南昭通市巧家县（北纬27.01度，东经103.40度）发生4.0级地震",
+      "time": "18:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美总统特使称美代表团访俄乌取得“实质性进展”",
-      "time": "16:06",
+      "title": "伊朗公布一款新型导弹",
+      "time": "18:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "以军空袭黎南部致至少11人丧生",
-      "time": "16:06",
+      "title": "多重因素叠加 西班牙食品价格上涨",
+      "time": "18:07",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "从内容到模式 中国微短剧落地美国",
+      "time": "18:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "俄外交部：关闭德国驻圣彼得堡总领馆和在俄歌德学院",
-      "time": "16:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "雷军：小米玄戒O100和玄戒D100预计在明年商用",
-      "time": "16:06",
+      "title": "夜盘期货收盘",
+      "time": "18:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,7 +83,23 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "同仁堂",
+      "code": "600085",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+1.2%",
+      "r10": "+1.6%",
+      "r20": "-3.9%",
+      "d20": "-0.4%",
+      "atr": "1.7%",
+      "volRatio": "0.72",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -880,14 +896,14 @@
     {
       "name": "宇通客车",
       "code": "600066",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "同仁堂",
       "code": "600085",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "特变电工",
