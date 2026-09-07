@@ -1,10 +1,10 @@
 {
-  "updateTime": "22:07",
+  "updateTime": "00:11",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "财政部大手笔注资银行、险企—— 前瞻布局支持金融机构高质量发展",
-      "time": "22:05",
+      "title": "七部门发文探索800V高压直流供电架构 AIDC电力设备迎增量机遇",
+      "time": "00:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国有关部门证实 佛罗里达州迈阿密国际机场发生货机冲出跑道事故 造成5人死亡 多人入院治疗",
-      "time": "22:05",
+      "title": "OpenAI称肯定会研发人形机器人 机器人行业投资逻辑转正向业绩兑现",
+      "time": "00:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "泽连斯基称与美特使等人举行“实质性”会晤",
-      "time": "22:05",
+      "title": "直击2026年医保国谈第二日：两款CAR-T疗法冲刺基本医保 多家企业高管连日坐镇",
+      "time": "00:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "三大逻辑推动外资增配 关注中国资产投资新机遇",
-      "time": "22:05",
+      "title": "华泰证券：看好钠电需求放量带来的产业链机会",
+      "time": "00:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "解码半年报 A股公司持续激活出海新动能",
-      "time": "22:05",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "日韩股市周一集体高开 韩国KOSPI指数开盘上涨3.34%",
+      "time": "00:09",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "泽连斯基称与美特使等人的会晤“非常具有实质性”",
-      "time": "22:05",
+      "title": "院士建议：希望每个人都能有专属的数据空间，汇集一生数据",
+      "time": "00:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
