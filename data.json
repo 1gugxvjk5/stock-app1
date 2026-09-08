@@ -1,10 +1,10 @@
 {
-  "updateTime": "16:09",
+  "updateTime": "18:08",
   "marketEnv": "强",
   "news": [
     {
-      "title": "中诚咨询：拟回购50万至100万股",
-      "time": "16:06",
+      "title": "欧盟石油协调小组称目前不存在石油供应安全的紧迫担忧",
+      "time": "18:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,28 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "以太坊涨至2500.31美元",
-      "time": "16:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "高通CFO表示 与亚马逊AI芯片合作的收入预计在第四季度起确认",
-      "time": "16:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "欧洲天然气价格一度上涨5.2%至77.14欧元/兆瓦时",
-      "time": "16:06",
+      "title": "铜价上涨“冲击波” AI算力引爆全球“抢铜”大战",
+      "time": "18:07",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -43,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "洲际交易所（ICE）柴油9月期货合约结算价报1439.75美元/吨",
-      "time": "16:06",
+      "title": "第二届埃及国际航展在阿拉曼开幕",
+      "time": "18:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +33,28 @@
       "source": "东财快讯"
     },
     {
-      "title": "SpaceX总市值重回2万亿美元 股价创7月7日以来新高",
-      "time": "16:06",
+      "title": "厄瓜多尔警方查获约4吨毒品",
+      "time": "18:07",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "人工智能初创公司Cognition称其融资额超过20亿美元",
+      "time": "18:07",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "SpaceX或迎124亿美元被动买盘 指数调仓将成股价新催化剂",
+      "time": "18:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
