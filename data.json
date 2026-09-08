@@ -1,10 +1,10 @@
 {
-  "updateTime": "10:08",
+  "updateTime": "12:09",
   "marketEnv": "强",
   "news": [
     {
-      "title": "腾讯控股于9月8日回购23万股",
-      "time": "10:06",
+      "title": "英特尔美股盘前涨超5%",
+      "time": "12:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "Coherent将参展光博会 展示12.8T XPO等方案",
-      "time": "10:06",
+      "title": "谷歌云将为埃森哲培训多达1000名现场工程师",
+      "time": "12:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,28 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊拉克石油部长：伊拉克致力于遵守欧佩克产量配额",
-      "time": "10:06",
+      "title": "波罗的海干散货运价指数上涨0.25%",
+      "time": "12:08",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "乾照光电：股东和君正德基金拟减持不超3%股份",
+      "time": "12:08",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "DeepSeek开启新模型V4.1 Flash中间版本的限时内测",
+      "time": "12:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,28 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "研究：伊朗战事让美国人为燃油多付千亿美元",
-      "time": "10:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "联合国贸发会议：霍尔木兹海峡局势冲击全球中小企业",
-      "time": "10:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "乌克兰总统泽连斯基：与特朗普和有关公司讨论爱国者导弹授权问题",
-      "time": "10:06",
+      "title": "*ST萃华：收到终止上市事先告知书",
+      "time": "12:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
