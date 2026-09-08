@@ -1,10 +1,10 @@
 {
-  "updateTime": "18:08",
+  "updateTime": "20:08",
   "marketEnv": "强",
   "news": [
     {
-      "title": "欧盟石油协调小组称目前不存在石油供应安全的紧迫担忧",
-      "time": "18:07",
+      "title": "美股三大指数集体收跌 AI算力租赁商、光通信板块大涨",
+      "time": "20:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,18 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "铜价上涨“冲击波” AI算力引爆全球“抢铜”大战",
-      "time": "18:07",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "第二届埃及国际航展在阿拉曼开幕",
-      "time": "18:07",
+      "title": "博通CEO表示：公司可以锁定2027年的芯片供应 目前正在敲定2028年的供应",
+      "time": "20:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "厄瓜多尔警方查获约4吨毒品",
-      "time": "18:07",
+      "title": "消息人士称美导弹袭击哈尔克岛附近的伊朗油轮",
+      "time": "20:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "人工智能初创公司Cognition称其融资额超过20亿美元",
-      "time": "18:07",
+      "title": "伊朗南部哈尔克岛传出爆炸声",
+      "time": "20:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "SpaceX或迎124亿美元被动买盘 指数调仓将成股价新催化剂",
-      "time": "18:07",
+      "title": "英国国家空中交通管理局表示：系统故障现已解决 现正常运营",
+      "time": "20:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "美国7月份消费者信贷环比增加180.62亿美元，预估增加113.4亿美元",
+      "time": "20:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
