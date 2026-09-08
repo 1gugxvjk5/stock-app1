@@ -1,10 +1,10 @@
 {
-  "updateTime": "08:08",
-  "marketEnv": "偏弱",
+  "updateTime": "10:08",
+  "marketEnv": "强",
   "news": [
     {
-      "title": "阿里B2B业务国内外打通 张阔统管1688与国际站",
-      "time": "08:06",
+      "title": "腾讯控股于9月8日回购23万股",
+      "time": "10:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "诺华制药盘前跌超13%",
-      "time": "08:06",
+      "title": "Coherent将参展光博会 展示12.8T XPO等方案",
+      "time": "10:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伦铜库存增加1250吨",
-      "time": "08:06",
+      "title": "伊拉克石油部长：伊拉克致力于遵守欧佩克产量配额",
+      "time": "10:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "市场监管总局：到2030年 全国放心消费集聚区达5000个以上",
-      "time": "08:06",
+      "title": "研究：伊朗战事让美国人为燃油多付千亿美元",
+      "time": "10:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "晓鸣股份：8月鸡产品销售收入同比增长24.89%",
-      "time": "08:06",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "联合国贸发会议：霍尔木兹海峡局势冲击全球中小企业",
+      "time": "10:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "也门胡塞武装：将继续开展针对沙特纵深地区的军事行动",
-      "time": "08:06",
+      "title": "乌克兰总统泽连斯基：与特朗普和有关公司讨论爱国者导弹授权问题",
+      "time": "10:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
