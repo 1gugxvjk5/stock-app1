@@ -1,10 +1,10 @@
 {
-  "updateTime": "18:09",
+  "updateTime": "20:07",
   "marketEnv": "正常",
   "news": [
     {
-      "title": "苹果发布折叠款iPhone 命名为iPhone Du",
-      "time": "18:07",
+      "title": "纳斯达克中国金龙指数收跌2.09%",
+      "time": "20:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "苹果发布AirPods 5",
-      "time": "18:07",
+      "title": "美股三大指数集体收跌 存储、光通信板块逆市上涨",
+      "time": "20:06",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "特朗普称伊朗战争中期选举后结束",
+      "time": "20:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "苹果iPhone 18 Pro将于9月12日开始接受订单 发货将于9月18日开始",
-      "time": "18:07",
+      "title": "美元指数9日上涨",
+      "time": "20:06",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "惠誉评级显示：关税升级凸显加拿大风险 短期影响有限",
+      "time": "20:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,28 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "苹果公布iPhone 18 Pro系列价格",
-      "time": "18:07",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "苹果股价跌至盘中低点 下挫1.5%",
-      "time": "18:07",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "纽约铜价、伦敦铜价双双创历史新高",
-      "time": "18:07",
+      "title": "刚果（金）埃博拉疫情累计确诊病例超6700例",
+      "time": "20:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
