@@ -1,10 +1,20 @@
 {
-  "updateTime": "10:08",
+  "updateTime": "12:09",
   "marketEnv": "正常",
   "news": [
     {
-      "title": "星宇股份：此前披露年报中副董事长周宇恒年龄信息有误",
-      "time": "10:06",
+      "title": "波罗的海干散货运价指数上涨1%",
+      "time": "12:07",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "“LME上海热轧卷板合约”将于10月27日挂牌交易",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "布伦特原油期货涨幅扩大至3%",
-      "time": "10:06",
+      "title": "全球首个多模态片上脑机交互系统发布",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美三大股指期货跌幅扩大 道琼斯指数期货跌0.45%",
-      "time": "10:06",
+      "title": "摩根大通：霍尔木兹海峡长期封锁情景下 明年布油或均值87美元/桶",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "印度批准价值1078亿卢比的铁路项目",
-      "time": "10:06",
+      "title": "伊朗称已具备强力反击能力 并同时列举停战条件",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,20 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "日本拟补充国家战略石油储备",
-      "time": "10:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "城地香江：解除4.03亿元数据中心项目总承包合同",
-      "time": "10:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "博硕科技：控股股东江苏摩锐投资8月6日至9月8日累计减持公司股份89.99万股",
+      "time": "12:07",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
       "related": [
         "大盘"
       ],
