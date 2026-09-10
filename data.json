@@ -1,20 +1,10 @@
 {
-  "updateTime": "14:08",
+  "updateTime": "16:08",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "美国7月批发销售环比增长0.8%",
-      "time": "14:05",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "美国二手房供应量相当于4.9个月的量",
-      "time": "14:05",
+      "title": "美国上周EIA原油库存减少39.1万桶 分析师预期下降127.183万桶 之前一周下降445.0万桶",
+      "time": "16:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "标普500指数恐遭遇6月以来最长连跌 美国数据提高加息押注",
-      "time": "14:05",
+      "title": "沙特阿拉伯正在考虑将其新收购的艺电（EA）与旗下Savvy Games Group的游戏业务进行合并",
+      "time": "16:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国8月成屋销售总数年化398万户 预期398万户",
-      "time": "14:05",
+      "title": "CrowdStrike宣布推进其“QuiltWorks”项目 新增10家北美合作伙伴 并将该计划本地化至美国和加拿大市场",
+      "time": "16:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "北京商报侃股：谨慎投资低成交量个股",
-      "time": "14:05",
+      "title": "特朗普政府据悉与OpenAI合作 在政府中推广AI工具",
+      "time": "16:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "SK海力士美股跌超5%",
-      "time": "14:05",
+      "title": "前控股子公司业绩承诺从“达标102.77%”变脸为“需补2.97亿” 华贸物流遭责令改正 4名时任高层被警示",
+      "time": "16:05",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "伦敦金属交易所(LME)三个月期锌跌4.07% 报3898.5美元/吨",
+      "time": "16:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
