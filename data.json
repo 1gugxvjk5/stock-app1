@@ -1,10 +1,10 @@
 {
-  "updateTime": "18:09",
+  "updateTime": "20:07",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "阿尔及利亚决定自9月11日起关闭领空 禁止所有在阿联酋注册的民用和军用飞机进入",
-      "time": "18:07",
+      "title": "纳斯达克中国金龙指数收跌0.66%",
+      "time": "20:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "打造全球智能眼镜产业高地 广州AI眼镜产业园在黄埔启动建设",
-      "time": "18:07",
+      "title": "美股三大指数集体收跌 存储板块下挫",
+      "time": "20:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国防部高官公开驳斥AI“末日论” 称担忧源于对变革的恐惧",
-      "time": "18:07",
+      "title": "美元指数10日上涨",
+      "time": "20:05",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "Spacex表示：星舰下次飞行将产生营收",
+      "time": "20:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "OpenAI推出针对金融服务的ChatGPT 采用GPT-6 Astra推理技术",
-      "time": "18:07",
+      "title": "美北卡罗来纳州一住所发生枪击 4人中弹",
+      "time": "20:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国2年期与10年期国债收益率曲线趋平",
-      "time": "18:07",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "日本民众抗议海上自卫队赴美试射“战斧”导弹",
-      "time": "18:07",
+      "title": "联合国称古巴电力危机持续影响基本服务 呼吁增加人道援助",
+      "time": "20:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
