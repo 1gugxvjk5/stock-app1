@@ -1,10 +1,10 @@
 {
-  "updateTime": "08:08",
-  "marketEnv": "正常",
+  "updateTime": "10:07",
+  "marketEnv": "偏弱",
   "news": [
     {
-      "title": "每人发5000美元？“特朗普红利”震惊中期选举 智库警告根本没有盈余",
-      "time": "08:06",
+      "title": "习近平将赴印度出席金砖国家领导人第十八次会晤",
+      "time": "10:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伦铜库存减少1075吨",
-      "time": "08:06",
+      "title": "中国人民银行副行长陶玲出席金砖国家财长和央行行长会议",
+      "time": "10:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,18 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "去哪儿旅行：本周双节机票酒店预订量环比增长119%",
-      "time": "08:06",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "宇树科技开源UnifoLM-WLA-1.0具身基座模型",
-      "time": "08:06",
+      "title": "辉煌科技：部分董事及高管拟增持2230万至3630万元股份",
+      "time": "10:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "益生股份：8月白羽肉鸡苗销售收入2.04亿元 同比下降4.49%",
-      "time": "08:06",
+      "title": "唐人神：8月生猪销售收入4.1亿元 同比下降39.92%",
+      "time": "10:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "国家外汇局李斌：“十五五”时期我国国际收支有望呈现规模提升、结构优化、整体平衡态势",
-      "time": "08:06",
+      "title": "硅业分会：本周上下游观望为主 硅片价格暂稳运行",
+      "time": "10:05",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "油价破百浇灭圣诞机票价格回落希望 分析师建议“看到便宜票赶紧下手”",
+      "time": "10:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
