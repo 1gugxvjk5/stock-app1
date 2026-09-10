@@ -1,10 +1,10 @@
 {
-  "updateTime": "04:07",
+  "updateTime": "06:10",
   "marketEnv": "正常",
   "news": [
     {
-      "title": "博盈特焊：海外订单充裕 预计未来3至5年HRSG供不应求",
-      "time": "04:06",
+      "title": "上海：加快推进“光伏+”专项工程和海上风电基地建设 适度超前布局氢基燃料示范",
+      "time": "06:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,38 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "冰轮环境：启动“中国烟台+马来西亚+北美”三地产能协同扩产布局",
-      "time": "04:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "半日主力资金丨加仓电子板块 抛售医药生物股",
-      "time": "04:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "第二届知识产权执法国际交流大会在长沙开幕",
-      "time": "04:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "打破国外长期垄断，我国小型液质联用仪研发取得重要突破",
-      "time": "04:06",
+      "title": "德国8月CPI终值同比上涨2.9% 符合预期",
+      "time": "06:08",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -53,8 +23,38 @@
       "source": "东财快讯"
     },
     {
-      "title": "国家能源局印发《油气管网设施公平开放信息公开与报送办法》",
-      "time": "04:06",
+      "title": "重庆：拟打造词元交易服务平台 探索制定词元交易标准和词元结算规则",
+      "time": "06:08",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "8月我国新能源汽车产销量同比分别增长18.9%和17.8%",
+      "time": "06:08",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "中汽协：我国汽车出口连续三个月超100万辆",
+      "time": "06:08",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "卓创资讯：短期能繁母猪与生猪存栏或将延续下行趋势",
+      "time": "06:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,19 +83,125 @@
       "leaders": []
     }
   ],
-  "stocks": [],
-  "scannedStocks": [
+  "stocks": [
     {
       "name": "平安银行",
       "code": "000001",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 50,
+      "r5": "-0.7%",
+      "r10": "+1.8%",
+      "r20": "+4.9%",
+      "d20": "+1.8%",
+      "atr": "1.6%",
+      "volRatio": "0.79",
+      "stateClass": "回调观察",
+      "newsSentiment": "中性"
     },
     {
       "name": "万科A",
       "code": "000002",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+1.0%",
+      "r10": "+1.9%",
+      "r20": "-1.6%",
+      "d20": "+1.0%",
+      "atr": "3.2%",
+      "volRatio": "1.11",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "三环集团",
+      "code": "300408",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+5.5%",
+      "r10": "+4.0%",
+      "r20": "-8.9%",
+      "d20": "+2.4%",
+      "atr": "5.3%",
+      "volRatio": "0.87",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "温氏股份",
+      "code": "300498",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+2.9%",
+      "r10": "+5.0%",
+      "r20": "+7.9%",
+      "d20": "+4.3%",
+      "atr": "2.7%",
+      "volRatio": "1.17",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "新易盛",
+      "code": "300502",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+7.0%",
+      "r10": "+0.6%",
+      "r20": "-4.2%",
+      "d20": "-0.5%",
+      "atr": "5.7%",
+      "volRatio": "0.87",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "亿联网络",
+      "code": "300628",
+      "decision": "观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 50,
+      "r5": "-3.6%",
+      "r10": "+1.1%",
+      "r20": "+2.1%",
+      "d20": "-1.2%",
+      "atr": "3.1%",
+      "volRatio": "0.76",
+      "stateClass": "回调观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "万华化学",
+      "code": "600309",
+      "decision": "观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 50,
+      "r5": "-0.3%",
+      "r10": "+1.7%",
+      "r20": "+5.6%",
+      "d20": "+2.1%",
+      "atr": "3.3%",
+      "volRatio": "0.86",
+      "stateClass": "回调观察",
+      "newsSentiment": "中性"
+    }
+  ],
+  "scannedStocks": [
+    {
+      "name": "平安银行",
+      "code": "000001",
+      "decision": "观察",
+      "stateClass": "回调观察"
+    },
+    {
+      "name": "万科A",
+      "code": "000002",
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "中兴通讯",
@@ -616,8 +722,8 @@
     {
       "name": "三环集团",
       "code": "300408",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "芒果超媒",
@@ -646,8 +752,8 @@
     {
       "name": "先导智能",
       "code": "300450",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "胜宏科技",
@@ -658,32 +764,32 @@
     {
       "name": "温氏股份",
       "code": "300498",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "新易盛",
       "code": "300502",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "亿联网络",
       "code": "300628",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "回调观察"
     },
     {
       "name": "圣邦股份",
       "code": "300661",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "宁德时代",
       "code": "300750",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "迈瑞医疗",
@@ -964,8 +1070,8 @@
     {
       "name": "海航控股",
       "code": "600221",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "圆通速递",
@@ -976,14 +1082,14 @@
     {
       "name": "恒瑞医药",
       "code": "600276",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "万华化学",
       "code": "600309",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "回调观察"
     }
   ]
 }
