@@ -1,20 +1,10 @@
 {
-  "updateTime": "06:09",
+  "updateTime": "08:08",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "也门胡塞武装称红海西海岸交火已停止 油价大跌、金价上涨",
-      "time": "06:07",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "韩国推进小型模块化反应堆商业化",
-      "time": "06:07",
+      "title": "华胜天成等成立数智科技公司 含AI业务",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,18 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "英国7月份经济环比增长0.4% 预估为0.0%",
-      "time": "06:07",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "特朗普：不后悔对伊朗开战 战争将在中期选举后立即停止",
-      "time": "06:07",
+      "title": "8月网约车监管信息交互系统共收到订单信息10.69亿单",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中国驻日本大使馆：调整对日签证规费",
-      "time": "06:07",
+      "title": "挪威石油和天然气勘探招标吸引了包括壳牌在内的21家企业的投标",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +33,28 @@
       "source": "东财快讯"
     },
     {
-      "title": "昂瑞微：上半年应用于高端机型的5G收发模组L-PAMiD持续出货",
-      "time": "06:07",
+      "title": "花旗：维持大族数控“买入”评级 目标价189港元",
+      "time": "08:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "外交部：期待和金砖国家一道 推动各方通过对话谈判化解争端",
+      "time": "08:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "9月11日涨停复盘：40只股涨停 超声电子5天3板",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,53 +83,7 @@
       "leaders": []
     }
   ],
-  "stocks": [
-    {
-      "name": "云铝股份",
-      "code": "000807",
-      "decision": "观察",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 50,
-      "r5": "+1.6%",
-      "r10": "+0.6%",
-      "r20": "+5.7%",
-      "d20": "+1.9%",
-      "atr": "3.1%",
-      "volRatio": "1.07",
-      "stateClass": "启动观察",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "华工科技",
-      "code": "000988",
-      "decision": "买",
-      "holdingPeriod": "仅观察",
-      "probUp": 60,
-      "r5": "+8.3%",
-      "r10": "+0.6%",
-      "r20": "-5.7%",
-      "d20": "-0.5%",
-      "atr": "5.4%",
-      "volRatio": "1.36",
-      "stateClass": "反弹观察",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "华电国际",
-      "code": "600027",
-      "decision": "观察",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 50,
-      "r5": "+1.0%",
-      "r10": "+4.0%",
-      "r20": "+7.7%",
-      "d20": "+4.5%",
-      "atr": "2.0%",
-      "volRatio": "0.99",
-      "stateClass": "启动观察",
-      "newsSentiment": "中性"
-    }
-  ],
+  "stocks": [],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -236,8 +190,8 @@
     {
       "name": "格力电器",
       "code": "000651",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "中钨高新",
@@ -272,38 +226,38 @@
     {
       "name": "盐湖股份",
       "code": "000792",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "云铝股份",
       "code": "000807",
-      "decision": "观察",
-      "stateClass": "启动观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "五 粮 液",
       "code": "000858",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "双汇发展",
       "code": "000895",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "紫光股份",
       "code": "000938",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "华东医药",
       "code": "000963",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "山金国际",
@@ -314,14 +268,14 @@
     {
       "name": "浪潮信息",
       "code": "000977",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "华工科技",
       "code": "000988",
-      "decision": "买",
-      "stateClass": "反弹观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "华润三九",
@@ -866,8 +820,8 @@
     {
       "name": "华电国际",
       "code": "600027",
-      "decision": "观察",
-      "stateClass": "启动观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "中国石化",
@@ -878,8 +832,8 @@
     {
       "name": "南方航空",
       "code": "600029",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "中信证券",
