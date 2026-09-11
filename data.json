@@ -1,10 +1,10 @@
 {
-  "updateTime": "20:07",
+  "updateTime": "22:08",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "纳斯达克中国金龙指数收涨0.4%",
-      "time": "20:05",
+      "title": "周六你需要知道的隔夜全球要闻：交易员预计下周美联储加息概率约为90%；伊朗称14日将在阿曼讨论霍尔木兹海峡商运航线；国际原油下跌",
+      "time": "22:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美股三大指数集体收涨 戴尔科技大涨11%",
-      "time": "20:05",
+      "title": "印尼爪哇海附近发生6.2级左右地震",
+      "time": "22:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美军称对伊海上封锁已使99艘商船改变航向",
-      "time": "20:05",
+      "title": "巴西央行将于9月15日进行最高10亿美元的即期美元拍卖",
+      "time": "22:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "布伦特原油期货结算价为每桶104.61美元",
-      "time": "20:05",
+      "title": "红利股跑出超预期行情 布局高股息需规避三重误区",
+      "time": "22:06",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "纽约尾盘 现货黄金涨0.68%",
+      "time": "22:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "据美国商品期货交易委员会（CFTC） 截至2026年9月8日当周 股票基金经理削减标普500 CME净多头头寸19,683份合约",
-      "time": "20:05",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "刚果（金）埃博拉疫情累计确诊病例超6900例",
-      "time": "20:05",
+      "title": "富时A50期指连续夜盘收涨0.03%",
+      "time": "22:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
