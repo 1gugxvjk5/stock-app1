@@ -1,10 +1,10 @@
 {
-  "updateTime": "22:07",
+  "updateTime": "00:09",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "沥青涨价“点燃”股价！“2连板”牛股披露：6000万元起步的增持计划尚未完成",
-      "time": "22:05",
+      "title": "保险资金“长钱长投”收益亮眼",
+      "time": "00:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "*ST清越锁定退市！高盛逆市“潜伏”失手 浮亏或超90%",
-      "time": "22:05",
+      "title": "日经225指数跌幅扩大至2%",
+      "time": "00:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国财长贝森特表示：国债市场状况良好 投资者不要求长债溢价",
-      "time": "22:05",
+      "title": "具身智能不应重展示轻应用",
+      "time": "00:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "四连板后紧急“泼冷水” 桂林旅游：AI概念不赚钱，低空经济、平陆运河和我无关！",
-      "time": "22:05",
+      "title": "韩国9月1日至10日出口同比增长82.6% 进口同比增长20.7%",
+      "time": "00:08",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "中信建投：集运运价总体上行 油运运价延续高位运行",
+      "time": "00:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "翱捷科技：阿里网络提前终止减持公司股票 本轮已套现7亿元",
-      "time": "22:05",
-      "sentiment": "negative",
-      "sentimentLabel": "利空",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "特朗普称派发5000美元无需国会批准",
-      "time": "22:05",
+      "title": "日韩股市集体低开 韩国KOSPI指数盘初跌3.29%",
+      "time": "00:08",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
