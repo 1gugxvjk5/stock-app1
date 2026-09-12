@@ -1,10 +1,10 @@
 {
-  "updateTime": "00:09",
+  "updateTime": "02:07",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "美国考虑动用《国防生产法》扩大美国炼油产能",
-      "time": "00:08",
+      "title": "工业和信息化部总工程师钟志红：加快算力标准体系建设指南编制",
+      "time": "02:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "厄尔尼诺扰动供给 农产品期货价格升温",
-      "time": "00:08",
+      "title": "越南VinFast 8月电动车交付量达2.02万辆 环比增长12%",
+      "time": "02:06",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "星测未来完成数亿元融资 全栈布局太空算力Token运营服务",
+      "time": "02:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国政府本财年前11个月财政赤字达1.97万亿美元",
-      "time": "00:08",
+      "title": "星宇股份财报接连被纠错：半年报扣非加权平均净资产收益率也被质疑",
+      "time": "02:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "政策与市场共振 电力板块投资机遇凸显",
-      "time": "00:08",
+      "title": "半年融资超去年1.7倍 AI有没有泡沫？投资人：5年后超90%资本投向AI",
+      "time": "02:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "华友钴业旗下津巴布韦华景科技通过ISO 37301认证",
-      "time": "00:08",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "化工行业上市公司竞速“第二曲线”",
-      "time": "00:08",
+      "title": "刚果（金）埃博拉确诊病例超7000例",
+      "time": "02:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
