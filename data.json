@@ -1,10 +1,10 @@
 {
-  "updateTime": "10:08",
+  "updateTime": "12:09",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "小米高管称部分门店高峰时段客流量暴涨400%",
-      "time": "10:06",
+      "title": "中国中铁与北京市丰台区签署战略合作框架协议",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "乘联分会崔东树：本轮乘用车市场下行属于阶段性结构性波动",
-      "time": "10:06",
+      "title": "英国超2000架次航班突然被取消 英媒：一军机输入虚假飞行数据所致",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "“北大—星网元智—工业软件研发智能体联合实验室”成立",
-      "time": "10:06",
+      "title": "中国工程院院士邬贺铨：2030年中国算力有望占到全球30%",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "毕马威报告：县域是服务消费扩容最具潜力的增量空间",
-      "time": "10:06",
+      "title": "习近平将会见印度总理莫迪",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "首批普惠算力赋能中小企业发展服务清单发布",
-      "time": "10:06",
+      "title": "恺英网络间接参股娱美德",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中国将于2027年接任金砖主席国",
-      "time": "10:06",
+      "title": "塞尔维亚总统武契奇视察“卡拉乔尔杰领袖走廊”快速路项目",
+      "time": "12:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,25 +83,41 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "平安银行",
+      "code": "000001",
+      "decision": "观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 50,
+      "r5": "-1.3%",
+      "r10": "+0.8%",
+      "r20": "+5.7%",
+      "d20": "+1.0%",
+      "atr": "1.6%",
+      "volRatio": "0.83",
+      "stateClass": "回调观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
       "code": "000001",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "回调观察"
     },
     {
       "name": "万科A",
       "code": "000002",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "中兴通讯",
       "code": "000063",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "TCL科技",
@@ -136,8 +152,8 @@
     {
       "name": "潍柴动力",
       "code": "000338",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "藏格矿业",
