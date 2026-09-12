@@ -1,10 +1,10 @@
 {
-  "updateTime": "02:07",
+  "updateTime": "04:07",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "工业和信息化部总工程师钟志红：加快算力标准体系建设指南编制",
-      "time": "02:06",
+      "title": "格力电器与中国核动力研究设计院达成战略合作",
+      "time": "04:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,18 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "越南VinFast 8月电动车交付量达2.02万辆 环比增长12%",
-      "time": "02:06",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "星测未来完成数亿元融资 全栈布局太空算力Token运营服务",
-      "time": "02:06",
+      "title": "预告：国新办就推动健康中国建设取得决定性进展有关情况举行新闻发布会",
+      "time": "04:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "星宇股份财报接连被纠错：半年报扣非加权平均净资产收益率也被质疑",
-      "time": "02:06",
+      "title": "中巨芯拟投11亿元布局半导体高纯石英 标的公司尚未盈利",
+      "time": "04:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "半年融资超去年1.7倍 AI有没有泡沫？投资人：5年后超90%资本投向AI",
-      "time": "02:06",
+      "title": "国家自然科学基金长三角基础研究联合基金重大专项启动",
+      "time": "04:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "刚果（金）埃博拉确诊病例超7000例",
-      "time": "02:06",
+      "title": "兴蓉环境：董事会换届选举工作尚在筹备中 将适当延期",
+      "time": "04:05",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "日本上调十胜岳火山喷发警戒级别",
+      "time": "04:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
