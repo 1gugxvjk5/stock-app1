@@ -1,20 +1,10 @@
 {
-  "updateTime": "06:09",
+  "updateTime": "08:08",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "国家超算互联网用户突破170万",
-      "time": "06:07",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "华为全新三折叠开售秒空！二手市场溢价数千元 优购码被倒卖",
-      "time": "06:07",
+      "title": "中国移动发布AI可信计算",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "上合组织数字经济（部长级）研讨班在京开班",
-      "time": "06:07",
+      "title": "中国移动总经理陈扬帆：适度超前建强算力基础设施 AIDC总签约规模超7GW",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国柴油零售均价创历史新高",
-      "time": "06:07",
+      "title": "美德防长将会晤 聚焦美国在欧洲军事部署",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "11块巨型“积木”精准拼装 狮子洋通道迎新进展",
-      "time": "06:07",
+      "title": "小米澎程系列正式开启全国交付 首站落地徐州",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "京津冀四地携手发布共建太空算力产业长廊倡议",
-      "time": "06:07",
+      "title": "江苏雷利：已进入多家国内外机器人本体、模组厂商和灵巧手企业供应链",
+      "time": "08:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "LG化学与江化微签署谅解备忘录 拟联合开发生产高纯度异丙醇",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
