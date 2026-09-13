@@ -1,10 +1,10 @@
 {
-  "updateTime": "04:08",
+  "updateTime": "06:12",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "花550亿元挖条河？解读上海史上最大单体水利工程",
-      "time": "04:06",
+      "title": "瓦努阿图一渡轮失事已致1人死亡30余人失踪",
+      "time": "06:10",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "SK集团会长崔泰源呼吁努力构建AI可持续商业模式",
-      "time": "04:06",
+      "title": "周末要闻汇总：国常会研究算力网建设有关工作",
+      "time": "06:10",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "现代汽车将于2029年推出自研驾驶辅助系统",
-      "time": "04:06",
+      "title": "引力一号火箭预计9月16日进行海上发射",
+      "time": "06:10",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "“产能预警调控”首入汽车五年规划 产能治理要动真格了吗？",
-      "time": "04:06",
+      "title": "武汉基域科技发布面向太空算力等场景的超高导热“超晶膜”材料",
+      "time": "06:10",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "国家数据局局长刘烈宏主持召开具身智能座谈会",
-      "time": "04:06",
+      "title": "中央组织部等5部委负责人就修订行业事业单位领导人员管理“5个办法”答记者问",
+      "time": "06:10",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "内蒙古阿拉善盟阿拉善左旗发生3.6级地震 震源深度8千米",
-      "time": "04:06",
+      "title": "质量督察首次启动 揭开“三无”灯具与建材监管盲区",
+      "time": "06:10",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,7 +83,23 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "圣邦股份",
+      "code": "300661",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+1.0%",
+      "r10": "-5.7%",
+      "r20": "-12.2%",
+      "d20": "-3.8%",
+      "atr": "4.6%",
+      "volRatio": "0.84",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -676,20 +692,20 @@
     {
       "name": "圣邦股份",
       "code": "300661",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "宁德时代",
       "code": "300750",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "迈瑞医疗",
       "code": "300760",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "指南针",
