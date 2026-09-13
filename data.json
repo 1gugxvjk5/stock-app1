@@ -1,10 +1,10 @@
 {
-  "updateTime": "20:08",
+  "updateTime": "22:07",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "受日本自民党支持的古谢玄太当选冲绳县知事",
-      "time": "20:06",
+      "title": "纳斯达克100指数期货周一开盘跌超1%",
+      "time": "22:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "台湾花莲县发生4.1级地震 震源深度14千米",
-      "time": "20:06",
+      "title": "周一开盘 现货黄金价格跌0.36%",
+      "time": "22:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "Anthropic、OpenAI和谷歌讨论制定人工智能标准",
-      "time": "20:06",
+      "title": "沙特输油管道中断 WTI原油期货涨幅扩大至2%",
+      "time": "22:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "阿曼外交部：原定于14日举行的地区会议延期",
-      "time": "20:06",
+      "title": "马斯克称：对SpaceX将于明年在太空部署英伟达VR NLV72人工智能计算机充满信心",
+      "time": "22:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "上市公司密集回购增持",
-      "time": "20:06",
+      "title": "伊拉克一化肥厂发生氨气泄漏致2死50伤",
+      "time": "22:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "特朗普表示，“5000美元支票肯定会发放，因为我们获得数万亿美元的收入”",
-      "time": "20:06",
+      "title": "伊朗锡里克地区传出数声爆炸巨响",
+      "time": "22:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,7 +83,53 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "领益智造",
+      "code": "002600",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+3.9%",
+      "r10": "+5.2%",
+      "r20": "+3.4%",
+      "d20": "+4.5%",
+      "atr": "3.6%",
+      "volRatio": "1.16",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "世纪华通",
+      "code": "002602",
+      "decision": "观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 50,
+      "r5": "-1.1%",
+      "r10": "+11.4%",
+      "r20": "+6.6%",
+      "d20": "+6.9%",
+      "atr": "3.5%",
+      "volRatio": "1.16",
+      "stateClass": "回调观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "牧原股份",
+      "code": "002714",
+      "decision": "观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 50,
+      "r5": "-4.1%",
+      "r10": "+1.2%",
+      "r20": "+7.4%",
+      "d20": "+2.2%",
+      "atr": "2.5%",
+      "volRatio": "0.82",
+      "stateClass": "回调观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -478,56 +524,56 @@
     {
       "name": "领益智造",
       "code": "002600",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "世纪华通",
       "code": "002602",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "回调观察"
     },
     {
       "name": "光启技术",
       "code": "002625",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "卫星化学",
       "code": "002648",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "天赐材料",
       "code": "002709",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "牧原股份",
       "code": "002714",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "回调观察"
     },
     {
       "name": "国信证券",
       "code": "002736",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "英维克",
       "code": "002837",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "深南电路",
       "code": "002916",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高位观察"
     },
     {
       "name": "德赛西威",
@@ -556,8 +602,8 @@
     {
       "name": "爱尔眼科",
       "code": "300015",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "同花顺",
@@ -580,14 +626,14 @@
     {
       "name": "汇川技术",
       "code": "300124",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "光线传媒",
       "code": "300251",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "阳光电源",
