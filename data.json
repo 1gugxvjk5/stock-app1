@@ -1,10 +1,10 @@
 {
-  "updateTime": "16:09",
+  "updateTime": "18:08",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "具身智能融资不撒胡椒面了！两月超20亿 钱都往家庭机器人跑",
-      "time": "16:06",
+      "title": "信息披露新规实施两周 私募基金体感如何",
+      "time": "18:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "华泰证券：港股基本面与贴现率赛跑 首选红利及创新药",
-      "time": "16:06",
+      "title": "也门政府军称胡塞武装攻势致双方伤亡数千人",
+      "time": "18:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "36.9万起！特斯拉推出Model Y高性能版",
-      "time": "16:06",
+      "title": "AI拉动覆铜板需求 上市公司加速高端产能布局",
+      "time": "18:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "AI网球机器人全球爆单",
-      "time": "16:06",
+      "title": "公募打新燧原科技浮盈丰厚",
+      "time": "18:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "量子科技的“冷热之辨”",
-      "time": "16:06",
+      "title": "月内主流手机厂商密集调价",
+      "time": "18:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "于东来公布胖东来招工新准则：新员工均为学员性质 合同四年不续签",
-      "time": "16:06",
+      "title": "美国能源部长赖特称 美国“无论如何”都会终止伊朗的核计划",
+      "time": "18:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,25 +83,56 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "平安银行",
+      "code": "000001",
+      "decision": "观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 50,
+      "r5": "-1.3%",
+      "r10": "+0.8%",
+      "r20": "+5.7%",
+      "d20": "+1.0%",
+      "atr": "1.6%",
+      "volRatio": "0.83",
+      "stateClass": "回调观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "中航西飞",
+      "code": "000768",
+      "decision": "观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 50,
+      "r5": "-0.7%",
+      "r10": "+8.4%",
+      "r20": "+9.8%",
+      "d20": "+6.2%",
+      "atr": "3.3%",
+      "volRatio": "1.00",
+      "stateClass": "回调观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
       "code": "000001",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "回调观察"
     },
     {
       "name": "万科A",
       "code": "000002",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "中兴通讯",
       "code": "000063",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "TCL科技",
@@ -136,14 +167,14 @@
     {
       "name": "潍柴动力",
       "code": "000338",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "藏格矿业",
       "code": "000408",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "徐工机械",
@@ -160,8 +191,8 @@
     {
       "name": "泸州老窖",
       "code": "000568",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "古井贡酒",
@@ -178,14 +209,14 @@
     {
       "name": "长安汽车",
       "code": "000625",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "铜陵有色",
       "code": "000630",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "格力电器",
@@ -202,32 +233,32 @@
     {
       "name": "中信特钢",
       "code": "000708",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "京东方A",
       "code": "000725",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "中航西飞",
       "code": "000768",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "回调观察"
     },
     {
       "name": "广发证券",
       "code": "000776",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "盐湖股份",
       "code": "000792",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "云铝股份",
