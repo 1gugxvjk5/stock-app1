@@ -1,10 +1,10 @@
 {
-  "updateTime": "00:08",
+  "updateTime": "07:04",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "韩国8月出口价格环比下降3.7%",
-      "time": "00:07",
+      "title": "沪指跌0.54% 科创50指数涨1.55% 成交额仅1.62万亿",
+      "time": "07:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中信建投：当前行业处于三重共振放量期 继续看好液冷板块配置价值",
-      "time": "00:07",
+      "title": "国内商品期货收盘 主力合约多数下跌",
+      "time": "07:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中信证券：金融数据总量走弱 新增贷款同期新低 数量目标渐趋淡化",
-      "time": "00:07",
+      "title": "中国电信等在江西成立低空科技公司 注册资本6000万",
+      "time": "07:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中信证券：用电增速边际走弱 火电出力持续承压",
-      "time": "00:07",
+      "title": "马来西亚9月1日至15日棕榈油出口量预计为49.616万吨",
+      "time": "07:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "日韩股市集体低开",
-      "time": "00:07",
+      "title": "华为赛力斯合作模式生变 为系统性、结构性调整",
+      "time": "07:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,10 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "来自大海的储能新密码",
-      "time": "00:07",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "越南VN指数上涨1%",
+      "time": "07:02",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
