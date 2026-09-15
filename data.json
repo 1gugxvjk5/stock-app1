@@ -1,10 +1,10 @@
 {
-  "updateTime": "13:04",
+  "updateTime": "17:53",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "国内商品期货夜盘开盘 主力合约多数下跌",
-      "time": "13:02",
+      "title": "天承科技拟H股再上市 海外收入占比不足一成",
+      "time": "17:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "现货白银日内涨幅扩大至1%",
-      "time": "13:02",
+      "title": "谷歌公司发布Gemini 3.8实时对话模型",
+      "time": "17:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,28 @@
       "source": "东财快讯"
     },
     {
-      "title": "WTI原油期货转跌 此前一度上涨2.7%",
-      "time": "13:02",
+      "title": "周二（9月15日） 美联储隔夜逆回购协议（RRP）使用规模为7亿美元",
+      "time": "17:51",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "WTI原油期货价格涨超5%",
+      "time": "17:51",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "美国发行20年期国债中标收益率5.420% 发行前交易水平5.400%",
+      "time": "17:51",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -33,28 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "甲骨文公司投资德克萨斯州1.7吉瓦风电项目",
-      "time": "13:02",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "华为高层内部万字长文刷屏！",
-      "time": "13:02",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "布伦特原油回吐日内全部涨幅 纳斯达克100指数期货转涨",
-      "time": "13:02",
+      "title": "10年期美债收益率“破5” 全球金融韧性面临考验",
+      "time": "17:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
