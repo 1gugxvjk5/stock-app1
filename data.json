@@ -1,10 +1,10 @@
 {
-  "updateTime": "21:17",
+  "updateTime": "00:08",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "IEA：中东冲突叠加厄尔尼诺 今年全球煤炭需求或创纪录",
-      "time": "21:15",
+      "title": "韩国8月出口价格环比下降3.7%",
+      "time": "00:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "年内暴涨超260%！风华高科发布第六份异动公告 MLCC超级周期引爆行情",
-      "time": "21:15",
+      "title": "中信建投：当前行业处于三重共振放量期 继续看好液冷板块配置价值",
+      "time": "00:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "沙特能源出口面临新考验 关键输油管道或数周无法恢复",
-      "time": "21:15",
+      "title": "中信证券：金融数据总量走弱 新增贷款同期新低 数量目标渐趋淡化",
+      "time": "00:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美联储本周加息看似板上钉钉 为何仍可能按兵不动？",
-      "time": "21:15",
+      "title": "中信证券：用电增速边际走弱 火电出力持续承压",
+      "time": "00:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "韩国8月进口物价指数同比增长15.6% 前值18.70%",
-      "time": "21:15",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "日韩股市集体低开",
+      "time": "00:07",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "广汽官宣：已与一汽签署意向协议！一汽有望成第二大股东",
-      "time": "21:15",
+      "title": "来自大海的储能新密码",
+      "time": "00:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
