@@ -1,10 +1,10 @@
 {
-  "updateTime": "14:32",
+  "updateTime": "19:17",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "俄“进步MS-35”货运飞船升空 将为国际空间站进行补给",
-      "time": "14:30",
+      "title": "白宫发言人Kush Desai表示 利率上升不会改变油价",
+      "time": "19:15",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "微软：正在调查用户无法访问部分Microsoft 365服务的问题",
-      "time": "14:30",
+      "title": "白宫发言人Kush Desai表示 美联储的决定相当令人遗憾 美联储加息“相当不幸”",
+      "time": "19:15",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "巴西对涉华食品级磷酸作出反倾销初裁",
-      "time": "14:30",
+      "title": "美联储利率决议及沃什发布会要点总结：美联储3年来首次加息 点阵图显示鹰派倾向增强 沃什重申美国通胀仍然高企",
+      "time": "19:15",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "英飞凌将部分存储芯片业务出售给华邦电子 作价11.2亿美元",
-      "time": "14:30",
+      "title": "交易员预计美联储10月加息的可能性约为50%",
+      "time": "19:15",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国财政部发布修订后的委内瑞拉相关通用许可",
-      "time": "14:30",
+      "title": "美联储主席沃什结束在华盛顿的新闻发布会",
+      "time": "19:15",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,10 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "紫金矿业：全资子公司拟10亿元参投基金 投资人工智能、具身智能等领域",
-      "time": "14:30",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "美国2年期国债收益率上涨6个基点至年内高点4.73%",
+      "time": "19:15",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
