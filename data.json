@@ -1,10 +1,10 @@
 {
-  "updateTime": "09:09",
+  "updateTime": "14:34",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "DeepMind前研究人员创办的AI初创公司据报拟融资7亿美元 估值或达30亿美元",
-      "time": "09:04",
+      "title": "美国上周EIA天然气库存增加440亿立方英尺 前值增加400亿立方英尺 预期增加490亿立方英尺",
+      "time": "14:34",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "欧元区8月CPI同比上升3.2% 预期为3.3%",
-      "time": "09:04",
+      "title": "LME伦铜向上触及14500美元/吨",
+      "time": "14:34",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "商务部副部长兼国际贸易谈判副代表凌激出席上海合作组织成员国第二十五次经贸部长会议",
-      "time": "09:04",
+      "title": "罗素2000指数涨幅扩大至1.2%",
+      "time": "14:34",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "GPU租赁最高涨21% 云计算服务提供商Nebius盘前涨超9%",
-      "time": "09:04",
+      "title": "中国同海牙国际私法会议签署加强全球治理谅解备忘录",
+      "time": "14:34",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "外国投资者8月净买入4亿美元韩股 结束年内七连抛！",
-      "time": "09:04",
+      "title": "丁薛祥会见缅甸副总统纽梭",
+      "time": "14:34",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "有报道称俄罗斯毁坏对粮食出口至关重要的乌克兰桥梁",
-      "time": "09:04",
+      "title": "城堡证券Rubner看好美股年末走势 称AI股抛售已释放风险",
+      "time": "14:34",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
