@@ -1,20 +1,10 @@
 {
-  "updateTime": "14:02",
+  "updateTime": "18:48",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "法国10年期国债收益率上涨11个基点至4.56% 创2008年以来新高",
-      "time": "14:00",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "闪迪涨幅扩大至超4%",
-      "time": "14:00",
+      "title": "古巴发生全国大停电",
+      "time": "18:46",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,18 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "布伦特原油突破100美元/桶 日内涨0.09%",
-      "time": "14:00",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "比特币价格9月7日以来首次回升至8万美元 过去24小时涨4.6%",
-      "time": "14:00",
+      "title": "交易员对日元的看涨情绪略有增强 此前日本央行据报进行汇率摸底",
+      "time": "18:46",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美AI巨头盯上更快落地的小型算力部署",
-      "time": "14:00",
+      "title": "国际原油期货结算价收跌",
+      "time": "18:46",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +33,28 @@
       "source": "东财快讯"
     },
     {
-      "title": "法国10年期国债收益率日内上升10个基点 至4.545%",
-      "time": "14:00",
+      "title": "整合区域产能 金杯汽车子公司全资控股延锋饰件",
+      "time": "18:46",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "消息人士称 德国政府计划将汽油税每升下调17欧分",
+      "time": "18:46",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "ICE：截至9月15日当周 投机者所持ICE布伦特原油净多头头寸增加16,904手合约",
+      "time": "18:46",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
