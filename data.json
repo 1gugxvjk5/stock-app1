@@ -1,50 +1,10 @@
 {
-  "updateTime": "08:40",
+  "updateTime": "14:02",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "用Claude模型攻破OpenAI？一技术团队成功入侵OpenAI内部代码系统",
-      "time": "08:38",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "在岸人民币兑美元收盘报6.6973",
-      "time": "08:38",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "新华传媒：拟发行股份购买界面财联社100%股权 股票下周一复牌",
-      "time": "08:38",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "财政部：1—8月国有土地使用权出让收入13753亿元 同比下降28.6%",
-      "time": "08:38",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "财政部：1—8月证券交易印花税2160亿元 同比增长82%",
-      "time": "08:38",
+      "title": "法国10年期国债收益率上涨11个基点至4.56% 创2008年以来新高",
+      "time": "14:00",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -53,8 +13,48 @@
       "source": "东财快讯"
     },
     {
-      "title": "蚊子“搭机”入境 法兰克福再添疟疾死亡病例",
-      "time": "08:38",
+      "title": "闪迪涨幅扩大至超4%",
+      "time": "14:00",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "布伦特原油突破100美元/桶 日内涨0.09%",
+      "time": "14:00",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "比特币价格9月7日以来首次回升至8万美元 过去24小时涨4.6%",
+      "time": "14:00",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "美AI巨头盯上更快落地的小型算力部署",
+      "time": "14:00",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "法国10年期国债收益率日内上升10个基点 至4.545%",
+      "time": "14:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
