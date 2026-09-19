@@ -1,10 +1,10 @@
 {
-  "updateTime": "22:10",
+  "updateTime": "02:36",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "周六你需要知道的隔夜全球要闻",
-      "time": "22:08",
+      "title": "同程：高度重视 并将积极配合监管部门开展工作",
+      "time": "02:34",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "白宫表示：特朗普签署对俄罗斯石油买家征收关税法案",
-      "time": "22:08",
+      "title": "鞠建东：建议我国对外发行10万亿人民币计价国债 实现中国经济三重再平衡",
+      "time": "02:34",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "Anthropic据悉将原定的IPO推迟至11月",
-      "time": "22:08",
+      "title": "机构：预估2026年全球数据中心电力需求容量将达161GW 年增约31%",
+      "time": "02:34",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,18 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "英伟达CEO黄仁勋减持45,728股公司股票 CFO克雷斯出售34,918股英伟达股票",
-      "time": "22:08",
-      "sentiment": "negative",
-      "sentimentLabel": "利空",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "普京：“三位一体”核力量仍是俄罗斯国家主权的保障",
-      "time": "22:08",
+      "title": "黑龙江省海伦市政府市长、一级调研员刘晓光被查",
+      "time": "02:34",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "离岸人民币兑美元较周四纽约尾盘涨86点",
-      "time": "22:08",
+      "title": "山西省今年首单碳中和绿色债券落地",
+      "time": "02:34",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "李迅雷：美联储加息效果未必好 通胀易上难下",
+      "time": "02:34",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
