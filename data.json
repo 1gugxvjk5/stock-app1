@@ -1,10 +1,10 @@
 {
-  "updateTime": "04:20",
+  "updateTime": "10:25",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "长鑫存储第五代平台正式量产",
-      "time": "04:18",
+      "title": "晶澳科技开展p-HJT产品太空在轨验证",
+      "time": "10:23",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "硅基流动今年累计股权融资额近29亿元",
-      "time": "04:18",
+      "title": "农业农村部和中国气象局发布秋收连阴雨灾害风险预警",
+      "time": "10:23",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "硅基流动完成B+轮二期和C轮融资 国家级基金、央地国资及产业资本共同参与",
-      "time": "04:18",
+      "title": "伊朗称美国除接受伊朗条件别无选择",
+      "time": "10:23",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,18 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "富乐德：半导体扩产周期拉动洗净服务需求增长 部分产能利用率维持高位运转",
-      "time": "04:18",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "刚果（金）埃博拉疫苗接种扩大至疫情“震中”省份",
-      "time": "04:18",
+      "title": "抖音旗下剪映发布智能创作Agent“小映”",
+      "time": "10:23",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "长鑫科技宣布第五代技术平台正式量产",
-      "time": "04:18",
+      "title": "诺和诺德下周一将举行投资者日活动并更新公司战略",
+      "time": "10:23",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "胡塞称沙特升级行动将遭更强烈反击",
+      "time": "10:23",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -928,20 +928,20 @@
     {
       "name": "巨化股份",
       "code": "600160",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "中国巨石",
       "code": "600176",
-      "decision": "不买",
-      "stateClass": "高波动"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "生益科技",
       "code": "600183",
-      "decision": "不买",
-      "stateClass": "高波动"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "兖矿能源",
