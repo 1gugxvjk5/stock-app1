@@ -1,10 +1,10 @@
 {
-  "updateTime": "00:01",
+  "updateTime": "04:20",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "手机涨价 年轻人的换机周期也拉长了",
-      "time": "23:59",
+      "title": "长鑫存储第五代平台正式量产",
+      "time": "04:18",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中国星网董事长、党组书记苟坪：推动北斗与卫星互联网深度融合",
-      "time": "23:59",
+      "title": "硅基流动今年累计股权融资额近29亿元",
+      "time": "04:18",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中进汽贸签署三方合作备忘录 进一步拓展中东市场",
-      "time": "23:59",
+      "title": "硅基流动完成B+轮二期和C轮融资 国家级基金、央地国资及产业资本共同参与",
+      "time": "04:18",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗内政部：无需担忧必需品供应问题",
-      "time": "23:59",
+      "title": "富乐德：半导体扩产周期拉动洗净服务需求增长 部分产能利用率维持高位运转",
+      "time": "04:18",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "刚果（金）埃博拉疫苗接种扩大至疫情“震中”省份",
+      "time": "04:18",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "特朗普称将组建一支“人工智能部队”",
-      "time": "23:59",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "今天起 装修、交物业费都能用这笔钱了",
-      "time": "23:59",
+      "title": "长鑫科技宣布第五代技术平台正式量产",
+      "time": "04:18",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -928,20 +928,20 @@
     {
       "name": "巨化股份",
       "code": "600160",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "中国巨石",
       "code": "600176",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "生益科技",
       "code": "600183",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "兖矿能源",
