@@ -1,10 +1,10 @@
 {
-  "updateTime": "18:26",
+  "updateTime": "22:07",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "锚定中国硬科技 外资寻找AI时代“第二战场”",
-      "time": "18:25",
+      "title": "周一开盘 现货黄金价格跌0.05%",
+      "time": "22:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "120英寸电视要成主流？激光显示正在“撬动”大客厅",
-      "time": "18:25",
+      "title": "周一开盘 WTI原油期货价格涨0.97%",
+      "time": "22:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "以军称在加沙地带打死3名哈马斯武装人员",
-      "time": "18:25",
+      "title": "周一（9月21日）重点关注财经事件和经济数据",
+      "time": "22:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "20余省份密集摘牌 A级景区“大出清”开始了",
-      "time": "18:25",
+      "title": "美联储10月加息的概率为56.5%",
+      "time": "22:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "前八个月税收增速小幅高于GDP 三大因素叠加彰显经济韧性",
-      "time": "18:25",
+      "title": "科创板宽基走势分化 配置需求更趋细分",
+      "time": "22:05",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,10 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "8月用电量再破万亿千瓦时 新业态成用电增量重要来源",
-      "time": "18:25",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "京新药业A股上市超20年后二度冲刺港交所 曾因研发费用列支不当等问题遭税务部门处罚",
+      "time": "22:05",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
       "related": [
         "大盘"
       ],
