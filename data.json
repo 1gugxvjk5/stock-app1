@@ -1,10 +1,10 @@
 {
-  "updateTime": "09:31",
-  "marketEnv": "偏弱",
+  "updateTime": "16:13",
+  "marketEnv": "强",
   "news": [
     {
-      "title": "新华文轩：拟3.46亿元收购四川民族出版社100%股权",
-      "time": "09:29",
+      "title": "美国总统特朗普就人工智能表示 美国会保持谨慎 在必要时对AI加以约束",
+      "time": "16:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "古瑞瓦特将启动涨价 组串式逆变器、储能系统调价5%—10%",
-      "time": "09:29",
+      "title": "英国海上贸易行动办公室：一液化石油气运输船在霍尔木兹海峡遇袭",
+      "time": "16:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "12部影片定档2026国庆档",
-      "time": "09:29",
+      "title": "由于黑海运输持续停滞 俄罗斯企业据悉正将波罗的海和北极港口的化肥及煤炭码头（包括Ultramar）改造为粮食出口终端",
+      "time": "16:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "小米AI硬创团队近期开源4个AI硬件探索项目",
-      "time": "09:29",
+      "title": "SpaceXAI正式发布Grok 4.7模型",
+      "time": "16:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "ST文峰：副总经理已解除责令候查",
-      "time": "09:29",
+      "title": "中东局势带动全球超大型油轮采购潮",
+      "time": "16:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "刘大一恒已出任阿里千问大语言模型项目负责人",
-      "time": "09:29",
+      "title": "欧盟向科技巨头施压：数据中心需进行“能效评级” 后续监管将进一步升级",
+      "time": "16:07",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -844,14 +844,14 @@
     {
       "name": "三一重工",
       "code": "600031",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "招商银行",
       "code": "600036",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "四川路桥",
