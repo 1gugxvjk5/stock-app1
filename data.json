@@ -1,10 +1,10 @@
 {
-  "updateTime": "13:01",
+  "updateTime": "17:53",
   "marketEnv": "强",
   "news": [
     {
-      "title": "英媒：土耳其多家航司取消往返伊朗航班",
-      "time": "12:59",
+      "title": "美团核心本地商业CEO王莆中：即时零售已跨过需求培养与网络铺设的最难阶段",
+      "time": "17:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,18 +13,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "科净源：股东平易缙元拟减持不超3%股份",
-      "time": "12:59",
-      "sentiment": "negative",
-      "sentimentLabel": "利空",
+      "title": "巴西下调2026年GDP预期至增长2% 之前料增2.3%",
+      "time": "17:51",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "新光光电：拟1亿元设杭州全资子公司 布局精密光学量检测",
-      "time": "12:59",
+      "title": "油价持续走高 法国马赛出现汽油车改装热潮",
+      "time": "17:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "摩根大通戴蒙：超大规模云服务商明年AI投资或达1万亿美元",
-      "time": "12:59",
+      "title": "公司内部帖子显示：Meta Platforms正在为其新的人工智能个人助手Muse测试一种“人工礼宾”模式",
+      "time": "17:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "东莞控股：拟605.42万元收购低空经济公司65%股权",
-      "time": "12:59",
+      "title": "美国一调查显示57%民众支持对华友好合作",
+      "time": "17:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,10 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "楚环科技：股东浙楚投资拟减持不超0.96%股份",
-      "time": "12:59",
-      "sentiment": "negative",
-      "sentimentLabel": "利空",
+      "title": "周二（9月22日） 美联储隔夜逆回购协议（RRP）使用规模为4.53亿美元",
+      "time": "17:51",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
