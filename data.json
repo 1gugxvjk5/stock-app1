@@ -1,20 +1,10 @@
 {
-  "updateTime": "14:39",
+  "updateTime": "19:24",
   "marketEnv": "强",
   "news": [
     {
-      "title": "消息人士称称：迪士尼公司的Disney+月费将上涨13%至每月21.49美元",
-      "time": "14:35",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "EIA：美国上周上周原油库存增加296.9万桶 市场预估为减少64.1万桶",
-      "time": "14:35",
+      "title": "土耳其护卫舰访问沙特吉达港",
+      "time": "19:22",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "比特币跌至84000美元 过去24小时内跌2.2%",
-      "time": "14:35",
+      "title": "国际原油期货结算价收涨",
+      "time": "19:22",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "巴西国家石油公司（Petrobras）高管表示 公司预计11月不会进口柴油",
-      "time": "14:35",
+      "title": "多措并举激发活力 新兴赛道民间投资渐次升温",
+      "time": "19:22",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗总统：在伊朗受到制裁的情况下 不能允许霍尔木兹海峡被自由使用",
-      "time": "14:35",
+      "title": "美国白宫国家经济委员会主任哈塞特表示：恢复美联储独立性是沃什的优先事项之一",
+      "time": "19:22",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国国务卿鲁比奥：如果要达成伊朗协议 就将需要付出艰苦的努力和时间",
-      "time": "14:35",
+      "title": "Anthropic成立生命科学研究实验室",
+      "time": "19:22",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "Anthropic宣布Claude发现一种具有类似Crispr Dna重复序列的新型酶系统",
+      "time": "19:22",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
