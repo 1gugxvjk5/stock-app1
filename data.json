@@ -1,10 +1,10 @@
 {
-  "updateTime": "19:24",
+  "updateTime": "22:37",
   "marketEnv": "强",
   "news": [
     {
-      "title": "土耳其护卫舰访问沙特吉达港",
-      "time": "19:22",
+      "title": "AI算力与新硬件布局落地 消费电子业绩持续兑现",
+      "time": "22:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "国际原油期货结算价收涨",
-      "time": "19:22",
+      "title": "9月银行理财规模延续高增态势 含权类产品为扩容主力 “控波动，控回撤”成共识",
+      "time": "22:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "多措并举激发活力 新兴赛道民间投资渐次升温",
-      "time": "19:22",
+      "title": "公募秋季策略会密集召开 积极看多权益资产",
+      "time": "22:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国白宫国家经济委员会主任哈塞特表示：恢复美联储独立性是沃什的优先事项之一",
-      "time": "19:22",
+      "title": "习近平主席抵达华盛顿 特朗普总统机场迎接",
+      "time": "22:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "Anthropic成立生命科学研究实验室",
-      "time": "19:22",
+      "title": "周四你需要知道的隔夜全球要闻",
+      "time": "22:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "Anthropic宣布Claude发现一种具有类似Crispr Dna重复序列的新型酶系统",
-      "time": "19:22",
+      "title": "美联储10月加息的概率抬升至69.7%",
+      "time": "22:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
