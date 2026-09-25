@@ -1,10 +1,10 @@
 {
-  "updateTime": "22:55",
+  "updateTime": "02:53",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "OpenAI正准备在未来几天预览其最新网络安全专用模型GPT-6 Cyber",
-      "time": "22:54",
+      "title": "央行三季度例会内容发布 这个提法首次出现",
+      "time": "02:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "也门胡塞武装称袭击沙特多地目标 包括石油设施",
-      "time": "22:54",
+      "title": "梅赛德斯-迈巴赫S级轿车改款上市 搭载高阶智能辅助驾驶系统",
+      "time": "02:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "化愿景为行动，习近平为中美落实新定位指明方向路径",
-      "time": "22:54",
+      "title": "国家统计局：第四次全国农业普查进入清查摸底阶段",
+      "time": "02:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "法国拟召集七国集团商讨释放战略石油储备",
-      "time": "22:54",
+      "title": "最快2小时27分可达 京港高铁雄安至商丘段9月28日开通运营",
+      "time": "02:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "佩泽希齐扬谈浓缩铀问题时表示，将遵守国际法",
-      "time": "22:54",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "上市后首份中报来了！梅卡曼德机器人亏损收窄",
+      "time": "02:51",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "佩泽希齐扬称：胡塞武装对其自身行动负责",
-      "time": "22:54",
+      "title": "报道称SK海力士、三星敲定全南-光州芯片项目规划",
+      "time": "02:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
