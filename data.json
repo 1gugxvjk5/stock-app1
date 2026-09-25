@@ -1,10 +1,20 @@
 {
-  "updateTime": "09:17",
+  "updateTime": "14:57",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "摩根士丹利在哔哩哔哩-WH股的持股比例于09月22日从6.61%升至7.45%",
-      "time": "09:15",
+      "title": "巴拉圭第二季度GDP同比增长4%",
+      "time": "14:54",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "巴沙土三国外长会晤 谴责对沙特民用和经济设施袭击",
+      "time": "14:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "贝莱德（BlackRock）在比亚迪股份H股的持股比例于09月22日从7.05%降至6.74%",
-      "time": "09:15",
+      "title": "意大利涉外籍学生和意语教育新规引争议",
+      "time": "14:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "贝莱德（BlackRock）在恒瑞医药H股的持股比例于09月22日从6.56%升至7.32%",
-      "time": "09:15",
+      "title": "密歇根大学12个月通货膨胀率预期增长4.6%",
+      "time": "14:54",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "密歇根大学9月份消费者信心指数报48.1 预期为47.5",
+      "time": "14:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,28 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "贝莱德（BlackRock）在工商银行H股的持股比例于09月22日从5.01%降至4.94%",
-      "time": "09:15",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "纽约梅隆银行在名创优品H股的持股比例于09月23日从10.56%升至11.06%",
-      "time": "09:15",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "贝莱德（BlackRock）在小米集团-WH股的持股比例于09月22日从5.01%降至4.98%",
-      "time": "09:15",
+      "title": "美国天然气期货跌5.19% 报3.195美元/百万英热",
+      "time": "14:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
