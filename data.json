@@ -1,20 +1,10 @@
 {
-  "updateTime": "14:57",
+  "updateTime": "19:46",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "巴拉圭第二季度GDP同比增长4%",
-      "time": "14:54",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "巴沙土三国外长会晤 谴责对沙特民用和经济设施袭击",
-      "time": "14:54",
+      "title": "德国大众拟在全球召回约286万辆汽车",
+      "time": "19:45",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "意大利涉外籍学生和意语教育新规引争议",
-      "time": "14:54",
+      "title": "伊朗总统表示 德黑兰愿意恢复《伊斯兰堡谅解》 并履行相关承诺",
+      "time": "19:45",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,18 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "密歇根大学12个月通货膨胀率预期增长4.6%",
-      "time": "14:54",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "密歇根大学9月份消费者信心指数报48.1 预期为47.5",
-      "time": "14:54",
+      "title": "美联储哈玛克：债券收益率上升受多种因素驱动",
+      "time": "19:45",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +33,28 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国天然气期货跌5.19% 报3.195美元/百万英热",
-      "time": "14:54",
+      "title": "恒生指数公司 推出A股半导体材料主题指数",
+      "time": "19:45",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "据报道 白宫考虑将柴油问题交由各州处理",
+      "time": "19:45",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "伊朗否认美伊谈判进展 称相关报道不实",
+      "time": "19:45",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
