@@ -1,10 +1,10 @@
 {
-  "updateTime": "02:53",
+  "updateTime": "09:17",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "央行三季度例会内容发布 这个提法首次出现",
-      "time": "02:51",
+      "title": "摩根士丹利在哔哩哔哩-WH股的持股比例于09月22日从6.61%升至7.45%",
+      "time": "09:15",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "梅赛德斯-迈巴赫S级轿车改款上市 搭载高阶智能辅助驾驶系统",
-      "time": "02:51",
+      "title": "贝莱德（BlackRock）在比亚迪股份H股的持股比例于09月22日从7.05%降至6.74%",
+      "time": "09:15",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "国家统计局：第四次全国农业普查进入清查摸底阶段",
-      "time": "02:51",
+      "title": "贝莱德（BlackRock）在恒瑞医药H股的持股比例于09月22日从6.56%升至7.32%",
+      "time": "09:15",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "最快2小时27分可达 京港高铁雄安至商丘段9月28日开通运营",
-      "time": "02:51",
+      "title": "贝莱德（BlackRock）在工商银行H股的持股比例于09月22日从5.01%降至4.94%",
+      "time": "09:15",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "上市后首份中报来了！梅卡曼德机器人亏损收窄",
-      "time": "02:51",
-      "sentiment": "negative",
-      "sentimentLabel": "利空",
+      "title": "纽约梅隆银行在名创优品H股的持股比例于09月23日从10.56%升至11.06%",
+      "time": "09:15",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "报道称SK海力士、三星敲定全南-光州芯片项目规划",
-      "time": "02:51",
+      "title": "贝莱德（BlackRock）在小米集团-WH股的持股比例于09月22日从5.01%降至4.98%",
+      "time": "09:15",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
