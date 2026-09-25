@@ -1,10 +1,10 @@
 {
-  "updateTime": "19:46",
+  "updateTime": "23:01",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "德国大众拟在全球召回约286万辆汽车",
-      "time": "19:45",
+      "title": "2028年前后 FAST有望实现全链条国产化",
+      "time": "22:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗总统表示 德黑兰愿意恢复《伊斯兰堡谅解》 并履行相关承诺",
-      "time": "19:45",
+      "title": "中央气象台9月26日06时发布强对流天气蓝色预警",
+      "time": "22:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美联储哈玛克：债券收益率上升受多种因素驱动",
-      "time": "19:45",
+      "title": "美官员称美伊正就重新开放霍尔木兹海峡进行讨论",
+      "time": "22:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "恒生指数公司 推出A股半导体材料主题指数",
-      "time": "19:45",
+      "title": "南太平洋新喀里多尼亚附近海域发生6.6级地震",
+      "time": "22:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "据报道 白宫考虑将柴油问题交由各州处理",
-      "time": "19:45",
+      "title": "周六你需要知道的隔夜全球要闻：美伊谈判再传重大进展 美联储官员密集释放鹰派信号 苹果再创历史收盘新高 美债收益率继续飙升",
+      "time": "22:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗否认美伊谈判进展 称相关报道不实",
-      "time": "19:45",
+      "title": "花旗集团考虑将墨西哥银行Banmex按逾30亿美元估值IPO",
+      "time": "22:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,31 +83,62 @@
       "leaders": []
     }
   ],
-  "stocks": [],
-  "scannedStocks": [
-    {
-      "name": "平安银行",
-      "code": "000001",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
-    },
-    {
-      "name": "万科A",
-      "code": "000002",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
-    },
+  "stocks": [
     {
       "name": "中兴通讯",
       "code": "000063",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.2%",
+      "r10": "-1.6%",
+      "r20": "-6.0%",
+      "d20": "-2.8%",
+      "atr": "1.8%",
+      "volRatio": "1.14",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
     },
     {
       "name": "TCL科技",
       "code": "000100",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.8%",
+      "r10": "+3.8%",
+      "r20": "-2.0%",
+      "d20": "+0.3%",
+      "atr": "2.2%",
+      "volRatio": "1.24",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    }
+  ],
+  "scannedStocks": [
+    {
+      "name": "平安银行",
+      "code": "000001",
+      "decision": "不买",
+      "stateClass": "排除"
+    },
+    {
+      "name": "万科A",
+      "code": "000002",
+      "decision": "不买",
+      "stateClass": "高位观察"
+    },
+    {
+      "name": "中兴通讯",
+      "code": "000063",
+      "decision": "观察",
+      "stateClass": "启动观察"
+    },
+    {
+      "name": "TCL科技",
+      "code": "000100",
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "中联重科",
@@ -148,8 +179,8 @@
     {
       "name": "徐工机械",
       "code": "000425",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "云南白药",
