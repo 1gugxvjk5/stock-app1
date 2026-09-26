@@ -1,10 +1,10 @@
 {
-  "updateTime": "09:00",
+  "updateTime": "14:03",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "俄军称打击乌方“星链”运行支持数据处理中心",
-      "time": "08:58",
+      "title": "美国总统特朗普称其拒绝伊朗的提议",
+      "time": "13:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗外长：美以袭击致5000余人丧生",
-      "time": "08:58",
+      "title": "雅典老城区爆炸事故致6死3伤",
+      "time": "13:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "厦金大桥（厦门段）关键控制性工程刘五店悬索桥合龙",
-      "time": "08:58",
+      "title": "比尔·盖茨呼吁立法监管AI工具：“足够强大可能导致十亿人死亡”",
+      "time": "13:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "巴斯夫确认就潜在收购赢创开展探索性谈判",
-      "time": "08:58",
+      "title": "首尔航空航班发生火情 疑似充电宝起火",
+      "time": "13:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "XRG已就阿塞拜疆阿布歇隆气田的全面开发作出最终投资决定",
-      "time": "08:58",
+      "title": "欧盟拟大力增加卫星发射 寻域外发射场",
+      "time": "13:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中瓷电子：公司上游原材料供应均已实现国产化且均能满足公司需求",
-      "time": "08:58",
+      "title": "据伊朗方面消息伊朗最高安全委员会否认伊朗因禁止伊朗航班而计划军事行动",
+      "time": "13:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
