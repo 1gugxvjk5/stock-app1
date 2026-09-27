@@ -1,10 +1,10 @@
 {
-  "updateTime": "13:30",
+  "updateTime": "18:02",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "英国一空军基地发生重大事件 5人被捕",
-      "time": "13:27",
+      "title": "AI服务器液冷订单火爆 多家公司扩产",
+      "time": "18:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "步长制药：拟向控股子公司步长驰骋商贸增资",
-      "time": "13:27",
+      "title": "三季度新增专项债发行提速",
+      "time": "18:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "AI进化速递丨OpenAI再次暂停其最先进模型训练",
-      "time": "13:27",
+      "title": "青海海南州兴海县发生4.8级地震 震源深度10千米",
+      "time": "18:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伦敦希思罗机场第三条跑道或延迟至2039年启用",
-      "time": "13:27",
+      "title": "伊朗称在霍尔木兹海峡捕获美国无人潜航器",
+      "time": "18:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "9月27日周日《新闻联播》要闻17条",
-      "time": "13:27",
+      "title": "瑞士公投否决更严格中立原则",
+      "time": "18:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中国驻菲律宾使馆发言人季凌鹏就菲防长特奥多罗涉华消极言论表明立场",
-      "time": "13:27",
+      "title": "泽连斯基称俄罗斯袭击乌克兰数据中心",
+      "time": "18:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
