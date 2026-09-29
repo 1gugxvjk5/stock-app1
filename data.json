@@ -1,10 +1,10 @@
 {
-  "updateTime": "14:33",
+  "updateTime": "20:24",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "现货黄金涨1.46% 报4174.32美元/盎司",
-      "time": "14:30",
+      "title": "美联储的威廉姆斯：预计通胀将下降",
+      "time": "20:22",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "2026金融街论坛年会将于10月19日在京开幕",
-      "time": "14:30",
+      "title": "纳斯达克中国金龙指数收跌1.55%",
+      "time": "20:22",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "甲骨文拉升涨至5%",
-      "time": "14:30",
+      "title": "美股三大指数均小幅收跌 AI硬件股普涨",
+      "time": "20:22",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国9月消费者信心跌至十二年以来最低 对经济和就业看法悲观",
-      "time": "14:30",
+      "title": "消息人士称暂无确凿信息证明以色列将遭受重大袭击",
+      "time": "20:22",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "OpenAI的年度经常性收入据悉已接近700亿美元",
-      "time": "14:30",
+      "title": "英伟达的黄仁勋表示 人工智能创新与安全之间不存在冲突",
+      "time": "20:22",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "千里科技：子公司拟3443.88万元购买极氪智能驾驶相关资产",
-      "time": "14:30",
+      "title": "特朗普考虑成立10人组成的委员会来监督人工智能",
+      "time": "20:22",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
