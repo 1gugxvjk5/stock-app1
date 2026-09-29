@@ -1,10 +1,10 @@
 {
-  "updateTime": "00:07",
+  "updateTime": "07:46",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "中信证券：美妆礼品、医美新品、珠宝旺季 关注假期场景消费品类格局变化",
-      "time": "00:06",
+      "title": "美三大股指期货短线拉升",
+      "time": "07:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "Anthropic计划未来一年在云计算等业务领域支出5180亿美元",
-      "time": "00:06",
+      "title": "阿根廷国家石油公司日产量有望首次达100万桶",
+      "time": "07:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "华泰证券：医美产业链格局重塑 关注结构性机遇",
-      "time": "00:06",
+      "title": "欧洲斯托克600指数上涨0.5%",
+      "time": "07:44",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "天赐材料：目前公司电解液产品订单需求饱满",
+      "time": "07:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "日韩股市集体低开",
-      "time": "00:06",
+      "title": "科技部：我国拥有总量位居世界第一的研发人员队伍",
+      "time": "07:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "科技股大跌之后！“公募一哥”郑希放宽限购 抄底信号来了？",
-      "time": "00:06",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "AI“场景生意”争夺战进入下一阶段",
-      "time": "00:06",
+      "title": "伊拉克军方称美军及国际联盟部队将于9月30日完成撤离",
+      "time": "07:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
