@@ -1,10 +1,10 @@
 {
-  "updateTime": "07:51",
+  "updateTime": "14:32",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "*ST京化：董事会秘书居波因个人原因辞职",
-      "time": "07:47",
+      "title": "伦敦金属交易所（LME）三个月期铝跌至3169.50美元/吨",
+      "time": "14:29",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,28 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "南京1宗低密宅地溢价15.55%成交",
-      "time": "07:47",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "郑州1宗宅地溢价35.62%成交",
-      "time": "07:47",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "海底捞：国庆首日全国门店预订量同比增长35%",
-      "time": "07:47",
+      "title": "礼来股价上涨2.6%",
+      "time": "14:29",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -43,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "2026食品安全放心消费交流研讨会在京召开",
-      "time": "07:47",
+      "title": "2026年9月票房13.68亿",
+      "time": "14:29",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +33,28 @@
       "source": "东财快讯"
     },
     {
-      "title": "派杰投资上调微软目标价",
-      "time": "07:47",
+      "title": "礼来公布Eloratzp研究数据",
+      "time": "14:29",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "以防长：迪拜航空客机事件是一起“未遂恐怖袭击”",
+      "time": "14:29",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "美股市值第二、三的苹果、谷歌均涨超3%",
+      "time": "14:29",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
