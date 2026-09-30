@@ -1,10 +1,10 @@
 {
-  "updateTime": "00:58",
+  "updateTime": "07:51",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "旷达科技：电子布等项目前处于研发、验证和小规模应用阶段",
-      "time": "00:56",
+      "title": "*ST京化：董事会秘书居波因个人原因辞职",
+      "time": "07:47",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "调查｜C端Token中转市场乱象：定价失序、计量“黑盒化”、供给鱼龙混杂 行业亟需第三方“公平秤”",
-      "time": "00:56",
+      "title": "南京1宗低密宅地溢价15.55%成交",
+      "time": "07:47",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "消费贷“价格战”又起？记者走访北京多家银行：最低可达“1”字头 稳定客群优先享受低息",
-      "time": "00:56",
+      "title": "郑州1宗宅地溢价35.62%成交",
+      "time": "07:47",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,30 +33,30 @@
       "source": "东财快讯"
     },
     {
-      "title": "晶泰科技与方大炭素首个工业级AI模型正式交付",
-      "time": "00:56",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "张坤卸任易方达优质企业三年持有基金 将由张琦单独管理",
-      "time": "00:56",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "杭氧膨胀机中标鲁油鲁炼百万吨乙烯装置甲烷膨胀再压缩机项目",
-      "time": "00:56",
+      "title": "海底捞：国庆首日全国门店预订量同比增长35%",
+      "time": "07:47",
       "sentiment": "positive",
       "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "2026食品安全放心消费交流研讨会在京召开",
+      "time": "07:47",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "派杰投资上调微软目标价",
+      "time": "07:47",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
