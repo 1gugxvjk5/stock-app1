@@ -1,10 +1,10 @@
 {
-  "updateTime": "08:09",
+  "updateTime": "16:51",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "韩65岁以上老龄人口占总人口比重超21%",
-      "time": "08:07",
+      "title": "据美国财政部网站 美国发布新的伊朗相关制裁",
+      "time": "16:49",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "欧元跌势延续 欧元兑瑞郎下跌0.5%至0.9425",
-      "time": "08:07",
+      "title": "普京称俄罗斯柴油充足 但制裁阻碍了出口",
+      "time": "16:49",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "德国9月份制造业采购经理指数报53.9 初步数据为53.8",
-      "time": "08:07",
+      "title": "城堡证券股票负责人：散户有望重返美股 10月迎来加仓窗口",
+      "time": "16:49",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "富时中国A50指数期货跌0.62% 报13877.0点",
-      "time": "08:07",
+      "title": "据相关数据显示 9月委内瑞拉石油出口降至108万桶/日",
+      "time": "16:49",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "法国9月份制造业采购经理指数报50.6 初步数据为50.3",
-      "time": "08:07",
+      "title": "据报道 OpenAI因数据泄露解雇三名安全研究员",
+      "time": "16:49",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "印度塔塔汽车公司9月乘用车销量为201,723辆",
-      "time": "08:07",
+      "title": "微软推出mAI-transcribe-2-streaming",
+      "time": "16:49",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -484,20 +484,20 @@
     {
       "name": "世纪华通",
       "code": "002602",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "光启技术",
       "code": "002625",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "卫星化学",
       "code": "002648",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "天赐材料",
@@ -520,14 +520,14 @@
     {
       "name": "英维克",
       "code": "002837",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "深南电路",
       "code": "002916",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "德赛西威",
