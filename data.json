@@ -1,10 +1,30 @@
 {
-  "updateTime": "20:28",
+  "updateTime": "01:01",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "美光科技：预计2027财年和2028财年的内存及存储供需状况将比2026年紧张得多",
-      "time": "20:26",
+      "title": "徐工机械：多维度全域降本 预计2026年及后续较长时间毛利率将保持逐年增长态势",
+      "time": "00:59",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "韩国前9个月出口总额首次突破8000亿美元大关",
+      "time": "00:59",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "国庆假期两股冷空气接连来袭 西南地区阴雨持续",
+      "time": "00:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "新思科技预计2026财年调整后每股收益为19.04美元至19.12美元",
-      "time": "20:26",
+      "title": "现货黄金失守4140美元/盎司 日内跌幅0.41%",
+      "time": "00:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "谷歌推出Gemini 4 Argon",
-      "time": "20:26",
+      "title": "韩国KOSPI指数盘初跌幅扩大至1% 报6,766.67点",
+      "time": "00:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,28 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美光科技第四季度经调整营收542.3亿美元 高于市场预期",
-      "time": "20:26",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "纳斯达克中国金龙指数收涨0.60%",
-      "time": "20:26",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "纳指、标普500指数三季度均涨逾2% 微软三季度大涨超37%",
-      "time": "20:26",
+      "title": "白宫就柴油出口禁令问题展开磋商",
+      "time": "00:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
