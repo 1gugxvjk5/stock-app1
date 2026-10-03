@@ -1,10 +1,10 @@
 {
-  "updateTime": "00:53",
+  "updateTime": "07:26",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "加息预期骤变！美联储官员鹰派立场软化 又一大行“撕报告”",
-      "time": "00:52",
+      "title": "特朗普威胁韩国：不签字，就加倍收费",
+      "time": "07:24",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "七国集团将释放1亿桶战略石油储备",
-      "time": "00:52",
+      "title": "厄尔尼诺“放大”非洲气候风险",
+      "time": "07:24",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "深圳各口岸将迎来双向客流高峰 预计达109万人次",
-      "time": "00:52",
+      "title": "交通运输部：10月2日全社会跨区域人员流动量30550.4万人次",
+      "time": "07:24",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国总统特朗普：将很快用委内瑞拉石油填满战略石油储备",
-      "time": "00:52",
+      "title": "印度空军参谋长辛格在新德里：印度计划在3月前签署114架战斗机的采购合同",
+      "time": "07:24",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "迪拜航空驾驶舱冲突袭击者据称曾因极端主义观点被解职",
-      "time": "00:52",
+      "title": "IPO受理降温！9月沪深“零受理” 三季度“节奏”明显放缓",
+      "time": "07:24",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "特朗普：与伊朗的战事将“很快结束”",
-      "time": "00:52",
+      "title": "印媒称印边防人员在印巴边境打死两名疑似巴基斯坦人",
+      "time": "07:24",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,7 +83,23 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "中国广核",
+      "code": "003816",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.7%",
+      "r10": "-2.1%",
+      "r20": "-1.9%",
+      "d20": "-1.1%",
+      "atr": "1.8%",
+      "volRatio": "0.82",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -544,14 +560,14 @@
     {
       "name": "中国广核",
       "code": "003816",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "亿纬锂能",
       "code": "300014",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "爱尔眼科",
@@ -586,8 +602,8 @@
     {
       "name": "光线传媒",
       "code": "300251",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "阳光电源",
