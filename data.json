@@ -1,10 +1,10 @@
 {
-  "updateTime": "08:06",
+  "updateTime": "19:02",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "德国9月综合PMI终值53.8，预期53.8，初值53.8；9月服务业PMI终值52.9，预期52.9，初值52.9",
-      "time": "08:03",
+      "title": "必和必拓就全球最大铜矿薪资谈判请求调解",
+      "time": "19:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "浙江温州：着力优化人工智能创业营商环境",
-      "time": "08:03",
+      "title": "SpaceX 拟在佛罗里达州建设天然气管道",
+      "time": "19:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "法国9月服务业PMI终值51.2，预期51.4，初值51.4；9月综合PMI终值51.1，预期51.2，初值51.2",
-      "time": "08:03",
+      "title": "Meta Platforms和微软据称正努力让员工摆脱对Anthropic Claude的依赖",
+      "time": "19:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "10月4日全社会跨区域人员流动量30539万人次",
-      "time": "08:03",
+      "title": "美国10年期国债收益率最新报5.343% 此前一度触及5.3493% 刷新24年高点",
+      "time": "19:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "欧元兑美元跌至17个月低点",
-      "time": "08:03",
+      "title": "10万人涌进5万人小城 考验才刚开始",
+      "time": "19:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "欧洲央行管委内格尔：目前尚无明确迹象表明通胀已传导至价格和工资设定",
-      "time": "08:03",
+      "title": "波音获得洛克希德马丁价值147亿美元的PAC-3MSE导弹导引头合同",
+      "time": "19:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,25 +83,41 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "平安银行",
+      "code": "000001",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+1.0%",
+      "r10": "+0.0%",
+      "r20": "-0.9%",
+      "d20": "+0.7%",
+      "atr": "1.6%",
+      "volRatio": "1.04",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
       "code": "000001",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "万科A",
       "code": "000002",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高位观察"
     },
     {
       "name": "中兴通讯",
       "code": "000063",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "TCL科技",
