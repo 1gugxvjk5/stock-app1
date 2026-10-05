@@ -1,10 +1,10 @@
 {
-  "updateTime": "20:49",
+  "updateTime": "00:23",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "日本Rapidus公司将协助17家企业为其客户开展芯片设计工作 合作方包括东芝旗下子公司东芝信息系统等企业",
-      "time": "20:47",
+      "title": "DeepSeek Harness国庆假期上新！90后负责人回应：希望做出让世界AI巨头跟进的创新",
+      "time": "00:21",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "施耐德电气接近达成一项交易 拟以200亿美元收购工业软件企业PTC 交易最早可能于周一公布",
-      "time": "20:47",
+      "title": "日经225指数涨幅扩大至2%",
+      "time": "00:21",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "推理支出2026年首超训练：“Token工厂”崛起 AI基础设施投资逻辑生变",
-      "time": "20:47",
+      "title": "现货黄金向上触及4150美元/盎司",
+      "time": "00:21",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "英国海上贸易行动办公室（UKMTO）称收到一则发生在也门穆哈以南60海里海域的事件报告",
-      "time": "20:47",
+      "title": "巴西总统选举首轮投票无人胜出 将进行第二轮角逐",
+      "time": "00:21",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "以媒：迪拜航空副驾驶称原计划驾机撞向以机场航站楼",
-      "time": "20:47",
+      "title": "日经225指数开盘涨1.2%",
+      "time": "00:21",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,10 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国总统特朗普的首席经济顾问呼吁前美联储主席鲍威尔离开美联储理事会",
-      "time": "20:47",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "日经225指数期货早盘上涨1.86%",
+      "time": "00:21",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
