@@ -1,10 +1,10 @@
 {
-  "updateTime": "00:23",
+  "updateTime": "08:06",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "DeepSeek Harness国庆假期上新！90后负责人回应：希望做出让世界AI巨头跟进的创新",
-      "time": "00:21",
+      "title": "德国9月综合PMI终值53.8，预期53.8，初值53.8；9月服务业PMI终值52.9，预期52.9，初值52.9",
+      "time": "08:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "日经225指数涨幅扩大至2%",
-      "time": "00:21",
+      "title": "浙江温州：着力优化人工智能创业营商环境",
+      "time": "08:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "现货黄金向上触及4150美元/盎司",
-      "time": "00:21",
+      "title": "法国9月服务业PMI终值51.2，预期51.4，初值51.4；9月综合PMI终值51.1，预期51.2，初值51.2",
+      "time": "08:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "巴西总统选举首轮投票无人胜出 将进行第二轮角逐",
-      "time": "00:21",
+      "title": "10月4日全社会跨区域人员流动量30539万人次",
+      "time": "08:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "日经225指数开盘涨1.2%",
-      "time": "00:21",
+      "title": "欧元兑美元跌至17个月低点",
+      "time": "08:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,10 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "日经225指数期货早盘上涨1.86%",
-      "time": "00:21",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "欧洲央行管委内格尔：目前尚无明确迹象表明通胀已传导至价格和工资设定",
+      "time": "08:03",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
