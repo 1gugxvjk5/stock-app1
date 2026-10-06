@@ -1,10 +1,10 @@
 {
-  "updateTime": "19:02",
+  "updateTime": "01:06",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "必和必拓就全球最大铜矿薪资谈判请求调解",
-      "time": "19:00",
+      "title": "富时中国A50指数期货开盘涨0.35%",
+      "time": "01:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "SpaceX 拟在佛罗里达州建设天然气管道",
-      "time": "19:00",
+      "title": "这个假期“跳城游”火了？",
+      "time": "01:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "Meta Platforms和微软据称正努力让员工摆脱对Anthropic Claude的依赖",
-      "time": "19:00",
+      "title": "30年期日本国债收益率触及4.24%的历史新高",
+      "time": "01:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国10年期国债收益率最新报5.343% 此前一度触及5.3493% 刷新24年高点",
-      "time": "19:00",
+      "title": "中央气象台：预计今天全国大部地区依旧维持晴好少雨的天气形势",
+      "time": "01:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "10万人涌进5万人小城 考验才刚开始",
-      "time": "19:00",
+      "title": "光遗传学斩获2026年诺奖 哪些药企有布局？进展如何？",
+      "time": "01:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "波音获得洛克希德马丁价值147亿美元的PAC-3MSE导弹导引头合同",
-      "time": "19:00",
+      "title": "贵州茅台：今日暂停！",
+      "time": "01:03",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,41 +83,25 @@
       "leaders": []
     }
   ],
-  "stocks": [
-    {
-      "name": "平安银行",
-      "code": "000001",
-      "decision": "观察",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 50,
-      "r5": "+1.0%",
-      "r10": "+0.0%",
-      "r20": "-0.9%",
-      "d20": "+0.7%",
-      "atr": "1.6%",
-      "volRatio": "1.04",
-      "stateClass": "启动观察",
-      "newsSentiment": "中性"
-    }
-  ],
+  "stocks": [],
   "scannedStocks": [
     {
       "name": "平安银行",
       "code": "000001",
-      "decision": "观察",
-      "stateClass": "启动观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "万科A",
       "code": "000002",
-      "decision": "不买",
-      "stateClass": "高位观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "中兴通讯",
       "code": "000063",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "TCL科技",
