@@ -1,10 +1,10 @@
 {
-  "updateTime": "16:29",
+  "updateTime": "22:07",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "美国西南航空与OpenAI和亚马逊云科技（AWS）展开合作 美国西南航空上线ChatGPT插件",
-      "time": "16:25",
+      "title": "苹果将于北京时间11月3日公布第四财季财报 财报电话会将于11月3日上午6时举行",
+      "time": "22:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国能源信息署短期能源报告：预计美国柴油零售价格10月保持在6美元/加仑以上 2027年逐渐下降至约4.50美元/加仑",
-      "time": "16:25",
+      "title": "拉脱维亚总统支持现总理牵头组建新政府",
+      "time": "22:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "Atlassian与OpenAI正在深化合作 将GPT-6系列前沿模型接入Atlassian全平台",
-      "time": "16:25",
+      "title": "雪佛龙将出售所持赫斯中游、DJ盆地中游资产的权益 预计因赫斯中游资产交易产生约30亿至40亿美元亏损",
+      "time": "22:06",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "苹果将推出与LG联合研发的智能门铃、智能门锁与智能温控器",
+      "time": "22:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国能源信息署（EIA）报告显示：预计2026年全球石油产量为1.011亿桶/日 较之前预测的1.006亿桶/日有所上调",
-      "time": "16:25",
+      "title": "富时A50期指连续夜盘收涨0.12%",
+      "time": "22:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国能源信息署发布短期能源报告：预计2026年布伦特原油价格96美元/桶 2027年84美元/桶",
-      "time": "16:25",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "美联储戴利表示可能需要进一步收紧政策",
-      "time": "16:25",
+      "title": "COMEX黄金期货收涨0.86% COMEX白银期货涨0.65%",
+      "time": "22:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
