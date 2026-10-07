@@ -1,10 +1,10 @@
 {
-  "updateTime": "22:07",
+  "updateTime": "03:41",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "苹果将于北京时间11月3日公布第四财季财报 财报电话会将于11月3日上午6时举行",
-      "time": "22:06",
+      "title": "沙特主导联军表示拦截导弹 胡塞武装声称击落侦察机",
+      "time": "03:39",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "拉脱维亚总统支持现总理牵头组建新政府",
-      "time": "22:06",
+      "title": "香港入境处：皇岗口岸旅客通关只需排队一次",
+      "time": "03:39",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,18 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "雪佛龙将出售所持赫斯中游、DJ盆地中游资产的权益 预计因赫斯中游资产交易产生约30亿至40亿美元亏损",
-      "time": "22:06",
-      "sentiment": "negative",
-      "sentimentLabel": "利空",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "苹果将推出与LG联合研发的智能门铃、智能门锁与智能温控器",
-      "time": "22:06",
+      "title": "港股半导体股集体下跌",
+      "time": "03:39",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "富时A50期指连续夜盘收涨0.12%",
-      "time": "22:06",
+      "title": "AMD首席执行官苏姿丰将与三星半导体负责人会面 应对内存短缺",
+      "time": "03:39",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "COMEX黄金期货收涨0.86% COMEX白银期货涨0.65%",
-      "time": "22:06",
+      "title": "现货白银日内跌幅扩大至1% 报60.71美元/盎司",
+      "time": "03:39",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "量化交易巨头Susquehanna将Marvell Technology的目标价从265美元上调至340美元",
+      "time": "03:39",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
