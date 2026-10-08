@@ -1,10 +1,10 @@
 {
-  "updateTime": "23:59",
+  "updateTime": "04:46",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "中国轮胎企业缘何扎堆落子埃及？",
-      "time": "23:57",
+      "title": "海外政策猜想引发光通信大跌！最新解读：影响可控",
+      "time": "04:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "外资机构关注中国资产：积极调研A股公司 发声看好长期前景",
-      "time": "23:57",
+      "title": "高市早苗：日本经济不再需要刺激通胀措施",
+      "time": "04:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "知名基金经理一线调研忙 细分赛道龙头受青睐",
-      "time": "23:57",
+      "title": "美媒：马杜罗夫妇将面临新指控 夫人健康状况不佳",
+      "time": "04:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "把脉四季度市场 基金经理看好景气类投资机会",
-      "time": "23:57",
+      "title": "集邦咨询：预估2031年VCSEL市场需求量将有望达到6.5亿颗",
+      "time": "04:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "日本至10月2日当周外资买进日债5857亿日元 前值-13418亿日元",
-      "time": "23:57",
+      "title": "报道称Alphabet旗下Isomorphic Labs正在进行融资谈判",
+      "time": "04:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "日本8月季调后经常账25230.95亿日元 预期21365亿日元",
-      "time": "23:57",
+      "title": "突然！36倍大牛股20%跌停！整条赛道崩跌 发生了什么？",
+      "time": "04:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -670,14 +670,14 @@
     {
       "name": "亿联网络",
       "code": "300628",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "圣邦股份",
       "code": "300661",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "宁德时代",
