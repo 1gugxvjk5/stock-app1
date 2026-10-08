@@ -1,10 +1,10 @@
 {
-  "updateTime": "12:38",
+  "updateTime": "19:37",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "美国上周首次申领失业救济人数为19.7万人 小幅低于预期",
-      "time": "12:35",
+      "title": "受俄乌冲突影响 波兰加强领空监测和防护",
+      "time": "19:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "尊界踏板安全引发关注 鸿蒙智行门店回应：华为将联合江淮重新测评并公开数据",
-      "time": "12:35",
+      "title": "俄官方宣布伊尔库茨克市正解除防疫措施",
+      "time": "19:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "民航局：进一步完善航段航班量评审指标 引导航空公司合理安排运力投放",
-      "time": "12:35",
+      "title": "胡塞武装称第三次袭击沙特机场和空军基地",
+      "time": "19:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "微软Xbox调整领导层：设立XP新部门负责游戏IP衍生业务",
-      "time": "12:35",
+      "title": "俄罗斯总统会见伊朗总统 讨论中东地区局势",
+      "time": "19:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "*ST广糖：拟4.88亿元出售两家子公司股权",
-      "time": "12:35",
+      "title": "恒指期货夜盘收涨0.12% 报23802点",
+      "time": "19:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "格罗方德盘前涨超5%",
-      "time": "12:35",
+      "title": "OpenAI Codex开发者称GPT-6.1Sol的超快模式正在推出",
+      "time": "19:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
