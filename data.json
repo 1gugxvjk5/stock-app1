@@ -1,30 +1,10 @@
 {
-  "updateTime": "00:06",
+  "updateTime": "08:18",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "海洋原油增量占全国近七成",
-      "time": "00:04",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "日经225指数低开0.57% 韩国股市今日休市",
-      "time": "00:04",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "空调业增长逻辑正在改写",
-      "time": "00:04",
+      "title": "美股AI硬件股盘前多数上涨 阿斯麦、博通、ARM涨超2%",
+      "time": "08:16",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -33,18 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "欧洲经济增长面临三重风险",
-      "time": "00:04",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "新质生产力不是少数行业的独角戏",
-      "time": "00:04",
+      "title": "惠誉确认澳大利亚评级为“AAA”",
+      "time": "08:16",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +23,38 @@
       "source": "东财快讯"
     },
     {
-      "title": "经济日报金观平：上下协同稳投资要把握三个维度",
-      "time": "00:04",
+      "title": "10月9日港股收盘：恒指涨1.79% 恒生科技指数涨3.06%",
+      "time": "08:16",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "欧洲斯托克600电信指数创下自2月份以来最低点",
+      "time": "08:16",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "苹果股价盘前跌超2%",
+      "time": "08:16",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "中证协：不得以项目数量、收入规模作为保代唯一考核指标",
+      "time": "08:16",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,53 +83,7 @@
       "leaders": []
     }
   ],
-  "stocks": [
-    {
-      "name": "浦发银行",
-      "code": "600000",
-      "decision": "观察",
-      "holdingPeriod": "仅观察",
-      "probUp": 50,
-      "r5": "+8.0%",
-      "r10": "+6.6%",
-      "r20": "+4.5%",
-      "d20": "+5.2%",
-      "atr": "1.8%",
-      "volRatio": "1.38",
-      "stateClass": "趋势观察（涨幅过大）",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "华能国际",
-      "code": "600011",
-      "decision": "观察",
-      "holdingPeriod": "仅观察",
-      "probUp": 50,
-      "r5": "+7.1%",
-      "r10": "+5.5%",
-      "r20": "+6.8%",
-      "d20": "+4.9%",
-      "atr": "1.8%",
-      "volRatio": "1.39",
-      "stateClass": "启动观察（涨幅过大）",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "浙能电力",
-      "code": "600023",
-      "decision": "观察",
-      "holdingPeriod": "仅观察",
-      "probUp": 50,
-      "r5": "+5.9%",
-      "r10": "+5.1%",
-      "r20": "+9.6%",
-      "d20": "+6.3%",
-      "atr": "2.0%",
-      "volRatio": "1.02",
-      "stateClass": "启动观察（涨幅过大）",
-      "newsSentiment": "中性"
-    }
-  ],
+  "stocks": [],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -800,26 +754,26 @@
     {
       "name": "浦发银行",
       "code": "600000",
-      "decision": "观察",
-      "stateClass": "趋势观察（涨幅过大）"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "上海机场",
       "code": "600009",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "包钢股份",
       "code": "600010",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "华能国际",
       "code": "600011",
-      "decision": "观察",
-      "stateClass": "启动观察（涨幅过大）"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "华夏银行",
@@ -848,8 +802,8 @@
     {
       "name": "浙能电力",
       "code": "600023",
-      "decision": "观察",
-      "stateClass": "启动观察（涨幅过大）"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "华能水电",
