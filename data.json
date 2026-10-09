@@ -1,10 +1,10 @@
 {
-  "updateTime": "08:18",
+  "updateTime": "16:46",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "美股AI硬件股盘前多数上涨 阿斯麦、博通、ARM涨超2%",
-      "time": "08:16",
+      "title": "据智利铜业委员会 智利国家铜业公司8月铜产量同比增长8.9%至10.17万吨",
+      "time": "16:44",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "惠誉确认澳大利亚评级为“AAA”",
-      "time": "08:16",
+      "title": "据美国海洋矿产管理局 美国湾地区约71.51%的日常石油产量和58.84%的日常天然气产量已暂停生产",
+      "time": "16:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "10月9日港股收盘：恒指涨1.79% 恒生科技指数涨3.06%",
-      "time": "08:16",
+      "title": "美国农业部月度数据出炉后 芝加哥期货交易所12月玉米期货触及单日30美分跌停",
+      "time": "16:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "欧洲斯托克600电信指数创下自2月份以来最低点",
-      "time": "08:16",
+      "title": "据工作人员透露：委内瑞拉埃尔帕利托炼油厂已开始按计划进行大规模检修",
+      "time": "16:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "苹果股价盘前跌超2%",
-      "time": "08:16",
+      "title": "上半年中国财政政策执行情况报告发布！专家：经济活动变化正在向财政收入传导",
+      "time": "16:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中证协：不得以项目数量、收入规模作为保代唯一考核指标",
-      "time": "08:16",
+      "title": "洛杉矶港执行董事表示：该港9月集装箱进口量达到546,696个标准箱 创下新纪录",
+      "time": "16:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
