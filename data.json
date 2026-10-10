@@ -1,10 +1,20 @@
 {
-  "updateTime": "22:07",
+  "updateTime": "03:45",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "内存订单排至未来一年！SK海力士合作伙伴季度内存营收同比增158%",
-      "time": "22:05",
+      "title": "8个月亏损超20亿元 广西9家央企售电公司紧急联名求救",
+      "time": "03:43",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "泰国证交所修订卖空和高频交易规则",
+      "time": "03:43",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "高盛：原油风险溢价升至22美元 创历史月度第二高",
-      "time": "22:05",
+      "title": "有新盘晚9点后连卖五套房 政策组合拳点燃上海“银十”楼市",
+      "time": "03:43",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "俄副总理：俄将提前解除柴油出口禁令",
-      "time": "22:05",
+      "title": "君正股份：NOR Flash已给全球多家服务器企业供货",
+      "time": "03:43",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "针对近期海外进出口政策相关传闻！天孚通信最新回应",
-      "time": "22:05",
+      "title": "量子计算公司太一量生8个月融资超10亿元 字节系背景基金入局",
+      "time": "03:43",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "供需关系持续改善 有机硅行业景气修复",
-      "time": "22:05",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "动力电池回收陷入“吃不饱”困局 产能扩张与退役潮错位待解",
-      "time": "22:05",
+      "title": "原青海娃哈哈公司更名为宏泽恒枫 宗馥莉卸任执行董事",
+      "time": "03:43",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
