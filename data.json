@@ -1,10 +1,10 @@
 {
-  "updateTime": "00:39",
+  "updateTime": "08:08",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "航行警告：南海部分海域进行实弹射击",
-      "time": "00:36",
+      "title": "工业富联：美国国际贸易委员会对公司及控股子公司启动337调查",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "长鑫科技登顶！ETF成加仓主渠道 前三季度韩国投资者A股、港股“扫货”名单来了",
-      "time": "00:36",
+      "title": "胡塞武装称已“关闭利雅得机场”",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "沙特主导联军：将坚决回应胡塞武装袭击利雅得机场",
-      "time": "00:36",
+      "title": "Qwen-Image-2.1Pro和Turbo API上线千问AI平台",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,18 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "“义新欧”中欧班列进出口集装箱量突破20万标箱",
-      "time": "00:36",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "美强烈谴责对沙特的袭击",
-      "time": "00:36",
+      "title": "海思科：选举王俊民为董事长",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "“蛟龙”号载人潜水器入海 计划下潜约4500米",
-      "time": "00:36",
+      "title": "海欣股份：第一大股东拟公开征集转让10%公司股份",
+      "time": "08:06",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "百利天恒：宜泽康联合放疗治疗头颈鳞癌获临床试验批准",
+      "time": "08:06",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,13 +83,29 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "平安银行",
+      "code": "000001",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+2.6%",
+      "r10": "+2.0%",
+      "r20": "-0.3%",
+      "d20": "+0.9%",
+      "atr": "1.7%",
+      "volRatio": "1.15",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
       "code": "000001",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "万科A",
@@ -106,8 +122,8 @@
     {
       "name": "TCL科技",
       "code": "000100",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "中联重科",
