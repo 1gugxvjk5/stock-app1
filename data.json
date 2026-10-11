@@ -1,10 +1,10 @@
 {
-  "updateTime": "21:00",
+  "updateTime": "00:39",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "全球MLCC龙头 计划扩产原材料",
-      "time": "20:58",
+      "title": "航行警告：南海部分海域进行实弹射击",
+      "time": "00:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "泽连斯基与多个欧洲国家领导人通话",
-      "time": "20:58",
+      "title": "长鑫科技登顶！ETF成加仓主渠道 前三季度韩国投资者A股、港股“扫货”名单来了",
+      "time": "00:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "乌方称俄军袭击扎波罗热地区致死人数上升到20人",
-      "time": "20:58",
+      "title": "沙特主导联军：将坚决回应胡塞武装袭击利雅得机场",
+      "time": "00:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "企查查 撤回IPO",
-      "time": "20:58",
+      "title": "“义新欧”中欧班列进出口集装箱量突破20万标箱",
+      "time": "00:36",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "美强烈谴责对沙特的袭击",
+      "time": "00:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "巴拿马政府宣布进入紧急状态应对强震",
-      "time": "20:58",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "最高年化1.92% 多家外资银行发行人民币大额存单",
-      "time": "20:58",
+      "title": "“蛟龙”号载人潜水器入海 计划下潜约4500米",
+      "time": "00:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
