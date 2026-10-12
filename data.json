@@ -1,10 +1,20 @@
 {
-  "updateTime": "00:55",
+  "updateTime": "08:25",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "韩国KOSPI指数跌幅扩大至2%",
-      "time": "00:53",
+      "title": "神火股份：预计前三季度归母净利润同比增长112.05%",
+      "time": "08:23",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "瑞银：看好黄金长期前景 或在4000美元/盎司获得支持",
+      "time": "08:23",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "港迪技术等在上海成立国际商贸公司",
-      "time": "00:53",
+      "title": "泽连斯基：若俄罗斯不同意能源停火 将做出回应",
+      "time": "08:23",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "亚通精工等在嘉兴成立创投合伙企业",
-      "time": "00:53",
+      "title": "白云山：子公司舒筋健腰丸获药物临床试验批准通知书",
+      "time": "08:23",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "捷豹路虎中国CEO韩少帅：关于模仿 我会把它看作一种尊重",
-      "time": "00:53",
+      "title": "泽连斯基称俄罗斯在特朗普宣布能源停火后袭击了乌克兰",
+      "time": "08:23",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "两市融资余额减少145.81亿元",
-      "time": "00:53",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "中信证券：宁德时代预计成为纳入恒生科技指数最大权重个股",
-      "time": "00:53",
+      "title": "美股光通信股盘前涨跌不一",
+      "time": "08:23",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
