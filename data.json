@@ -1,10 +1,30 @@
 {
-  "updateTime": "08:25",
+  "updateTime": "19:34",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "神火股份：预计前三季度归母净利润同比增长112.05%",
-      "time": "08:23",
+      "title": "古巴国家主席谴责美国制裁加剧粮食困境",
+      "time": "19:32",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "恒指期货夜盘收跌0.07%",
+      "time": "19:32",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "惠誉评级称墨西哥地方政府在温和增长前景下维持财务稳定",
+      "time": "19:32",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -13,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "瑞银：看好黄金长期前景 或在4000美元/盎司获得支持",
-      "time": "08:23",
+      "title": "SpaceX称“龙”飞船第35次商业补给服务任务的猎鹰9号火箭计划于当地时间13日发射",
+      "time": "19:32",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "泽连斯基：若俄罗斯不同意能源停火 将做出回应",
-      "time": "08:23",
+      "title": "特朗普政府计划将人工智能测试机构人员调至白宫",
+      "time": "19:32",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,28 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "白云山：子公司舒筋健腰丸获药物临床试验批准通知书",
-      "time": "08:23",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "泽连斯基称俄罗斯在特朗普宣布能源停火后袭击了乌克兰",
-      "time": "08:23",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "美股光通信股盘前涨跌不一",
-      "time": "08:23",
+      "title": "WTI原油期货结算价为93.74美元/桶",
+      "time": "19:32",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
