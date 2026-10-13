@@ -1,10 +1,10 @@
 {
-  "updateTime": "08:49",
+  "updateTime": "17:17",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "三星电子会长李在镕将获母亲赠股1115.8万股 按市价估值约2.6万亿韩元",
-      "time": "08:48",
+      "title": "美国财政部拍卖六周期国债",
+      "time": "17:17",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "赣锋锂业：因公司的锂盐产品库存水平较低 整体销售策略较为谨慎",
-      "time": "08:48",
+      "title": "LME金属期货多数收跌",
+      "time": "17:17",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "熵基科技新设子公司 含集成电路芯片业务",
-      "time": "08:48",
+      "title": "葡萄牙卡斯凯什发生枪击事件 致3人受伤4人被捕",
+      "time": "17:17",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "17天10板澳弘电子：公司及控股股东不存在应披露而未披露的重大信息",
-      "time": "08:48",
+      "title": "应用材料公司预计2026年服务收入增速将超20%",
+      "time": "17:17",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "大摩：维持金蝶国际“增持”评级 目标价11.4港元 AI推动第三季度ARR增长加快",
-      "time": "08:48",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "费城半导体跌幅收窄",
+      "time": "17:17",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "面壁智能发布新一代MiniCPM-V 4.7",
-      "time": "08:48",
+      "title": "特朗普称仍在与乌克兰分享情报",
+      "time": "17:17",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
