@@ -1,10 +1,10 @@
 {
-  "updateTime": "19:56",
+  "updateTime": "22:56",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "Perella Weinberg与Piper Sandler终止并购谈判",
-      "time": "19:54",
+      "title": "标普500指数期货下跌0.3% 纳斯达克100指数期货下跌0.7%",
+      "time": "22:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美联储古尔斯比表示：关税对价格的影响比预期更持久 美联储必须使通胀回归2%的轨道",
-      "time": "19:54",
+      "title": "微型机器人靶向心脏感染病灶精准送药",
+      "time": "22:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,28 @@
       "source": "东财快讯"
     },
     {
-      "title": "美元指数14日上涨",
-      "time": "19:54",
+      "title": "三季报预告密集披露 基金锚定业绩确定性",
+      "time": "22:54",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "证监会开出1.72亿元罚单！*ST清越涉欺诈发行、财务造假案",
+      "time": "22:54",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "据报道：Anthropic三季度收入增长至168亿美元",
+      "time": "22:54",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -33,28 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美联储古尔斯比表示：不希望预先锁定货币政策前景 束缚自身政策操作空间",
-      "time": "19:54",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "恒指期货夜盘收跌1.06% 报24074点",
-      "time": "19:54",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "资金再度青睐“确定性” 红利基金净值集体逼近新高",
-      "time": "19:54",
+      "title": "美银Q3净利润下降17% 营收不及预期股价跌逾7%",
+      "time": "22:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
