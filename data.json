@@ -1,10 +1,10 @@
 {
-  "updateTime": "14:51",
+  "updateTime": "19:56",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "美银全球研究将阿斯麦的目标价从每股2557欧元下调至2507欧元",
-      "time": "14:49",
+      "title": "Perella Weinberg与Piper Sandler终止并购谈判",
+      "time": "19:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "国际能源署：全球柴油供应紧张将持续至2027年",
-      "time": "14:49",
+      "title": "美联储古尔斯比表示：关税对价格的影响比预期更持久 美联储必须使通胀回归2%的轨道",
+      "time": "19:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "OpenAI据称考虑收购可能提升其网络安全业务的公司",
-      "time": "14:49",
+      "title": "美元指数14日上涨",
+      "time": "19:54",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "美联储古尔斯比表示：不希望预先锁定货币政策前景 束缚自身政策操作空间",
+      "time": "19:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "茶百道：全力配合香港证监会处理其任何关注事项 业务营运维持正常",
-      "time": "14:49",
+      "title": "恒指期货夜盘收跌1.06% 报24074点",
+      "time": "19:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "英伟达股价下跌2.05% 报223.830美元/股 总市值报5.39万亿美元",
-      "time": "14:49",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "罗素2000指数跌至四个多月低点 最新下跌1.3%",
-      "time": "14:49",
+      "title": "资金再度青睐“确定性” 红利基金净值集体逼近新高",
+      "time": "19:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
