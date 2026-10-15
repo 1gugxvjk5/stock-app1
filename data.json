@@ -1,10 +1,10 @@
 {
-  "updateTime": "14:37",
+  "updateTime": "19:38",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "可口可乐股价涨2%续刷记录新高 总市值超4000亿美元",
-      "time": "14:35",
+      "title": "恒指期货夜盘收涨0.88% 报24274点",
+      "time": "19:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国上周EIA天然气库存增加670亿立方英尺 预期760亿立方英尺 前值850亿立方英尺",
-      "time": "14:35",
+      "title": "印度将汽油出口暴利税定为每升2.5卢比 将柴油出口暴利税定为每升8.5卢比",
+      "time": "19:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "AI基础设施股Coreweave股价跌至自2025年5月以来的最低点 最新下跌8.3%",
-      "time": "14:35",
+      "title": "AI制药企业相继进入资本市场",
+      "time": "19:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "潘兴广场表示：Netflix的盈利有可能实现每年25%的增长",
-      "time": "14:35",
+      "title": "WTI原油期货结算价为97.97美元/桶 上涨2.88美元",
+      "time": "19:36",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "尊界汽车：积极响应、完全服从并将全力配合联合调查组的工作",
-      "time": "14:35",
+      "title": "上期所原油期货夜盘收涨0.11% 报726元/桶",
+      "time": "19:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中证协拟对精准赋能实体经济的业务实施激励 对明显偏离主业业务从严管控",
-      "time": "14:35",
+      "title": "大脑神经元有精密分工 我国科学家破解大脑灵活决策底层奥秘",
+      "time": "19:36",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -88,32 +88,32 @@
     {
       "name": "平安银行",
       "code": "000001",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "万科A",
       "code": "000002",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "中兴通讯",
       "code": "000063",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "TCL科技",
       "code": "000100",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "中联重科",
       "code": "000157",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "申万宏源",
@@ -142,14 +142,14 @@
     {
       "name": "藏格矿业",
       "code": "000408",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "徐工机械",
       "code": "000425",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "云南白药",
@@ -178,8 +178,8 @@
     {
       "name": "长安汽车",
       "code": "000625",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "铜陵有色",
