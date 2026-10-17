@@ -1,10 +1,10 @@
 {
-  "updateTime": "16:49",
+  "updateTime": "19:58",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "沙特联军称在利雅得等多地拦截并摧毁4架无人机",
-      "time": "16:46",
+      "title": "苏丹首都圈地区一军事基地发生爆炸",
+      "time": "19:56",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "肯尼亚新增4例埃博拉确诊病例 包括3名医护人员",
-      "time": "16:46",
+      "title": "德国执政党地方账户遭黑客入侵 默茨等数千人收到钓鱼邮件",
+      "time": "19:56",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "坦桑尼亚加强入境健康筛查 防止埃博拉病毒输入",
-      "time": "16:46",
+      "title": "Anthropic也要付10%高息 AI债市怎么了？",
+      "time": "19:56",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "以色列犹太人定居者在约旦河西岸袭击欧洲外交官车辆",
-      "time": "16:46",
+      "title": "以总理办公室：针对欧洲外交官的暴力行为“不可接受”",
+      "time": "19:56",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,20 +43,20 @@
       "source": "东财快讯"
     },
     {
-      "title": "台方统计：台湾民众赴大陆人次前8月同比增长近两成",
-      "time": "16:46",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "也门胡塞武装称击落沙特方面一架“阿帕奇”直升机",
+      "time": "19:56",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "广汽埃安Ray7启动预售 全球首搭芯片级驱制融合架构",
-      "time": "16:46",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "伊朗武装部队开火拦截霍尔木兹海峡“违规”通行船只",
+      "time": "19:56",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
       "related": [
         "大盘"
       ],
@@ -83,37 +83,113 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "美的集团",
+      "code": "000333",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+2.6%",
+      "r10": "+2.4%",
+      "r20": "-1.9%",
+      "d20": "+1.3%",
+      "atr": "2.5%",
+      "volRatio": "0.97",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "云南白药",
+      "code": "000538",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+3.3%",
+      "r10": "+6.4%",
+      "r20": "+7.5%",
+      "d20": "+4.5%",
+      "atr": "1.4%",
+      "volRatio": "1.30",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "中航西飞",
+      "code": "000768",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+5.7%",
+      "r10": "+6.7%",
+      "r20": "+0.4%",
+      "d20": "+3.6%",
+      "atr": "3.7%",
+      "volRatio": "1.38",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "迈瑞医疗",
+      "code": "300760",
+      "decision": "买",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 70,
+      "r5": "+3.7%",
+      "r10": "+8.7%",
+      "r20": "+1.0%",
+      "d20": "+4.4%",
+      "atr": "2.3%",
+      "volRatio": "1.23",
+      "stateClass": "趋势观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "浦发银行",
+      "code": "600000",
+      "decision": "买",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 70,
+      "r5": "+2.0%",
+      "r10": "+8.1%",
+      "r20": "+4.1%",
+      "d20": "+4.4%",
+      "atr": "1.8%",
+      "volRatio": "0.92",
+      "stateClass": "趋势观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
       "code": "000001",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "万科A",
       "code": "000002",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "中兴通讯",
       "code": "000063",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "TCL科技",
       "code": "000100",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "中联重科",
       "code": "000157",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "申万宏源",
@@ -124,26 +200,26 @@
     {
       "name": "东方盛虹",
       "code": "000301",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "美的集团",
       "code": "000333",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "潍柴动力",
       "code": "000338",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "藏格矿业",
       "code": "000408",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "徐工机械",
@@ -154,8 +230,8 @@
     {
       "name": "云南白药",
       "code": "000538",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "泸州老窖",
@@ -172,8 +248,8 @@
     {
       "name": "中油资本",
       "code": "000617",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "长安汽车",
@@ -196,8 +272,8 @@
     {
       "name": "中钨高新",
       "code": "000657",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "中信特钢",
@@ -208,14 +284,14 @@
     {
       "name": "京东方A",
       "code": "000725",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "中航西飞",
       "code": "000768",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "广发证券",
@@ -226,8 +302,8 @@
     {
       "name": "盐湖股份",
       "code": "000792",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "云铝股份",
@@ -676,26 +752,26 @@
     {
       "name": "圣邦股份",
       "code": "300661",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "宁德时代",
       "code": "300750",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "迈瑞医疗",
       "code": "300760",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "趋势观察"
     },
     {
       "name": "指南针",
       "code": "300803",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "新产业",
@@ -730,8 +806,8 @@
     {
       "name": "软通动力",
       "code": "301236",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "华大九天",
@@ -754,8 +830,8 @@
     {
       "name": "浦发银行",
       "code": "600000",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "趋势观察"
     },
     {
       "name": "上海机场",
