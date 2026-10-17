@@ -1,10 +1,10 @@
 {
-  "updateTime": "02:30",
+  "updateTime": "08:13",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "应届生涌向机器人秋招：年薪50万元成“白菜价” 正式offer不好拿",
-      "time": "02:28",
+      "title": "俄称击落多架乌无人机 乌称多地能源设施遭袭",
+      "time": "08:10",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "合富中国与上海中医药大学达成战略合作",
-      "time": "02:28",
+      "title": "今年来昆明机场口岸入出境外籍人员突破100万人次",
+      "time": "08:10",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "海上大风橙色预警持续 山东多港口实施禁限航",
+      "time": "08:10",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "北京“十五五”交通规划发布：2030年轨道超1050公里、45分钟通勤比例达60%",
-      "time": "02:28",
+      "title": "华纳药厂原料药硫酸特布他林、吲哚菁绿获批上市",
+      "time": "08:10",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "斯里兰卡人民币清算行揭牌运行",
-      "time": "02:28",
+      "title": "中国贸易展览会在哥斯达黎加举行",
+      "time": "08:10",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "上海财经大学校长刘元春：AI冲击世界金融结构 重思人民币管理思路",
-      "time": "02:28",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "Anthropic秘密游说国会 推动制定前沿AI监管法案",
-      "time": "02:28",
+      "title": "本轮降雨影响范围广、南方降雨持续 国家防总部署防汛工作",
+      "time": "08:10",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
