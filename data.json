@@ -1,10 +1,10 @@
 {
-  "updateTime": "13:26",
+  "updateTime": "16:49",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "张雪机车收官战首回合获第10名",
-      "time": "13:24",
+      "title": "沙特联军称在利雅得等多地拦截并摧毁4架无人机",
+      "time": "16:46",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "覆盖112个国家或地区 广交会全球合作伙伴达238家",
-      "time": "13:24",
+      "title": "肯尼亚新增4例埃博拉确诊病例 包括3名医护人员",
+      "time": "16:46",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗革命卫队：又一超级油轮在霍尔木兹海峡触雷起火",
-      "time": "13:24",
+      "title": "坦桑尼亚加强入境健康筛查 防止埃博拉病毒输入",
+      "time": "16:46",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "交通银行副行长周万阜：商业银行应加快从资金中介转向综合金融服务商",
-      "time": "13:24",
+      "title": "以色列犹太人定居者在约旦河西岸袭击欧洲外交官车辆",
+      "time": "16:46",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "赵冲久会见香港邮政署新任署长吴文杰",
-      "time": "13:24",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "台方统计：台湾民众赴大陆人次前8月同比增长近两成",
+      "time": "16:46",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "也门胡塞武装释放159名被拘留者",
-      "time": "13:24",
+      "title": "广汽埃安Ray7启动预售 全球首搭芯片级驱制融合架构",
+      "time": "16:46",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
