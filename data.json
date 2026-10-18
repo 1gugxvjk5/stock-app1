@@ -1,10 +1,10 @@
 {
-  "updateTime": "13:46",
+  "updateTime": "17:03",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "美国能源部长表示：美国汽油和柴油价格已在几周前见顶",
-      "time": "13:42",
+      "title": "加拿大总理：军事基地火灾致4名军人死亡 数十人重伤",
+      "time": "17:01",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "亚洲文化遗产保护联盟新增1观察员国1伙伴国",
-      "time": "13:42",
+      "title": "特朗普力挺内塔尼亚胡连任",
+      "time": "17:01",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "何立峰会见中投公司国际咨询委员会委员",
-      "time": "13:42",
+      "title": "沙特称胡塞武装投射物落入居民区 致6人受伤",
+      "time": "17:01",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "今年前三季度云南蒙自石榴出口超6.5万吨",
-      "time": "13:42",
+      "title": "中国车企开启欧洲本土化远征",
+      "time": "17:01",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "中信建投：市场情绪变化是近期债市波动主因",
-      "time": "13:42",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "DRAM持续涨价 存储龙头业绩超预期？",
+      "time": "17:01",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "鼎泰高科：董事长提议回购5000万元至1亿元A股股份",
-      "time": "13:42",
+      "title": "泽连斯基称与美方代表讨论下一步外交行动",
+      "time": "17:01",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
