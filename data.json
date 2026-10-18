@@ -1,10 +1,10 @@
 {
-  "updateTime": "17:03",
+  "updateTime": "19:57",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "加拿大总理：军事基地火灾致4名军人死亡 数十人重伤",
-      "time": "17:01",
+      "title": "奥地利航空公司据称从特拉维夫飞往维也纳的航班在飞机上发现可疑物体后改变航线 并降落在保加利亚索非亚",
+      "time": "19:56",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "特朗普力挺内塔尼亚胡连任",
-      "time": "17:01",
+      "title": "黑山总理斯帕伊奇会见王毅",
+      "time": "19:56",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "沙特称胡塞武装投射物落入居民区 致6人受伤",
-      "time": "17:01",
+      "title": "肯尼亚新增一例埃博拉确诊病例",
+      "time": "19:56",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中国车企开启欧洲本土化远征",
-      "time": "17:01",
+      "title": "泽连斯基与美特使通话 讨论外交解决乌克兰危机",
+      "time": "19:56",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "DRAM持续涨价 存储龙头业绩超预期？",
-      "time": "17:01",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "法国总统谴责该国多地发生的暴力事件",
+      "time": "19:56",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "泽连斯基称与美方代表讨论下一步外交行动",
-      "time": "17:01",
+      "title": "胡塞武装称沙特24小时内发动110次袭击",
+      "time": "19:56",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
