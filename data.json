@@ -1,10 +1,10 @@
 {
-  "updateTime": "02:29",
+  "updateTime": "08:29",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "法国多地发生大规模抗议 数百人被捕",
-      "time": "02:28",
+      "title": "伊朗议会批准新任国防部长",
+      "time": "08:27",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "央行副行长宣昌能出席全球主权债务圆桌会等会议并会见相关机构负责人",
-      "time": "02:28",
+      "title": "润建股份签订2亿美元Token出海大单",
+      "time": "08:27",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "2小时3分10秒！2026北京马拉松诞生新的赛会纪录",
-      "time": "02:28",
+      "title": "英伟达辟谣RTX5090停产：只是产能不足 不会断供",
+      "time": "08:27",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "李运会见中信证券股份有限公司董事长邹迎光",
-      "time": "02:28",
+      "title": "2连板吉大正元：股票交易异常波动 相关业务收入占比较低",
+      "time": "08:27",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "微博：金橙V创作者数量达13.9万，同比增长11.3%",
-      "time": "02:28",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "迈威生物：9MW2821临床数据将在2026年ESMO大会口头报告",
+      "time": "08:27",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "曙光8000发布十大前沿成果",
-      "time": "02:28",
+      "title": "民生健康：前三季度净利润同比下降26.36%",
+      "time": "08:27",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
