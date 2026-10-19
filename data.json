@@ -1,10 +1,10 @@
 {
-  "updateTime": "09:31",
+  "updateTime": "16:46",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "金融监管总局：将研究完善差异化考核评价体系 推动机构有所为、有所不为",
-      "time": "09:29",
+      "title": "苹果宣布10月28日举行发布会 将推出触控屏MacBookPro",
+      "time": "16:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "金融监管总局：大力规范市场秩序 督促机构摒弃规模情结",
-      "time": "09:29",
+      "title": "高盛将2026年底铜价预测从每吨13,735美元上调至14,700美元",
+      "time": "16:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,18 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "国机重装：第三季度归母净利润2.31亿元 同比增长18.37%",
-      "time": "09:29",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "首批18只主动ETF正式获批 为资本市场注入新动能",
-      "time": "09:29",
+      "title": "摩根大通预计未来10至15年60/40股债组合年回报率为7%",
+      "time": "16:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "医保钱包2.0版上线 个人账户跨省共济落地全国",
-      "time": "09:29",
+      "title": "Cognizant与谷歌云扩大合作联盟 加速企业智能体转型",
+      "time": "16:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "证监会：推动创办北京资本市场学会",
-      "time": "09:29",
+      "title": "伊朗称“别无选择” 只能主张对霍尔木兹海峡的控制权",
+      "time": "16:44",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "欧洲主要股指收盘集体下跌",
+      "time": "16:44",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -380,6 +380,12 @@
       "stateClass": "数据不足"
     },
     {
+      "name": "信立泰",
+      "code": "002294",
+      "decision": "数据不足",
+      "stateClass": "数据不足"
+    },
+    {
       "name": "洋河股份",
       "code": "002304",
       "decision": "数据不足",
@@ -430,20 +436,20 @@
     {
       "name": "赣锋锂业",
       "code": "002460",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "沪电股份",
       "code": "002463",
-      "decision": "不买",
-      "stateClass": "高波动"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "天齐锂业",
       "code": "002466",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "立讯精密",
@@ -976,12 +982,6 @@
     {
       "name": "恒瑞医药",
       "code": "600276",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
-    },
-    {
-      "name": "万华化学",
-      "code": "600309",
       "decision": "数据不足",
       "stateClass": "数据不足"
     }
