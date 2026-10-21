@@ -1,10 +1,10 @@
 {
-  "updateTime": "14:49",
+  "updateTime": "19:52",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "国家医保局：今年前三季度医保统筹基金收入超2.3万亿元 支出超1.7万亿元",
-      "time": "14:47",
+      "title": "美国务院要求非紧急美政府雇员撤离沙特",
+      "time": "19:50",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "纳斯达克中国金龙指数跌幅扩大至3.1%",
-      "time": "14:47",
+      "title": "伊媒：伊朗南部锡里克县传出数次爆炸声",
+      "time": "19:50",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "松发股份：拟推不超8.52亿元员工持股计划",
-      "time": "14:47",
+      "title": "国际油价21日涨跌不一",
+      "time": "19:50",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "平高电气：前三季度净利润同比增长25.34%",
-      "time": "14:47",
+      "title": "美元指数21日上涨",
+      "time": "19:50",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "OpenAI联合多方修复PHP重大安全漏洞 提出全球协同响应框架",
-      "time": "14:47",
+      "title": "乌克兰基辅市区传出连续爆炸声",
+      "time": "19:50",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美光科技在台湾的桃园工会表示：尽管公司已与台中工会单独达成协议 桃园工会仍将按计划于10月22日举行罢工",
-      "time": "14:47",
+      "title": "Meta计划推出新的无投票权股票 考虑更多股票出售",
+      "time": "19:50",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,19 +83,35 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "云南白药",
+      "code": "000538",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.3%",
+      "r10": "+4.7%",
+      "r20": "+6.2%",
+      "d20": "+2.8%",
+      "atr": "1.7%",
+      "volRatio": "1.38",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
       "code": "000001",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "万科A",
       "code": "000002",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "中兴通讯",
@@ -106,14 +122,14 @@
     {
       "name": "TCL科技",
       "code": "000100",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "中联重科",
       "code": "000157",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "申万宏源",
@@ -154,8 +170,8 @@
     {
       "name": "云南白药",
       "code": "000538",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "泸州老窖",
@@ -172,8 +188,8 @@
     {
       "name": "中油资本",
       "code": "000617",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "长安汽车",
@@ -190,8 +206,8 @@
     {
       "name": "格力电器",
       "code": "000651",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "中钨高新",
@@ -202,8 +218,8 @@
     {
       "name": "中信特钢",
       "code": "000708",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "京东方A",
