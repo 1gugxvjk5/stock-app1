@@ -1,10 +1,10 @@
 {
-  "updateTime": "19:41",
+  "updateTime": "22:56",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "巴黎局部宵禁延长至周日早晨",
-      "time": "19:40",
+      "title": "上市公司“红包雨”密集落地",
+      "time": "22:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,18 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "国际油价22日上涨",
-      "time": "19:40",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "红十字国际委员会：近几周苏丹空袭事件致数百人死亡",
-      "time": "19:40",
+      "title": "多因素共振驱动煤炭板块走强",
+      "time": "22:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "西藏那曲市巴青县7.0级地震已致18人遇难",
-      "time": "19:40",
+      "title": "国际货币基金组织：预计今年中东地区经济将萎缩1.3%",
+      "time": "22:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美元指数22日下跌",
-      "time": "19:40",
+      "title": "西藏那曲巴青7.0级地震已造成16人遇难 32人受伤",
+      "time": "22:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "现货黄金失守4030美元/盎司 日内跌2.70%",
-      "time": "19:40",
+      "title": "救援物资运抵巴青灾区 1600余人投入抗震救灾一线",
+      "time": "22:54",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "周五你需要知道的隔夜全球要闻：纳指大跌2.6% 热门科技股纷纷下挫；普京称重启俄美乌三方会谈不是仅为短暂停火；OpenAI接近完成一轮至高达300亿美元的融资",
+      "time": "22:54",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
