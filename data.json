@@ -1,30 +1,10 @@
 {
-  "updateTime": "09:06",
+  "updateTime": "14:50",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "盛弘股份：前三季度净利润同比增长32.31%",
-      "time": "09:04",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "凯莱英：第三季度净利润3.32亿元 同比增长81.49%",
-      "time": "09:04",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "川宁生物：第三季度归母净利润5492.46万元 同比下降64.91%",
-      "time": "09:04",
+      "title": "美股科技巨头集体下挫 美债收益率全线回落 资金正转向避险资产？",
+      "time": "14:47",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,18 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "电投能源：前三季度净利润同比增长43.57%",
-      "time": "09:04",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "沙特寻求扩大海外石油储备网络 提升供应韧性",
-      "time": "09:04",
+      "title": "费城半导体指数跌幅扩大至逾5%",
+      "time": "14:47",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +23,38 @@
       "source": "东财快讯"
     },
     {
-      "title": "东山精密回应股价波动：生产经营一切正常 产品交付有序推进",
-      "time": "09:04",
+      "title": "西藏那曲市巴青县附近发生6.7级左右地震",
+      "time": "14:47",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "前8月国产手术机器人出口暴涨272.9%",
+      "time": "14:47",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "谷歌总市值跌破4万亿美元 创7月28日以来新低",
+      "time": "14:47",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "第十九届中国—欧盟投资贸易科技合作洽谈会在成都开幕",
+      "time": "14:47",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
