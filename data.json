@@ -1,10 +1,10 @@
 {
-  "updateTime": "14:36",
+  "updateTime": "19:43",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "现货黄金日内跌幅扩大至1%",
-      "time": "14:34",
+      "title": "据美国商品期货交易委员会（CFTC）：截至10月20日当周 WTI原油投机者净多头头寸增加311手至110,930手",
+      "time": "19:41",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "希腊通过法案禁止15岁以下未成年人使用社交媒体",
-      "time": "14:34",
+      "title": "据美国商品期货交易委员会（CFTC）：截至10月20日当周 COMEX黄金投机者净多头头寸减少2,392手至108,685手",
+      "time": "19:41",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国消费者信心指数降至五个月低点 通胀预期再次上升",
-      "time": "14:34",
+      "title": "OpenAI表示：预计后续模型能够识别并利用目前尚未被察觉的安全漏洞 公司于10月1日恢复了前沿模型强化学习训练及内部推理工作",
+      "time": "19:41",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "对二甲苯（PX）期货主力合约触及涨停",
-      "time": "14:34",
+      "title": "厄瓜多尔发生枪击事件致3死2伤",
+      "time": "19:41",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国企业活动保持扩张 价格创2022年以来最大涨幅",
-      "time": "14:34",
+      "title": "恒指期货夜盘收涨0.02% 报23110点",
+      "time": "19:41",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "纳斯达克综合指数收复0.5%的跌幅而转涨",
-      "time": "14:34",
+      "title": "伊拉克总理表示：伊拉克计划到2032年逐步将石油产量提高至每日1000万桶",
+      "time": "19:41",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
