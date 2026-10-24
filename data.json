@@ -1,10 +1,10 @@
 {
-  "updateTime": "02:49",
+  "updateTime": "08:34",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "郭宁宁任福建省政府党组书记",
-      "time": "02:47",
+      "title": "浙江横店：深耕实景根基 借力AI赋能产业",
+      "time": "08:32",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "法国增援警察宪兵应对新一轮示威",
-      "time": "02:47",
+      "title": "终端需求支撑力度有限 本周国内生猪价格震荡下滑",
+      "time": "08:32",
+      "sentiment": "negative",
+      "sentimentLabel": "利空",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "俄乌同意局部停火 三方会谈或于下月举行",
+      "time": "08:32",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "穆迪维持法国主权信用评级及负面展望",
-      "time": "02:47",
+      "title": "艾迪精密美国公司正式开业",
+      "time": "08:32",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "“听到咔嚓一声” 快乐没有5分钟！多位网友晒图：iPhone Duo刚到手屏幕就裂开 屏幕维修费最高近8千元",
-      "time": "02:47",
+      "title": "哈尔滨开通国内首条直飞俄罗斯堪察加定期国际客运航线",
+      "time": "08:32",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "前三季度财政支出偏慢 四季度政策协同料促提速",
-      "time": "02:47",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "前沿AI模型安全引爆担忧？OpenAI“表决心”：将完全断网训练！",
-      "time": "02:47",
+      "title": "加息大消息！美联储 重磅来袭",
+      "time": "08:32",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
