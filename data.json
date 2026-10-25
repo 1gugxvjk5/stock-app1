@@ -1,10 +1,10 @@
 {
-  "updateTime": "02:40",
+  "updateTime": "08:54",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "自然资源部海啸预警中心：本次地震不会引发海啸",
-      "time": "02:38",
+      "title": "华瓷股份：第三季度净利润3902.36万元 同比下降43.6%",
+      "time": "08:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,50 +13,50 @@
       "source": "东财快讯"
     },
     {
-      "title": "江苏：前三季度GDP同比增长5.2%",
-      "time": "02:38",
+      "title": "伊朗议会议长：伊朗人民不会屈服于美国",
+      "time": "08:51",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "科瑞思：拟购买宏钢光电100%股份 股票复牌",
+      "time": "08:51",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "金溢科技：子公司签署两笔采购合同 采购算力服务器相关配件",
+      "time": "08:51",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "ST易购：部分董高及核心业务骨干拟增持不低于220万元股份",
+      "time": "08:51",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "永利股份：第三季度归母净利润6450.45万元 同比增长30.06%",
+      "time": "08:51",
       "sentiment": "positive",
       "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "日本小笠原群岛附近海域发生7.0级地震",
-      "time": "02:38",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "日本小笠原群岛地区附近发生6.8级左右地震",
-      "time": "02:38",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "64家科创板公司已披露三季报 前三季度净利润同比增长逾90%",
-      "time": "02:38",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "宁夏引黄灌区2026年度冬灌工作启动",
-      "time": "02:38",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
