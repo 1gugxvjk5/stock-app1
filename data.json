@@ -1,10 +1,10 @@
 {
-  "updateTime": "08:54",
+  "updateTime": "14:05",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "华瓷股份：第三季度净利润3902.36万元 同比下降43.6%",
-      "time": "08:51",
+      "title": "亚马逊CEO表示 AWS到2028年的算力产能已基本售罄",
+      "time": "14:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗议会议长：伊朗人民不会屈服于美国",
-      "time": "08:51",
+      "title": "评估人员发现 OpenAI存在众多其人工智能可加以利用的漏洞",
+      "time": "14:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "科瑞思：拟购买宏钢光电100%股份 股票复牌",
-      "time": "08:51",
+      "title": "招商策略：A股多项指标已接近历史底部区间",
+      "time": "14:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "金溢科技：子公司签署两笔采购合同 采购算力服务器相关配件",
-      "time": "08:51",
+      "title": "伊朗方面表示 并未通过巴基斯坦向美国提交新方案",
+      "time": "14:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "ST易购：部分董高及核心业务骨干拟增持不低于220万元股份",
-      "time": "08:51",
+      "title": "武契奇：以负责任的态度面对选举结果",
+      "time": "14:02",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "永利股份：第三季度归母净利润6450.45万元 同比增长30.06%",
-      "time": "08:51",
+      "title": "华测导航：农机导航与机器人板块前三季度实现良好增长",
+      "time": "14:02",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
