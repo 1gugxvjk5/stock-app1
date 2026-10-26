@@ -1,10 +1,20 @@
 {
-  "updateTime": "09:35",
+  "updateTime": "16:27",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "寒武纪陈天石：公司新一代智能处理器微架构将针对推训场景重点优化",
-      "time": "09:33",
+      "title": "广州前三季度GDP同比增长5.7% 增速创近五年来同期新高",
+      "time": "16:24",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "我国拟新增34家领航级智能工厂",
+      "time": "16:24",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "新潮能源：前三季度净利润同比下降54.23%",
-      "time": "09:33",
+      "title": "俄乌今天在阿列什基停火",
+      "time": "16:24",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "出厂价还在涨 渠道价已经倒挂：内存条有价无市",
-      "time": "09:33",
+      "title": "央行债市宏观审慎管理新工具BNSF来了 影响几何？",
+      "time": "16:24",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美银：微软企业级AI优势进一步巩固 Azure需求或持续超过供给",
-      "time": "09:33",
+      "title": "美国联邦住房金融局局长普尔特表示：承诺就抵押贷款成本采取更多行动",
+      "time": "16:24",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "华峰铝业：前三季度净利润同比下降7.72%",
-      "time": "09:33",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "SK海力士拟追加最高60万亿韩元股东回报 全年规模或达100万亿韩元",
-      "time": "09:33",
+      "title": "国际油价拉升 布伦特原油收复盘中2.2%的跌幅 现报116.8美元/桶",
+      "time": "16:24",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
