@@ -1,10 +1,10 @@
 {
-  "updateTime": "22:11",
+  "updateTime": "03:14",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "周二亚太早盘 道琼斯指数期货跌0.03%",
-      "time": "22:09",
+      "title": "香港15名公务员合买彩票中奖约3312万港元 兑奖人企图独吞被捕 14名同事将其告上法庭 案件详情曝光",
+      "time": "03:11",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "维珍银河宣布 其飞船计划于10月28日抵达美国太空港",
-      "time": "22:09",
+      "title": "微软再调人力结构：自愿离职方案覆盖近三成员工",
+      "time": "03:11",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "OpenAI宣布在数学、计算机科学和物理学领域的取得三项新成果",
-      "time": "22:09",
+      "title": "国家能源局：1—9月全国电力市场交易电量同比增长18.9%",
+      "time": "03:11",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "FFR完成FFAI机器人业务合并 正式挂牌上市",
+      "time": "03:11",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "周二（10月27日）重点关注财经事件和经济数据",
-      "time": "22:09",
+      "title": "生猪期货主力合约直线拉升涨幅扩大至2%",
+      "time": "03:11",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "富时中国A50指数期货夜盘收涨0.16% 报13127点",
-      "time": "22:09",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "约旦称轰炸叙利亚南部恐怖组织据点",
-      "time": "22:09",
+      "title": "恒生科技指数跌幅扩大至1%",
+      "time": "03:11",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,7 +83,143 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "五 粮 液",
+      "code": "000858",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+4.0%",
+      "r10": "+7.6%",
+      "r20": "+7.9%",
+      "d20": "+6.0%",
+      "atr": "1.7%",
+      "volRatio": "1.33",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "招商公路",
+      "code": "001965",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.2%",
+      "r10": "+1.3%",
+      "r20": "+6.7%",
+      "d20": "+1.7%",
+      "atr": "2.1%",
+      "volRatio": "1.09",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "招商蛇口",
+      "code": "001979",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+6.6%",
+      "r10": "+7.3%",
+      "r20": "+8.0%",
+      "d20": "+5.6%",
+      "atr": "4.4%",
+      "volRatio": "0.79",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "中国广核",
+      "code": "003816",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.4%",
+      "r10": "+3.4%",
+      "r20": "+8.3%",
+      "d20": "+3.3%",
+      "atr": "2.6%",
+      "volRatio": "1.02",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "亿纬锂能",
+      "code": "300014",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+7.1%",
+      "r10": "-2.5%",
+      "r20": "-5.6%",
+      "d20": "-0.6%",
+      "atr": "4.6%",
+      "volRatio": "1.34",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "爱尔眼科",
+      "code": "300015",
+      "decision": "观察",
+      "holdingPeriod": "仅观察",
+      "probUp": 50,
+      "r5": "+5.2%",
+      "r10": "+6.5%",
+      "r20": "+3.0%",
+      "d20": "+4.9%",
+      "atr": "2.0%",
+      "volRatio": "1.42",
+      "stateClass": "启动观察（涨幅过大）",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "同花顺",
+      "code": "300033",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+3.3%",
+      "r10": "+1.0%",
+      "r20": "-3.4%",
+      "d20": "+1.0%",
+      "atr": "4.4%",
+      "volRatio": "1.37",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "浦发银行",
+      "code": "600000",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.3%",
+      "r10": "+2.1%",
+      "r20": "+8.7%",
+      "d20": "+3.0%",
+      "atr": "2.0%",
+      "volRatio": "0.81",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "上港集团",
+      "code": "600018",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+1.1%",
+      "r10": "+0.2%",
+      "r20": "+2.2%",
+      "d20": "+1.3%",
+      "atr": "2.0%",
+      "volRatio": "1.05",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -238,8 +374,8 @@
     {
       "name": "五 粮 液",
       "code": "000858",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "双汇发展",
@@ -250,8 +386,8 @@
     {
       "name": "紫光股份",
       "code": "000938",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "华东医药",
@@ -298,26 +434,26 @@
     {
       "name": "招商公路",
       "code": "001965",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "招商蛇口",
       "code": "001979",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "新和成",
       "code": "002001",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "分众传媒",
       "code": "002027",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "思源电气",
@@ -532,8 +668,8 @@
     {
       "name": "深南电路",
       "code": "002916",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "德赛西威",
@@ -544,32 +680,32 @@
     {
       "name": "鹏鼎控股",
       "code": "002938",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "中国广核",
       "code": "003816",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "亿纬锂能",
       "code": "300014",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "爱尔眼科",
       "code": "300015",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察（涨幅过大）"
     },
     {
       "name": "同花顺",
       "code": "300033",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "东方财富",
@@ -760,8 +896,8 @@
     {
       "name": "浦发银行",
       "code": "600000",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "上海机场",
@@ -796,8 +932,8 @@
     {
       "name": "上港集团",
       "code": "600018",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "宝钢股份",
@@ -808,8 +944,8 @@
     {
       "name": "浙能电力",
       "code": "600023",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "华能水电",
@@ -820,8 +956,8 @@
     {
       "name": "中远海能",
       "code": "600026",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "华电国际",
