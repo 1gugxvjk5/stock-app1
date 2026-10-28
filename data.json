@@ -1,66 +1,16 @@
 {
-  "updateTime": "00:53",
+  "updateTime": "07:50",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "韩国KOSPI指数涨幅扩大至4% 三星电子涨近6%",
-      "time": "00:51",
+      "title": "新闻获取失败: Response ended prematurely",
+      "time": "00:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
-        "大盘"
+        "无"
       ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "国产算力芯片双雄PK：海光营收领跑 寒武纪净利反超",
-      "time": "00:51",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "苏州富豪套现10亿，买零食和剪刀",
-      "time": "00:51",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "两市融资余额减少160.63亿元",
-      "time": "00:51",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "国泰海通业务整合再落子：拟91亿港元出售港股上市子公司控股权",
-      "time": "00:51",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "北京商报侃股：莫过度依赖技术指标做决策",
-      "time": "00:51",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
+      "source": "无"
     }
   ],
   "sectors": [
@@ -83,23 +33,7 @@
       "leaders": []
     }
   ],
-  "stocks": [
-    {
-      "name": "五 粮 液",
-      "code": "000858",
-      "decision": "买",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 60,
-      "r5": "+3.5%",
-      "r10": "+7.0%",
-      "r20": "+7.3%",
-      "d20": "+5.5%",
-      "atr": "1.7%",
-      "volRatio": "1.40",
-      "stateClass": "启动观察",
-      "newsSentiment": "中性"
-    }
-  ],
+  "stocks": [],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -254,14 +188,14 @@
     {
       "name": "五 粮 液",
       "code": "000858",
-      "decision": "买",
-      "stateClass": "启动观察"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "双汇发展",
       "code": "000895",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "数据不足",
+      "stateClass": "数据不足"
     },
     {
       "name": "紫光股份",
