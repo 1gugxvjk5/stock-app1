@@ -1,10 +1,10 @@
 {
-  "updateTime": "14:47",
+  "updateTime": "20:44",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "西藏那曲市巴青县发生3.2级地震 震源深度6千米",
-      "time": "14:45",
+      "title": "飞塔信息预计第四季度营收为21.6亿至22.5亿美元 盘后大跌22%",
+      "time": "20:42",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "EIA报告显示：美国墨西哥湾沿岸原油库存上周降至2024年12月以来最低水平",
-      "time": "14:45",
+      "title": "谷歌CEO皮查伊表示：新AI模型Carbon的性能优于Gemini 4 Argon",
+      "time": "20:42",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国至10月23日当周EIA原油库存减少189.2万桶",
-      "time": "14:45",
+      "title": "Alphabet第三季度营收与利润不及预期 股价盘后跌幅扩大至8.5%",
+      "time": "20:42",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "燃料油期货主力合约日内涨超4%",
-      "time": "14:45",
+      "title": "微软Azure云业务营收增长48%超预期",
+      "time": "20:42",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "微软披露：来自OpenAI投资的每股收益影响为负0.03美元",
+      "time": "20:42",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "阿联酋阿布扎比国家石油公司ADNOC告知客户新的霍尔木兹海峡绕行管道将于2027年初启用",
-      "time": "14:45",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "美油、布油日内均涨超2%",
-      "time": "14:45",
+      "title": "ServiceNow盘后大跌16%",
+      "time": "20:42",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
