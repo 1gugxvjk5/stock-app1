@@ -1,16 +1,66 @@
 {
-  "updateTime": "07:50",
+  "updateTime": "14:47",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "新闻获取失败: Response ended prematurely",
-      "time": "00:00",
+      "title": "西藏那曲市巴青县发生3.2级地震 震源深度6千米",
+      "time": "14:45",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
-        "无"
+        "大盘"
       ],
-      "source": "无"
+      "source": "东财快讯"
+    },
+    {
+      "title": "EIA报告显示：美国墨西哥湾沿岸原油库存上周降至2024年12月以来最低水平",
+      "time": "14:45",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "美国至10月23日当周EIA原油库存减少189.2万桶",
+      "time": "14:45",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "燃料油期货主力合约日内涨超4%",
+      "time": "14:45",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "阿联酋阿布扎比国家石油公司ADNOC告知客户新的霍尔木兹海峡绕行管道将于2027年初启用",
+      "time": "14:45",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "美油、布油日内均涨超2%",
+      "time": "14:45",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
     }
   ],
   "sectors": [
