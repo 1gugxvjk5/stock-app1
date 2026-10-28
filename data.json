@@ -1,10 +1,10 @@
 {
-  "updateTime": "20:22",
+  "updateTime": "00:53",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "恩智浦预计第四季度调整后每股收益4.14至4.58美元 市场预期4.36美元",
-      "time": "20:21",
+      "title": "韩国KOSPI指数涨幅扩大至4% 三星电子涨近6%",
+      "time": "00:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "希捷科技预计全年营收48亿美元",
-      "time": "20:21",
+      "title": "国产算力芯片双雄PK：海光营收领跑 寒武纪净利反超",
+      "time": "00:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "希捷科技第一财季调整后每股收益7.68美元 高于预期",
-      "time": "20:21",
+      "title": "苏州富豪套现10亿，买零食和剪刀",
+      "time": "00:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,18 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "Visa第四季度净营收121.4亿美元 同比增长13%",
-      "time": "20:21",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "出口民调显示内塔尼亚胡阵营未获议会多数席位",
-      "time": "20:21",
+      "title": "两市融资余额减少160.63亿元",
+      "time": "00:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "纳斯达克中国金龙指数收跌0.11%",
-      "time": "20:21",
+      "title": "国泰海通业务整合再落子：拟91亿港元出售港股上市子公司控股权",
+      "time": "00:51",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "北京商报侃股：莫过度依赖技术指标做决策",
+      "time": "00:51",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,7 +83,23 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "五 粮 液",
+      "code": "000858",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+3.5%",
+      "r10": "+7.0%",
+      "r20": "+7.3%",
+      "d20": "+5.5%",
+      "atr": "1.7%",
+      "volRatio": "1.40",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -238,14 +254,14 @@
     {
       "name": "五 粮 液",
       "code": "000858",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "双汇发展",
       "code": "000895",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "紫光股份",
