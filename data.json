@@ -1,20 +1,10 @@
 {
-  "updateTime": "07:58",
+  "updateTime": "14:50",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "京沪高铁：前三季度净利润同比增长4.02%",
-      "time": "07:56",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "赢创集团拒绝巴斯夫的收购接洽",
-      "time": "07:56",
+      "title": "土耳其基准股指BIST100指数跌3% 土耳其主要银行指数跌2%",
+      "time": "14:47",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,18 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "万胜智能：预中标国家电网项目约2.09亿元",
-      "time": "07:56",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "现货黄金价格跌1.26% 报3970.72美元/盎司",
-      "time": "07:56",
+      "title": "数百名阿列什基居民将被接返乌克兰",
+      "time": "14:47",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "CURSOR AI发现一起安全事件 最多影响5000名用户",
-      "time": "07:56",
+      "title": "现货黄金日内跌超3% 跌破3900美元/盎司",
+      "time": "14:47",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,10 +33,30 @@
       "source": "东财快讯"
     },
     {
-      "title": "引力传媒：2026年前三季度净利润同比增长9.96%",
-      "time": "07:56",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "美股持续走低 纳斯达克100指数跌幅扩大至3%",
+      "time": "14:47",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "英特尔五年期信贷违约掉期扩大至123.5个基点的纪录高位",
+      "time": "14:47",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "“Token供应商”硅基流动在港股发行上市申请已获中国证监会备案接收",
+      "time": "14:47",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
