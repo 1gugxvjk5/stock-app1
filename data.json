@@ -1,10 +1,10 @@
 {
-  "updateTime": "01:20",
+  "updateTime": "07:52",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "昔日孝感首富夫妻闹离婚 30亿财产遭保全 涉逾4亿股大洋电机",
-      "time": "01:18",
+      "title": "国家电投山东海阳核电项目三期工程开工建设",
+      "time": "07:50",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "奥特曼：看着AI攻克那些难题 兴奋之后 是一种从未有过的悲伤",
-      "time": "01:18",
+      "title": "俄外长拉夫罗夫：乌方破坏会谈氛围 俄美根本问题未解",
+      "time": "07:50",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "清华大学汽车产业与技术战略研究院院长赵福全：车企单纯靠出海回避国内竞争的时代已经终结",
-      "time": "01:18",
+      "title": "墨西哥外交部：墨美边界不能由美国州政府单方面改变",
+      "time": "07:50",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "全球汽车精英组织主席汪大总：中国汽车出海有两大共性痛点",
-      "time": "01:18",
+      "title": "新华社：AI投资回报隐忧折射美国经济风险",
+      "time": "07:50",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "何小鹏：如果你想证明自己的智驾强 那你就应该出国！",
-      "time": "01:18",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
+      "title": "2026年前三季度：深市共计实现净利润10750.67亿元 同比增长19.27%",
+      "time": "07:50",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "钢铁工业“苦日子”到头了？三季报里藏着三个新信号",
-      "time": "01:18",
+      "title": "ChatGPT网页端及移动端上线多账户切换功能 最多可同时登录两个账号",
+      "time": "07:50",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
