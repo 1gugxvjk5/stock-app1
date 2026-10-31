@@ -1,10 +1,10 @@
 {
-  "updateTime": "07:52",
+  "updateTime": "14:11",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "国家电投山东海阳核电项目三期工程开工建设",
-      "time": "07:50",
+      "title": "俄罗斯称打击乌克兰能源和物流基础设施",
+      "time": "14:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "俄外长拉夫罗夫：乌方破坏会谈氛围 俄美根本问题未解",
-      "time": "07:50",
+      "title": "孟加拉国登革热疫情持续蔓延",
+      "time": "14:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "墨西哥外交部：墨美边界不能由美国州政府单方面改变",
-      "time": "07:50",
+      "title": "撤往乌克兰的阿列什基居民已从白俄罗斯入境",
+      "time": "14:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "新华社：AI投资回报隐忧折射美国经济风险",
-      "time": "07:50",
+      "title": "无锡队夺得苏超冠军",
+      "time": "14:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "2026年前三季度：深市共计实现净利润10750.67亿元 同比增长19.27%",
-      "time": "07:50",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "伊朗外长：目前没有与美国官员会面的计划",
+      "time": "14:09",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "ChatGPT网页端及移动端上线多账户切换功能 最多可同时登录两个账号",
-      "time": "07:50",
+      "title": "2026年10月票房20.44亿元",
+      "time": "14:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
