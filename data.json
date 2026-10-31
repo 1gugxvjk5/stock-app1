@@ -1,10 +1,10 @@
 {
-  "updateTime": "19:41",
+  "updateTime": "22:59",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "谷歌据称洽谈参与“金穹”导弹防御计划 或提供数据安全技术支持",
-      "time": "19:39",
+      "title": "当AI“吞噬”内存",
+      "time": "22:57",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "法国再现大规模示威活动 警方逮捕422人",
-      "time": "19:39",
+      "title": "环球下周看点：AI热潮遇考验 美国中期选举、非农与苹果财报接连来袭",
+      "time": "22:57",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "俄乌同意定期开展人道主义救援行动",
-      "time": "19:39",
+      "title": "日本三重县东南海域发生6.1级地震",
+      "time": "22:57",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "联合国秘书长强烈谴责苏丹冲突各方不断升级的无人机袭击",
-      "time": "19:39",
+      "title": "二十国集团外长会未就地缘和经济安全问题达成共识",
+      "time": "22:57",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗官员：伊方目前尚未作出任何新的修改核战略的决定",
-      "time": "19:39",
+      "title": "泽连斯基：乌克兰和土耳其将致力于黑海粮食走廊建设",
+      "time": "22:57",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗最高国家安全委员会秘书：尚未回应美国信函",
-      "time": "19:39",
+      "title": "“电影+体育”不是简单做加法",
+      "time": "22:57",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,31 +83,92 @@
       "leaders": []
     }
   ],
-  "stocks": [],
-  "scannedStocks": [
+  "stocks": [
     {
       "name": "平安银行",
       "code": "000001",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
-    },
-    {
-      "name": "万科A",
-      "code": "000002",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
-    },
-    {
-      "name": "中兴通讯",
-      "code": "000063",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+3.9%",
+      "r10": "+1.2%",
+      "r20": "+3.0%",
+      "d20": "+1.4%",
+      "atr": "2.1%",
+      "volRatio": "1.34",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
     },
     {
       "name": "TCL科技",
       "code": "000100",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.7%",
+      "r10": "-0.9%",
+      "r20": "-7.6%",
+      "d20": "-0.7%",
+      "atr": "2.5%",
+      "volRatio": "0.92",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "云南白药",
+      "code": "000538",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+2.5%",
+      "r10": "+1.2%",
+      "r20": "+7.7%",
+      "d20": "+2.5%",
+      "atr": "1.9%",
+      "volRatio": "0.91",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "格力电器",
+      "code": "000651",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+3.4%",
+      "r10": "-2.5%",
+      "r20": "-0.0%",
+      "d20": "+0.3%",
+      "atr": "2.3%",
+      "volRatio": "1.18",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    }
+  ],
+  "scannedStocks": [
+    {
+      "name": "平安银行",
+      "code": "000001",
+      "decision": "买",
+      "stateClass": "启动观察"
+    },
+    {
+      "name": "万科A",
+      "code": "000002",
+      "decision": "不买",
+      "stateClass": "排除"
+    },
+    {
+      "name": "中兴通讯",
+      "code": "000063",
+      "decision": "不买",
+      "stateClass": "排除"
+    },
+    {
+      "name": "TCL科技",
+      "code": "000100",
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "中联重科",
@@ -124,8 +185,8 @@
     {
       "name": "东方盛虹",
       "code": "000301",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "美的集团",
@@ -136,8 +197,8 @@
     {
       "name": "潍柴动力",
       "code": "000338",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "藏格矿业",
@@ -154,8 +215,8 @@
     {
       "name": "云南白药",
       "code": "000538",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "泸州老窖",
@@ -190,8 +251,8 @@
     {
       "name": "格力电器",
       "code": "000651",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "中钨高新",
