@@ -1,10 +1,10 @@
 {
-  "updateTime": "10:59",
+  "updateTime": "17:30",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "最新报告显示我国人工智能推理数据量首超训练数据量",
-      "time": "10:56",
+      "title": "10月新势力分化加剧：问界、阿维塔销量双双腰斩",
+      "time": "17:28",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "比亚迪：10月新能源汽车销量49.02万辆",
-      "time": "10:56",
+      "title": "巴西石油公司将航空煤油价格上调7.2% 11月1日起生效",
+      "time": "17:28",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "大风蓝色预警继续：山西河北北京等地部分地区有阵风8～9级",
-      "time": "10:56",
+      "title": "埃斯顿三季报：归母净利润大增1984.24% 盈利修复与资本实力提升并进",
+      "time": "17:28",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "乌克兰总统泽连斯基表示 俄罗斯夜间轰炸了乌克兰四个地区的能源基础设施 数十万人断电",
-      "time": "10:56",
+      "title": "欧洲多国爆发示威：德国30多座城市举行抗议游行 法国连续三个周末暴力骚乱",
+      "time": "17:28",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "科创成长层37家公司营收增长51.73% 亏损同比收窄九成 9家扭亏为盈",
-      "time": "10:56",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "币安表示：11月1日协调世界时06:00至15:30期间 平台处理提币46.49亿美元、充值10.1亿美元 净流出约36.4亿美元",
+      "time": "17:28",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
       "source": "东财快讯"
     },
     {
-      "title": "岚图汽车：10月交付13030辆",
-      "time": "10:56",
+      "title": "加拿大总理卡尼表示：他与美国总统特朗普就双边贸易的未来进行了良好对话 双方团队将在未来数周内推动协议的达成与落实",
+      "time": "17:28",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
