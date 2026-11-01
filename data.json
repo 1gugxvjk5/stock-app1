@@ -1,10 +1,10 @@
 {
-  "updateTime": "03:42",
+  "updateTime": "10:59",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "广汽丰田10月销量同比下降25.95%",
-      "time": "03:41",
+      "title": "最新报告显示我国人工智能推理数据量首超训练数据量",
+      "time": "10:56",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "上汽通用五菱10月销量142757辆",
-      "time": "03:41",
+      "title": "比亚迪：10月新能源汽车销量49.02万辆",
+      "time": "10:56",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,28 @@
       "source": "东财快讯"
     },
     {
-      "title": "零跑汽车：10月全球交付10.61万台 同比增长51%",
-      "time": "03:41",
+      "title": "大风蓝色预警继续：山西河北北京等地部分地区有阵风8～9级",
+      "time": "10:56",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "乌克兰总统泽连斯基表示 俄罗斯夜间轰炸了乌克兰四个地区的能源基础设施 数十万人断电",
+      "time": "10:56",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "科创成长层37家公司营收增长51.73% 亏损同比收窄九成 9家扭亏为盈",
+      "time": "10:56",
       "sentiment": "positive",
       "sentimentLabel": "利好",
       "related": [
@@ -33,30 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "东风本田10月终端销量同比降逾四成",
-      "time": "03:41",
+      "title": "岚图汽车：10月交付13030辆",
+      "time": "10:56",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "1–10月韩企上市公司股份回购规模增467% 系三星电子与SK海力士带动",
-      "time": "03:41",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "零跑汽车10月全球交付106127台 同比增长51%",
-      "time": "03:41",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
       "related": [
         "大盘"
       ],
