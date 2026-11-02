@@ -1,10 +1,10 @@
 {
-  "updateTime": "21:34",
+  "updateTime": "01:12",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "周一（11月2日）重点关注财经事件和经济数据",
-      "time": "21:33",
+      "title": "国内团队率先研制出钍-229核光钟",
+      "time": "01:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "上市银行三季报“交卷” 息差企稳夯实营收基本盘 其他非息收入贡献增量",
-      "time": "21:33",
+      "title": "蔚来：全国建成9785座充换电站",
+      "time": "01:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "澳大利亚内陆数据中心据悉已取消原定2028年中期的目标投运日期 原因是监管机构要求获得更多时间",
-      "time": "21:33",
+      "title": "现货白银重回50美元/盎司",
+      "time": "01:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "特朗普在谈及加拿大时表示 双方已有“非常好的协议构想”，并且“非常接近达成协议”",
-      "time": "21:33",
+      "title": "科技记者古尔曼：苹果计划明年淘汰非触屏版MacBook Pro 仅保留14英寸基础款机型",
+      "time": "01:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国佛罗里达州发生飞机坠毁事故",
-      "time": "21:33",
+      "title": "台系硅片厂客户拿货力度好于预期 报价确定上调",
+      "time": "01:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "西太平洋银行全财年净利润68.1亿澳元 预估69.3亿澳元",
-      "time": "21:33",
+      "title": "2026年“互联网之光”博览会今天开幕",
+      "time": "01:09",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,7 +83,38 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "智飞生物",
+      "code": "300122",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+4.8%",
+      "r10": "+7.3%",
+      "r20": "+3.7%",
+      "d20": "+3.7%",
+      "atr": "3.3%",
+      "volRatio": "1.03",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "汇川技术",
+      "code": "300124",
+      "decision": "买",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 70,
+      "r5": "+3.5%",
+      "r10": "+11.4%",
+      "r20": "+6.8%",
+      "d20": "+6.7%",
+      "atr": "3.9%",
+      "volRatio": "1.55",
+      "stateClass": "趋势观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -574,38 +605,38 @@
     {
       "name": "东方财富",
       "code": "300059",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "智飞生物",
       "code": "300122",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "启动观察"
     },
     {
       "name": "汇川技术",
       "code": "300124",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "买",
+      "stateClass": "趋势观察"
     },
     {
       "name": "光线传媒",
       "code": "300251",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "阳光电源",
       "code": "300274",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "中际旭创",
       "code": "300308",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "晶盛机电",
@@ -616,20 +647,20 @@
     {
       "name": "天孚通信",
       "code": "300394",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "三环集团",
       "code": "300408",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "芒果超媒",
       "code": "300413",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "高波动"
     },
     {
       "name": "昆仑万维",
