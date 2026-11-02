@@ -1,10 +1,10 @@
 {
-  "updateTime": "08:42",
+  "updateTime": "19:56",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "WTI原油期货价格跌超4% 跌破100美元/桶",
-      "time": "08:42",
+      "title": "纳斯达克100指数跌幅扩大至1%",
+      "time": "19:55",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "从“按月统计”变“按小时核算” 宁夏完成首笔小时级绿电交易",
-      "time": "08:42",
+      "title": "特朗普表示 油价将进一步下跌 因为美国正在伊朗问题上取得胜利",
+      "time": "19:55",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "币安已恢复15个网络及资产提现 单日净流出约36.4亿美元",
-      "time": "08:42",
+      "title": "汇丰将GE Vernova的评级上调至“买入” 目标价定为1100美元",
+      "time": "19:55",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "11月2日涨停复盘：131只股涨停 青岛食品6连板",
-      "time": "08:42",
+      "title": "美国最高法院将苹果与Epic Games纠纷的口头辩论日期定在1月11日",
+      "time": "19:55",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "大摩：全球数据中心2030年容量或达316GW",
-      "time": "08:42",
+      "title": "美国制造业加速扩张 生产指标创2021年以来新高",
+      "time": "19:55",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "兆易创新：已累计回购318.87万股 金额达11.65亿元",
-      "time": "08:42",
+      "title": "纳指转跌 此前曾涨超1%",
+      "time": "19:55",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -65,22 +65,45 @@
   ],
   "sectors": [
     {
-      "name": "半导体",
-      "score": 4,
+      "name": "视频媒体",
+      "score": 5,
       "state": "持续强势",
-      "leaders": []
+      "leaders": [
+        {
+          "name": "芒果超媒",
+          "code": "300413"
+        }
+      ]
     },
     {
-      "name": "人工智能",
-      "score": 4,
+      "name": "教育运营及其他",
+      "score": 5,
       "state": "持续强势",
-      "leaders": []
+      "leaders": [
+        {
+          "name": "ST豆神",
+          "code": "300010"
+        },
+        {
+          "name": "博瑞传播",
+          "code": "600880"
+        }
+      ]
     },
     {
-      "name": "新能源车",
-      "score": 3,
-      "state": "正在加强",
-      "leaders": []
+      "name": "文字媒体",
+      "score": 5,
+      "state": "持续强势",
+      "leaders": [
+        {
+          "name": "中文在线",
+          "code": "300364"
+        },
+        {
+          "name": "掌阅科技",
+          "code": "603533"
+        }
+      ]
     }
   ],
   "stocks": [
