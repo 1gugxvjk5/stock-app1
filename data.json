@@ -1,10 +1,10 @@
 {
-  "updateTime": "08:58",
+  "updateTime": "17:27",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "姚顺宇否认创业 “目前仍是DeepMind员工”",
-      "time": "08:57",
+      "title": "厄尔尼诺现象引发持续强降雨 已致厄瓜多尔11人死亡",
+      "time": "17:27",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "LME伦铜跌超3%",
-      "time": "08:57",
+      "title": "沪锡夜盘收跌2.95%",
+      "time": "17:27",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗提出地区持久和平5项原则",
-      "time": "08:57",
+      "title": "汉莎航空将收购葡萄牙航空（TAP Air Portugal）44.9%的股份",
+      "time": "17:27",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,18 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "东方证券中标央行第三次互换便利操作",
-      "time": "08:57",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "现货黄金向下跌破3900美元",
-      "time": "08:57",
+      "title": "墨西哥比索兑美元跌幅达1.2%",
+      "time": "17:27",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "6股领衔！券商11月金股出炉 这些股最受青睐",
-      "time": "08:57",
+      "title": "德众汽车：实控人拟购70.48万元问界M9",
+      "time": "17:27",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "恒合股份：拟开展IDC/ISP/CDN新业务",
+      "time": "17:27",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -65,45 +65,22 @@
   ],
   "sectors": [
     {
-      "name": "教育运营及其他",
-      "score": 5,
+      "name": "半导体",
+      "score": 4,
       "state": "持续强势",
-      "leaders": [
-        {
-          "name": "ST豆神",
-          "code": "300010"
-        },
-        {
-          "name": "博瑞传播",
-          "code": "600880"
-        }
-      ]
+      "leaders": []
     },
     {
-      "name": "涂料",
-      "score": 5,
+      "name": "人工智能",
+      "score": 4,
       "state": "持续强势",
-      "leaders": [
-        {
-          "name": "三棵树",
-          "code": "603737"
-        },
-        {
-          "name": "*ST亚士",
-          "code": "603378"
-        }
-      ]
+      "leaders": []
     },
     {
-      "name": "氨纶",
-      "score": 5,
-      "state": "持续强势",
-      "leaders": [
-        {
-          "name": "华峰化学",
-          "code": "002064"
-        }
-      ]
+      "name": "新能源车",
+      "score": 3,
+      "state": "正在加强",
+      "leaders": []
     }
   ],
   "stocks": [
