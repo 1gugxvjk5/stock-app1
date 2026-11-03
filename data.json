@@ -1,10 +1,10 @@
 {
-  "updateTime": "01:56",
+  "updateTime": "08:58",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "银行板块全线走弱 六大行均跌超2%",
-      "time": "01:56",
+      "title": "姚顺宇否认创业 “目前仍是DeepMind员工”",
+      "time": "08:57",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "应对量子计算威胁 香港金管局与港科大推出后量子密码学工具包",
-      "time": "01:56",
+      "title": "LME伦铜跌超3%",
+      "time": "08:57",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "港股航空股反弹 中国东方航空涨超6%",
-      "time": "01:56",
+      "title": "伊朗提出地区持久和平5项原则",
+      "time": "08:57",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "港股存储概念盘初走弱 澜起科技跌超6%",
-      "time": "01:56",
+      "title": "东方证券中标央行第三次互换便利操作",
+      "time": "08:57",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "现货黄金向下跌破3900美元",
+      "time": "08:57",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "五部门发文加强消费基础设施建设，港股消费ETF鹏华涨超2%",
-      "time": "01:56",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "中信证券董事长邹迎光首次公开亮相：基本盘稳、升级方向明 是中国资产最硬底气",
-      "time": "01:56",
+      "title": "6股领衔！券商11月金股出炉 这些股最受青睐",
+      "time": "08:57",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -65,67 +65,105 @@
   ],
   "sectors": [
     {
-      "name": "半导体",
-      "score": 4,
+      "name": "教育运营及其他",
+      "score": 5,
       "state": "持续强势",
-      "leaders": []
+      "leaders": [
+        {
+          "name": "ST豆神",
+          "code": "300010"
+        },
+        {
+          "name": "博瑞传播",
+          "code": "600880"
+        }
+      ]
     },
     {
-      "name": "人工智能",
-      "score": 4,
+      "name": "涂料",
+      "score": 5,
       "state": "持续强势",
-      "leaders": []
+      "leaders": [
+        {
+          "name": "三棵树",
+          "code": "603737"
+        },
+        {
+          "name": "*ST亚士",
+          "code": "603378"
+        }
+      ]
     },
     {
-      "name": "新能源车",
-      "score": 3,
-      "state": "正在加强",
-      "leaders": []
+      "name": "氨纶",
+      "score": 5,
+      "state": "持续强势",
+      "leaders": [
+        {
+          "name": "华峰化学",
+          "code": "002064"
+        }
+      ]
     }
   ],
   "stocks": [
     {
       "name": "平安银行",
       "code": "000001",
-      "decision": "观察",
+      "decision": "买",
       "holdingPeriod": "短期（1-2周）",
-      "probUp": 50,
-      "r5": "+0.6%",
-      "r10": "+0.9%",
-      "r20": "+1.7%",
-      "d20": "+0.4%",
+      "probUp": 60,
+      "r5": "+2.6%",
+      "r10": "+2.9%",
+      "r20": "+3.7%",
+      "d20": "+2.3%",
       "atr": "2.1%",
-      "volRatio": "1.19",
+      "volRatio": "1.35",
       "stateClass": "启动观察",
       "newsSentiment": "中性"
     },
     {
       "name": "TCL科技",
       "code": "000100",
-      "decision": "观察",
+      "decision": "买",
       "holdingPeriod": "短期（1-2周）",
-      "probUp": 50,
-      "r5": "+0.7%",
-      "r10": "+1.4%",
-      "r20": "-6.5%",
-      "d20": "-0.8%",
-      "atr": "2.6%",
-      "volRatio": "1.00",
+      "probUp": 60,
+      "r5": "+2.7%",
+      "r10": "+3.4%",
+      "r20": "-4.6%",
+      "d20": "+1.1%",
+      "atr": "2.7%",
+      "volRatio": "1.17",
       "stateClass": "启动观察",
       "newsSentiment": "中性"
     },
     {
       "name": "中联重科",
       "code": "000157",
+      "decision": "买",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 60,
+      "r5": "+2.8%",
+      "r10": "+3.4%",
+      "r20": "+5.1%",
+      "d20": "+3.1%",
+      "atr": "2.2%",
+      "volRatio": "1.17",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "申万宏源",
+      "code": "000166",
       "decision": "观察",
       "holdingPeriod": "短期（1-2周）",
       "probUp": 50,
-      "r5": "+1.7%",
-      "r10": "+2.2%",
-      "r20": "+3.9%",
-      "d20": "+2.0%",
-      "atr": "2.2%",
-      "volRatio": "0.96",
+      "r5": "+0.9%",
+      "r10": "+0.7%",
+      "r20": "+1.1%",
+      "d20": "+0.8%",
+      "atr": "2.1%",
+      "volRatio": "1.23",
       "stateClass": "启动观察",
       "newsSentiment": "中性"
     },
@@ -135,12 +173,27 @@
       "decision": "买",
       "holdingPeriod": "短期（1-2周）",
       "probUp": 60,
-      "r5": "+2.8%",
-      "r10": "+2.5%",
-      "r20": "+7.1%",
-      "d20": "+3.0%",
-      "atr": "2.3%",
-      "volRatio": "0.86",
+      "r5": "+4.5%",
+      "r10": "+4.2%",
+      "r20": "+8.8%",
+      "d20": "+4.6%",
+      "atr": "2.4%",
+      "volRatio": "1.01",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "徐工机械",
+      "code": "000425",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.8%",
+      "r10": "-0.7%",
+      "r20": "+1.7%",
+      "d20": "+0.8%",
+      "atr": "3.6%",
+      "volRatio": "1.25",
       "stateClass": "启动观察",
       "newsSentiment": "中性"
     },
@@ -148,15 +201,15 @@
       "name": "云南白药",
       "code": "000538",
       "decision": "买",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 60,
-      "r5": "+2.6%",
-      "r10": "+2.7%",
-      "r20": "+9.1%",
-      "d20": "+3.7%",
-      "atr": "1.8%",
-      "volRatio": "0.82",
-      "stateClass": "启动观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 70,
+      "r5": "+4.1%",
+      "r10": "+4.2%",
+      "r20": "+10.7%",
+      "d20": "+5.2%",
+      "atr": "1.9%",
+      "volRatio": "1.04",
+      "stateClass": "趋势观察",
       "newsSentiment": "中性"
     },
     {
@@ -165,12 +218,12 @@
       "decision": "观察",
       "holdingPeriod": "仅观察",
       "probUp": 50,
-      "r5": "+13.4%",
-      "r10": "+12.7%",
-      "r20": "+15.8%",
-      "d20": "+11.4%",
+      "r5": "+14.0%",
+      "r10": "+13.3%",
+      "r20": "+16.5%",
+      "d20": "+12.0%",
       "atr": "3.3%",
-      "volRatio": "1.52",
+      "volRatio": "1.62",
       "stateClass": "趋势观察（涨幅过大）",
       "newsSentiment": "中性"
     },
@@ -180,58 +233,28 @@
       "decision": "观察",
       "holdingPeriod": "短期（1-2周）",
       "probUp": 50,
-      "r5": "+1.1%",
-      "r10": "+0.6%",
-      "r20": "-0.5%",
-      "d20": "+0.3%",
+      "r5": "+1.5%",
+      "r10": "+1.1%",
+      "r20": "+0.0%",
+      "d20": "+0.8%",
       "atr": "2.5%",
-      "volRatio": "0.94",
+      "volRatio": "1.07",
       "stateClass": "启动观察",
       "newsSentiment": "中性"
     },
     {
-      "name": "格力电器",
-      "code": "000651",
-      "decision": "买",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 60,
-      "r5": "+5.3%",
-      "r10": "-0.1%",
-      "r20": "+1.2%",
-      "d20": "+0.4%",
-      "atr": "2.3%",
-      "volRatio": "0.82",
-      "stateClass": "启动观察",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "中信特钢",
-      "code": "000708",
-      "decision": "买",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 60,
-      "r5": "+2.6%",
-      "r10": "-6.1%",
-      "r20": "-3.0%",
-      "d20": "-2.3%",
-      "atr": "3.4%",
-      "volRatio": "0.82",
-      "stateClass": "启动观察",
-      "newsSentiment": "中性"
-    },
-    {
-      "name": "中航西飞",
-      "code": "000768",
-      "decision": "买",
-      "holdingPeriod": "短期（1-2周）",
-      "probUp": 60,
-      "r5": "+4.7%",
-      "r10": "-0.5%",
-      "r20": "+4.7%",
-      "d20": "+2.3%",
-      "atr": "3.5%",
-      "volRatio": "0.76",
-      "stateClass": "启动观察",
+      "name": "长安汽车",
+      "code": "000625",
+      "decision": "观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 50,
+      "r5": "-0.4%",
+      "r10": "+0.7%",
+      "r20": "+0.8%",
+      "d20": "+0.7%",
+      "atr": "1.8%",
+      "volRatio": "1.06",
+      "stateClass": "回调观察",
       "newsSentiment": "中性"
     }
   ],
@@ -239,7 +262,7 @@
     {
       "name": "平安银行",
       "code": "000001",
-      "decision": "观察",
+      "decision": "买",
       "stateClass": "启动观察"
     },
     {
@@ -257,20 +280,20 @@
     {
       "name": "TCL科技",
       "code": "000100",
-      "decision": "观察",
+      "decision": "买",
       "stateClass": "启动观察"
     },
     {
       "name": "中联重科",
       "code": "000157",
-      "decision": "观察",
+      "decision": "买",
       "stateClass": "启动观察"
     },
     {
       "name": "申万宏源",
       "code": "000166",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "东方盛虹",
@@ -299,14 +322,14 @@
     {
       "name": "徐工机械",
       "code": "000425",
-      "decision": "不买",
-      "stateClass": "排除"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "云南白药",
       "code": "000538",
       "decision": "买",
-      "stateClass": "启动观察"
+      "stateClass": "趋势观察"
     },
     {
       "name": "泸州老窖",
@@ -329,44 +352,8 @@
     {
       "name": "长安汽车",
       "code": "000625",
-      "decision": "不买",
-      "stateClass": "排除"
-    },
-    {
-      "name": "铜陵有色",
-      "code": "000630",
-      "decision": "不买",
-      "stateClass": "排除"
-    },
-    {
-      "name": "格力电器",
-      "code": "000651",
-      "decision": "买",
-      "stateClass": "启动观察"
-    },
-    {
-      "name": "中钨高新",
-      "code": "000657",
-      "decision": "不买",
-      "stateClass": "高波动"
-    },
-    {
-      "name": "中信特钢",
-      "code": "000708",
-      "decision": "买",
-      "stateClass": "启动观察"
-    },
-    {
-      "name": "京东方A",
-      "code": "000725",
-      "decision": "不买",
-      "stateClass": "排除"
-    },
-    {
-      "name": "中航西飞",
-      "code": "000768",
-      "decision": "买",
-      "stateClass": "启动观察"
+      "decision": "观察",
+      "stateClass": "回调观察"
     }
   ]
 }
