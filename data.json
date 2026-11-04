@@ -1,10 +1,10 @@
 {
-  "updateTime": "22:47",
+  "updateTime": "04:20",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "中央气象台发布大风蓝色预警 北方多地及部分海域风力较强",
-      "time": "22:45",
+      "title": "特朗普：若民主党掌控国会 他将行使否决权",
+      "time": "04:17",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "FOF三季度持仓曝光： 债券ETF成压舱石 黄金主题获青睐",
-      "time": "22:45",
+      "title": "港股午评：恒生指数涨0.01% 恒生科技指数跌1.02%",
+      "time": "04:17",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "AMD 首席财务官称 预计四季度非公认会计准则（Non-GAAP）运营费用约为 37.5 亿美元",
-      "time": "22:45",
+      "title": "富临精工：子公司发生火情事故 未造成人员伤亡",
+      "time": "04:17",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国证交会（SEC）文件显示Meta Platforms分五批定价发行150亿美元高级票据",
-      "time": "22:45",
+      "title": "伊朗称4艘试图通过霍尔木兹海峡的油轮触雷起火",
+      "time": "04:17",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "以方被曝对美国将结束安全援助“感到担忧”",
-      "time": "22:45",
+      "title": "润置控股、武汉地铁集团成立公寓管理公司",
+      "time": "04:17",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,10 +53,10 @@
       "source": "东财快讯"
     },
     {
-      "title": "AMD预计2027年营收增长超过80% 预测2027年PC市场将出现两位数百分比的下滑",
-      "time": "22:45",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
+      "title": "中国商火增资项目启动预披露 2025年营收约3.5亿元",
+      "time": "04:17",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
       "related": [
         "大盘"
       ],
@@ -65,45 +65,22 @@
   ],
   "sectors": [
     {
-      "name": "教育运营及其他",
-      "score": 5,
+      "name": "半导体",
+      "score": 4,
       "state": "持续强势",
-      "leaders": [
-        {
-          "name": "ST豆神",
-          "code": "300010"
-        },
-        {
-          "name": "博瑞传播",
-          "code": "600880"
-        }
-      ]
+      "leaders": []
     },
     {
-      "name": "涂料",
-      "score": 5,
+      "name": "人工智能",
+      "score": 4,
       "state": "持续强势",
-      "leaders": [
-        {
-          "name": "三棵树",
-          "code": "603737"
-        },
-        {
-          "name": "*ST亚士",
-          "code": "603378"
-        }
-      ]
+      "leaders": []
     },
     {
-      "name": "氨纶",
-      "score": 5,
-      "state": "持续强势",
-      "leaders": [
-        {
-          "name": "华峰化学",
-          "code": "002064"
-        }
-      ]
+      "name": "新能源车",
+      "score": 3,
+      "state": "正在加强",
+      "leaders": []
     }
   ],
   "stocks": [],
