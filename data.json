@@ -1,10 +1,10 @@
 {
-  "updateTime": "04:20",
+  "updateTime": "13:37",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "特朗普：若民主党掌控国会 他将行使否决权",
-      "time": "04:17",
+      "title": "法国CAC指数涨幅扩大至2%",
+      "time": "13:35",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "港股午评：恒生指数涨0.01% 恒生科技指数跌1.02%",
-      "time": "04:17",
+      "title": "美国财政部将拍卖420亿美元十年期债券、250亿美元30年期债券以及580亿美元三年期债券",
+      "time": "13:35",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "富临精工：子公司发生火情事故 未造成人员伤亡",
-      "time": "04:17",
+      "title": "美国9月贸易逆差为1050亿美元 预期逆差1080亿美元",
+      "time": "13:35",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "伊朗称4艘试图通过霍尔木兹海峡的油轮触雷起火",
-      "time": "04:17",
+      "title": "花旗对黄金给出0-3个月目标价4,500美元/盎司",
+      "time": "13:35",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "润置控股、武汉地铁集团成立公寓管理公司",
-      "time": "04:17",
+      "title": "亿航智能发布EH216-EK大载重消防eVTOL航空器",
+      "time": "13:35",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中国商火增资项目启动预披露 2025年营收约3.5亿元",
-      "time": "04:17",
+      "title": "谷歌将为TeraWulf项目中部分Anthropic义务提供兜底担保",
+      "time": "13:35",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
