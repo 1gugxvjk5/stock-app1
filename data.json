@@ -1,10 +1,10 @@
 {
-  "updateTime": "08:52",
+  "updateTime": "17:48",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "华为推出电脑产业合作模式“HarmonyOS inside”",
-      "time": "08:51",
+      "title": "Markit数据显示 SpaceX五年期信用违约互换（CDS）扩大至新高",
+      "time": "17:47",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,18 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "有研硅：控股股东及实控人承诺6个月内不减持股份",
-      "time": "08:51",
-      "sentiment": "negative",
-      "sentimentLabel": "利空",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "中仑新材：拟1亿元-2亿元回购公司股份",
-      "time": "08:51",
+      "title": "巴拉圭众议院通过了对总统圣地亚哥·佩尼亚的弹劾动议",
+      "time": "17:47",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "强瑞技术：拟8000万元至1.2亿元回购公司股份",
-      "time": "08:51",
+      "title": "新疆和田地区和康县附近发生5.1级左右地震",
+      "time": "17:47",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "中国人民银行行长潘功胜会见摩根士丹利集团董事长彭泰德",
-      "time": "08:51",
+      "title": "谷歌推出Gemini Omni 1.2 Flash视频生成模型",
+      "time": "17:47",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "国瓷材料：回购股份实施完成 累计回购586.13万股",
-      "time": "08:51",
+      "title": "也门胡塞武装称袭击了法赫德国王机场",
+      "time": "17:47",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "谷歌将投资170亿美元 在怀俄明州建设其首个数据中心",
+      "time": "17:47",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -65,22 +65,53 @@
   ],
   "sectors": [
     {
-      "name": "半导体",
-      "score": 4,
+      "name": "光伏辅材",
+      "score": 5,
       "state": "持续强势",
-      "leaders": []
+      "leaders": [
+        {
+          "name": "福斯特",
+          "code": "603806"
+        },
+        {
+          "name": "聚和材料",
+          "code": "688503"
+        },
+        {
+          "name": "帝科股份",
+          "code": "300842"
+        }
+      ]
     },
     {
-      "name": "人工智能",
-      "score": 4,
+      "name": "光伏加工设备",
+      "score": 5,
       "state": "持续强势",
-      "leaders": []
+      "leaders": [
+        {
+          "name": "迈为股份",
+          "code": "300751"
+        },
+        {
+          "name": "捷佳伟创",
+          "code": "300724"
+        },
+        {
+          "name": "奥特维",
+          "code": "688516"
+        }
+      ]
     },
     {
-      "name": "新能源车",
-      "score": 3,
-      "state": "正在加强",
-      "leaders": []
+      "name": "视频媒体",
+      "score": 5,
+      "state": "持续强势",
+      "leaders": [
+        {
+          "name": "芒果超媒",
+          "code": "300413"
+        }
+      ]
     }
   ],
   "stocks": [
