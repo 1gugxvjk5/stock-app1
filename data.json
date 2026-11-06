@@ -1,10 +1,10 @@
 {
-  "updateTime": "13:34",
+  "updateTime": "20:12",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "美国10月非农就业人数增加16.5万人 远超市场预期",
-      "time": "13:33",
+      "title": "美国9月消费者信贷环比增加278.39亿美元 预估为增加138亿美元",
+      "time": "20:12",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美国10月失业率为4.1% 不及预期",
-      "time": "13:33",
+      "title": "特朗普谈威尔斯离职时表示 想做出改变 希望米勒能把事情办好",
+      "time": "20:12",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "现货白银日内涨1%",
-      "time": "13:33",
+      "title": "Alphabet旗下的无人机部门将投资1.25亿美元 在得克萨斯州建设一座新工厂",
+      "time": "20:12",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,18 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "美伊谈判接近取得突破 核问题重新纳入谈判",
-      "time": "13:33",
-      "sentiment": "positive",
-      "sentimentLabel": "利好",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "投资者据称讨论Anthropic上市估值下调至1.2万亿-1.3万亿美元",
-      "time": "13:33",
+      "title": "美国宣布新一轮与伊朗相关的制裁措施",
+      "time": "20:12",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +43,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "报道：软银正就向OpenAI投资数亿美元进行洽谈",
-      "time": "13:33",
+      "title": "Braskem的股东已放弃注资提案；",
+      "time": "20:12",
+      "sentiment": "neutral",
+      "sentimentLabel": "中性",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "特朗普任命新白宫办公厅主任",
+      "time": "20:12",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
