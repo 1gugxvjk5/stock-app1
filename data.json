@@ -1,10 +1,10 @@
 {
-  "updateTime": "17:38",
+  "updateTime": "23:56",
   "marketEnv": "正常",
   "news": [
     {
-      "title": "乌克兰总统泽连斯基已抵达爱尔兰 计划与美方特使史蒂夫·威特科夫及贾里德·库什纳举行会面",
-      "time": "17:37",
+      "title": "大批人涌入！“销量飙升60%”！“钓”出来的小生意有多火？",
+      "time": "23:55",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "马斯克表示：Cybertruck的生产将延长至2027年夏季末",
-      "time": "17:37",
+      "title": "日本至11月6日当周外资买进日股-1052亿日元 前值11293亿日元",
+      "time": "23:55",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "欧洲股市收盘再创纪录 能源和科技板块反弹",
-      "time": "17:37",
+      "title": "百亿级市场火爆！“超六成访客是老外”！有人当场下单",
+      "time": "23:55",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,18 @@
       "source": "东财快讯"
     },
     {
-      "title": "巴西石油首席执行官表示：公司已将石油泄漏率从10%降至3%",
-      "time": "17:37",
+      "title": "日本10月生产者价格同比增长7.1% 预估为6.5%",
+      "time": "23:55",
+      "sentiment": "positive",
+      "sentimentLabel": "利好",
+      "related": [
+        "大盘"
+      ],
+      "source": "东财快讯"
+    },
+    {
+      "title": "证监会拟细化先行赔付政策 更好保护投资者权益",
+      "time": "23:55",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,18 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "沪铝夜盘收涨1.1%",
-      "time": "17:37",
-      "sentiment": "neutral",
-      "sentimentLabel": "中性",
-      "related": [
-        "大盘"
-      ],
-      "source": "东财快讯"
-    },
-    {
-      "title": "乌克兰军方表示：其已对俄罗斯波罗的海港口乌斯季卢加实施打击 该港口的储油罐受损",
-      "time": "17:37",
+      "title": "从采购走向全链路协同 车企深化动力电池布局",
+      "time": "23:55",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
