@@ -1,10 +1,10 @@
 {
-  "updateTime": "14:27",
+  "updateTime": "22:01",
   "marketEnv": "偏弱",
   "news": [
     {
-      "title": "英伟达盘前跌幅扩大至13%",
-      "time": "14:25",
+      "title": "周五（11月13日）重点关注财经事件和经济数据",
+      "time": "21:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -13,8 +13,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "比特币跌至72000美元 过去24小时内跌2.2%",
-      "time": "14:25",
+      "title": "伊朗南部锡里克据报遭袭",
+      "time": "21:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -23,8 +23,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "SK海力士美股盘前跌超6%",
-      "time": "14:25",
+      "title": "美国司法部将扣押从币安窃取的价值12亿美元加密货币",
+      "time": "21:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -33,8 +33,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "国际半导体产业协会：全球供应链中断将推高企业成本",
-      "time": "14:25",
+      "title": "维珍银河第三财季营收为43万美元 高于市场估计的40万美元",
+      "time": "21:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -43,8 +43,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "Nebius美股盘前跌超20%",
-      "time": "14:25",
+      "title": "Gemini Space Station第三财季营收为4090万美元 低于市场估计的4220万美元",
+      "time": "21:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -53,8 +53,8 @@
       "source": "东财快讯"
     },
     {
-      "title": "三星电子与谷歌、Gentle Monster、Warby Parker合作推出智能眼镜",
-      "time": "14:25",
+      "title": "消息称SpaceX与特斯拉创纪录合并谈判取得进展",
+      "time": "21:59",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
       "related": [
@@ -83,7 +83,38 @@
       "leaders": []
     }
   ],
-  "stocks": [],
+  "stocks": [
+    {
+      "name": "中兴通讯",
+      "code": "000063",
+      "decision": "观察",
+      "holdingPeriod": "长期（1-3个月）",
+      "probUp": 50,
+      "r5": "-2.8%",
+      "r10": "+0.9%",
+      "r20": "+4.6%",
+      "d20": "+0.3%",
+      "atr": "2.5%",
+      "volRatio": "0.86",
+      "stateClass": "回调观察",
+      "newsSentiment": "中性"
+    },
+    {
+      "name": "中钨高新",
+      "code": "000657",
+      "decision": "观察",
+      "holdingPeriod": "短期（1-2周）",
+      "probUp": 50,
+      "r5": "+0.3%",
+      "r10": "+7.4%",
+      "r20": "-7.6%",
+      "d20": "+1.6%",
+      "atr": "5.9%",
+      "volRatio": "1.23",
+      "stateClass": "启动观察",
+      "newsSentiment": "中性"
+    }
+  ],
   "scannedStocks": [
     {
       "name": "平安银行",
@@ -100,20 +131,20 @@
     {
       "name": "中兴通讯",
       "code": "000063",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "回调观察"
     },
     {
       "name": "TCL科技",
       "code": "000100",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "中联重科",
       "code": "000157",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "申万宏源",
@@ -136,8 +167,8 @@
     {
       "name": "潍柴动力",
       "code": "000338",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "藏格矿业",
@@ -148,8 +179,8 @@
     {
       "name": "徐工机械",
       "code": "000425",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "云南白药",
@@ -184,8 +215,8 @@
     {
       "name": "铜陵有色",
       "code": "000630",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "不买",
+      "stateClass": "排除"
     },
     {
       "name": "格力电器",
@@ -196,8 +227,8 @@
     {
       "name": "中钨高新",
       "code": "000657",
-      "decision": "数据不足",
-      "stateClass": "数据不足"
+      "decision": "观察",
+      "stateClass": "启动观察"
     },
     {
       "name": "中信特钢",
