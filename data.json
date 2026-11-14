@@ -1,9 +1,9 @@
 {
-  "updateTime": "08:26",
-  "marketEnv": "偏弱",
+  "updateTime": "16:17",
+  "marketEnv": "正常",
   "news": [
     {
-      "title": "新闻获取失败: module 'akshare' has no attribute 'stock_info_global_em'",
+      "title": "新闻获取失败: stock_info_global_em 已在 1.20.41 更名为 stock_news_global_em，请改用 ak.stock_news_global_em；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_news_global_em\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
       "time": "00:00",
       "sentiment": "neutral",
       "sentimentLabel": "中性",
