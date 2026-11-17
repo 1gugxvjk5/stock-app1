@@ -1,5 +1,5 @@
 {
-  "updateTime": "23:56",
+  "updateTime": "06:12",
   "marketEnv": "正常",
   "news": [
     {
@@ -15,22 +15,57 @@
   ],
   "sectors": [
     {
-      "name": "半导体",
-      "score": 4,
+      "name": "集成电路制造",
+      "score": 5,
       "state": "持续强势",
-      "leaders": []
+      "leaders": [
+        {
+          "name": "中芯国际",
+          "code": "688981"
+        },
+        {
+          "name": "华虹宏力",
+          "code": "688347"
+        },
+        {
+          "name": "盛合晶微",
+          "code": "688820"
+        }
+      ]
     },
     {
-      "name": "人工智能",
-      "score": 4,
+      "name": "橡胶助剂",
+      "score": 5,
       "state": "持续强势",
-      "leaders": []
+      "leaders": [
+        {
+          "name": "彤程新材",
+          "code": "603650"
+        },
+        {
+          "name": "阳谷华泰",
+          "code": "300121"
+        }
+      ]
     },
     {
-      "name": "新能源车",
-      "score": 3,
-      "state": "正在加强",
-      "leaders": []
+      "name": "厨房小家电",
+      "score": 5,
+      "state": "持续强势",
+      "leaders": [
+        {
+          "name": "九阳股份",
+          "code": "002242"
+        },
+        {
+          "name": "北鼎股份",
+          "code": "300824"
+        },
+        {
+          "name": "小熊电器",
+          "code": "002959"
+        }
+      ]
     }
   ],
   "stocks": [],
