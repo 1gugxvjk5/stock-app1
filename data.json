@@ -1,5 +1,5 @@
 {
-  "updateTime": "05:47",
+  "updateTime": "14:53",
   "marketEnv": "正常",
   "news": [
     {
@@ -15,22 +15,61 @@
   ],
   "sectors": [
     {
-      "name": "半导体",
-      "score": 4,
+      "name": "半导体设备",
+      "score": 5,
       "state": "持续强势",
-      "leaders": []
+      "leaders": [
+        {
+          "name": "中微公司",
+          "code": "688012"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371"
+        },
+        {
+          "name": "长川科技",
+          "code": "300604"
+        }
+      ]
     },
     {
-      "name": "人工智能",
-      "score": 4,
+      "name": "半导体材料",
+      "score": 5,
       "state": "持续强势",
-      "leaders": []
+      "leaders": [
+        {
+          "name": "有研新材",
+          "code": "600206"
+        },
+        {
+          "name": "江丰电子",
+          "code": "300666"
+        },
+        {
+          "name": "中船特气",
+          "code": "688146"
+        }
+      ]
     },
     {
-      "name": "新能源车",
-      "score": 3,
-      "state": "正在加强",
-      "leaders": []
+      "name": "集成电路制造",
+      "score": 5,
+      "state": "持续强势",
+      "leaders": [
+        {
+          "name": "中芯国际",
+          "code": "688981"
+        },
+        {
+          "name": "华虹宏力",
+          "code": "688347"
+        },
+        {
+          "name": "盛合晶微",
+          "code": "688820"
+        }
+      ]
     }
   ],
   "stocks": [],
